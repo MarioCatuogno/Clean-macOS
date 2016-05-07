@@ -1,8 +1,8 @@
 # Clean MacOS X
 
-This document describes how I set up my environment on a new MacBook, iMac or MacMini.
+This document describes how I set up my environment after a clean installation of MacOS X.
 
-## Table of contents
+## Best Mac Apps
 
 * [Data Science](#data-science)
 * [Development](#development)
@@ -22,13 +22,14 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow in a native app developed by Github.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool that is freely available as open source software, developed by Oracle.
 
 ## Graphics
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_lingo.png" width="30" align="middle" /> | [Lingo](https://www.lingoapp.com) | An app to store illustration and graphical assets with tags and collection. It's free and have a sync option for the cloud.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_lingo.png" width="30" align="middle" /> | [Lingo](https://www.lingoapp.com) | An app to store illustration and graphical assets using tags and collection. It's free and have a sync option for the cloud.
 
 ## Multimedia
 
@@ -51,10 +52,13 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dr.cleaner.png" width="30" align="middle" /> | [Dr.Cleaner](https://itunes.apple.com/us/app/dr.-cleaner-clean-disk-memory/id921458519?mt=12) | A free app by Trend Micro that offers various optimization tools for MacOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_flux.png" width="30" align="middle" /> | [f.lux](https://justgetflux.com) | It adjusts the display's color temperature according to location and time of day.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_theunarchiver.png" width="30" align="middle" /> | [TheUnarchiver](http://unarchiver.c3.cx/unarchiver) | The best replacement for the default archive utility app of MacOS, it is designed to handle tons of different files.
 
-## Web Navigation
+## Web Navigation and P2P
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_duckduckgo.png" width="30" align="middle" /> | [DuckDuckGo](https://duck.co/help/desktop/safari) | DuckDuckGo plug-in for Safari.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_ublock.png" width="30" align="middle" /> | [uBlock](https://www.ublock.org) | An open source and lightweight blocker extension for Safari.
