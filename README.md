@@ -46,7 +46,9 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_appcleaner.png" width="30" align="middle" /> | [AppCleaner](https://freemacsoft.net/appcleaner/) | A simple tool to safely delete App on MacOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_daisydisk.png" width="30" align="middle" /> | [DaisyDisk](https://daisydiskapp.com) | It scans the disk and shows all the files and folders as a visual interactive map. It is possible to see unusual large file, preview it and then delete it directly from the app.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dr.cleaner.png" width="30" align="middle" /> | [Dr.Cleaner](https://itunes.apple.com/us/app/dr.-cleaner-clean-disk-memory/id921458519?mt=12) | A free app by Trend Micro that offers various optimization tools for MacOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_flux.png" width="30" align="middle" /> | [f.lux](https://justgetflux.com) | It adjusts the display's color temperature according to location and time of day.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata.
 
