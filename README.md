@@ -37,6 +37,13 @@ Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_vlc.png" width="30" align="middle" /> | [VLC](http://www.videolan.org/vlc/) | The best open-source multimedia player. It read most video and audio files as well as various streaming protocols.
 
+## News
+
+Icon | Title | Description
+--- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rssbot.png" width="30" align="middle"/> | [RSSBot](https://itunes.apple.com/us/app/rss-bot-news-notifier/id605732865?mt=12&ign-mpt=uo%3D4) | RSS Bot is the perfect companion to keep up to date with all the RSS feeds in a simple manner.
+
+
 ## Productivity
 
 Icon | Title | Description
@@ -47,6 +54,7 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_amphetamine.png" width="30" align="middle" /> | [Amphetamine](https://itunes.apple.com/it/app/amphetamine/id937984704?mt=12) | This app can effortlessly override your energy saver settings and keep your Mac awake.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_appcleaner.png" width="30" align="middle" /> | [AppCleaner](https://freemacsoft.net/appcleaner/) | A simple tool to safely delete App on MacOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_daisydisk.png" width="30" align="middle" /> | [DaisyDisk](https://daisydiskapp.com) | It scans the disk and shows all the files and folders as a visual interactive map. It is possible to see unusual large file, preview it and then delete it directly from the app.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dr.cleaner.png" width="30" align="middle" /> | [Dr.Cleaner](https://itunes.apple.com/us/app/dr.-cleaner-clean-disk-memory/id921458519?mt=12) | A free app by Trend Micro that offers various optimization tools for MacOS.
@@ -61,5 +69,6 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_duckduckgo.png" width="30" align="middle" /> | [DuckDuckGo](https://duck.co/help/desktop/safari) | DuckDuckGo plug-in for Safari.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_lastpass.png" width="30" align="middle" /> | [LastPass](https://lastpass.com) | A cloud service for passwords: only remember one master password, and keep the rest locked up and easy-to-find in the password manager. The free version has plug-in for different browsers.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_pocket.png" width="30" align="middle" /> | [Pocket](https://getpocket.com) | Is a news reading application that saves videos, photos, and articles for viewing offline. 
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_wipr.png" width="30" align="middle" /> | [Wipr](http://www.giorgiocalderolla.com/wipr.html) | A lightweight blocker extension for Safari.
