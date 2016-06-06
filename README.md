@@ -8,6 +8,7 @@ This document describes how I set up my environment after a clean installation o
 * [Development](#development)
 * [Graphics](#graphics)
 * [Multimedia](#multimedia)
+* [News](#news)
 * [Productivity](#productivity)
 * [Utilities](#utilities)
 * [Web Navigation](#web-navigation)
@@ -49,6 +50,7 @@ Icon | Title | Description
 Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_atom.png" width="30" align="middle" /> | [Atom](https://atom.io) | A modern and hackable text editor with a lot of customization thanks to a variety of packages.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_evernote.png" width="30" align="middle" /> | [Evernote](https://evernote.com) | Is a cross-platform, freemium app designed for note taking, organizing, and archiving.
 
 ## Utilities
 
@@ -60,6 +62,7 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dr.cleaner.png" width="30" align="middle" /> | [Dr.Cleaner](https://itunes.apple.com/us/app/dr.-cleaner-clean-disk-memory/id921458519?mt=12) | A free app by Trend Micro that offers various optimization tools for MacOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_flux.png" width="30" align="middle" /> | [f.lux](https://justgetflux.com) | It adjusts the display's color temperature according to location and time of day.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_spectacle.png" width="30" align="middle" /> | [Spectacle](https://www.spectacleapp.com) | A Window control app with simple and customizable keyboard shortcuts.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_theunarchiver.png" width="30" align="middle" /> | [TheUnarchiver](http://unarchiver.c3.cx/unarchiver) | The best replacement for the default archive utility app of MacOS, it is designed to handle tons of different files.
 
 ## Web Navigation and P2P
@@ -69,6 +72,6 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_duckduckgo.png" width="30" align="middle" /> | [DuckDuckGo](https://duck.co/help/desktop/safari) | DuckDuckGo plug-in for Safari.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_lastpass.png" width="30" align="middle" /> | [LastPass](https://lastpass.com) | A cloud service for passwords: only remember one master password, and keep the rest locked up and easy-to-find in the password manager. The free version has plug-in for different browsers.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_pocket.png" width="30" align="middle" /> | [Pocket](https://getpocket.com) | Is a news reading application that saves videos, photos, and articles for viewing offline. 
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_pocket.png" width="30" align="middle" /> | [Pocket](https://getpocket.com) | Is a news reading application that saves videos, photos, and articles for viewing offline.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_wipr.png" width="30" align="middle" /> | [Wipr](http://www.giorgiocalderolla.com/wipr.html) | A lightweight blocker extension for Safari.
