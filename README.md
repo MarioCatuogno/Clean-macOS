@@ -32,6 +32,7 @@ Icon | Title | Description
 Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_lingo.png" width="30" align="middle" /> | [Lingo](https://www.lingoapp.com) | An app to store illustration and graphical assets using tags and collection. It's free and have a sync option for the cloud.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) |  It is a powerful, fast, and easy-to-use image editor. It lets you enhance and touch up photos, sketch, draw and paint, add text and shapes, apply dazzling effects and more.
 
 ## Multimedia
 
