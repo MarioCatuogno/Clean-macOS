@@ -51,6 +51,7 @@ Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_atom.png" width="30" align="middle" /> | [Atom](https://atom.io) | A modern and hackable text editor with a lot of customization thanks to a variety of packages.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_evernote.png" width="30" align="middle" /> | [Evernote](https://evernote.com) | Is a cross-platform, freemium app designed for note taking, organizing, and archiving.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_wunderlist.png" width="30" align="middle" /> | [Wunderlist](https://www.wunderlist.com) | Is a cloud-based task management application.
 
 ## Utilities
 
