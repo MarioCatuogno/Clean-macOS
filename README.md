@@ -17,6 +17,7 @@ This document describes how I set up my environment after a clean installation o
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rodeo.png" width="30" align="middle"/> | [Rodeo](https://www.yhat.com/products/rodeo) | A powerful IDE for Python language. It's free and open source.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rstudio.png" width="30" align="middle"/> | [RStudio](https://www.rstudio.com) | A powerful IDE for R language. It's free and open source, manages beautifully packages from CRAN.
 
 ## Development
