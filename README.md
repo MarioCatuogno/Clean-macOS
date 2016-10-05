@@ -17,34 +17,34 @@ This document describes how I set up my environment after a clean installation o
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rodeo.png" width="30" align="middle"/> | [Rodeo](https://www.yhat.com/products/rodeo) | A powerful IDE for Python language. It's free and open source.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rstudio.png" width="30" align="middle"/> | [RStudio](https://www.rstudio.com) | A powerful IDE for R language. It's free and open source, manages beautifully packages from CRAN.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rodeo.png" width="30" align="middle"/> | [Rodeo](https://www.yhat.com/products/rodeo) | A powerful IDE for Python language. It's free, open-source and constantly updated. If you are familiar with RStudio GUI, you will love this software.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rstudio.png" width="30" align="middle"/> | [RStudio](https://www.rstudio.com) | A powerful IDE for R language. It's free and manages beautifully packages from CRAN. I use this instead of default R shell.
 
 ## Development
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow in a native app developed by Github.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool that is freely available as open source software, developed by Oracle.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow in a native, without the need to use the .git commands via shell.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software I can install different OS to experiment and run programs that otherwise would not run on my macOS.
 
 ## Graphics
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_lingo.png" width="30" align="middle" /> | [Lingo](https://www.lingoapp.com) | An app to store illustration and graphical assets using tags and collection. It's free and have a sync option for the cloud.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) |  It is a powerful, fast, and easy-to-use image editor. It lets you enhance and touch up photos, sketch, draw and paint, add text and shapes, apply dazzling effects and more.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_lingo.png" width="30" align="middle" /> | [Lingo](https://www.lingoapp.com) | A free app to store graphical assets. I use this software to save all my icons, illustration and color schema on cloud.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) |  A powerful, fast, and easy-to-use image editor. I use this as a cheaper alternative to Photoshop, it covers more than enough my usual tasks.
 
 ## Multimedia
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_vlc.png" width="30" align="middle" /> | [VLC](http://www.videolan.org/vlc/) | The best open-source multimedia player. It read most video and audio files as well as various streaming protocols.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_vlc.png" width="30" align="middle" /> | [VLC](http://www.videolan.org/vlc/) | The best open-source multimedia player, can read almost any kind of file and it's very lightweight.
 
 ## News
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rssbot.png" width="30" align="middle"/> | [RSSBot](https://itunes.apple.com/us/app/rss-bot-news-notifier/id605732865?mt=12&ign-mpt=uo%3D4) | RSS Bot is the perfect companion to keep up to date with all the RSS feeds in a simple manner.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rssbot.png" width="30" align="middle"/> | [RSSBot](https://itunes.apple.com/us/app/rss-bot-news-notifier/id605732865?mt=12&ign-mpt=uo%3D4) | I use RSS Bot to keep up to date with all the RSS feeds in a simple manner. Integrate seamlessly with the macOS.
 
 
 ## Productivity
