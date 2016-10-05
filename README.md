@@ -1,6 +1,6 @@
-# Clean MacOS X
+# Clean macOS
 
-This document describes how I set up my environment after a clean installation of MacOS X.
+This document describes how I set up my environment after a clean installation of macOS.
 
 ## Best Mac Apps
 
