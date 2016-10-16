@@ -6,6 +6,7 @@ This document describes how I set up my environment after a clean installation o
 
 * [Data Science](#data-science)
 * [Development](#development)
+* [Games](#games)
 * [Graphics](#graphics)
 * [Multimedia](#multimedia)
 * [News](#news)
@@ -26,6 +27,12 @@ Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow in a native, without the need to use the .git commands via shell.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software I can install different OS to experiment and run programs that otherwise would not run on my macOS.
+
+## Games
+
+Icon | Title | Description
+--- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_battlenet.png" width="30" align="middle" /> | [Battle.net](http://eu.battle.net/en/) | Battle.net launcher for Blizzard games, such as Heartstone, World of Warcraft and Starcraft2.
 
 ## Graphics
 
@@ -65,7 +72,6 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dr.cleaner.png" width="30" align="middle" /> | [Dr.Cleaner](https://itunes.apple.com/us/app/dr.-cleaner-clean-disk-memory/id921458519?mt=12) | A free app by Trend Micro that offers various optimization tools for MacOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_flux.png" width="30" align="middle" /> | [f.lux](https://justgetflux.com) | It adjusts the display's color temperature according to location and time of day.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_spectacle.png" width="30" align="middle" /> | [Spectacle](https://www.spectacleapp.com) | A Window control app with simple and customizable keyboard shortcuts.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_theunarchiver.png" width="30" align="middle" /> | [TheUnarchiver](http://unarchiver.c3.cx/unarchiver) | The best replacement for the default archive utility app of MacOS, it is designed to handle tons of different files.
 
 ## Web Navigation and P2P
