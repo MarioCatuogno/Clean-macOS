@@ -21,12 +21,14 @@ Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rodeo.png" width="30" align="middle"/> | [Rodeo](https://www.yhat.com/products/rodeo) | A powerful IDE for Python language. It's free, open-source and constantly updated. If you are familiar with RStudio GUI, you will love this software.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_rstudio.png" width="30" align="middle"/> | [RStudio](https://www.rstudio.com) | A powerful IDE for R language. It's free and manages beautifully packages from CRAN. I use this instead of default R shell.
+<img src="https://github.com/MarioCatuogno/Clean-macOS/blob/master/icons/icon_tableau.png" width="30" align="middle" /> | [Tableau Public](https://public.tableau.com) | Free version of Tableau, powerful data visualization software useful for creating dashboards.
 
 ## Development
 
 Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow in a native, without the need to use the .git commands via shell.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_anaconda2.png" width="30" align="middle" /> | [Miniconda](http://conda.pydata.org/miniconda.html)| The open source and minimal version of Anaconda, which is a high performance distribution of Python with packages for data science.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software I can install different OS to experiment and run programs that otherwise would not run on my macOS.
 
 ## Games
@@ -46,6 +48,7 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_spotify.png" width="30" align="middle" /> | [Spotify](https://www.spotify.com) | The most used app on my Mac, one of the most famous digital music services that gives access to millions of songs.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_vlc.png" width="30" align="middle" /> | [VLC](http://www.videolan.org/vlc/) | The best open-source multimedia player, can read almost any kind of file and it's very lightweight.
 
 ## News
@@ -67,7 +70,7 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_franz.png" width="30" align="middle" /> | [Franz](http://meetfranz.com) |  Is a free messaging app which combines various chat and messaging services into one interface. 
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_franz.png" width="30" align="middle" /> | [Franz](http://meetfranz.com) |  Is a free messaging app which combines various chat and messaging services into one interface.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_skype.png" width="30" align="middle" /> | [Skype](https://skype.com) | The most famous VoIP application which provides video chat and voice call services.
 
 ## Utilities
