@@ -29,6 +29,7 @@ Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow in a native, without the need to use the .git commands via shell.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_anaconda2.png" width="30" align="middle" /> | [Miniconda](http://conda.pydata.org/miniconda.html)| The open source and minimal version of Anaconda, which is a high performance distribution of Python with packages for data science.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_ohmyzsh.png" width="30" align="middle" /> | [Oh My Zsh](http://ohmyz.sh) | Oh-My-Zsh is an open source, community-driven framework for managing the ZSH configuration of Terminal app.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software I can install different OS to experiment and run programs that otherwise would not run on my macOS.
 
 ## Games
