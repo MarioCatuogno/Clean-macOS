@@ -11,6 +11,7 @@ This document describes how I set up my environment after a clean installation o
 * [Multimedia](#multimedia)
 * [News](#news)
 * [Productivity](#productivity)
+* [Social](#social)
 * [Utilities](#utilities)
 * [Web Navigation](#web-navigation)
 
@@ -61,6 +62,13 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_atom.png" width="30" align="middle" /> | [Atom](https://atom.io) | A modern and hackable text editor with a lot of customization thanks to a variety of packages.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_evernote.png" width="30" align="middle" /> | [Evernote](https://evernote.com) | Is a cross-platform, freemium app designed for note taking, organizing, and archiving.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_wunderlist.png" width="30" align="middle" /> | [Wunderlist](https://www.wunderlist.com) | Is a cloud-based task management application.
+
+## Social
+
+Icon | Title | Description
+--- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_franz.png" width="30" align="middle" /> | [Franz](http://meetfranz.com) |  Is a free messaging app which combines various chat and messaging services into one interface. 
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_skype.png" width="30" align="middle" /> | [Skype](https://skype.com) | The most famous VoIP application which provides video chat and voice call services.
 
 ## Utilities
 
