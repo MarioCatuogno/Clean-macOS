@@ -5,23 +5,30 @@ This document contains some useful commands I use in macOS.
 ## Useful commands
 
 * [Access hosts file](#access-hosts-file)
+* [Enable TRIM for SSD](#enable-trim-for-ssd)
 * [Hide or show hidden variables](#hide-or-show-hidden-variable)
 * [Install Xcode command line tool](#install-xcode-command-line-tool)
 
 #### Access hosts file
 
-```bsh
+```
 sudo nano /private/etc/hosts
 ```
 
-#### Show hidden variables
+#### Enable TRIM for SSD
 
-```bsh
+```
+sudo trimforce enable
+```
+
+#### Hide or show hidden variables
+
+```
 defaults write com.apple.finder AppleShowAllFiles YES
 ```
 
 #### Install Xcode command line tool
 
-```bsh
+```
 xcode-select —install
 ```
