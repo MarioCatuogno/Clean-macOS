@@ -8,6 +8,7 @@ This document contains some information on how I setup my coding environment.
     * [Install Docker](#install-docker)
 * [VirtualBox](#virtualbox)
     * [Install VirtualBox](#install-virtualbox)
+    * [Install Ubuntu MATE](#install-ubuntu-mate)
 * [Color scheme](#color-scheme)
 
 ## Docker
@@ -25,6 +26,12 @@ To install Docker, follow this [__guide__](https://docs.docker.com/docker-for-ma
 #### Install VirtualBox
 
 Simply download and install the **.dng** from [__here__](https://www.virtualbox.org/wiki/Downloads).
+
+#### Install Ubuntu MATE
+
+Download the **.iso** from [__here__](https://ubuntu-mate.org).
+
+
 
 #### Color scheme
 
