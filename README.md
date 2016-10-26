@@ -37,6 +37,7 @@ Icon | Title | Description
 Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_battlenet.png" width="30" align="middle" /> | [Battle.net](http://eu.battle.net/en/) | Battle.net launcher for Blizzard games, such as Heartstone, World of Warcraft and Starcraft2.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_steam.png" width="30" align="middle" /> | [Steam](http://store.steampowered.com) | The most famous digital games store. With this app you can buy and organize all your games.
 
 ## Graphics
 
