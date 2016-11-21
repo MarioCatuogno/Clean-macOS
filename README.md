@@ -27,6 +27,7 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_blackscreen.png" width="30" align="middle" /> | [Black Screen](https://github.com/shockone/black-screen) | This app is both a Terminal emulator and an interactive shell, it uses the same Atom UI.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow in a native, without the need to use the .git commands via shell.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_anaconda2.png" width="30" align="middle" /> | [Miniconda](http://conda.pydata.org/miniconda.html)| The open source and minimal version of Anaconda, which is a high performance distribution of Python with packages for data science.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_ohmyzsh.png" width="30" align="middle" /> | [Oh My Zsh](http://ohmyz.sh) | Oh-My-Zsh is an open source, community-driven framework for managing the ZSH configuration of Terminal app.
