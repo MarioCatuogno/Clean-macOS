@@ -44,6 +44,7 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_kap.png" width="30" align="middle" /> | [Kap](https://getkap.co) | An open-source screen recorder. Useful to create gifs and screen captures.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_lingo.png" width="30" align="middle" /> | [Lingo](https://www.lingoapp.com) | A free app to store graphical assets. I use this software to save all my icons, illustration and color schema on cloud.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) |  A powerful, fast, and easy-to-use image editor. I use this as a cheaper alternative to Photoshop, it covers more than enough my usual tasks.
 
