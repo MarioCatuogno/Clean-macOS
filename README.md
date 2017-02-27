@@ -11,6 +11,7 @@ This document describes how I set up my environment after a clean installation o
 * [Multimedia](#multimedia)
 * [News](#news)
 * [Productivity](#productivity)
+* [Security](#security)
 * [Social](#social)
 * [Utilities](#utilities)
 * [Web Navigation](#web-navigation)
@@ -70,6 +71,12 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_evernote.png" width="30" align="middle" /> | [Evernote](https://evernote.com) | Is a cross-platform, freemium app designed for note taking, organizing, and archiving.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_wunderlist.png" width="30" align="middle" /> | [Wunderlist](https://www.wunderlist.com) | Is a cloud-based task management application.
 
+## Security
+
+Icon | Title | Description
+--- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_keeweb.png" width="30" align="middle" /> | [KeeWeb](https://keeweb.info) | Free and open-source cross-platform password manager, compatible with Dropbox sync.
+
 ## Social
 
 Icon | Title | Description
@@ -84,6 +91,7 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_amphetamine.png" width="30" align="middle" /> | [Amphetamine](https://itunes.apple.com/it/app/amphetamine/id937984704?mt=12) | This app can effortlessly override your energy saver settings and keep your Mac awake.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_appcleaner.png" width="30" align="middle" /> | [AppCleaner](https://freemacsoft.net/appcleaner/) | A simple tool to safely delete App on MacOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_daisydisk.png" width="30" align="middle" /> | [DaisyDisk](https://daisydiskapp.com) | It scans the disk and shows all the files and folders as a visual interactive map. It is possible to see unusual large file, preview it and then delete it directly from the app.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_cheatsheet.png" width="30" align="middle" /> | [CheatSheet](https://www.mediaatelier.com/CheatSheet/) | This free utility quickly summons a list of all keyboard shortcuts for the app you're using.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dr.cleaner.png" width="30" align="middle" /> | [Dr.Cleaner](https://itunes.apple.com/us/app/dr.-cleaner-clean-disk-memory/id921458519?mt=12) | A free app by Trend Micro that offers various optimization tools for MacOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_flux.png" width="30" align="middle" /> | [f.lux](https://justgetflux.com) | It adjusts the display's color temperature according to location and time of day.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata.
