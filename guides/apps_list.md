@@ -4,7 +4,7 @@ A collection of useful apps for macOS found around the web.
 
 ## Best Mac Apps
 
-* [Browser Extension](#safari-extension)
+* [Browser Extension](#browser-extension)
 * [Data Science](#data-science)
 * [Development](#development)
 * [Games](#games)

@@ -8,6 +8,7 @@ This document contains some useful commands I use in macOS.
 * [Enable TRIM for SSD](#enable-trim-for-ssd)
 * [Hide or show hidden variables](#hide-or-show-hidden-variable)
 * [Install Xcode command line tool](#install-xcode-command-line-tool)
+* [Show Library folder](#show-library-folder)
 
 #### Access hosts file
 
@@ -32,3 +33,7 @@ defaults write com.apple.finder AppleShowAllFiles YES
 ```
 xcode-select —install
 ```
+
+#### Show Library folder
+
+With the __Finder__ as the foremost application, press `shift-command-H`, `command-2`, and then `command-J`, which will bring up a window that configures Finder view options. Check the “_Show Library Folder_” and close the window.
