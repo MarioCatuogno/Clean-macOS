@@ -34,14 +34,11 @@ brew cask install atom
 brew cask install cheatsheet
 brew cask install dropbox
 brew cask install evernote
-brew cask install github-desktop
 brew cask install google-chrome
 brew cask install skype
 brew cask install spotify
 brew cask install the-unarchiver
 brew cask install transmission
-brew cask install virtualbox
-brew cask install visual-studio-code
 brew cask install vlc
 ```
 
@@ -54,4 +51,12 @@ brew cask install quicklook-json
 brew cask install quicklook-csv
 brew cask install qlimagesize
 brew cask install qlvideo
+```
+
+#### Install Developing Tools
+```
+brew cask install github-desktop
+brew cask install rstudio
+brew cask install virtualbox
+brew cask install visual-studio-code
 ```
