@@ -64,6 +64,7 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_helium.png" width="30" align="middle" /> | [Helium](http://heliumfloats.com/) | Helium is a floating browser window that allows you to watch media while doing other stuff.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_spotify.png" width="30" align="middle" /> | [Spotify](https://www.spotify.com) | The most used app on my Mac, one of the most famous digital music services that gives access to millions of songs.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_vlc.png" width="30" align="middle" /> | [VLC](http://www.videolan.org/vlc/) | The best open-source multimedia player, can read almost any kind of file and it's very lightweight.
 
@@ -113,6 +114,7 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/icons/icon_chrome.png" width="30" align="middle" /> | [Chrome](https://www.google.com/chrome/) | Google browser.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_pocket.png" width="30" align="middle" /> | [Pocket](https://getpocket.com) | Is a news reading application that saves videos, photos, and articles for viewing offline.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/icons/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client.
