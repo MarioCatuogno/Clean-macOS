@@ -11,7 +11,7 @@ This document contains some information on how I setup my coding environment.
     * [Install Ubuntu MATE](#install-ubuntu-mate)
     * [Install Windows 10](#install-windows-10)
 * [Color scheme](#color-scheme)
-* []()
+* [Atom Configuration](#atom-configuration)
 
 ## Docker
 
@@ -39,4 +39,13 @@ Download the **.iso** from [**here**](https://www.microsoft.com/it-it/software-d
 
 #### Color scheme
 
-Actually my favourite synthax highlighter is [__base16__](https://github.com/chriskempson/base16), especially the [__tomorrow-night__](https://github.com/chriskempson/base16-tomorrow-scheme) version developed by Chris Kempson. I use his scheme for many applications, especially Atom and macOS Terminal.
+Actually my favourite synthax highlighter is [__base16__](https://github.com/chriskempson/base16), especially the [__tomorrow-night__](https://github.com/chriskempson/base16-tomorrow-scheme) version developed by Chris Kempson. I use his scheme for many applications, especially Atom and iTerm2.
+
+#### Atom Configuration
+
+```
+apm install atom-beautify
+pip install --upgrade sqlparse
+apm install file-icons
+apm install highlight-selected
+```

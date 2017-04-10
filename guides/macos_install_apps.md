@@ -7,6 +7,7 @@ This document contains some useful commands I use to install programs after a cl
 * [Install XCode](#install-xcode)
 * [Install Brew](#install-brew)
 * [Install Libraries](#install-libraries)
+* [Install R](#install-r)
 * [Install Apps](#install-apps)
 * [Install Quick Look plugins](#install-quick-look-plugins)
 * [Install Developing Tools](#install-developing-tools)
@@ -32,6 +33,12 @@ brew install cask
 ```
 brew install git
 brew install python3
+```
+
+#### Install R
+```
+brew tap homebrew/science
+brew install R
 ```
 
 #### Install Apps
