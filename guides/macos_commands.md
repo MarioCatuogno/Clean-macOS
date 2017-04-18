@@ -9,6 +9,7 @@ This document contains some useful commands I use in macOS.
 * [Hide or show hidden variables](#hide-or-show-hidden-variable)
 * [Install Xcode command line tool](#install-xcode-command-line-tool)
 * [Show Library folder](#show-library-folder)
+* [Remove DS_Store files](#remove-ds_store-files)
 
 #### Access hosts file
 
@@ -22,7 +23,7 @@ sudo nano /private/etc/hosts
 sudo trimforce enable
 ```
 
-#### Hide or show hidden variables
+#### Hide or show hidden files
 
 ```
 defaults write com.apple.finder AppleShowAllFiles YES
@@ -37,3 +38,9 @@ xcode-select —install
 #### Show Library folder
 
 With the __Finder__ as the foremost application, press `shift-command-H`, `command-2`, and then `command-J`, which will bring up a window that configures Finder view options. Check the “_Show Library Folder_” and close the window.
+
+#### Remove DS_Store files
+
+```
+sudo find / -name .DS_Store -delete; killall Finder
+```
