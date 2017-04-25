@@ -10,6 +10,7 @@ This document describe how I set up my macOS after a clean install.
 * [Install Shell](#install-shell)
 * [Install Libraries](#install-libraries)
 * [Install R](#install-r)
+* [Install Python](#install-python)
 * [Install Apps](#install-apps)
 * [Install Quick Look plugins](#install-quick-look-plugins)
 * [Install Developing Tools](#install-developing-tools)
@@ -73,7 +74,6 @@ In `iTerm2` go to __Preferences > Profiles > Windows__ and change the size to __
 
 ```
 brew install git
-brew install python3
 brew install mysql
 ```
 
@@ -82,6 +82,21 @@ brew install mysql
 ```
 brew tap homebrew/science
 brew install R
+brew cask install rstudio
+defaults write org.R-project.R force.LANG en_US.UTF-8
+```
+
+The following are the most important __packages__ for R.
+
+```r
+install.packages("tidyverse")
+```
+
+
+#### Install Python
+
+```
+brew install python3
 ```
 
 #### Install Apps
@@ -119,7 +134,6 @@ brew cask install qlvideo
 brew cask install github-desktop
 brew cask install hex-fiend
 brew cask install iterm2
-brew cask install rstudio
 brew cask install sequel-pro
 brew cask install virtualbox
 brew cask install visual-studio-code

@@ -11,6 +11,7 @@ This document contains some useful commands I use in macOS.
 * [Show Library folder](#show-library-folder)
 * [Remove DS_Store files](#remove-ds_store-files)
 * [Disable creation of metadata files](#disable-creation-of-metadata-files)
+* [Update all Brew and Cask formulae](#update-all-brew-and-cask-formulae)
 
 #### Access hosts file
 
@@ -52,4 +53,10 @@ To avoid the creation of __.DS_Store__ files on Network and USB volumes.
 ```
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+```
+
+#### Update all Brew and Cask formulae
+
+```
+brew update && brew cleanup && brew cask cleanup
 ```
