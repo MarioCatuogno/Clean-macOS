@@ -99,6 +99,17 @@ install.packages("tidyverse")
 brew install python3
 ```
 
+#### Install MariaDB
+
+The following are the commands necessary to install and run for the first time __MariaDB__.
+
+```
+brew install mariadb
+mysql.server start
+mysql_secure_installation
+mysql -u root -p
+```
+
 #### Install Apps
 
 ```
