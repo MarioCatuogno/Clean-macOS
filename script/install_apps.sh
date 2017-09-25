@@ -4,6 +4,9 @@
 echo "Enter root password..."
 sudo su
 
+#Keep alive Root
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 #Installing Brew
 echo "Installing Brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -34,6 +37,10 @@ brew cask install spotify
 #Installing Multimedia apps
 echo "Installing Multimedia apps..."
 brew cask install vlc
+
+#Installing Gaming apps
+echo "Installing Gaming apps..."
+brew cask install battle-net
 
 #Installing Developing tools
 echo "Installing Developing tools..."
