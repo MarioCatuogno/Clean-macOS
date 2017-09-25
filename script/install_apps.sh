@@ -2,7 +2,7 @@
 
 #Entering as Root
 echo "Enter root password..."
-sudo su
+sudo -v
 
 #Keep alive Root
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
