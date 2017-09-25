@@ -39,9 +39,13 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
+#Trackpad: disable natural scrolling
+run defaults write ~/Library/Preferences/.GlobalPreferences com.apple.swipescrolldirection -bool false
+
 #Keyboard: set fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+defaults write NSGlobalDomain InitialKeyRepeat -int 25
+run defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 #Save screenshots in PNG format
 defaults write com.apple.screencapture type -string "png"
@@ -78,6 +82,9 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 #Finder: show hidden Library folder
 chflags nohidden ~/Library
+
+#Finder: use dark theme
+run defaults write ~/Library/Preferences/.GlobalPreferences AppleInterfaceStyle -string "Dark"
 
 #Show item info near icons on the desktop and in other icon views
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
@@ -126,6 +133,9 @@ defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool fals
 
 #Safari: enable do-not-track
 defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
+
+#Safari: enable fraudolent warnings
+run defaults write ~/Library/Preferences/com.apple.Safari WarnAboutFraudulentWebsites -bool true
 
 #5. Mail configuration
 echo "Mail setup..."
