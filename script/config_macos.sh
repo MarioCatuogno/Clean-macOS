@@ -56,6 +56,9 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 #Finder: show filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
+#Finder: show hidden files
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
 #Finder: show status and path bar
 defaults write com.apple.finder ShowStatusBar -bool false
 defaults write com.apple.finder ShowPathbar -bool true
