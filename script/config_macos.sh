@@ -186,10 +186,6 @@ echo "Activity Monitor setup..."
 
 #Activity Monitor configuration
 defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
-defaults write com.apple.ActivityMonitor IconType -int 5
-defaults write com.apple.ActivityMonitor ShowCategory -int 0
-defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
-defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 #Exit script
 echo "Done. Some of these changes require a restart to take effect."
