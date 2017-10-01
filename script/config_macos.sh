@@ -43,8 +43,8 @@ echo "Keyboard: disable auto-correct"
 defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
 echo "Keyboard: enable key-repeat"
 defaults write -g ApplePressAndHoldEnabled -bool false
-echo "Keyboard: set repeat rate to 25"
-defaults write -g KeyRepeat -int 25
+echo "Keyboard: set repeat rate to 2"
+defaults write -g KeyRepeat -int 2
 echo "Keyboard: disable automatic capitalization"
 defaults write -g NSAutomaticCapitalizationEnabled -bool false
 echo "Keyboard: disable automatic period substitution"
