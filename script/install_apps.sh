@@ -61,5 +61,15 @@ brew install R
 brew cask install rstudio
 defaults write org.R-project.R force.LANG en_US.UTF-8
 
+#Installing Python
+echo "Installing Python..."
+brew install python3
+brew cask install miniconda
+brew cask install rodeo
+pip3 install jupyter
+pip3 install numpy
+pip3 install pandas
+pip3 install matplotlib
+
 #Exit script
 exit
