@@ -37,6 +37,7 @@ brew cask install spotify
 #Installing Multimedia apps
 echo "Installing Multimedia apps..."
 brew cask install vlc
+brew cask install webtorrent
 
 #Installing Gaming apps
 echo "Installing Gaming apps..."
