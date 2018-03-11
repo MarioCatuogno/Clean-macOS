@@ -36,6 +36,8 @@ defaults write com.apple.screencapture type -string "png"
 echo "Finder: show HD icons on Desktop"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+echo "Finder: set sidebar icon size to medium"
+defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
 # 02. Keyboard
 echo "Configuring Keyboard"
@@ -77,6 +79,14 @@ echo "Safari: enable develop menu"
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 echo "Safari: disable auto-correct"
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
+
+# 05. Trackpad
+echo "Configuring Trackpad"
+echo "Trackpad: enable tap to click"
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
 
 #Exit script
 echo "Done. Some of these changes require a restart to take effect."

@@ -14,6 +14,7 @@ echo "Installing Brew..."
 #Installing Cask
 echo "Installing Brew Cask..."
 brew tap caskroom/cask
+brew cask install --appdir="/Applications" cakebrew
 
 #Installing XCode Command Line Tools
 echo "Installing XCode CL tools..."
@@ -21,34 +22,29 @@ xcode-select --install
 
 #Installing Utility apps
 echo "Installing Utility apps..."
-brew cask install appcleaner
-brew cask install cheatsheet
-brew cask install dropbox
-##brew cask install teamviewer
-brew cask install the-unarchiver
-brew cask install transmission
+brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" cheatsheet
+brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" the-unarchiver
+brew cask install --appdir="/Applications" transmission
 
 #Installing Social apps
 echo "Installing Social apps..."
-##brew cask install franz
-brew cask install skype
-brew cask install spotify
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" spotify
 
 #Installing Multimedia apps
 echo "Installing Multimedia apps..."
-brew cask install vlc
-##brew cask install webtorrent
-
-#Installing Gaming apps
-echo "Installing Gaming apps..."
-##brew cask install battle-net
+brew cask install --appdir="/Applications" iina
+brew cask install --appdir="/Applications" handbrake
 
 #Installing Developing tools
 echo "Installing Developing tools..."
 brew cask install github-desktop
-brew cask install iterm2
-brew cask install virtualbox
-brew cask install visual-studio-code
+brew cask install --appdir="/Applications" github
+brew cask install --appdir="/Applications" iterm2
+brew cask install --appdir="/Applications" virtualbox
+brew cask install --appdir="/Applications" visual-studio-code
 
 #Installing Shell
 echo "Installing Shell..."
@@ -57,20 +53,13 @@ curl -L http://install.ohmyz.sh | sh
 
 #Installing R
 echo "Installing R..."
-##brew tap homebrew/science
-##brew install R
-##brew cask install rstudio
-##defaults write org.R-project.R force.LANG en_US.UTF-8
+brew tap homebrew/science
+brew install R
+brew cask install --appdir="/Applications" rstudio
+defaults write org.R-project.R force.LANG en_US.UTF-8
 
-#Installing Python
-echo "Installing Python..."
-brew install python3
-brew cask install miniconda
-##brew cask install rodeo
-##pip3 install jupyter
-##pip3 install numpy
-##pip3 install pandas
-##pip3 install matplotlib
+# Cleanup
+brew cleanup --force
 
 #Exit script
 exit
