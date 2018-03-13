@@ -60,7 +60,7 @@ curl -L http://install.ohmyz.sh | sh
 ```
 
 After installing `zsh`, go to __System Preferences > Users & Groups > Advanced Options > Login Shell__ and paste `/usr/local/bin/zsh`.
-Run `atom ~/.zshrc` to open with Atom the __config__ file of ZSH and change `ZSH_THEME="mh"`. It is possible to add more plugins (choosing [here](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins)) in `plugins=()`.
+Run `code ~/.zshrc` to open with VSCode the __config__ file of ZSH and change `ZSH_THEME="mh"`. It is possible to add more plugins (choosing [here](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins)) in `plugins=()`.
 
 ```
 cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
