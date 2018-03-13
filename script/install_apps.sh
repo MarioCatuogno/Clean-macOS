@@ -31,6 +31,7 @@ brew cask install --appdir="/Applications" transmission
 echo "Installing Social apps..."
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" spotify
+brew cask install --appdir="/Applications" franz
 
 #Installing Multimedia apps
 echo "Installing Multimedia apps..."
