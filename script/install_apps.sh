@@ -7,18 +7,17 @@ sudo -v
 #Keep alive Root
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+#Installing XCode Command Line Tools
+echo "Installing XCode CL tools..."
+xcode-select --install
+
 #Installing Brew
 echo "Installing Brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #Installing Cask
 echo "Installing Brew Cask..."
-brew tap caskroom/cask
 brew cask install --appdir="/Applications" cakebrew
-
-#Installing XCode Command Line Tools
-echo "Installing XCode CL tools..."
-xcode-select --install
 
 #Installing Utility apps
 echo "Installing Utility apps..."
@@ -40,7 +39,6 @@ brew cask install --appdir="/Applications" handbrake
 
 #Installing Developing tools
 echo "Installing Developing tools..."
-brew cask install github-desktop
 brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" virtualbox
@@ -53,7 +51,6 @@ curl -L http://install.ohmyz.sh | sh
 
 #Installing R
 echo "Installing R..."
-brew tap homebrew/science
 brew install R
 brew cask install --appdir="/Applications" rstudio
 defaults write org.R-project.R force.LANG en_US.UTF-8
