@@ -50,11 +50,33 @@ echo "Installing Shell..."
 brew install zsh
 curl -L http://install.ohmyz.sh | sh
 
+#Installing Quick Look plugins
+echo "Installing QL Plugins..."
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install qlimagesize
+brew cask install qlvideo
+
+#Installing Packages
+echo "Installing Packages..."
+brew install wget
+
 #Installing R
 echo "Installing R..."
 brew install R
 brew cask install --appdir="/Applications" rstudio
 defaults write org.R-project.R force.LANG en_US.UTF-8
+
+#Installing Python
+echo "Installing Python..."
+brew install python3
+brew cask install --appdir="/Applications" rodeo
+brew cask install --appdir="/Applications" miniconda
+pip3 install jupyter
+pip3 install numpy
+pip3 install pandas
+pip3 install matplotlib
 
 # Cleanup
 brew cleanup --force
