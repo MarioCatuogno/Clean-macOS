@@ -38,6 +38,8 @@ defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 echo "Finder: set sidebar icon size to medium"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
+echo "Finder: show full path"
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 
 # 02. Keyboard
 echo "Configuring Keyboard"
