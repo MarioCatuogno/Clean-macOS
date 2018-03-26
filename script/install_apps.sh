@@ -42,6 +42,7 @@ brew cask install --appdir="/Applications" handbrake
 echo "Installing Developing tools..."
 brew cask install --appdir="/Applications" docker
 brew cask install --appdir="/Applications" github
+brew cask install --appdir="/Applications" kitematic
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" visual-studio-code
