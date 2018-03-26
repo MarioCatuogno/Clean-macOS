@@ -40,6 +40,7 @@ brew cask install --appdir="/Applications" handbrake
 
 #Installing Developing tools
 echo "Installing Developing tools..."
+brew cask install --appdir="/Applications" docker
 brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" virtualbox
