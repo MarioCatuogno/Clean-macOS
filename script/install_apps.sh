@@ -47,6 +47,10 @@ brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" visual-studio-code
 
+#Installing Security apps
+echo "Installing Security apps..."
+brew cask install --appdir="/Applications" expressvpn
+
 #Installing Shell
 echo "Installing Shell..."
 brew install zsh
