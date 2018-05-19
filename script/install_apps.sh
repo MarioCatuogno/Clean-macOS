@@ -38,6 +38,11 @@ echo "Installing Multimedia apps..."
 brew cask install --appdir="/Applications" iina
 brew cask install --appdir="/Applications" handbrake
 
+#Installing Gaming apps
+echo "Installing Gaming apps..."
+brew cask install --appdir="/Applications" steam
+brew cask install --appdir="/Applications" usb-overdrive
+
 #Installing Developing tools
 echo "Installing Developing tools..."
 brew cask install --appdir="/Applications" docker
