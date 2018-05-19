@@ -15,6 +15,10 @@ xcode-select --install
 echo "Installing Brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+#Installing Archey
+echo "Installing Achey..."
+brew install archey
+
 #Installing Cask
 echo "Installing Brew Cask..."
 brew cask install --appdir="/Applications" cakebrew
