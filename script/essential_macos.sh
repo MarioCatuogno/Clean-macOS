@@ -114,12 +114,12 @@ brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" franz
 
 # 09. Installing Quick Look plugins
-echo "Installing QL Plugins..."
-brew cask install qlcolorcode
-brew cask install qlstephen
-brew cask install qlmarkdown
-brew cask install qlimagesize
-brew cask install qlvideo
+##echo "Installing QL Plugins..."
+##brew cask install qlcolorcode
+##brew cask install qlstephen
+##brew cask install qlmarkdown
+##brew cask install qlimagesize
+##brew cask install qlvideo
 
 #Exit script
 brew cleanup --force
