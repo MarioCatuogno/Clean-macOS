@@ -60,13 +60,9 @@ curl -L http://install.ohmyz.sh | sh
 ```
 
 After installing `zsh`, go to __System Preferences > Users & Groups > Advanced Options > Login Shell__ and paste `/usr/local/bin/zsh`.
-Run `code ~/.zshrc` to open with VSCode the __config__ file of ZSH and change `ZSH_THEME="mh"`. It is possible to add more plugins (choosing [here](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins)) in `plugins=()`.
+Run `subl ~/.zshrc` to open with Sublime Text the __config__ file of ZSH and change `ZSH_THEME="mh"`. It is possible to add more plugins (choosing [here](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins)) in `plugins=()`.
 
-```
-cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
-```
-
-Add `source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` to the end of `~/.zshrc` file.
+Add `plugins=(git pip zsh-completions zsh-autosuggestions zsh-syntax-highlighting)` to the end of `~/.zshrc` file.
 
 In `iTerm2` go to __Preferences > Profiles > Windows__ and change the size to __125__ for Columns and __35__ for Rows.
 
