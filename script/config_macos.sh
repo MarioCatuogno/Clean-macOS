@@ -32,6 +32,8 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 echo "Finder: remove open-with duplicates"
 /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
 echo "Finder: save screenshots in PNG format"
+mkdir ${HOME}/Pictures/Screenshots
+defaults write com.apple.screencapture location -string "${HOME}/Pictures/Screenshots"
 defaults write com.apple.screencapture type -string "png"
 echo "Finder: show HD icons on Desktop"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -55,6 +57,8 @@ echo "Keyboard: disable automatic period substitution"
 defaults write -g NSAutomaticPeriodSubstitutionEnabled -bool false
 echo "Keyboard: disable smart dashes"
 defaults write -g NSAutomaticDashSubstitutionEnabled -bool false
+echo "Keyboard: disable cotninuous spell checking"
+defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
 # 03. Security
 echo "Configuring Security"
@@ -88,11 +92,15 @@ echo "Trackpad: enable tap to click"
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+echo "Trackpad: disable Natural scrolling"
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 # 06. Various
 echo "Downloading iTerm color schema"
 wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Tomorrow%20Night%20Eighties.itermcolors \
 -O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
+echo "Check for software updates daily"
+defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
 #Exit script
 echo "Done. Some of these changes require a restart to take effect."

@@ -12,11 +12,17 @@ echo "Installing XCode CL tools..."
 xcode-select --install
 
 #Installing Brew
-echo "Installing Brew..."
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#echo "Installing Brew..."
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+if test ! $(which brew); then
+  echo "Installing Homebrew..."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
 #Check Brews
 brew doctor
+brew update
+brew upgrade --all
 
 #Installing Repositories
 echo "Installing Brew repositories..."
@@ -27,20 +33,6 @@ brew tap buo/cask-upgrade
 echo "Installing Git..."
 brew install git
 curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
-
-#Installing Commands
-echo "Installing Commands..."
-brew install archey
-brew install ed --with-default-names
-brew install findutils --with-default-names
-brew install gnu-indent --with-default-names
-brew install gnu-sed --with-default-names
-brew install gnu-tar --with-default-names
-brew install gnu-which --with-default-names
-brew install gnutls
-brew install grep --with-default-names
-brew install tree
-brew install wget
 
 #Installing MAS
 echo "Installing MAS..."
@@ -112,13 +104,38 @@ brew install zsh-syntax-highlighting
 #Creating a shortcut for Sublime Text app (subl)
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
+#Installing Commands
+echo "Installing Commands..."
+brew install archey
+brew install bash
+brew install binutils
+brew install diffutils
+brew install coreutils
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH
+sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
+brew install ed --with-default-names
+brew install findutils --with-default-names
+brew install gnu-indent --with-default-names
+brew install gnu-sed --with-default-names
+brew install gnu-tar --with-default-names
+brew install gnu-which --with-default-names
+brew install gnutls
+brew install grep --with-default-names
+brew install gzip
+brew install nano
+brew install tree
+brew install wget --with-iri
+
 #Installing Quick Look plugins
-#echo "Installing QL Plugins..."
-#brew cask install qlcolorcode
-#brew cask install qlstephen
-#brew cask install qlmarkdown
-#brew cask install qlimagesize
-#brew cask install qlvideo
+echo "Installing QL Plugins..."
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlimagesize
+brew cask install webpquicklook
+brew cask install suspicious-package
+brew cask install qlvideo
 
 #Installing R
 #echo "Installing R..."
@@ -127,14 +144,15 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 #defaults write org.R-project.R force.LANG en_US.UTF-8
 
 #Installing Python
-#echo "Installing Python..."
-#brew install python3
+echo "Installing Python..."
+brew install python
+brew install python3
 #brew cask install --appdir="/Applications" rodeo
 #brew cask install --appdir="/Applications" miniconda
-#pip3 install jupyter
-#pip3 install numpy
-#pip3 install pandas
-#pip3 install matplotlib
+pip3 install jupyter
+pip3 install numpy
+pip3 install pandas
+pip3 install matplotlib
 
 # Cleanup
 brew cleanup --force
