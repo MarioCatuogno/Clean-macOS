@@ -17,14 +17,8 @@ This document describe how I set up my macOS after a clean install.
 
 #### System Preferences
 
-The first thing I do is to update the OS. For that __Apple Icon > Software Update__. There are a couple of things I like to make in __Apple Icon > System Preferences__:
-
-* Trackpad > Tap to click
-* Trackpad > Tracking Speed (Fast)
-* Trackpad > Scroll Direction (Not selected)
-* Keyboard > Key Repeat (Fast)
-* Keyboard > Delay Until Repeat (Short)  
-* Security & Privacy > Firewall (On)
+The first thing I do is to update the OS. For that __Apple Icon > Software Update__. 
+After this i run the script /Clean-macOS/script/__macOs.sh__ with the command `./clnmacos.sh install`.
 
 #### Install Shell
 

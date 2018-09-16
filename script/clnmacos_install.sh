@@ -1,5 +1,10 @@
 #!/bin/bash
 
+###############################################################################
+# General                                                                     #
+###############################################################################
+
+#Run the script for INSTALL
 #Entering as Root
 echo "Enter root password..."
 sudo -v
@@ -11,9 +16,11 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 echo "Installing XCode CL tools..."
 xcode-select --install
 
+###############################################################################
+# Installing and updating Homebrew                                            #
+###############################################################################
+
 #Installing Brew
-#echo "Installing Brew..."
-#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 if test ! $(which brew); then
   echo "Installing Homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -25,22 +32,34 @@ brew update
 brew upgrade --all
 
 #Installing Repositories
-echo "Installing Brew repositories..."
+echo "Installing Brew Cask..."
 brew install cask
 brew tap buo/cask-upgrade
+brew cask install --appdir="/Applications" cakebrew
 
 #Installing Git
 echo "Installing Git..."
 brew install git
-curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/clnmacos.gitignore -o ~/.gitignore
+
+###############################################################################
+# Installing applications                                                     #
+###############################################################################
 
 #Installing MAS
 echo "Installing MAS..."
 brew install mas
 
-#Installing Cask
-echo "Installing Brew Cask..."
-brew cask install --appdir="/Applications" cakebrew
+#Installing Developing tools
+echo "Installing Developing tools..."
+brew cask install --appdir="/Applications" boostnote
+brew cask install --appdir="/Applications" docker
+brew cask install --appdir="/Applications" github
+brew cask install --appdir="/Applications" kitematic
+brew cask install --appdir="/Applications" iterm2
+brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" tableplus
+brew cask install --appdir="/Applications" virtualbox
 
 #Installing Utility apps
 echo "Installing Utility apps..."
@@ -64,20 +83,8 @@ brew cask install --appdir="/Applications" kap
 
 #Installing Gaming apps
 echo "Installing Gaming apps..."
-#brew cask install --appdir="/Applications" battle-net
-#brew cask install --appdir="/Applications" steam
+brew cask install --appdir="/Applications" battle-net
 brew cask install --appdir="/Applications" steermouse
-
-#Installing Developing tools
-echo "Installing Developing tools..."
-brew cask install --appdir="/Applications" boostnote
-brew cask install --appdir="/Applications" docker
-brew cask install --appdir="/Applications" github
-brew cask install --appdir="/Applications" kitematic
-brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" sublime-text
-brew cask install --appdir="/Applications" tableplus
-brew cask install --appdir="/Applications" virtualbox
 
 #Installing Security apps
 echo "Installing Security apps..."
@@ -93,26 +100,37 @@ mas install 1176895641
 #Install Amphetamine
 mas install 937984704
 
-#Installing Shell
+###############################################################################
+# Installing ZSH shell                                                        #
+###############################################################################
+
+#Installing ZSH
 echo "Installing Shell..."
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 chsh -s $(which zsh)
+
+#Installing plugins
 brew install zsh-completions 
 brew install zsh-autosuggestions 
 brew install zsh-syntax-highlighting
+
 #Creating a shortcut for Sublime Text app (subl)
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
+#Downloading .zshrc config file
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/.zshrc -o ~/.zshrc
+
+###############################################################################
+# Installing binary commands                                                  #
+###############################################################################
+
 #Installing Commands
-echo "Installing Commands..."
+echo "Installing Binary commands..."
 brew install archey
 brew install bash
 brew install binutils
 brew install diffutils
-brew install coreutils
-export PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH
-sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 brew install ed --with-default-names
 brew install findutils --with-default-names
 brew install gnu-indent --with-default-names
@@ -126,6 +144,10 @@ brew install nano
 brew install tree
 brew install wget --with-iri
 
+###############################################################################
+# Installing Quicklook plugins                                                #
+###############################################################################
+
 #Installing Quick Look plugins
 echo "Installing QL Plugins..."
 brew cask install qlcolorcode
@@ -137,22 +159,22 @@ brew cask install webpquicklook
 brew cask install suspicious-package
 brew cask install qlvideo
 
-#Installing R
-#echo "Installing R..."
-#brew install R
-#brew cask install --appdir="/Applications" rstudio
-#defaults write org.R-project.R force.LANG en_US.UTF-8
+###############################################################################
+# Installing Python                                                           #
+###############################################################################
 
 #Installing Python
 echo "Installing Python..."
 brew install python
 brew install python3
-#brew cask install --appdir="/Applications" rodeo
-#brew cask install --appdir="/Applications" miniconda
 pip3 install jupyter
 pip3 install numpy
 pip3 install pandas
 pip3 install matplotlib
+
+###############################################################################
+# Final touches                                                               #
+###############################################################################
 
 # Cleanup
 brew cleanup --force
