@@ -119,7 +119,7 @@ brew install zsh-syntax-highlighting
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 #Downloading .zshrc config file
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/.zshrc -o ~/.zshrc
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/clnmacos.zshrc -o ~/.zshrc
 
 ###############################################################################
 # Installing binary commands                                                  #
