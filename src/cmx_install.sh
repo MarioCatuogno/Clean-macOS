@@ -167,6 +167,23 @@ code --install-extension pnp.polacode
 code --install-extension formulahendry.code-runner
 
 ###############################################################################
+# Setup Sublime Text                                                          #
+###############################################################################
+
+#Installing VSCode
+echo "Installing SublimeText..."
+brew cask install --appdir="/Applications" sublime-text
+
+#Creating a shortcut for Sublime Text app (subl)
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+
+#Import settings from Github
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/subl.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+
+#Import packages from Github
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublpkg.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
+
+###############################################################################
 # Setup iTerm2                                                                #
 ###############################################################################
 
@@ -183,8 +200,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 chsh -s $(which zsh)
 
 #Installing plugins
-brew install zsh-completions 
-brew install zsh-autosuggestions 
+brew install zsh-completions
+brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 
 #Downloading .zshrc config file
