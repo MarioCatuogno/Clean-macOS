@@ -18,7 +18,7 @@ After this you can run the script /Clean-macOS/script/__macOs.sh__ using the com
 1. Install XCode
 2. Install [Homebrew](https://brew.sh)
 3. Install [Cask](http://caskroom.io)
-4. Install various application [see list](https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/release/docs/apps_list.md)
+4. Install various application [see list](https://github.com/MarioCatuogno/Clean-macOS/blob/release/doc/apps_list.md)
 5. Install and configure GIT
 6. Install and configure Python
 7. Install and configure Visual Studio Code
