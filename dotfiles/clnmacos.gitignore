@@ -2,10 +2,12 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+Desktop.ini
+Thumbs.db
+.pyc
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
