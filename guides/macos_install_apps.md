@@ -22,6 +22,8 @@ After this i run the script /Clean-macOS/script/__macOs.sh__ with the command `.
 
 #### Install Shell
 
+To manually install and configure ZSH, follow these steps.
+
 ```
 brew install zsh
 curl -L http://install.ohmyz.sh | sh
