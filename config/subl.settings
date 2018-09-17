@@ -1,6 +1,7 @@
 {
     "color_scheme": "Packages/Tomorrow Night Italics Color Scheme/Tomorrow-Night-Italics.tmTheme",
     "open_files_in_new_window": false,
+    "remember_open_files": false,
     "theme": "Adaptive.sublime-theme",
     "translate_tabs_to_spaces": true,
     "tab_size": 4,
@@ -11,5 +12,13 @@
     "ignored_packages":
     [
         "Vintage"
+    ],
+    "file_exclude_patterns":
+    [
+        ".DS_Store",
+        ".gitkeep",
+        "dump.rdb",
+        ".rake_tasks~",
+        "*.o"
     ]
 }
