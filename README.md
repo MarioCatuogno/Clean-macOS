@@ -29,6 +29,7 @@ After this you can run the script /Clean-macOS/script/__macOs.sh__ using the com
 Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following steps:
 * _theme > Preferences: Color Theme > Material Theme_
 * _theme > Preferences: File Icon Theme > Material Icon Theme_
+* _shell > Shell Command: Install 'code' command in PATH_
 
 ### Configure iTerm2
 
