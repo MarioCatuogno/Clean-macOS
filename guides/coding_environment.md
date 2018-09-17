@@ -5,11 +5,11 @@ This document contains some information on how I setup my coding environment.
 ## Table of content
 
 * [Docker](#docker)
-    * [Install Docker](#install-docker)
+  * [Install Docker](#install-docker)
 * [VirtualBox](#virtualbox)
-    * [Install VirtualBox](#install-virtualbox)
-    * [Install Ubuntu MATE](#install-ubuntu-mate)
-    * [Install Windows 10](#install-windows-10)
+  * [Install VirtualBox](#install-virtualbox)
+  * [Install Ubuntu MATE](#install-ubuntu-mate)
+  * [Install Windows 10](#install-windows-10)
 * [Color scheme](#color-scheme)
 * [Atom Configuration](#atom-configuration)
 

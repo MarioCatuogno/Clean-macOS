@@ -171,6 +171,17 @@ pip3 install pandas
 pip3 install matplotlib
 
 ###############################################################################
+# Setup VSCode                                                                #
+###############################################################################
+
+#Installing VSCode
+echo "Installing VSCode..."
+brew cask install --appdir="/Applications" visual-studio-code
+
+#Copying settings.json
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/app_preferences/vscode.settings -o ~/Library/Application\ Support/Code/User/settings.json
+
+###############################################################################
 # Final touches                                                               #
 ###############################################################################
 
