@@ -9,6 +9,7 @@ This document describes how to set up a clean environment of macOS.
   * [Configure VS Code](#configure-vs-code)
   * [Configure Sublime Text](#configure-sublime-text)
   * [Configure iTerm2](#configure-iterm2)
+  * [Configure Git](#configure-git)
 
 ## Installation
 
@@ -38,6 +39,7 @@ Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following step
 
 Open __Sublime Text__ app and press `ALT+CMD+P` then to manually install packages, follow this steps:
 
+- _install > Package Control: Install Package > A File Icon_
 - _install > Package Control: Install Package > Git_
 - _install > Package Control: Install Package > GitGutter_
 - _install > Package Control: Install Package > Markdown Extended_
@@ -46,7 +48,10 @@ Open __Sublime Text__ app and press `ALT+CMD+P` then to manually install package
 - _install > Package Control: Install Package > SAS Syntax and Theme_
 - _install > Package Control: Install Package > Tomorrow Night Italics Color Scheme_
 
-
 ### Configure iTerm2
 
 Open __iTerm2__ appl and go to _Preferences > Profiles > Windows_ and change the size to __125__ for Columns and __35__ for Rows.
+
+### Configure Git
+
+Open ~/.gitconfig and put the email into `email` field.
