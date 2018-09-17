@@ -160,7 +160,7 @@ defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool fals
 ###############################################################################
 
 printf "Downloading iTerm color schema\n"
-wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Tomorrow%20Night%20Eighties.itermcolors \
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/itermtheme.settings \
 -O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
 printf "Check for software updates daily\n"
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1

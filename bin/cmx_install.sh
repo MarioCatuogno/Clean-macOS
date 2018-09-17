@@ -40,16 +40,12 @@ brew cask install --appdir="/Applications" cakebrew
 #Installing Git
 echo "Installing Git..."
 brew install git
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/clnmacos.gitignore -o ~/.gitignore
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/clnmacos.gitconfig -o ~/.gitconfig
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/gitignore.settings -o ~/.gitignore
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/gitconfig.settings -o ~/.gitconfig
 
 ###############################################################################
 # Installing applications                                                     #
 ###############################################################################
-
-#Installing MAS
-echo "Installing MAS..."
-brew install mas
 
 #Installing Developing tools
 echo "Installing Developing tools..."
@@ -92,6 +88,10 @@ echo "Installing Security apps..."
 brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" expressvpn
 
+#Installing MAS
+echo "Installing MAS..."
+brew install mas
+
 #Installing Mac App Store apps
 echo "Installing MAS apps..."
 #Install Amphetamine
@@ -124,7 +124,7 @@ brew install zsh-syntax-highlighting
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 #Downloading .zshrc config file
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/clnmacos.zshrc -o ~/.zshrc
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/zshrc.settings -o ~/.zshrc
 
 ###############################################################################
 # Installing binary commands                                                  #
@@ -164,10 +164,6 @@ brew cask install qlvideo
 echo "Installing Python..."
 brew install python
 brew install python3
-pip3 install jupyter
-pip3 install numpy
-pip3 install pandas
-pip3 install matplotlib
 
 ###############################################################################
 # Setup VSCode                                                                #
@@ -178,16 +174,26 @@ echo "Installing VSCode..."
 brew cask install --appdir="/Applications" visual-studio-code
 
 #Copying settings.json
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/app_preferences/vscode.settings -o ~/Library/Application\ Support/Code/User/settings.json
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/vscode.settings -o ~/Library/Application\ Support/Code/User/settings.json
+
+#Install packages
+code --install-extension HookyQR.beautify
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension GrapeCity.gc-excelviewer
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension PKief.material-icon-theme
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension 77qingliu.sas-syntax
+code --install-extension ms-python.python
+code --install-extension Tyriar.sort-lines
+code --install-extension pnp.polacode
 
 ###############################################################################
 # Final touches                                                               #
 ###############################################################################
 
 # Cleanup
-brew cleanup --force
-brew cask cleanup
-brew upgrade && brew update
+brew upgrade && brew update && brew cleanup && brew cask cleanup
 
 #Exit script
 exit
