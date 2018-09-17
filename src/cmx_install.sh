@@ -102,6 +102,8 @@ mas install 441258766
 mas install 407963104
 #Install Spark
 mas install 1176895641
+#Install Wipr
+mas install 1320666476
 
 ###############################################################################
 # Installing binary commands                                                  #

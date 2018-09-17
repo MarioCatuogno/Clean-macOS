@@ -71,7 +71,7 @@ printf "Finder: set the size of icons on the desktop and in other icon views\n"
 
 printf "Configuring Dock\n"
 printf "Dock: set icon size\n"
-defaults write com.apple.dock tilesize -int 48
+defaults write com.apple.dock tilesize -int 40
 printf "Dock: disable dashboard\n"
 defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.dock dashboard-in-overlay -bool true
