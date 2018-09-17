@@ -5,8 +5,6 @@ This document describe how I set up my macOS after a clean install.
 ## Index
 
 * [System Preferences](#system-preferences)
-* [Install XCode](#install-xcode)
-* [Install Brew](#install-brew)
 * [Install Shell](#install-shell)
 * [Install Libraries](#install-libraries)
 * [Install R](#install-r)
