@@ -41,6 +41,7 @@ brew cask install --appdir="/Applications" cakebrew
 echo "Installing Git..."
 brew install git
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/clnmacos.gitignore -o ~/.gitignore
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/dotfiles/clnmacos.gitconfig -o ~/.gitconfig
 
 ###############################################################################
 # Installing applications                                                     #
