@@ -41,10 +41,29 @@ defaults write com.apple.screencapture type -string "png"
 printf "Finder: show HD icons on Desktop\n"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 printf "Finder: set sidebar icon size to medium\n"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 printf "Finder: show full path\n"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+printf "Finder: show item info near icons on the desktop and in other icon views\n"
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
+printf "Finder: show item info to the right of the icons on the desktop\n"
+/usr/libexec/PlistBuddy -c "Set DesktopViewSettings:IconViewSettings:labelOnBottom false" ~/Library/Preferences/com.apple.finder.plist
+printf "Finder: enable snap-to-grid for icons on the desktop and in other icon views\n"
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+printf "Finder: set grid spacing for icons on the desktop and in other icon views\n"
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
+printf "Finder: set the size of icons on the desktop and in other icon views\n"
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
 
 ###############################################################################
 # Dock                                                                        #
@@ -53,6 +72,12 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 printf "Configuring Dock\n"
 printf "Dock: set icon size\n"
 defaults write com.apple.dock tilesize -int 48
+printf "Dock: disable dashboard\n"
+defaults write com.apple.dashboard mcx-disabled -bool true
+defaults write com.apple.dock dashboard-in-overlay -bool true
+printf "Dock: remove animation\n"
+defaults write com.apple.dock autohide-time-modifier -float 0
+defaults write com.apple.dock autohide-delay -float 0
 
 ###############################################################################
 # Keyboard                                                                    #
@@ -87,6 +112,13 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 printf "Trackpad: disable Natural scrolling\n"
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+###############################################################################
+# SSD                                                                         #
+###############################################################################
+
+printf "Disable hibernation\n"
+sudo pmset -a hibernatemode 0
 
 ###############################################################################
 # Security                                                                    #
@@ -127,13 +159,12 @@ defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool fals
 # Various                                                                     #
 ###############################################################################
 
-printf "Downloading iTerm color schema\n"
-wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Tomorrow%20Night%20Eighties.itermcolors \
--O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
 printf "Check for software updates daily\n"
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
-printf "Disable Game Center\n"
+printf "Game Center: disable Game Center\n"
 defaults write com.apple.gamed Disabled -bool true
+printf "TimeMachine: prevent from prompting to use new hard drives as backup volume"
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 #Exit script
 printf "Done. Some of these changes require a restart to take effect\n"

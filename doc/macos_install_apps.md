@@ -5,8 +5,6 @@ This document describe how I set up my macOS after a clean install.
 ## Index
 
 * [System Preferences](#system-preferences)
-* [Install XCode](#install-xcode)
-* [Install Brew](#install-brew)
 * [Install Shell](#install-shell)
 * [Install Libraries](#install-libraries)
 * [Install R](#install-r)
@@ -21,6 +19,8 @@ The first thing I do is to update the OS. For that __Apple Icon > Software Updat
 After this i run the script /Clean-macOS/script/__macOs.sh__ with the command `./clnmacos.sh install`.
 
 #### Install Shell
+
+To manually install and configure ZSH, follow these steps.
 
 ```
 brew install zsh
