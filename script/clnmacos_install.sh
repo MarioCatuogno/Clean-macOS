@@ -93,12 +93,16 @@ brew cask install --appdir="/Applications" expressvpn
 
 #Installing Mac App Store apps
 echo "Installing MAS apps..."
-#Install Magnet
-mas install 441258766
-#Install Spark
-mas install 1176895641
 #Install Amphetamine
 mas install 937984704
+#Install Daisydisk
+mas install 411643860
+#Install Magnet
+mas install 441258766
+#Install Pixelmator
+mas install 407963104
+#Install Spark
+mas install 1176895641
 
 ###############################################################################
 # Installing ZSH shell                                                        #
@@ -131,14 +135,6 @@ brew install archey
 brew install bash
 brew install binutils
 brew install diffutils
-brew install ed --with-default-names
-brew install findutils --with-default-names
-brew install gnu-indent --with-default-names
-brew install gnu-sed --with-default-names
-brew install gnu-tar --with-default-names
-brew install gnu-which --with-default-names
-brew install gnutls
-brew install grep --with-default-names
 brew install gzip
 brew install nano
 brew install tree

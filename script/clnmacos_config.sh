@@ -4,7 +4,7 @@
 osascript -e 'tell application "System Preferences" to quit'
 
 #Entering as Root
-echo "Enter root password..."
+printf "Enter root password...\n"
 sudo -v
 
 #Keep alive Root
@@ -14,117 +14,127 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Finder                                                                      #
 ###############################################################################
 
-echo "Configuring Finder"
-echo "Finder: show file extension"
+printf "Configuring Finder\n"
+printf "Finder: show file extension\n"
 defaults write -g AppleShowAllExtensions -bool true
-echo "Finder: show hidden files"
+printf "Finder: show hidden files\n"
 defaults write com.apple.finder AppleShowAllFiles true
-echo "Finder: show Library folder"
+printf "Finder: show Library folder\n"
 chflags nohidden ~/Library
-echo "Finder: show path bar"
+printf "Finder: show path bar\n"
 defaults write com.apple.finder ShowPathbar -bool true
-echo "Finder: set current folder as default search"
+printf "Finder: set current folder as default search\n"
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
-echo "Finder: set list view by default"
+printf "Finder: set list view by default\n"
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
-echo "Finder: keep folders on top"
+printf "Finder: keep folders on top\n"
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
-echo "Finder: disable creation of metadata files on Network and USB"
+printf "Finder: disable creation of metadata files on Network and USB\n"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
-echo "Finder: remove open-with duplicates"
+printf "Finder: remove open-with duplicates\n"
 /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
-echo "Finder: save screenshots in PNG format"
+printf "Finder: save screenshots in PNG format\n"
 mkdir ${HOME}/Pictures/Screenshots
 defaults write com.apple.screencapture location -string "${HOME}/Pictures/Screenshots"
 defaults write com.apple.screencapture type -string "png"
-echo "Finder: show HD icons on Desktop"
+printf "Finder: show HD icons on Desktop\n"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
-echo "Finder: set sidebar icon size to medium"
+printf "Finder: set sidebar icon size to medium\n"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
-echo "Finder: show full path"
+printf "Finder: show full path\n"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+
+###############################################################################
+# Dock                                                                        #
+###############################################################################
+
+printf "Configuring Dock\n"
+printf "Dock: set icon size\n"
+defaults write com.apple.dock tilesize -int 48
 
 ###############################################################################
 # Keyboard                                                                    #
 ###############################################################################
 
-echo "Configuring Keyboard"
-echo "Keyboard: disable auto-correct"
+printf "Configuring Keyboard\n"
+printf "Keyboard: disable auto-correct\n"
 defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
-echo "Keyboard: enable key-repeat"
+printf "Keyboard: enable key-repeat\n"
 defaults write -g ApplePressAndHoldEnabled -bool false
-echo "Keyboard: set repeat rate to 2"
+printf "Keyboard: set repeat rate to 2\n"
 defaults write -g KeyRepeat -int 2
-echo "Keyboard: disable automatic capitalization"
+printf "Keyboard: disable automatic capitalization\n"
 defaults write -g NSAutomaticCapitalizationEnabled -bool false
-echo "Keyboard: disable automatic period substitution"
+printf "Keyboard: disable automatic period substitution\n"
 defaults write -g NSAutomaticPeriodSubstitutionEnabled -bool false
-echo "Keyboard: disable smart dashes"
+printf "Keyboard: disable smart dashes\n"
 defaults write -g NSAutomaticDashSubstitutionEnabled -bool false
-echo "Keyboard: disable smart quotes"
+printf "Keyboard: disable smart quotes\n"
 defaults write -g NSAutomaticQuoteSubstitutionEnabled -bool false
-echo "Keyboard: disable cotninuous spell checking"
+printf "Keyboard: disable cotninuous spell checking\n"
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
 ###############################################################################
 # Trackpad                                                                    #
 ###############################################################################
 
-echo "Configuring Trackpad"
-echo "Trackpad: enable tap to click"
+printf "Configuring Trackpad\n"
+printf "Trackpad: enable tap to click\n"
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-echo "Trackpad: disable Natural scrolling"
+printf "Trackpad: disable Natural scrolling\n"
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 ###############################################################################
 # Security                                                                    #
 ###############################################################################
 
-echo "Configuring Security"
-echo "Security: enable firewall"
+printf "Configuring Security\n"
+printf "Security: enable firewall\n"
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 
 ###############################################################################
 # Mail                                                                        #
 ###############################################################################
 
-echo "Configuring Mail.app"
-echo "Mail: show attachments as icons"
+printf "Configuring Mail.app\n"
+printf "Mail: show attachments as icons\n"
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
-echo "Mail: disable autocorrect"
+printf "Mail: disable autocorrect\n"
 defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnabled"
 
 ###############################################################################
 # Safari                                                                      #
 ###############################################################################
 
-echo "Configuring Safari.app"
-echo "Safari: disable Apple send queries"
+printf "Configuring Safari.app\n"
+printf "Safari: disable Apple send queries\n"
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-echo "Safari: don't open safe files"
+printf "Safari: don't open safe files\n"
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
-echo "Safari: show favorites bar"
+printf "Safari: show favorites bar\n"
 defaults write com.apple.Safari ShowFavoritesBar -bool true
-echo "Safari: enable develop menu"
+printf "Safari: enable develop menu\n"
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
-echo "Safari: disable auto-correct"
+printf "Safari: disable auto-correct\n"
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
 
 ###############################################################################
 # Various                                                                     #
 ###############################################################################
 
-echo "Downloading iTerm color schema"
+printf "Downloading iTerm color schema\n"
 wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Tomorrow%20Night%20Eighties.itermcolors \
 -O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
-echo "Check for software updates daily"
+printf "Check for software updates daily\n"
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+printf "Disable Game Center\n"
+defaults write com.apple.gamed Disabled -bool true
 
 #Exit script
-echo "Done. Some of these changes require a restart to take effect."
+printf "Done. Some of these changes require a restart to take effect\n"
 exit
