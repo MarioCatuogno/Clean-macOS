@@ -12,6 +12,8 @@
   // Controls whether Spaces will be detected when a file is opened,
   // based on the file contents.
   "editor.detectIndentation": true,
+  // Use ZSH as integrated terminal shell
+  "terminal.integrated.shell.osx": "zsh",
   // Controls how the editor should render whitespace characters,
   // posibilties are 'none', 'boundary', and 'all'.
   // The 'boundary' option does not render single spaces between words.
@@ -23,6 +25,7 @@
   // Removes files from editor window
   "files.exclude": {
     ".dropbox": true,
-    ".dropbox.cache": true
+    ".dropbox.cache": true,
+    ".DS_Store": true
   }
 }

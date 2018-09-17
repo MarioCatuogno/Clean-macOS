@@ -58,7 +58,6 @@ brew cask install --appdir="/Applications" docker
 brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" kitematic
 brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" tableplus
 brew cask install --appdir="/Applications" virtualbox
 
