@@ -36,7 +36,7 @@ Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following step
 
 ### Configure Sublime Text
 
-Open __Sublime Text__ app and press `ALT+CMD+P` then do the following steps:
+Open __Sublime Text__ app and press `ALT+CMD+P` then to manually install packages, follow this steps:
 
 - _install > Package Control: Install Package > Git_
 - _install > Package Control: Install Package > GitGutter_
