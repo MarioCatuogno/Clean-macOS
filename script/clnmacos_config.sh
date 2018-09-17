@@ -41,6 +41,7 @@ defaults write com.apple.screencapture type -string "png"
 printf "Finder: show HD icons on Desktop\n"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 printf "Finder: set sidebar icon size to medium\n"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 printf "Finder: show full path\n"
@@ -87,6 +88,13 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 printf "Trackpad: disable Natural scrolling\n"
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+###############################################################################
+# SSD                                                                         #
+###############################################################################
+
+printf "Disable hibernation\n"
+sudo pmset -a hibernatemode 0
 
 ###############################################################################
 # Security                                                                    #
