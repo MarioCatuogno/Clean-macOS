@@ -53,7 +53,6 @@ brew cask install --appdir="/Applications" boostnote
 brew cask install --appdir="/Applications" docker
 brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" kitematic
-brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" tableplus
 brew cask install --appdir="/Applications" virtualbox
 
@@ -104,27 +103,6 @@ mas install 441258766
 mas install 407963104
 #Install Spark
 mas install 1176895641
-
-###############################################################################
-# Installing ZSH shell                                                        #
-###############################################################################
-
-#Installing ZSH
-echo "Installing Shell..."
-brew install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-chsh -s $(which zsh)
-
-#Installing plugins
-brew install zsh-completions 
-brew install zsh-autosuggestions 
-brew install zsh-syntax-highlighting
-
-#Creating a shortcut for Sublime Text app (subl)
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-
-#Downloading .zshrc config file
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/zshrc.settings -o ~/.zshrc
 
 ###############################################################################
 # Installing binary commands                                                  #
@@ -187,6 +165,31 @@ code --install-extension 77qingliu.sas-syntax
 code --install-extension ms-python.python
 code --install-extension Tyriar.sort-lines
 code --install-extension pnp.polacode
+code --install-extension formulahendry.code-runner
+
+###############################################################################
+# Setup iTerm2                                                                #
+###############################################################################
+
+echo "Installing iTerm2..."
+brew cask install --appdir="/Applications" iterm2
+echo "Downloading iTerm color schema\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/itermtheme.settings \
+-O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
+
+#Installing ZSH
+echo "Installing Shell..."
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+chsh -s $(which zsh)
+
+#Installing plugins
+brew install zsh-completions 
+brew install zsh-autosuggestions 
+brew install zsh-syntax-highlighting
+
+#Downloading .zshrc config file
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/zshrc.settings -o ~/.zshrc
 
 ###############################################################################
 # Final touches                                                               #

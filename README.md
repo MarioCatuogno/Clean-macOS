@@ -20,9 +20,9 @@ After this you can run the script /Clean-macOS/script/__macOs.sh__ using the com
 3. Install [Cask](http://caskroom.io)
 4. Install various application [see list](https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/release/docs/apps_list.md)
 5. Install and configure GIT
-6. Install and configure ZSH
-7. Install and configure Python
-8. Install and configure Visual Studio Code
+6. Install and configure Python
+7. Install and configure Visual Studio Code
+8. Install and configure iTerm2 and ZSH
 
 ### Configure VS Code
 

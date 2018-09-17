@@ -159,9 +159,6 @@ defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool fals
 # Various                                                                     #
 ###############################################################################
 
-printf "Downloading iTerm color schema\n"
-wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/itermtheme.settings \
--O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
 printf "Check for software updates daily\n"
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 printf "Game Center: disable Game Center\n"
