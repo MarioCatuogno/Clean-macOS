@@ -46,21 +46,21 @@ printf "Finder: set sidebar icon size to medium\n"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 printf "Finder: show full path\n"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
-printf "Show item info near icons on the desktop and in other icon views\n"
+printf "Finder: show item info near icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
-printf "Show item info to the right of the icons on the desktop\n"
+printf "Finder: show item info to the right of the icons on the desktop\n"
 /usr/libexec/PlistBuddy -c "Set DesktopViewSettings:IconViewSettings:labelOnBottom false" ~/Library/Preferences/com.apple.finder.plist
-printf "Enable snap-to-grid for icons on the desktop and in other icon views\n"
+printf "Finder: enable snap-to-grid for icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
-printf "Set grid spacing for icons on the desktop and in other icon views\n"
+printf "Finder: set grid spacing for icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
-printf "Set the size of icons on the desktop and in other icon views\n"
+printf "Finder: set the size of icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
@@ -72,6 +72,12 @@ printf "Set the size of icons on the desktop and in other icon views\n"
 printf "Configuring Dock\n"
 printf "Dock: set icon size\n"
 defaults write com.apple.dock tilesize -int 48
+printf "Dock: disable dashboard\n"
+defaults write com.apple.dashboard mcx-disabled -bool true
+defaults write com.apple.dock dashboard-in-overlay -bool true
+printf "Dock: remove animation\n"
+defaults write com.apple.dock autohide-time-modifier -float 0
+defaults write com.apple.dock autohide-delay -float 0
 
 ###############################################################################
 # Keyboard                                                                    #
@@ -158,8 +164,10 @@ wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/sch
 -O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
 printf "Check for software updates daily\n"
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
-printf "Disable Game Center\n"
+printf "Game Center: disable Game Center\n"
 defaults write com.apple.gamed Disabled -bool true
+printf "TimeMachine: prevent from prompting to use new hard drives as backup volume"
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 #Exit script
 printf "Done. Some of these changes require a restart to take effect\n"
