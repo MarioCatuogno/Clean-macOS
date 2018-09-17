@@ -1,6 +1,16 @@
 # Clean macOS
 
-This document describes how I set up my environment after a clean installation of macOS.
+This document describes how to set up a clean environment of macOS.
+
+The first thing to do is to update the OS. For that go to __Apple Icon > Software Update__. 
+After this you can run the script /Clean-macOS/script/__macOs.sh__ with the command `./clnmacos.sh install`, this will:
+1. Install XCode
+2. Install [Homebrew](https://brew.sh)
+3. Install [Cask](http://caskroom.io)
+4. Install various application
+5. Install and configure GIT
+6. Install and configure ZSH
+7. Install and configure Python
 
 ## Best Mac Apps
 
