@@ -1,6 +1,13 @@
 # Clean macOS
 
-This document describes how to set up a clean environment of macOS.
+This document describes how to set up a clean environment for macOS.
+I use this repository to keep track of the software and steps required to have a functioning system after each annual fresh install.
+
+This keeps the system to perform at top speed, installing only necessary stuff and having an up-and-running system in about __50__ minutes.
+
+You are encouraged to fork this and modify it to your own needs.
+
+If you find it useful, please leave a comment or tell others about this repo.
 
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" align="middle" />
 
