@@ -184,10 +184,13 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/subl.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 #Import packages from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublpkg.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package Control.sublime-settings
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublpkg.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
 
 #Import "A File Icon" settings from Github
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublicn.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/A\ File\ Icon.sublime-settings
+
+#Import Markdown settings from Github
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublmd.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Markdown.sublime-settings
 
 ###############################################################################
 # Setup iTerm2                                                                #
