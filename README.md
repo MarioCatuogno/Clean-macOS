@@ -19,6 +19,7 @@ If you find it useful, please leave a comment or tell others about this repo.
   * [Configure Sublime Text](#configure-sublime-text)
   * [Configure iTerm2](#configure-iterm2)
   * [Configure Git](#configure-git)
+  * [Configure Alfred](#configure-alfred)
 * [Thanks to](#thanks-to)
 
 ## Installation
@@ -59,11 +60,15 @@ Open __Sublime Text__ app and press `ALT+CMD+P` then to manually install package
 
 ### Configure iTerm2
 
-Open __iTerm2__ appl and go to _Preferences > Profiles > Windows_ and change the size to __125__ for Columns and __35__ for Rows.
+Open __iTerm2__ app and go to _Preferences > Profiles > Windows_ and change the size to __125__ for Columns and __35__ for Rows.
 
 ### Configure Git
 
 Open ~/.gitconfig and put the email into `email` field.
+
+### Configure Alfred
+
+Open __Alfred__ app and go to _Preferences > Advanced > Syncing_ and set the folder `~/Dropbox/My AppSettings/Alfred`
 
 ## Thanks to
 
