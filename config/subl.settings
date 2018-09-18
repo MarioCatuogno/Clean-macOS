@@ -9,6 +9,9 @@
     "draw_white_space": "all",
     "ensure_newline_at_eof_on_save": true,
     "trim_trailing_white_space_on_save": true,
+    "close_windows_when_empty": false,
+    "highlight_line": true,
+    "show_encoding": true,
     "ignored_packages":
     [
         "Vintage"
