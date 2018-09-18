@@ -111,6 +111,7 @@ mas install 1320666476
 
 #Installing Commands
 echo "Installing Binary commands..."
+brew install ack
 brew install archey
 brew install bash
 brew install binutils
