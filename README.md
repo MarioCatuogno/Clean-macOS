@@ -19,6 +19,7 @@ If you find it useful, please leave a comment or tell others about this repo.
   * [Configure Sublime Text](#configure-sublime-text)
   * [Configure iTerm2](#configure-iterm2)
   * [Configure Git](#configure-git)
+* [Thanks to](#thanks-to)
 
 ## Installation
 
@@ -64,3 +65,7 @@ Open __iTerm2__ appl and go to _Preferences > Profiles > Windows_ and change the
 ### Configure Git
 
 Open ~/.gitconfig and put the email into `email` field.
+
+## Thanks to
+
+- [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
