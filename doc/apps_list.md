@@ -14,6 +14,7 @@ A collection of useful apps for macOS installed with `cmx.sh` script.
 * [Security](#security)
 * [Social](#social)
 * [Utilities](#utilities)
+* [Other useful apps](#other-useful-apps)
 
 ## Browser Extension
 
@@ -77,7 +78,7 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_franz.png" width="30" align="middle" /> | [Franz](http://meetfranz.com) |  Is a free messaging app which combines various chat and messaging services into one interface.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_skype.png" width="30" align="middle" /> | [Skype](https://skype.com) | The most famous VoIP application which provides video chat and voice call services.
 
-## Utility
+## Utilities
 
 Icon | Title | Description
 --- | --- | ---
