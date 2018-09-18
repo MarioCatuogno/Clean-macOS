@@ -40,7 +40,7 @@ alias reload="exec ${SHELL} -l"
 
 # Shortcuts
 alias gh="cd ~/Dropbox/Github"
-alias docs=”cd ~/Dropbox/Documents”
+alias docs="cd ~/Dropbox/Documents"
 
 # Useful alias
 alias python=python3
