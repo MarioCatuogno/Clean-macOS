@@ -54,7 +54,6 @@ Open __Sublime Text__ app and press `ALT+CMD+P` then to manually install package
 - _install > Package Control: Install Package > GitGutter_
 - _install > Package Control: Install Package > Markdown Extended_
 - _install > Package Control: Install Package > MarkdownLivePreview_
-- _install > Package Control: Install Package > MarkdownPreview_
 - _install > Package Control: Install Package > SAS Syntax and Theme_
 - _install > Package Control: Install Package > Tomorrow Night Italics Color Scheme_
 
