@@ -25,7 +25,7 @@ If you find it useful, please leave a comment or tell others about this repo.
 ### Install basic stuff
 
 The first thing to do is to update the OS. For that go to __Apple Icon > Software Update__.
-After this you can run the script /Clean-macOS/script/__macOs.sh__ using the command `./cmx.sh install`, this will:
+After this you can run the script /Clean-macOS/src/__cmx.sh__ using the command `./cmx.sh install`, this will:
 
 - Install XCode
 - Install [Homebrew](https://brew.sh)
