@@ -214,6 +214,14 @@ brew install zsh-syntax-highlighting
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/zshrc.settings -o ~/.zshrc
 
 ###############################################################################
+# Fonts                                                                       #
+###############################################################################
+
+#Installing fonts
+brew tap caskroom/fonts
+brew cask install font-fira-code
+
+###############################################################################
 # Final touches                                                               #
 ###############################################################################
 
