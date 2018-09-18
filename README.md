@@ -68,7 +68,7 @@ Open ~/.gitconfig and put the email into `email` field.
 
 ### Configure Alfred
 
-Open __Alfred__ app and go to _Preferences > Advanced > Syncing_ and set the folder `~/Dropbox/My AppSettings/Alfred`
+Open __Alfred__ app and go to _Preferences > Advanced > Syncing_ and set the folder `~/Dropbox/AppSettings/Alfred`
 
 ## Thanks to
 
