@@ -1,58 +1,54 @@
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
-Desktop.ini
-Thumbs.db
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Configuration files #
+#######################
 .pyc
-
-# Icon must end with two \r
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# History files
+*-Ex.R
+.RData
+.Rproj.user/
 .Rhistory
 .Rapp.history
-
-# Session Data files
-.RData
-
-# Example code in package build process
-*-Ex.R
-
-# RStudio files
-.Rproj.user/
-
-# Produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token
-.httr-oauth
-
-# knitr and R markdown default cache directories
-/*_cache/
-/cache/
-
-# Temporary files created by R markdown
 *.utf8.md
 *.knit.md
 .Rproj.user
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.AppleDB
+.AppleDesktop
+.apdisk
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Desktop.ini
+._*
+.Spotlight-V100
+.DocumentRevisions-V100
+.VolumeIcon.icns
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
