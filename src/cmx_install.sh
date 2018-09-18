@@ -160,14 +160,14 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/v
 code --install-extension HookyQR.beautify
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension GrapeCity.gc-excelviewer
-code --install-extension PeterJausovec.vscode-docker
-code --install-extension PKief.material-icon-theme
-code --install-extension Equinusocio.vsc-material-theme
+code --install-extension Yummygum.city-lights-icon-vsc
+code --install-extension Yummygum.city-lights-theme
 code --install-extension 77qingliu.sas-syntax
 code --install-extension ms-python.python
 code --install-extension Tyriar.sort-lines
 code --install-extension pnp.polacode
 code --install-extension formulahendry.code-runner
+code --install-extension mikestead.dotenv
 
 ###############################################################################
 # Setup Sublime Text                                                          #
