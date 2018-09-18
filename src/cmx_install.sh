@@ -179,7 +179,7 @@ brew cask install --appdir="/Applications" sublime-text
 #Creating a shortcut for Sublime Text app (subl)
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
-#Import settings from Github
+#Import preferences from Github
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/subl.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 #Import packages from Github
