@@ -75,3 +75,4 @@ Go to _System Preferences > Keyboard > Shortcuts > Spotlight_ and remove the key
 ## Thanks to
 
 - [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
