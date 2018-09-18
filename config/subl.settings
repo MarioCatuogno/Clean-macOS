@@ -1,0 +1,27 @@
+{
+    "color_scheme": "Packages/Tomorrow Night Italics Color Scheme/Tomorrow-Night-Italics.tmTheme",
+    "open_files_in_new_window": false,
+    "remember_open_files": false,
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+    "always_show_minimap_viewport": true,
+    "draw_white_space": "all",
+    "ensure_newline_at_eof_on_save": true,
+    "trim_trailing_white_space_on_save": true,
+    "close_windows_when_empty": false,
+    "highlight_line": true,
+    "show_encoding": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "file_exclude_patterns":
+    [
+        ".DS_Store",
+        ".gitkeep",
+        "dump.rdb",
+        ".rake_tasks~",
+        "*.o"
+    ]
+}

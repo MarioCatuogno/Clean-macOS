@@ -1,94 +1,75 @@
 # Apps List
 
-A collection of useful apps for macOS found around the web.
+A collection of useful apps for macOS installed with `cmx.sh` script.
 
 ## Best Mac Apps
 
 * [Browser Extension](#browser-extension)
-* [Data Science](#data-science)
 * [Development](#development)
+* [Editor](#editor)
 * [Games](#games)
 * [Graphics](#graphics)
-* [Multimedia](#multimedia)
-* [News](#news)
+* [Multimedia and Graphics](#multimedia-and-graphics)
 * [Productivity](#productivity)
 * [Security](#security)
 * [Social](#social)
 * [Utilities](#utilities)
-* [Web Navigation](#web-navigation)
 
 ## Browser Extension
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_duckduckgo.png" width="30" align="middle" /> | [DuckDuckGo](https://duck.co/help/desktop/safari) | DuckDuckGo plug-in for Safari.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_gcalendar_extension.png" width="30" align="middle" /> | [Google Calendar](https://chrome.google.com/webstore/detail/google-calendar-by-google/gmbgaklkmjakoegficnlkhebmhkjfich?) | A Google Calender extension for Chrome.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_pocket_extension.png" width="30" align="middle" /> | [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj?) | A Pocket extension for Chrome.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_ublock_origin_extension.png" width="30" align="middle" /> | [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?) | A lightweight blocker extension for Chrome.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](http://www.giorgiocalderolla.com/wipr.html) | A lightweight blocker extension for Safari.
-
-## Data Science
-
-Icon | Title | Description
---- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_rodeo.png" width="30" align="middle"/> | [Rodeo](https://www.yhat.com/products/rodeo) | A powerful IDE for Python language. It's free, open-source and constantly updated. If you are familiar with RStudio GUI, you will love this software.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_rstudio.png" width="30" align="middle"/> | [RStudio](https://www.rstudio.com) | A powerful IDE for R language. It's free and manages beautifully packages from CRAN. I use this instead of default R shell.
-<img src="https://github.com/MarioCatuogno/Clean-macOS/blob/master/img/icon_tableau.png" width="30" align="middle" /> | [Tableau Public](https://public.tableau.com) | Free version of Tableau, powerful data visualization software useful for creating dashboards.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](https://itunes.apple.com/it/app/wipr/id1320666476) | A lightweight blocker extension for Safari.
 
 ## Development
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_blackscreen.png" width="30" align="middle" /> | [Black Screen](https://github.com/shockone/black-screen) | This app is both a Terminal emulator and an interactive shell, it uses the same Atom UI.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow in a native, without the need to use the .git commands via shell.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_anaconda2.png" width="30" align="middle" /> | [Miniconda](http://conda.pydata.org/miniconda.html)| The open source and minimal version of Anaconda, which is a high performance distribution of Python with packages for data science.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_boostnote.png" width="30" align="middle" /> | [Boostnote](https://boostnote.io) | A note-taking app for programmers that focuses on markdown, snippets and customizability.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_docker.png" width="30" align="middle" /> | [Docker](https://www.docker.com) | A container software ideal for developer looking to get started and experimenting with container-based application.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_githubdesktop.png" width="30" align="middle" /> | [GithubDesktop](https://desktop.github.com) | Manage the entire Github workflow with a GUI, without the need to use the git commands in shell.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iterm2.png" width="30" align="middle" /> | [iTerm2](https://www.iterm2.com) | A macOS terminal replacement.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_kitematic.png" width="30" align="middle" /> | [Kitematic](https://kitematic.com) | Run containers through a simple and powerful graphical interface.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_ohmyzsh.png" width="30" align="middle" /> | [Oh My Zsh](http://ohmyz.sh) | Oh-My-Zsh is an open source, community-driven framework for managing the ZSH configuration of Terminal app.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tableplus.png" width="30" align="middle" /> | [Tableplus](https://tableplus.io) | Modern and friendly GUI for relational databases such as MySQL, PostgreSQL and more.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software I can install different OS to experiment and run programs that otherwise would not run on my macOS.
+
+## Editor
+
+Icon | Title | Description
+--- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_sublimetext.png" width="30" align="middle" /> | [Sublime Text](https://www.sublimetext.com) | A sophisticated and lightweight text editor for code, markup and prose.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://code.visualstudio.com) | A hackable free and open source code editor.
 
 ## Games
 
 Icon | Title | Description
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_battlenet.png" width="30" align="middle" /> | [Battle.net](http://eu.battle.net/en/) | Battle.net launcher for Blizzard games, such as Heartstone, World of Warcraft and Starcraft2.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steam.png" width="30" align="middle" /> | [Steam](http://store.steampowered.com) | The most famous digital games store. With this app you can buy and organize all your games.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steermouse.png" width="30" align="middle" /> | [Steermouse](http://plentycom.jp/en/steermouse/) | A utility that lets you freely customize buttons, wheels and cursor speed of both USB and Bluetooth mice.
 
-## Graphics
+## Multimedia and Graphics
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_kap.png" width="30" align="middle" /> | [Kap](https://getkap.co) | An open-source screen recorder. Useful to create gifs and screen captures.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_lingo.png" width="30" align="middle" /> | [Lingo](https://www.lingoapp.com) | A free app to store graphical assets. I use this software to save all my icons, illustration and color schema on cloud.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_handbrake.png" width="30" align="middle" /> | [Handbrake](https://handbrake.fr) | A tool for converting video from nearly any format to a selection of modern, widely supported codecs.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iina.png" width="30" align="middle" /> | [Iina](https://lhc70000.github.io/iina/) | A modern video player for macOS.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) |  A powerful, fast, and easy-to-use image editor. I use this as a cheaper alternative to Photoshop, it covers more than enough my usual tasks.
-
-## Multimedia
-
-Icon | Title | Description
---- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_helium.png" width="30" align="middle" /> | [Helium](http://heliumfloats.com/) | Helium is a floating browser window that allows you to watch media while doing other stuff.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_spotify.png" width="30" align="middle" /> | [Spotify](https://www.spotify.com) | The most used app on my Mac, one of the most famous digital music services that gives access to millions of songs.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_vlc.png" width="30" align="middle" /> | [VLC](http://www.videolan.org/vlc/) | The best open-source multimedia player, can read almost any kind of file and it's very lightweight.
-
-## News
-
-Icon | Title | Description
---- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_rssbot.png" width="30" align="middle"/> | [RSSBot](https://itunes.apple.com/us/app/rss-bot-news-notifier/id605732865?mt=12&ign-mpt=uo%3D4) | I use RSS Bot to keep up to date with all the RSS feeds in a simple manner. Integrate seamlessly with the macOS.
-
 
 ## Productivity
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_alfred.png" width="30" align="middle" /> | [Alfred](https://www.alfredapp.com) |  Alfred boosts efficiency with hotkeys, keywords, text expansion and more. It can be used to search on Mac and on web, becoming more productive with custom actions to control the OS.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_atom.png" width="30" align="middle" /> | [Atom](https://atom.io) | A modern and hackable text editor with a lot of customization thanks to a variety of packages.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_evernote.png" width="30" align="middle" /> | [Evernote](https://evernote.com) | Is a cross-platform, freemium app designed for note taking, organizing, and archiving.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wunderlist.png" width="30" align="middle" /> | [Wunderlist](https://www.wunderlist.com) | Is a cloud-based task management application.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_spark.png" width="30" align="middle" /> | [Spark](https://sparkmailapp.com/it) | A modern mail app for macOS and iOS.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_magnet.png" width="30" align="middle" /> | [Magnet](http://magnet.crowdcafe.com) | A windows manager for macOS to keep workspace organized.
 
 ## Security
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_keeweb.png" width="30" align="middle" /> | [KeeWeb](https://keeweb.info) | Free and open-source cross-platform password manager, compatible with Dropbox sync.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_1password.png" width="30" align="middle" /> | [1Password](https://1password.com) | A cross-platform password manager.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_expressvpn.png" width="30" align="middle" /> | [ExpressVPN](https://www.expressvpn.com) | High speed VPN service available on both macOS and iOS.
 
 ## Social
 
@@ -97,24 +78,15 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_franz.png" width="30" align="middle" /> | [Franz](http://meetfranz.com) |  Is a free messaging app which combines various chat and messaging services into one interface.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_skype.png" width="30" align="middle" /> | [Skype](https://skype.com) | The most famous VoIP application which provides video chat and voice call services.
 
-## Utilities
+## Utility
 
 Icon | Title | Description
 --- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_alfred.png" width="30" align="middle" /> | [Alfred](https://www.alfredapp.com) | An application launcher which boosts productivity.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_amphetamine.png" width="30" align="middle" /> | [Amphetamine](https://itunes.apple.com/it/app/amphetamine/id937984704?mt=12) | This app can effortlessly override your energy saver settings and keep your Mac awake.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_appcleaner.png" width="30" align="middle" /> | [AppCleaner](https://freemacsoft.net/appcleaner/) | A simple tool to safely delete App on MacOS.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_daisydisk.png" width="30" align="middle" /> | [DaisyDisk](https://daisydiskapp.com) | It scans the disk and shows all the files and folders as a visual interactive map. It is possible to see unusual large file, preview it and then delete it directly from the app.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_cheatsheet.png" width="30" align="middle" /> | [CheatSheet](https://www.mediaatelier.com/CheatSheet/) | This free utility quickly summons a list of all keyboard shortcuts for the app you're using.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_dr.cleaner.png" width="30" align="middle" /> | [Dr.Cleaner](https://itunes.apple.com/us/app/dr.-cleaner-clean-disk-memory/id921458519?mt=12) | A free app by Trend Micro that offers various optimization tools for MacOS.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_flux.png" width="30" align="middle" /> | [f.lux](https://justgetflux.com) | It adjusts the display's color temperature according to location and time of day.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_theunarchiver.png" width="30" align="middle" /> | [TheUnarchiver](http://unarchiver.c3.cx/unarchiver) | The best replacement for the default archive utility app of MacOS, it is designed to handle tons of different files.
-
-## Web Navigation and P2P
-
-Icon | Title | Description
---- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_chrome.png" width="30" align="middle" /> | [Chrome](https://www.google.com/chrome/) | Google browser.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_daisydisk.png" width="30" align="middle" /> | [DaisyDisk](https://daisydiskapp.com) | It scans the disk and shows all the files and folders as a visual interactive map. It is possible to see unusual large file, preview it and then delete it directly from the app.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space.
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_pocket.png" width="30" align="middle" /> | [Pocket](https://getpocket.com) | Is a news reading application that saves videos, photos, and articles for viewing offline.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_theunarchiver.png" width="30" align="middle" /> | [TheUnarchiver](http://unarchiver.c3.cx/unarchiver) | The best replacement for the default archive utility app of MacOS, it is designed to handle tons of different files.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client.
