@@ -83,7 +83,6 @@ brew cask install --appdir="/Applications" steermouse
 
 #Installing Security apps
 echo "Installing Security apps..."
-brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" expressvpn
 
 #Installing MAS
