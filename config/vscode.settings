@@ -2,7 +2,7 @@
   // The number of spaces in a tab.
   "editor.tabSize": 2,
   // Specifies workbench icon theme.
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "ayu",
   // vscode-icons extension will restart automatically on project detection.
   "vsicons.projectDetection.autoReload": true,
   // Format a file on save.
@@ -18,14 +18,31 @@
   // posibilties are 'none', 'boundary', and 'all'.
   // The 'boundary' option does not render single spaces between words.
   "editor.renderWhitespace": "all",
+  "editor.trimAutoWhitespace": true,
+  // Insert a new line at the end of the page
+  "files.insertFinalNewline": true,
+  // Controls CSV parameters
   "csv-preview.separator": ";",
   "csv-preview.resizeColumns": true,
   "[csv]": {},
+  // Set default zoom level
   "window.zoomLevel": 0,
   // Removes files from editor window
   "files.exclude": {
     ".dropbox": true,
     ".dropbox.cache": true,
     ".DS_Store": true
+  },
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "workbench.colorTheme": "Ayu Mirage",
+  "city-lights-icons-vsc.hidesExplorerArrows": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#313641",
+    "statusBar.foreground": "#fff",
+    "statusBar.noFolderBackground": "#313641",
+    "statusBar.noFolderForeground": "#fff"
   }
 }

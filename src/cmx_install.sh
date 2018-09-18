@@ -160,8 +160,7 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/v
 code --install-extension HookyQR.beautify
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension GrapeCity.gc-excelviewer
-code --install-extension Yummygum.city-lights-icon-vsc
-code --install-extension Yummygum.city-lights-theme
+code --install-extension teabyii.ayu
 code --install-extension 77qingliu.sas-syntax
 code --install-extension ms-python.python
 code --install-extension Tyriar.sort-lines
