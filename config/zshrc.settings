@@ -17,7 +17,7 @@ ZSH_THEME="mh"
 ###############################################################################
 
 # Plugins to load
-plugins=( git history osx pip zsh-completions zsh-autosuggestions zsh-syntax-highlighting )
+plugins=( brew git history osx pip zsh-completions zsh-autosuggestions zsh-syntax-highlighting )
 
 source $ZSH/oh-my-zsh.sh
 
