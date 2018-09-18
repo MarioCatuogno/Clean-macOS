@@ -2,7 +2,7 @@
 
 This document describes how to set up a clean environment of macOS.
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" width="600" align="middle" />
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" align="middle" />
 
 ## Table of content
 
