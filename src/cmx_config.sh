@@ -80,6 +80,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide-delay -float 0
 printf "Dock: automatically hide\n"
 defaults write com.apple.dock autohide -bool true
+
 ###############################################################################
 # Keyboard                                                                    #
 ###############################################################################
@@ -166,6 +167,8 @@ printf "Game Center: disable Game Center\n"
 defaults write com.apple.gamed Disabled -bool true
 printf "TimeMachine: prevent from prompting to use new hard drives as backup volume"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+printf "Enable FileVault encryption"
+sudo fdesetup enable
 
 #Exit script
 printf "Done. Some of these changes require a restart to take effect\n"
