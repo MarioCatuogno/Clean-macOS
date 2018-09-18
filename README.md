@@ -64,12 +64,13 @@ Open __iTerm2__ app and go to _Preferences > Profiles > Windows_ and change the 
 
 ### Configure Git
 
-Open ~/.gitconfig and put the email into `email` field.
+Open ~/.gitconfig and put the Github email into `email` field.
 
 ### Configure Alfred
 
 Open __Alfred__ app and go to _Preferences > Advanced > Syncing_ and set the folder `~/Dropbox/AppSettings/Alfred`.
 Open this [link](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred) and copy the Apple Script to use iTerm as default terminal in Alfred. Paste the content into _Preferences > Features > Terminal/Shell > Application: Custom_.
+Go to _System Preferences > Keyboard > Shortcuts > Spotlight_ and remove the keybind `CMD+SPACE`; then open Alfred and go to _Preferences > General_ and select `CMD+SPACE` as default keybind.
 
 ## Thanks to
 
