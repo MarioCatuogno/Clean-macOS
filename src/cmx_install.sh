@@ -117,6 +117,7 @@ brew install bash
 brew install binutils
 brew install diffutils
 brew install gzip
+brew install htop
 brew install nano
 brew install tree
 brew install wget --with-iri
