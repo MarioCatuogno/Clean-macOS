@@ -6,6 +6,7 @@ A collection of useful apps for macOS installed with `cmx.sh` script.
 
 * [Browser Extension](#browser-extension)
 * [Development](#development)
+* [Editor](#editor)
 * [Games](#games)
 * [Graphics](#graphics)
 * [Multimedia and Graphics](#multimedia-and-graphics)
@@ -31,6 +32,13 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_ohmyzsh.png" width="30" align="middle" /> | [Oh My Zsh](http://ohmyz.sh) | Oh-My-Zsh is an open source, community-driven framework for managing the ZSH configuration of Terminal app.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tableplus.png" width="30" align="middle" /> | [Tableplus](https://tableplus.io) | Modern and friendly GUI for relational databases such as MySQL, PostgreSQL and more.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software I can install different OS to experiment and run programs that otherwise would not run on my macOS.
+
+## Editor
+
+Icon | Title | Description
+--- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_sublimetext.png" width="30" align="middle" /> | [Sublime Text](https://www.sublimetext.com) | A sophisticated and lightweight text editor for code, markup and prose.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://code.visualstudio.com) | A hackable free and open source code editor.
 
 ## Games
 
