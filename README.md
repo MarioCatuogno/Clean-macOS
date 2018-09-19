@@ -16,7 +16,6 @@ If you find it useful, please leave a comment or tell others about this repo.
 * [Installation](#installation)
   * [Install basic stuff](#install-basic-stuff)
   * [Configure VS Code](#configure-vs-code)
-  * [Configure Sublime Text](#configure-sublime-text)
   * [Configure iTerm2](#configure-iterm2)
   * [Configure Git](#configure-git)
   * [Configure Alfred](#configure-alfred)
@@ -46,31 +45,18 @@ Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following step
 * _theme > Preferences: File Icon Theme > Ayu_
 * _shell > Shell Command: Install 'code' command in PATH_
 
-### Configure Sublime Text
-
-Open __Sublime Text__ app and press `ALT+CMD+P` then to manually install packages, follow this steps:
-
-* _install > Package Control: Install Package > A File Icon_
-* _install > Package Control: Install Package > Git_
-* _install > Package Control: Install Package > GitGutter_
-* _install > Package Control: Install Package > Markdown Extended_
-* _install > Package Control: Install Package > MarkdownLivePreview_
-* _install > Package Control: Install Package > SAS Syntax and Theme_
-* _install > Package Control: Install Package > Add SideBarEnhancements as package for Sublime Text_
-* _install > Package Control: Install Package > Tomorrow Night Italics Color Scheme_
-
 ### Configure iTerm2
 
 Open __iTerm2__ app and go to _Preferences > Profiles > Windows_ and change the size to __125__ for Columns and __35__ for Rows.
 
 ### Configure Git
 
-Open ~/.gitconfig and put the Github email into `email` field.
+Open ~/.gitconfig and change the Github email into `email` field.
 
 ### Configure Alfred
 
 Open __Alfred__ app and go to _Preferences > Advanced > Syncing_ and set the folder `~/Dropbox/AppSettings/Alfred`.
-Open this [link](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred) and copy the Apple Script to use iTerm as default terminal in Alfred. Paste the content into _Preferences > Features > Terminal/Shell > Application: Custom_.
+Open this [link](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred) and copy the Apple Script to use __iTerm__ as default terminal in Alfred. Paste the content into _Preferences > Features > Terminal/Shell > Application: Custom_.
 Go to _System Preferences > Keyboard > Shortcuts > Spotlight_ and remove the keybind `CMD+SPACE`; then open Alfred and go to _Preferences > General_ and select `CMD+SPACE` as default keybind.
 
 ## Thanks to
