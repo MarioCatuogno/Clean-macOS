@@ -40,8 +40,8 @@ brew cask install --appdir="/Applications" cakebrew
 #Installing Git
 echo "Installing Git..."
 brew install git
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/gitignore.settings -o ~/.gitignore
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/gitconfig.settings -o ~/.gitconfig
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitignore -o ~/.gitignore
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitconfig -o ~/.gitconfig
 
 ###############################################################################
 # Installing applications                                                     #
@@ -146,15 +146,24 @@ brew install python
 brew install python3
 
 ###############################################################################
-# Setup VSCode                                                                #
+# Fonts                                                                       #
 ###############################################################################
 
-#Installing VSCode
+#Installing fonts
+brew tap caskroom/fonts
+brew cask install font-fira-code
+brew cask install font-hack
+
+###############################################################################
+# Setup Visual Studio Code                                                    #
+###############################################################################
+
+#Installing Visual Studio Code
 echo "Installing VSCode..."
 brew cask install --appdir="/Applications" visual-studio-code
 
 #Copying settings.json
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/vscode.settings -o ~/Library/Application\ Support/Code/User/settings.json
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/settings.json -o ~/Library/Application\ Support/Code/User/settings.json
 
 #Install packages
 code --install-extension HookyQR.beautify
@@ -169,37 +178,14 @@ code --install-extension formulahendry.code-runner
 code --install-extension mikestead.dotenv
 
 ###############################################################################
-# Setup Sublime Text                                                          #
-###############################################################################
-
-#Installing Sublime Text
-echo "Installing SublimeText..."
-brew cask install --appdir="/Applications" sublime-text
-
-#Creating a shortcut for Sublime Text app (subl)
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-
-#Import preferences from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/subl.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-
-#Import packages from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublpkg.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
-
-#Import "A File Icon" settings from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublicn.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/A\ File\ Icon.sublime-settings
-
-#Import Markdown settings from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublmd.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Markdown.sublime-settings
-
-###############################################################################
 # Setup iTerm2                                                                #
 ###############################################################################
 
 echo "Installing iTerm2..."
 brew cask install --appdir="/Applications" iterm2
-echo "Downloading iTerm color schema\n"
-wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/itermtheme.settings \
--O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
+echo "Downloading iTerm color schema ayu-mirage\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-mirage.itermcolors \
+-O ~/Downloads/ayu-mirage.itermcolors && open ~/Downloads/ayu-mirage.itermcolors
 
 #Installing ZSH
 echo "Installing Shell..."
@@ -213,16 +199,7 @@ brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 
 #Downloading .zshrc config file
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/zshrc.settings -o ~/.zshrc
-
-###############################################################################
-# Fonts                                                                       #
-###############################################################################
-
-#Installing fonts
-brew tap caskroom/fonts
-brew cask install font-fira-code
-brew cask install font-hack
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.zshrc -o ~/.zshrc
 
 ###############################################################################
 # Final touches                                                               #
