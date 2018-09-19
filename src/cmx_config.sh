@@ -54,8 +54,8 @@ printf "Finder: show item info to the right of the icons on the desktop\n"
 /usr/libexec/PlistBuddy -c "Set DesktopViewSettings:IconViewSettings:labelOnBottom false" ~/Library/Preferences/com.apple.finder.plist
 printf "Finder: enable snap-to-grid for icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy name" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy name" ~/Library/Preferences/com.apple.finder.plist
 printf "Finder: set grid spacing for icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
@@ -80,6 +80,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide-delay -float 0
 printf "Dock: automatically hide\n"
 defaults write com.apple.dock autohide -bool true
+
 ###############################################################################
 # Keyboard                                                                    #
 ###############################################################################
@@ -166,6 +167,8 @@ printf "Game Center: disable Game Center\n"
 defaults write com.apple.gamed Disabled -bool true
 printf "TimeMachine: prevent from prompting to use new hard drives as backup volume"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+printf "Enable FileVault encryption"
+sudo fdesetup enable
 
 #Exit script
 printf "Done. Some of these changes require a restart to take effect\n"

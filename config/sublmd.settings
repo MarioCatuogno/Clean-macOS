@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the Markdown syntax
+{
+    "font_size": 14,
+    "draw_centered": true,
+    "wrap_width": 100
+}

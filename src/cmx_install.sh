@@ -83,7 +83,6 @@ brew cask install --appdir="/Applications" steermouse
 
 #Installing Security apps
 echo "Installing Security apps..."
-brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" expressvpn
 
 #Installing MAS
@@ -111,11 +110,13 @@ mas install 1320666476
 
 #Installing Commands
 echo "Installing Binary commands..."
+brew install ack
 brew install archey
 brew install bash
 brew install binutils
 brew install diffutils
 brew install gzip
+brew install htop
 brew install nano
 brew install tree
 brew install wget --with-iri
@@ -159,14 +160,13 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/v
 code --install-extension HookyQR.beautify
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension GrapeCity.gc-excelviewer
-code --install-extension PeterJausovec.vscode-docker
-code --install-extension PKief.material-icon-theme
-code --install-extension Equinusocio.vsc-material-theme
+code --install-extension teabyii.ayu
 code --install-extension 77qingliu.sas-syntax
 code --install-extension ms-python.python
 code --install-extension Tyriar.sort-lines
 code --install-extension pnp.polacode
 code --install-extension formulahendry.code-runner
+code --install-extension mikestead.dotenv
 
 ###############################################################################
 # Setup Sublime Text                                                          #
@@ -183,10 +183,13 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/subl.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 #Import packages from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublpkg.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package Control.sublime-settings
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublpkg.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
 
 #Import "A File Icon" settings from Github
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublicn.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/A\ File\ Icon.sublime-settings
+
+#Import Markdown settings from Github
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublmd.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Markdown.sublime-settings
 
 ###############################################################################
 # Setup iTerm2                                                                #
@@ -211,6 +214,15 @@ brew install zsh-syntax-highlighting
 
 #Downloading .zshrc config file
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/zshrc.settings -o ~/.zshrc
+
+###############################################################################
+# Fonts                                                                       #
+###############################################################################
+
+#Installing fonts
+brew tap caskroom/fonts
+brew cask install font-fira-code
+brew cask install font-hack
 
 ###############################################################################
 # Final touches                                                               #

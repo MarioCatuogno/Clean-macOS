@@ -4,7 +4,7 @@
     "remember_open_files": false,
     "theme": "Adaptive.sublime-theme",
     "translate_tabs_to_spaces": true,
-    "tab_size": 4,
+    "tab_size": 2,
     "always_show_minimap_viewport": true,
     "draw_white_space": "all",
     "ensure_newline_at_eof_on_save": true,
