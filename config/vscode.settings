@@ -27,6 +27,14 @@
   "[csv]": {},
   // Set default zoom level
   "window.zoomLevel": 0,
+  // Set rulers and word wrap
+  "editor.rulers": [120],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.quickSuggestions": false
+  },
   // Removes files from editor window
   "files.exclude": {
     ".dropbox": true,
