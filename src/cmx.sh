@@ -10,8 +10,11 @@ case "$1" in
     update|UPDATE)
         ~/Dropbox/Github/Clean-macOS/src/cmx_update.sh
         ;;
+    essential|ESSENTIAL)
+        ~/Dropbox/Github/Clean-macOS/src/cmx_update.sh
+        ;;
     *)
-		echo "Usage: $0 [ install | config | update ]" ; exit 1
+		echo "Usage: $0 [ config | essential | install | update ]" ; exit 1
         ;;
 esac
 
