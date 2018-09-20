@@ -158,6 +158,17 @@ printf "Safari: disable auto-correct\n"
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
 
 ###############################################################################
+# TextEdit                                                                    #
+###############################################################################
+
+printf "Configuring TextEdit.app\n"
+printf "TextEdit: use plain text mode for new documents\n"
+defaults write com.apple.TextEdit RichText -int 0
+printf "TextEdit: open and save files as UTF-8 encoding\n"
+defaults write com.apple.TextEdit PlainTextEncoding -int 4
+defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
+
+###############################################################################
 # Various                                                                     #
 ###############################################################################
 
