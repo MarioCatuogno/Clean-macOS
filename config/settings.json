@@ -27,6 +27,8 @@
   "[csv]": {},
   // Set default zoom level
   "window.zoomLevel": 0,
+  // Set minimap side
+  "editor.minimap.side": "right",
   // Set rulers and word wrap
   "editor.rulers": [120],
   "editor.wordWrap": "wordWrapColumn",
