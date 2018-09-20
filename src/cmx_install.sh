@@ -183,6 +183,12 @@ code --install-extension mikestead.dotenv
 
 echo "Installing iTerm2..."
 brew cask install --appdir="/Applications" iterm2
+echo "Downloading iTerm color schema ayu-dark\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-dark.itermcolors \
+-O ~/Downloads/ayu-dark.itermcolors && open ~/Downloads/ayu-dark.itermcolors
+echo "Downloading iTerm color schema ayu-light\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-light.itermcolors \
+-O ~/Downloads/ayu-light.itermcolors && open ~/Downloads/ayu-light.itermcolors
 echo "Downloading iTerm color schema ayu-mirage\n"
 wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-mirage.itermcolors \
 -O ~/Downloads/ayu-mirage.itermcolors && open ~/Downloads/ayu-mirage.itermcolors
