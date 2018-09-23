@@ -172,13 +172,15 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 # Various                                                                     #
 ###############################################################################
 
-printf "Check for software updates daily\n"
+printf "AppStore: check for software updates daily\n"
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 printf "Game Center: disable Game Center\n"
 defaults write com.apple.gamed Disabled -bool true
-printf "TimeMachine: prevent from prompting to use new hard drives as backup volume"
+printf "TimeMachine: prevent from prompting to use new hard drives as backup volume\n"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-printf "Enable FileVault encryption"
+printf "Monitor: fix blurry fonts on lower resolution monitor\n"
+defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
+printf "FileVault: Enable encryption\n"
 sudo fdesetup enable
 
 #Exit script
