@@ -78,6 +78,7 @@ echo "Installing Binary commands..."
 brew install bash
 brew install htop
 brew install nano
+brew install neofetch
 brew install tree
 brew install wget --with-iri
 
@@ -148,7 +149,7 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 ###############################################################################
 
 # Cleanup
-brew upgrade && brew update && brew cleanup && brew cask cleanup
+brew update && brew upgrade && brew cleanup && brew cask cleanup && brew prune
 
 #Exit script
 exit
