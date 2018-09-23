@@ -37,6 +37,8 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.quickSuggestions": false
   },
+  // Hide release notes
+  "update.showReleaseNotes": false,
   // Removes files from editor window
   "files.exclude": {
     ".dropbox": true,
