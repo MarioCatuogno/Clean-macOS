@@ -42,12 +42,17 @@
   // Check for updates
   "extensions.autoupdate": true,
   "extensions.autoCheckUpdates": true,
+  // Hide confirm box when delete
+  "explorer.confirmDelete": false,
   // Removes files from editor window
   "files.exclude": {
     ".dropbox": true,
     ".dropbox.cache": true,
-    ".DS_Store": true
+    ".DS_Store": true,
+    "**/.git": true,
+    "**/.svn": true
   },
+  // Theme
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
@@ -59,5 +64,8 @@
     "statusBar.foreground": "#fff",
     "statusBar.noFolderBackground": "#313641",
     "statusBar.noFolderForeground": "#fff"
-  }
+  },
+  // Extension: markdown-all-in-one
+  "markdown.extension.preview.autoShowPreviewToSide": false,
+  "markdown.extension.italic.indicator": "_"
 }

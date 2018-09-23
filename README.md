@@ -19,6 +19,7 @@ If you find it useful, please leave a comment or tell others about this repo.
   * [Configure iTerm2](#configure-iterm2)
   * [Configure Git](#configure-git)
   * [Configure Alfred](#configure-alfred)
+  * [Configure Popclip](#configure-popclip)
 * [Thanks to](#thanks-to)
 
 ## Installation
@@ -67,6 +68,15 @@ These are the workflows I think are the most useful:
 * [Colors](http://www.packal.org/workflow/colors): Color tools for developers
 * [Open-with-VSCode](https://github.com/alexchantastic/alfred-open-with-vscode-workflow): Open files or folders with Visual Studio Code
 * [Playsong](https://github.com/caleb531/play-song): Make playing music in iTunes extremely quick and convenient
+
+### Configure Popclip
+
+These are the extensions I think are the most useful:
+
+* [Alfred](https://pilotmoon.com/popclip/extensions/page/Alfred): Activate Alfred with the selected text
+* [Copy as Markdown](https://pilotmoon.com/popclip/extensions/page/CopyAsMarkdown): Copy web content as Markdown text
+* [Notes](https://pilotmoon.com/popclip/extensions/page/Notes): Make a new note, or append to an existing note, in the Notes app
+
 
 ## Thanks to
 

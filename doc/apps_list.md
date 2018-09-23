@@ -62,8 +62,9 @@ Icon | Title | Description
 
 Icon | Title | Description
 --- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_spark.png" width="30" align="middle" /> | [Spark](https://sparkmailapp.com/it) | A modern mail app for macOS and iOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_magnet.png" width="30" align="middle" /> | [Magnet](http://magnet.crowdcafe.com) | A windows manager for macOS to keep workspace organized.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_magnet.png" width="30" align="middle" /> | [Popclip](https://pilotmoon.com/popclip/) | A tool which appears when you select text with your mouse on your Mac.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_spark.png" width="30" align="middle" /> | [Spark](https://sparkmailapp.com/it) | A modern mail app for macOS and iOS.
 
 ## Security
 
