@@ -40,7 +40,6 @@
   // Hide release notes
   "update.showReleaseNotes": false,
   // Check for updates
-  "extensions.autoupdate": true,
   "extensions.autoCheckUpdates": true,
   // Hide confirm box when delete
   "explorer.confirmDelete": false,
@@ -67,5 +66,7 @@
   },
   // Extension: markdown-all-in-one
   "markdown.extension.preview.autoShowPreviewToSide": false,
-  "markdown.extension.italic.indicator": "_"
+  "markdown.extension.italic.indicator": "_",
+  "markdown.extension.syntax.decorations": false,
+  "markdown.extension.orderedList.autoRenumber": false
 }
