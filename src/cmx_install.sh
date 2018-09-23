@@ -62,6 +62,7 @@ brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" transmission
 

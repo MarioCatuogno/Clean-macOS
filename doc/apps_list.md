@@ -4,23 +4,16 @@ A collection of useful apps for macOS installed with `cmx.sh` script.
 
 ## Best Mac Apps
 
-* [Browser Extension](#browser-extension)
 * [Development](#development)
 * [Editor](#editor)
 * [Games](#games)
-* [Graphics](#graphics)
+* [Internet and Networking](#internet-and-networking)
 * [Multimedia and Graphics](#multimedia-and-graphics)
 * [Productivity](#productivity)
 * [Security](#security)
 * [Social](#social)
 * [Utilities](#utilities)
 * [Other useful apps](#other-useful-apps)
-
-## Browser Extension
-
-Icon | Title | Description
---- | --- | ---
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](https://itunes.apple.com/it/app/wipr/id1320666476) | A lightweight blocker extension for Safari.
 
 ## Development
 
@@ -57,6 +50,13 @@ Icon | Title | Description
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iina.png" width="30" align="middle" /> | [Iina](https://lhc70000.github.io/iina/) | A modern video player for macOS.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata.
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) |  A powerful, fast, and easy-to-use image editor. I use this as a cheaper alternative to Photoshop, it covers more than enough my usual tasks.
+
+## Internet and Networking
+
+Icon | Title | Description
+--- | --- | ---
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_chrome.png" width="30" align="middle" /> | [Google Chrome](https://www.google.com/chrome/) | Browser developed by Google.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](https://itunes.apple.com/it/app/wipr/id1320666476) | A lightweight blocker extension for Safari.
 
 ## Productivity
 
