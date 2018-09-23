@@ -75,11 +75,11 @@ defaults write com.apple.dock tilesize -int 40
 printf "Dock: disable dashboard\n"
 defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.dock dashboard-in-overlay -bool true
+printf "Dock: automatically hide\n"
+defaults write com.apple.dock autohide -bool true
 printf "Dock: remove animation\n"
 defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide-delay -float 0
-printf "Dock: automatically hide\n"
-defaults write com.apple.dock autohide -bool true
 
 ###############################################################################
 # Keyboard                                                                    #
