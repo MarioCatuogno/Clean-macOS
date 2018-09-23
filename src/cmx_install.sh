@@ -76,6 +76,7 @@ echo "Installing Multimedia apps..."
 brew cask install --appdir="/Applications" handbrake
 brew cask install --appdir="/Applications" iina
 brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" nucleo
 
 #Installing Gaming apps
 echo "Installing Gaming apps..."
