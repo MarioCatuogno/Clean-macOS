@@ -100,6 +100,8 @@ mas install 411643860
 mas install 441258766
 #Install Pixelmator
 mas install 407963104
+#Install Popclip
+mas install 445189367
 #Install Spark
 mas install 1176895641
 #Install Wipr
