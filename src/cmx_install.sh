@@ -40,8 +40,8 @@ brew cask install --appdir="/Applications" cakebrew
 #Installing Git
 echo "Installing Git..."
 brew install git
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/gitignore.settings -o ~/.gitignore
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/gitconfig.settings -o ~/.gitconfig
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitignore -o ~/.gitignore
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitconfig -o ~/.gitconfig
 
 ###############################################################################
 # Installing applications                                                     #
@@ -62,6 +62,7 @@ brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" transmission
 
@@ -75,6 +76,7 @@ echo "Installing Multimedia apps..."
 brew cask install --appdir="/Applications" handbrake
 brew cask install --appdir="/Applications" iina
 brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" nucleo
 
 #Installing Gaming apps
 echo "Installing Gaming apps..."
@@ -99,6 +101,8 @@ mas install 411643860
 mas install 441258766
 #Install Pixelmator
 mas install 407963104
+#Install Popclip
+mas install 445189367
 #Install Spark
 mas install 1176895641
 #Install Wipr
@@ -111,15 +115,16 @@ mas install 1320666476
 #Installing Commands
 echo "Installing Binary commands..."
 brew install ack
-brew install archey
 brew install bash
 brew install binutils
 brew install diffutils
 brew install gzip
 brew install htop
 brew install nano
+brew install neofetch
 brew install tree
 brew install wget --with-iri
+brew install wifi-password
 
 ###############################################################################
 # Installing Quicklook plugins                                                #
@@ -146,15 +151,24 @@ brew install python
 brew install python3
 
 ###############################################################################
-# Setup VSCode                                                                #
+# Fonts                                                                       #
 ###############################################################################
 
-#Installing VSCode
+#Installing fonts
+brew tap caskroom/fonts
+brew cask install font-fira-code
+brew cask install font-hack
+
+###############################################################################
+# Setup Visual Studio Code                                                    #
+###############################################################################
+
+#Installing Visual Studio Code
 echo "Installing VSCode..."
 brew cask install --appdir="/Applications" visual-studio-code
 
 #Copying settings.json
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/vscode.settings -o ~/Library/Application\ Support/Code/User/settings.json
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/settings.json -o ~/Library/Application\ Support/Code/User/settings.json
 
 #Install packages
 code --install-extension HookyQR.beautify
@@ -167,29 +181,8 @@ code --install-extension Tyriar.sort-lines
 code --install-extension pnp.polacode
 code --install-extension formulahendry.code-runner
 code --install-extension mikestead.dotenv
-
-###############################################################################
-# Setup Sublime Text                                                          #
-###############################################################################
-
-#Installing Sublime Text
-echo "Installing SublimeText..."
-brew cask install --appdir="/Applications" sublime-text
-
-#Creating a shortcut for Sublime Text app (subl)
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-
-#Import preferences from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/subl.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-
-#Import packages from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublpkg.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
-
-#Import "A File Icon" settings from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublicn.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/A\ File\ Icon.sublime-settings
-
-#Import Markdown settings from Github
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/sublmd.settings -o ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Markdown.sublime-settings
+code --install-extension formulahendry.code-runner
+code --install-extension yzhang.markdown-all-in-one
 
 ###############################################################################
 # Setup iTerm2                                                                #
@@ -197,9 +190,15 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/s
 
 echo "Installing iTerm2..."
 brew cask install --appdir="/Applications" iterm2
-echo "Downloading iTerm color schema\n"
-wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/itermtheme.settings \
--O ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors && open ~/Downloads/Tomorrow\ Night\ Eighties.itermcolors
+echo "Downloading iTerm color schema ayu-dark\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-dark.itermcolors \
+-O ~/Downloads/ayu-dark.itermcolors && open ~/Downloads/ayu-dark.itermcolors
+echo "Downloading iTerm color schema ayu-light\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-light.itermcolors \
+-O ~/Downloads/ayu-light.itermcolors && open ~/Downloads/ayu-light.itermcolors
+echo "Downloading iTerm color schema ayu-mirage\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-mirage.itermcolors \
+-O ~/Downloads/ayu-mirage.itermcolors && open ~/Downloads/ayu-mirage.itermcolors
 
 #Installing ZSH
 echo "Installing Shell..."
@@ -213,16 +212,7 @@ brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 
 #Downloading .zshrc config file
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/zshrc.settings -o ~/.zshrc
-
-###############################################################################
-# Fonts                                                                       #
-###############################################################################
-
-#Installing fonts
-brew tap caskroom/fonts
-brew cask install font-fira-code
-brew cask install font-hack
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.zshrc -o ~/.zshrc
 
 ###############################################################################
 # Final touches                                                               #

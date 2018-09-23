@@ -75,11 +75,11 @@ defaults write com.apple.dock tilesize -int 40
 printf "Dock: disable dashboard\n"
 defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.dock dashboard-in-overlay -bool true
+printf "Dock: automatically hide\n"
+defaults write com.apple.dock autohide -bool true
 printf "Dock: remove animation\n"
 defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide-delay -float 0
-printf "Dock: automatically hide\n"
-defaults write com.apple.dock autohide -bool true
 
 ###############################################################################
 # Keyboard                                                                    #
@@ -158,16 +158,29 @@ printf "Safari: disable auto-correct\n"
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
 
 ###############################################################################
+# TextEdit                                                                    #
+###############################################################################
+
+printf "Configuring TextEdit.app\n"
+printf "TextEdit: use plain text mode for new documents\n"
+defaults write com.apple.TextEdit RichText -int 0
+printf "TextEdit: open and save files as UTF-8 encoding\n"
+defaults write com.apple.TextEdit PlainTextEncoding -int 4
+defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
+
+###############################################################################
 # Various                                                                     #
 ###############################################################################
 
-printf "Check for software updates daily\n"
+printf "AppStore: check for software updates daily\n"
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 printf "Game Center: disable Game Center\n"
 defaults write com.apple.gamed Disabled -bool true
-printf "TimeMachine: prevent from prompting to use new hard drives as backup volume"
+printf "TimeMachine: prevent from prompting to use new hard drives as backup volume\n"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-printf "Enable FileVault encryption"
+printf "Monitor: fix blurry fonts on lower resolution monitor\n"
+defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
+printf "FileVault: Enable encryption\n"
 sudo fdesetup enable
 
 #Exit script

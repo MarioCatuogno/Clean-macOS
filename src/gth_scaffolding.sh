@@ -21,7 +21,7 @@ if [ $# -eq 0 ]
   mkdir ~/Dropbox/Github/${1}/img
   mkdir ~/Dropbox/Github/${1}/src
   printf "Downloading common resources for ${1}\n"
-  curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/gitignore.settings -o ~/Dropbox/Github/${1}/.gitignore
+  curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitignore -o ~/Dropbox/Github/${1}/.gitignore
   touch ~/Dropbox/Github/${1}/README.md
 fi
 exit
