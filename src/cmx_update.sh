@@ -24,7 +24,7 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/s
 ###############################################################################
 
 mas upgrade
-brew upgrade && brew update && brew cleanup && brew cask cleanup && brew prune
+brew update && brew upgrade && brew cleanup && brew cask cleanup && brew prune
 brew doctor
 
 #Exit script
