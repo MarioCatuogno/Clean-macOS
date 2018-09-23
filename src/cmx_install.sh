@@ -114,15 +114,16 @@ mas install 1320666476
 #Installing Commands
 echo "Installing Binary commands..."
 brew install ack
-brew install archey
 brew install bash
 brew install binutils
 brew install diffutils
 brew install gzip
 brew install htop
 brew install nano
+brew install neofetch
 brew install tree
 brew install wget --with-iri
+brew install wifi-password
 
 ###############################################################################
 # Installing Quicklook plugins                                                #
@@ -179,6 +180,8 @@ code --install-extension Tyriar.sort-lines
 code --install-extension pnp.polacode
 code --install-extension formulahendry.code-runner
 code --install-extension mikestead.dotenv
+code --install-extension formulahendry.code-runner
+code --install-extension yzhang.markdown-all-in-one
 
 ###############################################################################
 # Setup iTerm2                                                                #
