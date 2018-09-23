@@ -39,6 +39,9 @@
   },
   // Hide release notes
   "update.showReleaseNotes": false,
+  // Check for updates
+  "extensions.autoupdate": true,
+  "extensions.autoCheckUpdates": true,
   // Removes files from editor window
   "files.exclude": {
     ".dropbox": true,
