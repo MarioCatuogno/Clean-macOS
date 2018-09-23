@@ -68,5 +68,6 @@
   "markdown.extension.preview.autoShowPreviewToSide": false,
   "markdown.extension.italic.indicator": "_",
   "markdown.extension.syntax.decorations": false,
-  "markdown.extension.orderedList.autoRenumber": false
+  "markdown.extension.orderedList.autoRenumber": false,
+  "markdown.extension.tableFormatter.enabled": false
 }
