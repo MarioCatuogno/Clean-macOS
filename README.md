@@ -25,8 +25,9 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 ### Install basic stuff
 
-The first thing to do is to update the OS. For that go to __Apple Icon > Software Update__.
-After this you can run the script /Clean-macOS/src/__cmx.sh__ using the command `./cmx.sh install`, this will:
+Download the last release .zip from [this](https://github.com/MarioCatuogno/Clean-macOS/releases) link, copy it and unzip into your __Documents__ folder.
+
+After this you can run the script /Clean-macOS/src/__cmx.sh__ using the command `./cmx.sh install` from __Terminal.app__, this will:
 
 * Install XCode
 * Install [Homebrew](https://brew.sh)
@@ -36,6 +37,8 @@ After this you can run the script /Clean-macOS/src/__cmx.sh__ using the command 
 * Install and configure Python
 * Install and configure Visual Studio Code
 * Install and configure iTerm2 and ZSH
+
+After this you can also config macOS with a list of commands (link [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/macos_commands.md)), simply use the command `./cmx.sh config`.
 
 ### Configure VS Code
 
