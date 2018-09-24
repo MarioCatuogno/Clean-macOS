@@ -1,8 +1,11 @@
 #!/bin/bash
 
 case "$1" in
-    install|INSTALL)
-        ~/Documents/Clean-macOS/src/cmx_install.sh
+    basic|BASIC)
+        ~/Documents/Clean-macOS/src/cmx_basic.sh
+        ;;
+    full|FULL)
+        ~/Documents/Clean-macOS/src/cmx_full.sh
         ;;
     config|CONFIG)
         ~/Documents/Clean-macOS/src/cmx_config.sh
@@ -10,11 +13,8 @@ case "$1" in
     update|UPDATE)
         ~/Documents/Clean-macOS/src/cmx_update.sh
         ;;
-    essentials|ESSENTIALS)
-        ~/Documents/Clean-macOS/src/cmx_essentials.sh
-        ;;
     *)
-		echo "Usage: $0 [ config | essentials | install | update ]" ; exit 1
+		echo "Usage: $0 [ basic | full | config | update ]" ; exit 1
         ;;
 esac
 
