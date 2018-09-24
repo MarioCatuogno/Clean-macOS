@@ -13,14 +13,16 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 ## Table of content
 
-* [Installation](#installation)
-  * [Install basic stuff](#install-basic-stuff)
-  * [Configure VS Code](#configure-vs-code)
-  * [Configure iTerm2](#configure-iterm2)
-  * [Configure Git](#configure-git)
-  * [Configure Alfred](#configure-alfred)
-  * [Configure Popclip](#configure-popclip)
-* [Thanks to](#thanks-to)
+- [Clean macOS](#clean-macos)
+  - [Table of content](#table-of-content)
+  - [Installation](#installation)
+    - [Install basic stuff](#install-basic-stuff)
+    - [Configure VS Code](#configure-vs-code)
+    - [Configure iTerm2](#configure-iterm2)
+    - [Configure Git](#configure-git)
+    - [Configure Alfred](#configure-alfred)
+    - [Configure Popclip](#configure-popclip)
+  - [Thanks to](#thanks-to)
 
 ## Installation
 
@@ -28,7 +30,7 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 Download the last release .zip from [this](https://github.com/MarioCatuogno/Clean-macOS/releases) link, copy it and unzip into your __Documents__ folder.
 
-After this you can run the script /Clean-macOS/src/__cmx.sh__ using the command `./cmx.sh install` from __Terminal.app__, this will:
+After this you can run the script /Clean-macOS/src/__cmx.sh__ using the command `./cmx.sh [basic | full]` from __Terminal.app__, this will:
 
 * Install XCode
 * Install [Homebrew](https://brew.sh)

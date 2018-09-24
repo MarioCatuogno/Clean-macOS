@@ -5,6 +5,6 @@
     clean = git-lfs clean -- %f
 [user]
     name = Mario Catuogno
-    email = mario.catuogno@gmail.com
+    email = ****
 [core]
     excludesfile = ~/.gitignore
