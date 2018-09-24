@@ -50,24 +50,6 @@ brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" vlc
-#Numbers
-mas install 409203825
-#Pages
-mas install 409201541
-
-###############################################################################
-# Installing Quicklook plugins                                                #
-###############################################################################
-
-#Installing Quick Look plugins
-echo "Installing QL Plugins..."
-brew cask install qlcolorcode
-brew cask install qlstephen
-brew cask install qlmarkdown
-brew cask install qlimagesize
-brew cask install webpquicklook
-brew cask install suspicious-package
-brew cask install qlvideo
 
 ###############################################################################
 # Installing binary commands                                                  #
@@ -149,7 +131,7 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 ###############################################################################
 
 # Cleanup
-brew update && brew upgrade && brew cleanup && brew cask cleanup && brew prune
+brew update && brew upgrade && brew cleanup && brew cleanup && brew doctor
 
 #Exit script
 exit
