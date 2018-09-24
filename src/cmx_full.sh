@@ -99,6 +99,8 @@ mas install 937984704
 mas install 411643860
 #Install Magnet
 mas install 441258766
+#Install Microsoft Remote Desktop
+mas install 1295203466
 #Install Pixelmator
 mas install 407963104
 #Install Popclip
