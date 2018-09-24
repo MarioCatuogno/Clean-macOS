@@ -9,14 +9,11 @@
   "editor.formatOnSave": true,
   // Format on paste.
   "editor.formatOnPaste": true,
-  // Controls whether Spaces will be detected when a file is opened,
-  // based on the file contents.
+  // Controls whether Spaces will be detected when a file is opened, based on the file contents.
   "editor.detectIndentation": true,
   // Use ZSH as integrated terminal shell
   "terminal.integrated.shell.osx": "zsh",
-  // Controls how the editor should render whitespace characters,
-  // posibilties are 'none', 'boundary', and 'all'.
-  // The 'boundary' option does not render single spaces between words.
+  // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'.
   "editor.renderWhitespace": "all",
   "editor.trimAutoWhitespace": true,
   // Insert a new line at the end of the page
