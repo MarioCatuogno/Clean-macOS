@@ -41,6 +41,7 @@ alias reload="exec ${SHELL} -l"
 # Shortcuts
 alias gh="cd ~/Dropbox/Github"
 alias docs="cd ~/Dropbox/Documents"
+alias ping="prettyping --nolegend"
 
 
 # Useful alias
