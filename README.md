@@ -41,8 +41,6 @@ After this you can run the script /Clean-macOS/src/__cln.sh__ from __Terminal.ap
 * Install and configure Visual Studio Code
 * Install and configure iTerm2 and ZSH
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_brewterminal.png" width="800" align="middle"/>
-
 ### Configure VS Code
 
 Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following steps:
