@@ -51,7 +51,7 @@ Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following step
 * _theme > Preferences: File Icon Theme > Ayu_
 * _shell > Shell Command: Install 'code' command in PATH_
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myvscode.png" width="800" align="middle"/>
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myvscode2.png" width="800" align="middle"/>
 
 ### Configure iTerm2
 
