@@ -1,10 +1,14 @@
 #!/bin/bash
 
+# NAME: Clean macOS script
+# DESC: Setup a DEV setup for macOS
+# DATE: 26-09-2018
+# VERSION: 1.5.0
+
 ###############################################################################
-# General                                                                     #
+# Launch script                                                               #
 ###############################################################################
 
-#Run the script for INSTALL
 #Entering as Root
 echo "Enter root password..."
 sudo -v
@@ -35,7 +39,7 @@ brew upgrade --all
 echo "Installing Brew Cask..."
 brew install cask
 brew tap buo/cask-upgrade
-brew cask install --appdir="/Applications" cakebrew
+
 
 #Installing Git
 echo "Installing Git..."
@@ -57,53 +61,12 @@ brew cask install --appdir="/Applications" tableplus
 
 #Installing Utility apps
 echo "Installing Utility apps..."
-brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" cheatsheet
-brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" the-unarchiver
-brew cask install --appdir="/Applications" transmission
-
-#Installing Social apps
-echo "Installing Social apps..."
-brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" franz
-
-#Installing Multimedia apps
-echo "Installing Multimedia apps..."
-brew cask install --appdir="/Applications" handbrake
-brew cask install --appdir="/Applications" iina
-brew cask install --appdir="/Applications" imageoptim
-brew cask install --appdir="/Applications" nucleo
-
-#Installing Gaming apps
-echo "Installing Gaming apps..."
-brew cask install --appdir="/Applications" steermouse
-
-#Installing Security apps
-echo "Installing Security apps..."
-brew cask install --appdir="/Applications" expressvpn
 
 #Installing MAS
 echo "Installing MAS..."
 brew install mas
-
-###############################################################################
-# Installing binary commands                                                  #
-###############################################################################
-
-#Installing Commands
-echo "Installing Binary commands..."
-brew install ack
-brew install bash
-brew install gzip
-brew install htop
-brew install nano
-brew install neofetch
-brew install tree
-brew install wget --with-iri
-brew install wifi-password
 
 ###############################################################################
 # Installing Python                                                           #
@@ -113,15 +76,6 @@ brew install wifi-password
 echo "Installing Python..."
 brew install python
 brew install python3
-
-###############################################################################
-# Fonts                                                                       #
-###############################################################################
-
-#Installing fonts
-brew tap caskroom/fonts
-brew cask install font-fira-code
-brew cask install font-hack
 
 ###############################################################################
 # Setup Visual Studio Code                                                    #

@@ -1,4 +1,4 @@
-# Clean macOS
+*# Clean macOS
 
 This document describes how to set up a clean environment for macOS.
 I use this repository to keep track of the software and steps required to have a functioning system after each annual fresh install.
@@ -13,16 +13,15 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 ## Table of content
 
-- [Clean macOS](#clean-macos)
-  - [Table of content](#table-of-content)
-  - [Installation](#installation)
-    - [Install basic stuff](#install-basic-stuff)
-    - [Configure VS Code](#configure-vs-code)
-    - [Configure iTerm2](#configure-iterm2)
-    - [Configure Git](#configure-git)
-    - [Configure Alfred](#configure-alfred)
-    - [Configure Popclip](#configure-popclip)
-  - [Thanks to](#thanks-to)
+- [Table of content](#table-of-content)
+- [Installation](#installation)
+  - [Install basic stuff](#install-basic-stuff)
+  - [Configure VS Code](#configure-vs-code)
+  - [Configure iTerm2](#configure-iterm2)
+  - [Configure Git](#configure-git)
+  - [Configure Alfred](#configure-alfred)
+  - [Configure Popclip](#configure-popclip)
+- [Thanks to](#thanks-to)
 
 ## Installation
 
@@ -30,7 +29,7 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 Download the last release .zip from [this](https://github.com/MarioCatuogno/Clean-macOS/releases) link, copy it and unzip into your __Documents__ folder.
 
-After this you can run the script /Clean-macOS/src/__cmx.sh__ using the command `./cmx.sh [basic | full]` from __Terminal.app__, this will:
+After this you can run the script /Clean-macOS/src/__cln.sh__ from __Terminal.app__. If you run this for the first time, you have to launch first the command `./cln.sh basic`: this will install homebrew and few others basic stuff. Then you can chose wathever type of installation you need (for example dev, extra or productivity). Feel free to explore the code of each script.
 
 * Install XCode
 * Install [Homebrew](https://brew.sh)
@@ -41,7 +40,7 @@ After this you can run the script /Clean-macOS/src/__cmx.sh__ using the command 
 * Install and configure Visual Studio Code
 * Install and configure iTerm2 and ZSH
 
-After this you can also config macOS with a list of commands (link [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/macos_commands.md)), simply use the command `./cmx.sh config`.
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_brewterminal.png" align="middle" />
 
 ### Configure VS Code
 
@@ -53,7 +52,7 @@ Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following step
 
 ### Configure iTerm2
 
-Open __iTerm2__ app and go to _Preferences > Profiles > Windows_ and change the size to __125__ for Columns and __35__ for Rows.
+Open __iTerm2__ app and go to _Preferences > Profiles > Windows_ and change the size to __125__ for Columns and __35__ for Rows. I usually save my personal preferences on Dropbox, then I select the preference file from _Preferences > Load preferences from a custom folder_ and select the folder `~/Dropbox/AppSettings/iTerm2`.
 
 ### Configure Git
 
@@ -61,7 +60,7 @@ Open ~/.gitconfig and change the Github email into `email` field.
 
 ### Configure Alfred
 
-Open __Alfred__ app and go to _Preferences > Advanced > Syncing_ and set the folder `~/Dropbox/AppSettings/Alfred`.
+Open __Alfred__ app and go to _Preferences > Advanced > Syncing_ and select the folder `~/Dropbox/AppSettings/Alfred`.
 Open this [link](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred) and copy the Apple Script to use __iTerm__ as default terminal in Alfred. Paste the content into _Preferences > Features > Terminal/Shell > Application: Custom_.
 Go to _System Preferences > Keyboard > Shortcuts > Spotlight_ and remove the keybind `CMD+SPACE`; then open Alfred and go to _Preferences > General_ and select `CMD+SPACE` as default keybind.
 
@@ -79,8 +78,8 @@ These are the extensions I think are the most useful:
 * [Copy as Markdown](https://pilotmoon.com/popclip/extensions/page/CopyAsMarkdown): Copy web content as Markdown text
 * [Notes](https://pilotmoon.com/popclip/extensions/page/Notes): Make a new note, or append to an existing note, in the Notes app
 
-
 ## Thanks to
 
 * [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)

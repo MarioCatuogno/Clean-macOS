@@ -1,10 +1,14 @@
 #!/bin/bash
 
+# NAME: Clean macOS script
+# DESC: Update brews, formulas and apps configurations and preferences
+# DATE: 26-09-2018
+# VERSION: 1.5.0
+
 ###############################################################################
-# General                                                                     #
+# Launch script                                                               #
 ###############################################################################
 
-#Run the script for INSTALL
 #Entering as Root
 echo "Enter root password..."
 sudo -v
@@ -33,6 +37,7 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.
 ###############################################################################
 
 brew update && brew upgrade && brew cleanup && brew cleanup && brew doctor
+mas upgrade
 
 #Exit script
 exit
