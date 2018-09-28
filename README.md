@@ -9,7 +9,7 @@ You are encouraged to fork this and modify it to your own needs.
 
 If you find it useful, please leave a comment or tell others about this repo.
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" align="middle" width="800"/>
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" width="800" align="middle"/>
 
 ## Table of content
 
@@ -41,7 +41,7 @@ After this you can run the script /Clean-macOS/src/__cln.sh__ from __Terminal.ap
 * Install and configure Visual Studio Code
 * Install and configure iTerm2 and ZSH
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_brewterminal.png" align="middle" width="800"/>
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_brewterminal.png" width="800" align="middle"/>
 
 ### Configure VS Code
 
@@ -51,13 +51,13 @@ Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following step
 * _theme > Preferences: File Icon Theme > Ayu_
 * _shell > Shell Command: Install 'code' command in PATH_
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myvscode.png" align="middle" width="800"/>
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myvscode.png" width="800" align="middle"/>
 
 ### Configure iTerm2
 
 Open __iTerm2__ app and go to _Preferences > Profiles > Windows_ and change the size to __125__ for Columns and __35__ for Rows. I usually save my personal preferences on Dropbox, then I select the preference file from _Preferences > Load preferences from a custom folder_ and select the folder `~/Dropbox/AppSettings/iTerm2`.
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myiterm.png" align="middle" width="800"/>
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myiterm.png" width="800" align="middle"/>
 
 ### Configure Git
 
