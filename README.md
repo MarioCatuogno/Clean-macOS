@@ -1,4 +1,4 @@
-*# Clean macOS
+# Clean macOS
 
 This document describes how to set up a clean environment for macOS.
 I use this repository to keep track of the software and steps required to have a functioning system after each annual fresh install.
@@ -9,19 +9,20 @@ You are encouraged to fork this and modify it to your own needs.
 
 If you find it useful, please leave a comment or tell others about this repo.
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" align="middle" />
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" align="middle" width="800"/>
 
 ## Table of content
 
-- [Table of content](#table-of-content)
-- [Installation](#installation)
-  - [Install basic stuff](#install-basic-stuff)
-  - [Configure VS Code](#configure-vs-code)
-  - [Configure iTerm2](#configure-iterm2)
-  - [Configure Git](#configure-git)
-  - [Configure Alfred](#configure-alfred)
-  - [Configure Popclip](#configure-popclip)
-- [Thanks to](#thanks-to)
+- [Clean macOS](#clean-macos)
+  - [Table of content](#table-of-content)
+  - [Installation](#installation)
+    - [Install basic stuff](#install-basic-stuff)
+    - [Configure VS Code](#configure-vs-code)
+    - [Configure iTerm2](#configure-iterm2)
+    - [Configure Git](#configure-git)
+    - [Configure Alfred](#configure-alfred)
+    - [Configure Popclip](#configure-popclip)
+  - [Thanks to](#thanks-to)
 
 ## Installation
 
@@ -40,7 +41,7 @@ After this you can run the script /Clean-macOS/src/__cln.sh__ from __Terminal.ap
 * Install and configure Visual Studio Code
 * Install and configure iTerm2 and ZSH
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_brewterminal.png" align="middle" />
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_brewterminal.png" align="middle" width="800"/>
 
 ### Configure VS Code
 
@@ -50,9 +51,13 @@ Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following step
 * _theme > Preferences: File Icon Theme > Ayu_
 * _shell > Shell Command: Install 'code' command in PATH_
 
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myvscode.png" align="middle" width="800"/>
+
 ### Configure iTerm2
 
 Open __iTerm2__ app and go to _Preferences > Profiles > Windows_ and change the size to __125__ for Columns and __35__ for Rows. I usually save my personal preferences on Dropbox, then I select the preference file from _Preferences > Load preferences from a custom folder_ and select the folder `~/Dropbox/AppSettings/iTerm2`.
+
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myiterm.png" align="middle" width="800"/>
 
 ### Configure Git
 
