@@ -27,7 +27,7 @@ A collection of useful apps for macOS installed with `cmx.sh` script.
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iterm2.png" width="30" align="middle" /> | [iTerm2](https://www.iterm2.com) | A macOS terminal replacement. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_kitematic.png" width="30" align="middle" /> | [Kitematic](https://kitematic.com) | Run containers through a simple and powerful graphical interface. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_ohmyzsh.png" width="30" align="middle" /> | [Oh My Zsh](http://ohmyz.sh) | Oh-My-Zsh is an open source, community-driven framework for managing the ZSH configuration of Terminal app. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tableplus2.png" width="30" align="middle" /> | [Tableplus](https://tableplus.io) | Modern and friendly GUI for relational databases such as MySQL, PostgreSQL and more. |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tableplus.png" width="30" align="middle" /> | [Tableplus](https://tableplus.io) | Modern and friendly GUI for relational databases such as MySQL, PostgreSQL and more. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software I can install different OS to experiment and run programs that otherwise would not run on my macOS. |
 
 ## Editor
