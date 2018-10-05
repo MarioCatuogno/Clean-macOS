@@ -76,6 +76,13 @@ brew install mas
 echo "Installing Python..."
 brew install python
 brew install python3
+echo "Installing Python packages..."
+pip3 install autopep8
+pip3 install numpy
+pip3 install pandas
+pip3 install pylint
+pip3 install requests
+pip3 install virtualenv
 
 ###############################################################################
 # Setup Visual Studio Code                                                    #
