@@ -21,6 +21,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 #Installing Multimedia apps
+printf "Installing Drawio.app...\n"
+brew cask install --appdir="/Applications" drawio
 printf "Installing Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
 printf "Installing Imageoptim.app...\n"

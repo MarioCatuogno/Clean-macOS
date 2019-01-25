@@ -25,6 +25,8 @@ printf "Installing Alfred.app...\n"
 brew cask install --appdir="/Applications" alfred
 printf "Installing Expressvpn.app...\n"
 brew cask install --appdir="/Applications" expressvpn
+printf "Installing Steam.app...\n"
+brew cask install --appdir="/Applications" steam
 printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
 
