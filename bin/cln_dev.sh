@@ -79,6 +79,7 @@ brew install python3
 echo "Installing Python packages..."
 pip3 install autopep8
 pip3 install numpy
+pip3 install organize-tool
 pip3 install pandas
 pip3 install pylint
 pip3 install requests
