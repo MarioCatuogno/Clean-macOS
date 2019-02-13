@@ -3,8 +3,6 @@
   "editor.tabSize": 2,
   // Specifies workbench icon theme.
   "workbench.iconTheme": "ayu",
-  // vscode-icons extension will restart automatically on project detection.
-  "vsicons.projectDetection.autoReload": true,
   // Format a file on save.
   "editor.formatOnSave": true,
   // Format on paste.
@@ -20,7 +18,7 @@
   "files.insertFinalNewline": true,
   // Controls CSV parameters
   "csv-preview.separator": ";",
-  "csv-preview.resizeColumns": true,
+  "csv-preview.resizeColumns": "all",
   "[csv]": {},
   // Set default zoom level
   "window.zoomLevel": 0,
@@ -54,13 +52,14 @@
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
   "workbench.colorTheme": "Ayu Mirage",
-  "city-lights-icons-vsc.hidesExplorerArrows": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#313641",
     "statusBar.foreground": "#fff",
     "statusBar.noFolderBackground": "#313641",
     "statusBar.noFolderForeground": "#fff"
   },
+  // Configure Python
+  "python.pythonPath": "usr/local/bin/python3",
   // Extension: markdown-all-in-one
   "markdown.extension.preview.autoShowPreviewToSide": false,
   "markdown.extension.italic.indicator": "_",
