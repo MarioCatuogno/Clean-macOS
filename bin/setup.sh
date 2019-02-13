@@ -111,6 +111,8 @@ printf "Installing Magnet.app...\n"
 mas install 441258766
 printf "Installing Microsoft Remote Desktop.app...\n"
 mas install 1295203466
+printf "Installing Pixelmator.app...\n"
+mas install 407963104
 printf "Installing Popclip.app...\n"
 mas install 445189367
 printf "Installing SonicWall Mobile Connect.app...\n"
