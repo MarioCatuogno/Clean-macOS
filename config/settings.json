@@ -36,6 +36,8 @@
   "update.showReleaseNotes": false,
   // Check for updates
   "extensions.autoCheckUpdates": true,
+  // Do not send data
+  "telemetry.enableTelemetry": false,
   // Hide confirm box when delete
   "explorer.confirmDelete": false,
   // Removes files from editor window
