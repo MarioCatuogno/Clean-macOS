@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# NAME: Clean macOS script
+# NAME: Clean macOS CONFIG script
 # DESC: Setup a clean environment for your Mac operating system
-# DATE: 26-09-2018
+# DATE: 13-02-2019
 # VERSION: 1.6.0
 
 ###############################################################################

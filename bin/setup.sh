@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# NAME: Clean macOS script
-# DESC: Setup a BASIC setup for macOS
-# DATE: 26-09-2018
-# VERSION: 1.5.0
+# NAME: Clean macOS SETUP script
+# DESC: Setup script for clean macOS configuration
+# DATE: 13-02-2019
+# VERSION: 1.6.0
 
 ###############################################################################
 # Launch script                                                               #
@@ -45,8 +45,6 @@ brew install mas
 ###############################################################################
 
 #Installing essential apps
-printf "Installing Appcleaner.app...\n"
-brew cask install --appdir="/Applications" appcleaner
 printf "Installing Cakebrew.app...\n"
 brew cask install --appdir="/Applications" cakebrew
 printf "Installing Dropbox.app...\n"
@@ -55,14 +53,72 @@ printf "Installing Franz.app...\n"
 brew cask install --appdir="/Applications" franz
 printf "Installing Google Chrome.app...\n"
 brew cask install --appdir="/Applications" google-chrome
-printf "Installing Iina.app...\n"
-brew cask install --appdir="/Applications" iina
-printf "Installing Skype.app...\n"
-brew cask install --appdir="/Applications" skype
+printf "Installing Google Drive.app...\n"
+brew cask install --appdir="/Applications" google-drive-file-stream
 printf "Installing The Unarchiever.app...\n"
 brew cask install --appdir="/Applications" the-unarchiver
 printf "Installing Transmission.app...\n"
 brew cask install --appdir="/Applications" transmission
+
+#Installing Developing tools
+printf "Installing Boostnote.app...\n"
+brew cask install --appdir="/Applications" boostnote
+printf "Installing Docker.app...\n"
+brew cask install --appdir="/Applications" docker
+printf "Installing Github.app...\n"
+brew cask install --appdir="/Applications" github
+printf "Installing iTerm2.app...\n"
+brew cask install --appdir="/Applications" iterm2
+printf "Installing Kitematic.app...\n"
+brew cask install --appdir="/Applications" kitematic
+printf "Installing Visual Studio Code.app...\n"
+brew cask install --appdir="/Applications" visual-studio-code
+printf "Installing Tableplus.app...\n"
+brew cask install --appdir="/Applications" tableplus
+
+#Installing Utility apps
+printf "Installing Alfred.app...\n"
+brew cask install --appdir="/Applications" alfred
+printf "Installing App Cleaner.app...\n"
+brew cask install --appdir="/Applications" appcleaner
+printf "Installing Cheatsheet.app...\n"
+brew cask install --appdir="/Applications" cheatsheet
+
+#Installing Network apps
+printf "Installing Expressvpn.app...\n"
+brew cask install --appdir="/Applications" tunnelbear
+
+#Installing Videogame apps
+printf "Installing Steam.app...\n"
+brew cask install --appdir="/Applications" steam
+printf "Installing Steermouse.app...\n"
+brew cask install --appdir="/Applications" steermouse
+
+#Installing Multimedia apps
+printf "Installing Handbrake.app...\n"
+brew cask install --appdir="/Applications" handbrake
+printf "Installing Iina.app...\n"
+brew cask install --appdir="/Applications" iina
+printf "Installing Imageoptim.app...\n"
+brew cask install --appdir="/Applications" imageoptim
+
+#Installing extra useful apps from Mac App Store
+printf "Installing Amphetamine.app...\n"
+mas install 937984704
+printf "Installing DaisyDisk.app...\n"
+mas install 411643860
+printf "Installing Magnet.app...\n"
+mas install 441258766
+printf "Installing Microsoft Remote Desktop.app...\n"
+mas install 1295203466
+printf "Installing Popclip.app...\n"
+mas install 445189367
+printf "Installing SonicWall Mobile Connect.app...\n"
+mas install 822514576
+printf "Installing Spark.app...\n"
+mas install 1176895641
+printf "Installing Wipr.app...\n"
+mas install 1320666476
 
 ###############################################################################
 # Installing binary commands                                                  #
@@ -80,6 +136,119 @@ brew install prettyping
 brew install tree
 brew install wget --with-iri
 brew install wifi-password
+
+###############################################################################
+# Fonts                                                                       #
+###############################################################################
+
+#Installing fonts
+printf "Installing Bebas-Neue font...\n"
+brew cask install caskroom/fonts/font-bebas-neue
+printf "Installing Comic-Neue font...\n"
+brew cask install caskroom/fonts/font-comic-neue
+printf "Installing Fira-code font...\n"
+brew cask install caskroom/fonts/font-fira-code
+printf "Installing Hack font...\n"
+brew cask install caskroom/fonts/font-hack
+printf "Installing Lato font...\n"
+brew cask install caskroom/fonts/font-lato
+printf "Installing Roboto font...\n"
+brew cask install caskroom/fonts/font-roboto
+
+###############################################################################
+# Installing Quicklook plugins                                                #
+###############################################################################
+
+#Installing Quick Look plugins
+printf "Installing QL Plugins...\n"
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlvideo
+
+###############################################################################
+# Installing GIT                                                              #
+###############################################################################
+
+#Installing Git
+printf "Installing Git...\n"
+brew install git
+
+#Download settings
+printf "Git: update preferences\n"
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitignore -o ~/.gitignore
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitconfig -o ~/.gitconfig
+
+###############################################################################
+# Installing Python                                                           #
+###############################################################################
+
+#Installing Python
+printf "Installing Python3...\n"
+brew install python3
+printf "Installing Python packages...\n"
+pip3 install autopep8
+pip3 install numpy
+pip3 install organize-tool
+pip3 install pandas
+pip3 install pylint
+pip3 install requests
+pip3 install virtualenv
+
+###############################################################################
+# Setup Visual Studio Code                                                    #
+###############################################################################
+
+#Install packages
+printf "Installing Visual Studio Code packages...\n"
+code --install-extension HookyQR.beautify
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension GrapeCity.gc-excelviewer
+code --install-extension teabyii.ayu
+code --install-extension 77qingliu.sas-syntax
+code --install-extension ms-python.python
+code --install-extension Tyriar.sort-lines
+code --install-extension pnp.polacode
+code --install-extension formulahendry.code-runner
+code --install-extension mikestead.dotenv
+code --install-extension formulahendry.code-runner
+code --install-extension yzhang.markdown-all-in-one
+
+#Download settings
+printf "Visual Studio Code: update preferences\n"
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/settings.json -o ~/Library/Application\ Support/Code/User/settings.json
+
+###############################################################################
+# Setup iTerm2                                                                #
+###############################################################################
+
+#Download color schema
+printf "Downloading iTerm color schema ayu-dark...\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-dark.itermcolors \
+-O ~/Downloads/ayu-dark.itermcolors && open ~/Downloads/ayu-dark.itermcolors
+printf "Downloading iTerm color schema ayu-light...\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-light.itermcolors \
+-O ~/Downloads/ayu-light.itermcolors && open ~/Downloads/ayu-light.itermcolors
+printf "Downloading iTerm color schema ayu-mirage...\n"
+wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-mirage.itermcolors \
+-O ~/Downloads/ayu-mirage.itermcolors && open ~/Downloads/ayu-mirage.itermcolors
+
+#Install ZSH
+printf "Installing ZSH...\n"
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+chsh -s $(which zsh)
+
+#Install plugins
+printf "Installing ZSH packages...\n"
+brew install zsh-completions
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
+
+#Download settings
+printf "ZSH: update preferences\n"
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.zshrc -o ~/.zshrc
 
 ###############################################################################
 # Configure macOS: Dock                                                       #
@@ -233,9 +402,12 @@ sudo fdesetup enable
 ###############################################################################
 
 # Cleanup
-brew update && brew upgrade && brew cleanup && brew cleanup && brew doctor
+printf "Cleanup and final touches...\n"
+brew update && brew upgrade && brew cleanup && brew doctor && mas upgrade
 
 #Exit script
 printf "Done. Some of these changes require a restart to take effect\n"
 sudo shutdown -r +1
+
+#Exit script
 exit
