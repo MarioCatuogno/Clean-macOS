@@ -29,7 +29,6 @@ brew update && brew upgrade && brew cleanup && brew doctor && mas upgrade
 #Download GIT settings
 printf "Git: update preferences\n"
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitignore -o ~/.gitignore
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitconfig -o ~/.gitconfig
 
 #Download Visual Studio Code settings
 printf "Visual Studio Code: update preferences\n"

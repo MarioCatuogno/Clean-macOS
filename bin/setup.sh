@@ -32,7 +32,7 @@ if test ! $(which brew); then
 fi
 
 #Check Brews
-brew doctor && brew update && brew upgrade --all
+brew doctor && brew update && brew upgrade
 
 #Installing Repositories
 printf "Installing Brew Cask and MAS..."
@@ -136,7 +136,7 @@ brew install nano
 brew install neofetch
 brew install prettyping
 brew install tree
-brew install wget --with-iri
+brew install wget
 brew install wifi-password
 
 ###############################################################################
@@ -144,8 +144,6 @@ brew install wifi-password
 ###############################################################################
 
 #Installing fonts
-printf "Installing Bebas-Neue font...\n"
-brew cask install caskroom/fonts/font-bebas-neue
 printf "Installing Comic-Neue font...\n"
 brew cask install caskroom/fonts/font-comic-neue
 printf "Installing Fira-code font...\n"
@@ -227,14 +225,11 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/s
 
 #Download color schema
 printf "Downloading iTerm color schema ayu-dark...\n"
-wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-dark.itermcolors \
--O ~/Downloads/ayu-dark.itermcolors && open ~/Downloads/ayu-dark.itermcolors
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-dark.itermcolors -o ~/Downloads/ayu-dark.itermcolors && open ~/Downloads/ayu-dark.itermcolors
 printf "Downloading iTerm color schema ayu-light...\n"
-wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-light.itermcolors \
--O ~/Downloads/ayu-light.itermcolors && open ~/Downloads/ayu-light.itermcolors
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-light.itermcolors -o ~/Downloads/ayu-light.itermcolors && open ~/Downloads/ayu-light.itermcolors
 printf "Downloading iTerm color schema ayu-mirage...\n"
-wget https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-mirage.itermcolors \
--O ~/Downloads/ayu-mirage.itermcolors && open ~/Downloads/ayu-mirage.itermcolors
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-mirage.itermcolors -o ~/Downloads/ayu-mirage.itermcolors && open ~/Downloads/ayu-mirage.itermcolors
 
 #Install ZSH
 printf "Installing ZSH...\n"
