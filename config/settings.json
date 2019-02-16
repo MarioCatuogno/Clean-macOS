@@ -61,7 +61,7 @@
     "statusBar.noFolderForeground": "#fff"
   },
   // Configure Python
-  "python.pythonPath": "usr/local/bin/python3",
+  "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
   // Extension: markdown-all-in-one
   "markdown.extension.preview.autoShowPreviewToSide": false,
   "markdown.extension.italic.indicator": "_",
