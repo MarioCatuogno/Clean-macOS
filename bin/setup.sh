@@ -83,6 +83,8 @@ printf "Installing App Cleaner.app...\n"
 brew cask install --appdir="/Applications" appcleaner
 printf "Installing Cheatsheet.app...\n"
 brew cask install --appdir="/Applications" cheatsheet
+printf "Installing Typora.app...\n"
+brew cask install --appdir="/Applications" typora
 
 #Installing Network apps
 printf "Installing Expressvpn.app...\n"
