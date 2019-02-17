@@ -60,3 +60,4 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 ```
 brew update && brew cleanup && brew cask cleanup
 ```
+
