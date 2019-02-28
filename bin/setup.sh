@@ -71,6 +71,8 @@ printf "Installing iTerm2.app...\n"
 brew cask install --appdir="/Applications" iterm2
 printf "Installing Kitematic.app...\n"
 brew cask install --appdir="/Applications" kitematic
+printf "Installing PyCharm.app...\n"
+brew cask install --appdir="/Applications" pycharm-ce
 printf "Installing Visual Studio Code.app...\n"
 brew cask install --appdir="/Applications" visual-studio-code
 printf "Installing Tableplus.app...\n"
