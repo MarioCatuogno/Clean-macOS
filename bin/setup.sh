@@ -45,25 +45,7 @@ brew install mas
 # Installing Applications                                                     #
 ###############################################################################
 
-#Installing essential apps
-printf "Installing Cakebrew.app...\n"
-brew cask install --appdir="/Applications" cakebrew
-printf "Installing Dropbox.app...\n"
-brew cask install --appdir="/Applications" dropbox
-printf "Installing Franz.app...\n"
-brew cask install --appdir="/Applications" franz
-printf "Installing Google Chrome.app...\n"
-brew cask install --appdir="/Applications" google-chrome
-printf "Installing Google Drive.app...\n"
-brew cask install --appdir="/Applications" google-drive-file-stream
-printf "Installing The Unarchiever.app...\n"
-brew cask install --appdir="/Applications" the-unarchiver
-printf "Installing Transmission.app...\n"
-brew cask install --appdir="/Applications" transmission
-
 #Installing Developing tools
-printf "Installing Boostnote.app...\n"
-brew cask install --appdir="/Applications" boostnote
 printf "Installing Docker.app...\n"
 brew cask install --appdir="/Applications" docker
 printf "Installing Github.app...\n"
@@ -74,60 +56,78 @@ printf "Installing Kitematic.app...\n"
 brew cask install --appdir="/Applications" kitematic
 printf "Installing Lepton.app...\n"
 brew cask install --appdir="/Applications" lepton
-printf "Installing Visual Studio Code.app...\n"
-brew cask install --appdir="/Applications" visual-studio-code
 printf "Installing Tableplus.app...\n"
 brew cask install --appdir="/Applications" tableplus
 
-#Installing Utility apps
-printf "Installing Alfred.app...\n"
-brew cask install --appdir="/Applications" alfred
-printf "Installing App Cleaner.app...\n"
-brew cask install --appdir="/Applications" appcleaner
-printf "Installing Cheatsheet.app...\n"
-brew cask install --appdir="/Applications" cheatsheet
+#Installing Editor apps
 printf "Installing Typora.app...\n"
 brew cask install --appdir="/Applications" typora
+printf "Installing Visual Studio Code.app...\n"
+brew cask install --appdir="/Applications" visual-studio-code
 
-#Installing Network apps
-printf "Installing Expressvpn.app...\n"
-brew cask install --appdir="/Applications" tunnelbear
-
-#Installing Videogame apps
+#Installing Games apps
 printf "Installing Steam.app...\n"
 brew cask install --appdir="/Applications" steam
 printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
 
-#Installing Multimedia apps
+#Installing Multimedia and Graphics apps
 printf "Installing Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
 printf "Installing Iina.app...\n"
 brew cask install --appdir="/Applications" iina
 printf "Installing Imageoptim.app...\n"
 brew cask install --appdir="/Applications" imageoptim
+printf "Installing Pixelmator.app...\n"
+mas install 407963104
 printf "Installing Sip.app...\n"
 brew cask install --appdir="/Applications" sip
 
-#Installing extra useful apps from Mac App Store
-printf "Installing Amphetamine.app...\n"
-mas install 937984704
-printf "Installing DaisyDisk.app...\n"
-mas install 411643860
-printf "Installing Magnet.app...\n"
-mas install 441258766
+#Installing Internet and Networking apps
+printf "Installing Google Chrome.app...\n"
+brew cask install --appdir="/Applications" google-chrome
 printf "Installing Microsoft Remote Desktop.app...\n"
 mas install 1295203466
-printf "Installing Pixelmator.app...\n"
-mas install 407963104
-printf "Installing Popclip.app...\n"
-mas install 445189367
-printf "Installing SonicWall Mobile Connect.app...\n"
-mas install 822514576
-printf "Installing Spark.app...\n"
-mas install 1176895641
+printf "Installing Transmission.app...\n"
+brew cask install --appdir="/Applications" transmission
 printf "Installing Wipr.app...\n"
 mas install 1320666476
+
+#Installing Productivity apps
+printf "Installing Magnet.app...\n"
+mas install 441258766
+printf "Installing Popclip.app...\n"
+mas install 445189367
+printf "Installing Spark.app...\n"
+mas install 1176895641
+
+#Installing Security apps
+printf "Installing SonicWall Mobile Connect.app...\n"
+mas install 822514576
+printf "Installing Expressvpn.app...\n"
+brew cask install --appdir="/Applications" tunnelbear
+
+#Installing Social apps
+printf "Installing Franz.app...\n"
+brew cask install --appdir="/Applications" franz
+
+#Installing Utility apps
+printf "Installing Alfred.app...\n"
+brew cask install --appdir="/Applications" alfred
+printf "Installing Amphetamine.app...\n"
+mas install 937984704
+printf "Installing App Cleaner.app...\n"
+brew cask install --appdir="/Applications" appcleaner
+printf "Installing Cakebrew.app...\n"
+brew cask install --appdir="/Applications" cakebrew
+printf "Installing Cheatsheet.app...\n"
+brew cask install --appdir="/Applications" cheatsheet
+printf "Installing DaisyDisk.app...\n"
+mas install 411643860
+printf "Installing Google Drive.app...\n"
+brew cask install --appdir="/Applications" google-drive-file-stream
+printf "Installing The Unarchiever.app...\n"
+brew cask install --appdir="/Applications" the-unarchiver
 
 ###############################################################################
 # Installing binary commands                                                  #
