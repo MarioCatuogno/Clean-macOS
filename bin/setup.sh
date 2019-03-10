@@ -105,6 +105,8 @@ printf "Installing Iina.app...\n"
 brew cask install --appdir="/Applications" iina
 printf "Installing Imageoptim.app...\n"
 brew cask install --appdir="/Applications" imageoptim
+printf "Installing Sip.app...\n"
+brew cask install --appdir="/Applications" sip
 
 #Installing extra useful apps from Mac App Store
 printf "Installing Amphetamine.app...\n"
@@ -218,6 +220,7 @@ code --install-extension formulahendry.code-runner
 code --install-extension mikestead.dotenv
 code --install-extension formulahendry.code-runner
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension JaimeOlivares.yuml
 
 #Download settings
 printf "Visual Studio Code: update preferences\n"
