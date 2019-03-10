@@ -38,6 +38,7 @@ brew doctor && brew update && brew upgrade
 printf "Installing Brew Cask and MAS..."
 brew install cask
 brew tap buo/cask-upgrade
+brew tap cjbassi/gotop
 brew install mas
 
 ###############################################################################
@@ -136,6 +137,7 @@ mas install 1320666476
 printf "Installing Binary commands...\n"
 brew install ack
 brew install bash
+brew install gotop
 brew install gzip
 brew install htop
 brew install nano
