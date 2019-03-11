@@ -1,6 +1,6 @@
 # Apps List
 
-A collection of useful apps for macOS installed with `cln.sh` script.
+A collection of useful apps for macOS installed with `setup.sh` script.
 
 ## Best Mac Apps
 
