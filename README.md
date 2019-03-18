@@ -30,7 +30,7 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 Download the last release .zip from [this](https://github.com/MarioCatuogno/Clean-macOS/releases) link, copy it and unzip into your __Documents__ folder.
 
-After this you can run the script /Clean-macOS/src/__cln.sh__ from __Terminal.app__. If you run this for the first time, you have to launch first the command `./cln.sh basic`: this will install homebrew and few others basic stuff. Then you can chose wathever type of installation you need (for example dev, extra or productivity). Feel free to explore the code of each script.
+After this you can run the script /Clean-macOS/src/__config.sh__ from __Terminal.app__. If you run this for the first time, you have to launch first the command `(1) Install`: this will install homebrew and few others basic stuff. Feel free to explore the code of each script.
 
 * Install XCode
 * Install [Homebrew](https://brew.sh)
