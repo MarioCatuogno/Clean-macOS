@@ -105,7 +105,7 @@ mas install 1176895641
 printf "Installing SonicWall Mobile Connect.app...\n"
 mas install 822514576
 printf "Installing Expressvpn.app...\n"
-brew cask install --appdir="/Applications" tunnelbear
+brew cask install --appdir="/Applications" expressvpn
 
 #Installing Social apps
 printf "Installing Franz.app...\n"
