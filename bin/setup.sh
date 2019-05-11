@@ -66,10 +66,15 @@ printf "Installing Visual Studio Code.app...\n"
 brew cask install --appdir="/Applications" visual-studio-code
 
 #Installing Games apps
+printf "Installing Battle Net.app...\n"
+brew cask install --appdir="/Applications" battle-net
+printf "Installing Discord.app...\n"
+brew cask install --appdir="/Applications" discord
 printf "Installing Steam.app...\n"
 brew cask install --appdir="/Applications" steam
 printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
+
 
 #Installing Multimedia and Graphics apps
 printf "Installing Handbrake.app...\n"
