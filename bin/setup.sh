@@ -75,6 +75,8 @@ brew cask install --appdir="/Applications" steermouse
 #Installing Multimedia and Graphics apps
 printf "Installing Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
+printf "Installing Helium.app...\n"
+brew cask install --appdir="/Applications" helium
 printf "Installing Iina.app...\n"
 brew cask install --appdir="/Applications" iina
 printf "Installing Imageoptim.app...\n"
