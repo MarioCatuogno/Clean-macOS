@@ -56,12 +56,8 @@ printf "Installing Kitematic.app...\n"
 brew cask install --appdir="/Applications" kitematic
 printf "Installing Lepton.app...\n"
 brew cask install --appdir="/Applications" lepton
-printf "Installing Tableplus.app...\n"
-brew cask install --appdir="/Applications" tableplus
 
 #Installing Editor apps
-printf "Installing Typora.app...\n"
-brew cask install --appdir="/Applications" typora
 printf "Installing Visual Studio Code.app...\n"
 brew cask install --appdir="/Applications" visual-studio-code
 
