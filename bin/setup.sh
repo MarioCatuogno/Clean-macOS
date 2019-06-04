@@ -76,7 +76,7 @@ brew cask install --appdir="/Applications" steermouse
 printf "Installing Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
 printf "Installing Helium.app...\n"
-brew cask install --appdir="/Applications" helium
+mas install 1054607607
 printf "Installing Iina.app...\n"
 brew cask install --appdir="/Applications" iina
 printf "Installing Imageoptim.app...\n"
