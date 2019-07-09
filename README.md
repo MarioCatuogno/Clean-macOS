@@ -35,7 +35,7 @@ After this you can run the script /Clean-macOS/src/__config.sh__ from __Terminal
 * Install XCode
 * Install [Homebrew](https://brew.sh)
 * Install [Cask](http://caskroom.io)
-* Install various application (list [here](https://github.com/MarioCatuogno/Clean-macOS/blob/release/doc/apps_list.md))
+* Install various application (list [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
 * Install and configure GIT
 * Install and configure Python
 * Install and configure Visual Studio Code

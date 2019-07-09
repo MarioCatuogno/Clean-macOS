@@ -4,18 +4,18 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 
 ## Best Mac Apps
 
-- [Apps List](#apps-list)
-  - [Best Mac Apps](#best-mac-apps)
-  - [Development](#development)
-  - [Editor](#editor)
-  - [Games](#games)
-  - [Multimedia and Graphics](#multimedia-and-graphics)
-  - [Internet and Networking](#internet-and-networking)
-  - [Productivity](#productivity)
-  - [Security](#security)
-  - [Social](#social)
-  - [Utilities](#utilities)
-  - [Other useful apps](#other-useful-apps)
+- [Apps List](#Apps-List)
+  - [Best Mac Apps](#Best-Mac-Apps)
+  - [Development](#Development)
+  - [Editor](#Editor)
+  - [Games](#Games)
+  - [Multimedia and Graphics](#Multimedia-and-Graphics)
+  - [Internet and Networking](#Internet-and-Networking)
+  - [Productivity](#Productivity)
+  - [Security](#Security)
+  - [Social](#Social)
+  - [Utilities](#Utilities)
+  - [Other useful apps](#Other-useful-apps)
 
 ## Development
 
@@ -48,6 +48,7 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 
 | Icon | Title | Description |
 | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_easyres.png" width="30" align="middle" /> | [Easyres](http://easyresapp.com) | A tool for fast switch the screen resolution on your Mac. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_handbrake.png" width="30" align="middle" /> | [Handbrake](https://handbrake.fr) | A tool for converting video from nearly any format to a selection of modern, widely supported codecs. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iina.png" width="30" align="middle" /> | [Iina](https://lhc70000.github.io/iina/) | A modern video player for macOS. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata. |
@@ -68,6 +69,7 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 | Icon | Title | Description |
 | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_magnet.png" width="30" align="middle" /> | [Magnet](http://magnet.crowdcafe.com) | A windows manager for macOS to keep workspace organized. |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_mtmr.png" width="30" align="middle" /> | [My Touchbar. My Rules](https://mtmr.app) | A touch bar customization tool. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_popclip.png" width="30" align="middle" /> | [Popclip](https://pilotmoon.com/popclip/) | A tool which appears when you select text with your mouse on your Mac. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_spark.png" width="30" align="middle" /> | [Spark](https://sparkmailapp.com/it) | A modern mail app for macOS and iOS. |
 

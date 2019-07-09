@@ -39,10 +39,9 @@ alias path='echo -e ${PATH//:/\\n}'
 alias reload="exec ${SHELL} -l"
 
 # Shortcuts
-alias gh="cd ~/Dropbox/Github"
-alias docs="cd ~/Dropbox/Documents"
+alias gh="cd ~/Google Drive/💻 Develop/Github"
+alias docs="cd ~/Google Drive/🧔 Personal"
 alias ping="prettyping --nolegend"
-
 
 # Useful alias
 alias python=python3

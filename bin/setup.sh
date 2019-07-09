@@ -56,24 +56,29 @@ printf "Installing Kitematic.app...\n"
 brew cask install --appdir="/Applications" kitematic
 printf "Installing Lepton.app...\n"
 brew cask install --appdir="/Applications" lepton
-printf "Installing Tableplus.app...\n"
-brew cask install --appdir="/Applications" tableplus
 
 #Installing Editor apps
-printf "Installing Typora.app...\n"
-brew cask install --appdir="/Applications" typora
 printf "Installing Visual Studio Code.app...\n"
 brew cask install --appdir="/Applications" visual-studio-code
 
 #Installing Games apps
+printf "Installing Battle Net.app...\n"
+brew cask install --appdir="/Applications" battle-net
+printf "Installing Discord.app...\n"
+brew cask install --appdir="/Applications" discord
 printf "Installing Steam.app...\n"
 brew cask install --appdir="/Applications" steam
 printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
 
+
 #Installing Multimedia and Graphics apps
+printf "Installing Easyres.app...\n"
+mas install 688211836
 printf "Installing Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
+printf "Installing Helium.app...\n"
+mas install 1054607607
 printf "Installing Iina.app...\n"
 brew cask install --appdir="/Applications" iina
 printf "Installing Imageoptim.app...\n"
@@ -96,6 +101,8 @@ mas install 1320666476
 #Installing Productivity apps
 printf "Installing Magnet.app...\n"
 mas install 441258766
+printf "Installing MyTouchbarMyRules.app...\n"
+brew cask install --appdir="/Applications" mtmr
 printf "Installing Popclip.app...\n"
 mas install 445189367
 printf "Installing Spark.app...\n"
@@ -105,7 +112,7 @@ mas install 1176895641
 printf "Installing SonicWall Mobile Connect.app...\n"
 mas install 822514576
 printf "Installing Expressvpn.app...\n"
-brew cask install --appdir="/Applications" tunnelbear
+brew cask install --appdir="/Applications" expressvpn
 
 #Installing Social apps
 printf "Installing Franz.app...\n"
