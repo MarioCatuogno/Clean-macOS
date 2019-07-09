@@ -101,6 +101,8 @@ mas install 1320666476
 #Installing Productivity apps
 printf "Installing Magnet.app...\n"
 mas install 441258766
+printf "Installing MyTouchbarMyRules.app...\n"
+brew cask install --appdir="/Applications" mtmr
 printf "Installing Popclip.app...\n"
 mas install 445189367
 printf "Installing Spark.app...\n"
