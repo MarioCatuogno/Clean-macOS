@@ -71,7 +71,6 @@ brew cask install --appdir="/Applications" steam
 printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
 
-
 #Installing Multimedia and Graphics apps
 printf "Installing Easyres.app...\n"
 mas install 688211836
@@ -95,6 +94,8 @@ printf "Installing Microsoft Remote Desktop.app...\n"
 mas install 1295203466
 printf "Installing Transmission.app...\n"
 brew cask install --appdir="/Applications" transmission
+printf "Installing WebTorrent.app...\n"
+brew cask install --appdir="/Applications" webtorrent-cli
 printf "Installing Wipr.app...\n"
 mas install 1320666476
 
