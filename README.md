@@ -3,7 +3,7 @@
 This document describes how to set up a clean environment for macOS.
 I use this repository to keep track of the software and steps required to have a functioning system after each annual fresh install.
 
-This keeps the system to perform at top speed, installing only necessary stuff and having an up-and-running system in about __50__ minutes.
+This keeps the system to perform at top speed, installing only necessary stuff and having an up-and-running system in __less then one hour__.
 
 You are encouraged to fork this and modify it to your own needs.
 
@@ -13,16 +13,17 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 ## Table of content
 
-- [Clean macOS](#clean-macos)
-  - [Table of content](#table-of-content)
-  - [Installation](#installation)
-    - [Install basic stuff](#install-basic-stuff)
-    - [Configure VS Code](#configure-vs-code)
-    - [Configure iTerm2](#configure-iterm2)
-    - [Configure Git](#configure-git)
-    - [Configure Alfred](#configure-alfred)
-    - [Configure Popclip](#configure-popclip)
-  - [Thanks to](#thanks-to)
+- [Clean macOS](#Clean-macOS)
+  - [Table of content](#Table-of-content)
+  - [Installation](#Installation)
+    - [Install basic stuff](#Install-basic-stuff)
+    - [Configure VS Code](#Configure-VS-Code)
+    - [Configure iTerm2](#Configure-iTerm2)
+    - [Configure Git](#Configure-Git)
+    - [Configure Alfred](#Configure-Alfred)
+    - [Configure Popclip](#Configure-Popclip)
+    - [More apps](#More-apps)
+  - [Thanks to](#Thanks-to)
 
 ## Installation
 
@@ -80,6 +81,10 @@ These are the extensions I think are the most useful:
 * [Alfred](https://pilotmoon.com/popclip/extensions/page/Alfred): Activate Alfred with the selected text
 * [Copy as Markdown](https://pilotmoon.com/popclip/extensions/page/CopyAsMarkdown): Copy web content as Markdown text
 * [Notes](https://pilotmoon.com/popclip/extensions/page/Notes): Make a new note, or append to an existing note, in the Notes app
+
+### More apps
+
+[Here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md) you can find a collection of various apps I've personally tested or used on macOS.
 
 ## Thanks to
 
