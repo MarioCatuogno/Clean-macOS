@@ -34,13 +34,13 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 
 | Icon | Title | Description |
 | --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_typora.png" width="30" align="middle" /> | [Typora](https://typora.io) | A minimal markdown editor. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://code.visualstudio.com) | A hackable free and open source code editor. |
 
 ## Games
 
 | Icon | Title | Description |
 | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_battlenet.png" width="30" align="middle" />  | [Battle.net](http://eu.battle.net/en/) | Battle.net launcher for Blizzard games, such as Heartstone, World of Warcraft and Starcraft2. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steam.png" width="30" align="middle" />  | [Steam](https://store.steampowered.com) | Steam is a digital distribution platform developed by Valve Corporation for purchasing and playing video games. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steermouse.png" width="30" align="middle" /> | [Steermouse](http://plentycom.jp/en/steermouse/) | A utility that lets you freely customize buttons, wheels and cursor speed of both USB and Bluetooth mice. |
 
@@ -62,6 +62,7 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_chrome.png" width="30" align="middle" /> | [Google Chrome](https://www.google.com/chrome/) | Browser developed by Google. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_mremote_desktop.png" width="30" align="middle" /> | [Microsoft Remote Desktop](https://itunes.apple.com/it/app/microsoft-remote-desktop-10/id1295203466?mt=12) | Use the new Microsoft Remote Desktop app to connect to a remote PC or virtual apps and desktops made available by your administrator. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client. |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_webtorrent.png" width="30" align="middle" /> | [WebTorrent](https://webtorrent.io) | App for streaming torrent. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](https://itunes.apple.com/it/app/wipr/id1320666476) | A lightweight blocker extension for Safari. |
 
 ## Productivity
@@ -78,7 +79,7 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 | Icon | Title | Description |
 | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_netextender.png" width="30" align="middle" /> | [SonicWall NetExtender](https://www.sonicwall.com) | NetExtender is an SSL VPN client that is downloaded transparently and that allows you to run any application securely on the company’s network. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tunnelbear.png" width="30" align="middle" /> | [TunnelBear](https://www.tunnelbear.com) | TunnelBear VPN provides you with a secure and private connection to a less restricted Internet. |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_expressvpn.png" width="30" align="middle" /> | [ExpressVPN](https://www.expressvpn.com) | High speed VPN service available on both macOS and iOS. |
 
 ## Social
 
@@ -104,9 +105,9 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 | Icon | Title | Description |
 | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_1password.png" width="30" align="middle" /> | [1Password](https://1password.com) | A cross-platform password manager. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_battlenet.png" width="30" align="middle" />  | [Battle.net](http://eu.battle.net/en/) | Battle.net launcher for Blizzard games, such as Heartstone, World of Warcraft and Starcraft2. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_expressvpn.png" width="30" align="middle" /> | [ExpressVPN](https://www.expressvpn.com) | High speed VPN service available on both macOS and iOS. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_nucleo.png" width="30" align="middle" /> | [Nucleo](https://nucleoapp.com/application) | An icon manager which support SVG files. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_skype.png" width="30" align="middle" /> | [Skype](https://skype.com) | The most famous VoIP application which provides video chat and voice call services. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_sublimetext.png" width="30" align="middle" /> | [Sublime Text](https://www.sublimetext.com) | A sophisticated and lightweight text editor for code, markup and prose. |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_typora.png" width="30" align="middle" /> | [Typora](https://typora.io) | A minimal markdown editor. |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tunnelbear.png" width="30" align="middle" /> | [TunnelBear](https://www.tunnelbear.com) | TunnelBear VPN provides you with a secure and private connection to a less restricted Internet. |
