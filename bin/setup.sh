@@ -52,10 +52,6 @@ printf "Installing Github.app...\n"
 brew cask install --appdir="/Applications" github
 printf "Installing iTerm2.app...\n"
 brew cask install --appdir="/Applications" iterm2
-printf "Installing Kitematic.app...\n"
-brew cask install --appdir="/Applications" kitematic
-printf "Installing Lepton.app...\n"
-brew cask install --appdir="/Applications" lepton
 
 #Installing Editor apps
 printf "Installing Visual Studio Code.app...\n"
