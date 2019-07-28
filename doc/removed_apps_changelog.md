@@ -12,6 +12,7 @@ brew cask install --appdir="/Applications" cakebrew
 ```
 
 ### __2019-06-04__ - v1.6.2
+
 [Commit](https://github.com/MarioCatuogno/Clean-macOS/commit/12570574b68d2363732d4e0a5b83ba6c852fcc98)
 
 ```bash
