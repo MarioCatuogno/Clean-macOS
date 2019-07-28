@@ -90,8 +90,6 @@ brew cask install --appdir="/Applications" sip
 #Installing Internet and Networking apps
 printf "Installing Google Chrome.app...\n"
 brew cask install --appdir="/Applications" google-chrome
-printf "Installing Microsoft Remote Desktop.app...\n"
-mas install 1295203466
 printf "Installing Transmission.app...\n"
 brew cask install --appdir="/Applications" transmission
 printf "Installing WebTorrent.app...\n"
