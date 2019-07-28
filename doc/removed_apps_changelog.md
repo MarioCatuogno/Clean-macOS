@@ -1,5 +1,12 @@
 ### __2019-07-28__ - v1.6.3
 
+[commit](https://github.com/MarioCatuogno/Clean-macOS/commit/3383fefb651f04e135f66a440ff3f42c948ef1ec)
+
+```bash
+printf "Installing Microsoft Remote Desktop.app...\n"
+mas install 1295203466
+```
+
 [commit](https://github.com/MarioCatuogno/Clean-macOS/commit/89fb7296bda282cb75669879671af390c33913fb)
 
 ```bash
