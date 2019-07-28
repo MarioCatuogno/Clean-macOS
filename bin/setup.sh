@@ -102,16 +102,12 @@ mas install 1320666476
 #Installing Productivity apps
 printf "Installing Magnet.app...\n"
 mas install 441258766
-printf "Installing MyTouchbarMyRules.app...\n"
-brew cask install --appdir="/Applications" mtmr
 printf "Installing Popclip.app...\n"
 mas install 445189367
 printf "Installing Spark.app...\n"
 mas install 1176895641
 
 #Installing Security apps
-printf "Installing SonicWall Mobile Connect.app...\n"
-mas install 822514576
 printf "Installing Expressvpn.app...\n"
 brew cask install --appdir="/Applications" expressvpn
 
@@ -126,8 +122,6 @@ printf "Installing Amphetamine.app...\n"
 mas install 937984704
 printf "Installing App Cleaner.app...\n"
 brew cask install --appdir="/Applications" appcleaner
-printf "Installing Cakebrew.app...\n"
-brew cask install --appdir="/Applications" cakebrew
 printf "Installing Cheatsheet.app...\n"
 brew cask install --appdir="/Applications" cheatsheet
 printf "Installing DaisyDisk.app...\n"
