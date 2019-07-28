@@ -2,6 +2,15 @@
 
 ## __2019-07-28__ - v1.6.3
 
+[commit](https://github.com/MarioCatuogno/Clean-macOS/commit/fc35ba8b77b9d0a45c34518c5218362c678f8265)
+
+```bash
+printf "Installing Kitematic.app...\n"
+brew cask install --appdir="/Applications" kitematic
+printf "Installing Lepton.app...\n"
+brew cask install --appdir="/Applications" lepton
+```
+
 [commit](https://github.com/MarioCatuogno/Clean-macOS/commit/3383fefb651f04e135f66a440ff3f42c948ef1ec)
 
 ```bash
