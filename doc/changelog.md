@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file. The types o
 * NEW: add WebTorrent homebrew formula
 * NEW: add icon files
 * NEW: add "tldr" homebrew formula
+* NEW: add "speedtest-cli" Python package
 
 ## __1.6.2__ (2019-07-09)
 
