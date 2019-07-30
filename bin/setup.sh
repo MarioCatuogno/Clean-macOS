@@ -199,6 +199,7 @@ pip3 install organize-tool
 pip3 install pandas
 pip3 install pylint
 pip3 install requests
+pip3 install speedtest-cli
 pip3 install virtualenv
 
 ###############################################################################
