@@ -42,6 +42,7 @@ alias reload="exec ${SHELL} -l"
 alias gh="cd ~/Google Drive/Develop/Github"
 alias docs="cd ~/Google Drive/Personal"
 alias ping="prettyping --nolegend"
+alias speedtest="speedtest-cli"
 
 # Useful alias
 alias python=python3
