@@ -15,11 +15,12 @@ All notable changes to this project will be documented in this file. The types o
 * CHANGED: remove Microsoft Remote Desktop homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * CHANGED: remove Mtmr homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * CHANGED: remove SonicWall Mobile Connect homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: update APPS_LIST file
+* CHANGED: update .gitignore file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
+* CHANGED: update APPS_LIST file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * CHANGED: update README file [[ISSUE-#21](https://github.com/MarioCatuogno/Clean-macOS/issues/21)]
+* NEW: add CHANGELOG file [[ISSUE-#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
 * NEW: add WebTorrent homebrew formula
 * NEW: add icon files
-* NEW: add CHANGELOG file [[ISSUE-#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
 
 ## __1.6.2__ (2019-07-09)
 
