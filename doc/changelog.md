@@ -9,16 +9,17 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.6.3__ (pre-release)
 
-* CHANGED: remove Cakebrew homebrew formula
-* CHANGED: remove Kitematic homebrew formula
-* CHANGED: remove Lepton homebrew formula
-* CHANGED: remove Microsoft Remote Desktop homebrew formula
-* CHANGED: remove Mtmr homebrew formula
-* CHANGED: remove SonicWall Mobile Connect homebrew formula
+* CHANGED: remove Cakebrew homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove Kitematic homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove Lepton homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove Microsoft Remote Desktop homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove Mtmr homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove SonicWall Mobile Connect homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * CHANGED: update APPS_LIST file
-* CHANGED: update README file
+* CHANGED: update README file [[ISSUE-#21](https://github.com/MarioCatuogno/Clean-macOS/issues/21)]
 * NEW: add WebTorrent homebrew formula
 * NEW: add icon files
+* NEW: add CHANGELOG file [[ISSUE-#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
 
 ## __1.6.2__ (2019-07-09)
 
