@@ -139,6 +139,7 @@ brew install htop
 brew install nano
 brew install neofetch
 brew install prettyping
+brew install tldr
 brew install tree
 brew install wget
 brew install wifi-password
