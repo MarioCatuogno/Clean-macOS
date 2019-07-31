@@ -1,6 +1,6 @@
 # Removed apps changelog
 
-## __2019-07-28__ - v1.6.3
+## __1.6.3__ (2019-07-28)
 
 [commit](https://github.com/MarioCatuogno/Clean-macOS/commit/fc35ba8b77b9d0a45c34518c5218362c678f8265)
 
@@ -29,7 +29,7 @@ printf "Installing Cakebrew.app...\n"
 brew cask install --appdir="/Applications" cakebrew
 ```
 
-## __2019-06-04__ - v1.6.2
+## __1.6.2__ (2019-06-04)
 
 [Commit](https://github.com/MarioCatuogno/Clean-macOS/commit/12570574b68d2363732d4e0a5b83ba6c852fcc98)
 
