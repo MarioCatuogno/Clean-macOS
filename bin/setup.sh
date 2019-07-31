@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # NAME: Clean macOS SETUP script
-# DESC: Setup script for clean macOS configuration
-# DATE: 13-02-2019
-# VERSION: 1.6.0
+# DESC: Setup script for a clean macOS configuration
+# DATE: 2019-07-31
+# VERSION: 1.6.3
 
 ###############################################################################
 # Launch script                                                               #
