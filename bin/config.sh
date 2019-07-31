@@ -2,8 +2,8 @@
 
 # NAME: Clean macOS CONFIG script
 # DESC: Setup a clean environment for your Mac operating system
-# DATE: 13-02-2019
-# VERSION: 1.6.0
+# DATE: 2019-07-31
+# VERSION: 1.6.3
 
 ###############################################################################
 # Define Variables                                                            #
