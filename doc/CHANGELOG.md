@@ -9,20 +9,20 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.6.3__ (pre-release)
 
-* CHANGED: remove Cakebrew homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove Kitematic homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove Lepton homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove Microsoft Remote Desktop homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove Mtmr homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove SonicWall Mobile Connect homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Cakebrew` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Kitematic` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Lepton` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Microsoft Remote Desktop` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Mtmr` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `SonicWall Mobile Connect` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * CHANGED: update .gitignore file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * CHANGED: update .zshrc file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * CHANGED: update APPS_LIST file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * CHANGED: update README file [[ISSUE-#21](https://github.com/MarioCatuogno/Clean-macOS/issues/21)]
-* NEW: add "speedtest-cli" Python package
-* NEW: add "tldr" homebrew formula
+* NEW: add `speedtest-cli` Python package
+* NEW: add `tldr` homebrew formula
 * NEW: add CHANGELOG file [[ISSUE-#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
-* NEW: add WebTorrent homebrew formula
+* NEW: add `WebTorrent` homebrew formula
 * NEW: add icon files
 
 ## __1.6.2__ (2019-07-09)
