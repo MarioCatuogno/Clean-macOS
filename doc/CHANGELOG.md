@@ -20,8 +20,8 @@ All notable changes to this project will be documented in this file. The types o
 * CHANGED: update APPS_LIST file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * CHANGED: update README file [[ISSUE-#21](https://github.com/MarioCatuogno/Clean-macOS/issues/21)]
 * NEW: add CHANGELOG file [[ISSUE-#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
-* NEW: add `DisableAllAnimations` command set to TRUE
-* NEW: add `NSAutomaticWindowAnimationsEnabled` command set to FALSE
+* NEW: add `DisableAllAnimations` command set to TRUE [[ISSUE-#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
+* NEW: add `NSAutomaticWindowAnimationsEnabled` command set to FALSE [[ISSUE-#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
 * NEW: add `WebTorrent` homebrew formula
 * NEW: add `speedtest-cli` Python package
 * NEW: add `tldr` homebrew formula
