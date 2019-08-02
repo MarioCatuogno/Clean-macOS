@@ -19,10 +19,12 @@ All notable changes to this project will be documented in this file. The types o
 * CHANGED: update .zshrc file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * CHANGED: update APPS_LIST file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * CHANGED: update README file [[ISSUE-#21](https://github.com/MarioCatuogno/Clean-macOS/issues/21)]
+* NEW: add CHANGELOG file [[ISSUE-#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
+* NEW: add `DisableAllAnimations` command set to TRUE
+* NEW: add `NSAutomaticWindowAnimationsEnabled` command set to FALSE
+* NEW: add `WebTorrent` homebrew formula
 * NEW: add `speedtest-cli` Python package
 * NEW: add `tldr` homebrew formula
-* NEW: add CHANGELOG file [[ISSUE-#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
-* NEW: add `WebTorrent` homebrew formula
 * NEW: add icon files
 
 ## __1.6.2__ (2019-07-09)
