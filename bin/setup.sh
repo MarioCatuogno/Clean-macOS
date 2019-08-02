@@ -306,6 +306,8 @@ printf "Finder: set sidebar icon size to medium\n"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 printf "Finder: show full path\n"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+printf "Finder: turn off window opening animation\n"
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 
 ###############################################################################
 # Configure macOS: Keyboard                                                   #
