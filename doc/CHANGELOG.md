@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 __NOTES:__ With this release I've started to be more organized, keeping track of issues and changelog. I've also created a Kanban board to manage my backlog for this project.
 
-* CHANGE: removed MACOS_COMMAND file 
+* CHANGED: remove MACOS_COMMAND file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * CHANGED: remove `Cakebrew` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * CHANGED: remove `Kitematic` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * CHANGED: remove `Lepton` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
