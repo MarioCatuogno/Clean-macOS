@@ -9,6 +9,8 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.6.3__ (pre-release)
 
+__NOTES:__ With this release I've started to be more organized, keeping track of issues and changelog. I've also created a Kanban board to manage my backlog for this project.
+
 * CHANGED: remove `Cakebrew` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * CHANGED: remove `Kitematic` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * CHANGED: remove `Lepton` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
@@ -72,10 +74,14 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.4.1__ (2018-09-24)
 
+__NOTES:__ Minor release with bug fixes, ready for macOS Mojave.
+
 * CHANGED: update homebrew upgrade command
 * NEW: add `neofetch` homebrew formula
 
 ## __1.4.0__ (2018-09-23)
+
+__NOTES:__ After further testing I decided to remove Sublime Text as main editor and switch to Visual Studio Code which is open source with a huge community and monthly updates.
 
 * CHANGED: remove outdated file
 * CHANGED: update .gitignore and .gitconfig files
