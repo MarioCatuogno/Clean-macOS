@@ -9,19 +9,19 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.6.3__ (pre-release)
 
-* CHANGED: remove `Cakebrew` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove `Kitematic` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove `Lepton` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove `Microsoft Remote Desktop` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove `Mtmr` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: remove `SonicWall Mobile Connect` homebrew formula [[ISSUE-#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* CHANGED: update .gitignore file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
-* CHANGED: update .zshrc file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
-* CHANGED: update APPS_LIST file [[ISSUE-#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
-* CHANGED: update README file [[ISSUE-#21](https://github.com/MarioCatuogno/Clean-macOS/issues/21)]
-* NEW: add CHANGELOG file [[ISSUE-#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
-* NEW: add `DisableAllAnimations` command set to TRUE [[ISSUE-#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
-* NEW: add `NSAutomaticWindowAnimationsEnabled` command set to FALSE [[ISSUE-#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
+* CHANGED: remove `Cakebrew` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Kitematic` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Lepton` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Microsoft Remote Desktop` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `Mtmr` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: remove `SonicWall Mobile Connect` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* CHANGED: update .gitignore file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
+* CHANGED: update .zshrc file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
+* CHANGED: update APPS_LIST file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
+* CHANGED: update README file [[#21](https://github.com/MarioCatuogno/Clean-macOS/issues/21)]
+* NEW: add CHANGELOG file [[#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
+* NEW: add `DisableAllAnimations` command set to TRUE [[#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
+* NEW: add `NSAutomaticWindowAnimationsEnabled` command set to FALSE [[#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
 * NEW: add `WebTorrent` homebrew formula
 * NEW: add `speedtest-cli` Python package
 * NEW: add `tldr` homebrew formula
