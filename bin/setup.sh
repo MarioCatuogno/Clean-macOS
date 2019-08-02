@@ -308,6 +308,8 @@ printf "Finder: show full path\n"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 printf "Finder: turn off window opening animation\n"
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+printf "Finder: turn off file info animation\n"
+defaults write com.apple.finder DisableAllAnimations -bool true
 
 ###############################################################################
 # Configure macOS: Keyboard                                                   #
