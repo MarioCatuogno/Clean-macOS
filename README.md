@@ -95,6 +95,6 @@ Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/ch
 ## Thanks to
 
 * [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
-* [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
+* [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [Wallpapersden](https://wallpapersden.com) for their amazing wallpapers
