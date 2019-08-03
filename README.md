@@ -1,11 +1,9 @@
 # Clean macOS
 
 This document describes how to set up a clean environment for macOS.
-I use this repository to keep track of the software and steps required to have a functioning system after each annual fresh install.
+I use this repository to keep track of the steps required to have a an up-and-running operating system in __less then one hour__.
 
-This keeps the system to perform at top speed, installing only necessary stuff and having an up-and-running system in __less then one hour__.
-
-You are encouraged to fork this and modify it to your own needs.
+You are encouraged to fork this repository and to open issue to discuss the change you wish to make.
 
 If you find it useful, please leave a comment or tell others about this repo.
 
@@ -23,15 +21,18 @@ If you find it useful, please leave a comment or tell others about this repo.
     - [Configure Alfred](#configure-alfred)
     - [Configure Popclip](#configure-popclip)
     - [More apps](#more-apps)
+  - [Changelog](#changelog)
   - [Thanks to](#thanks-to)
 
 ## Installation
 
 ### Install basic stuff
 
-Download the last release .zip from [this](https://github.com/MarioCatuogno/Clean-macOS/releases) link, copy it and unzip into your __Documents__ folder.
+Download the last release .zip from [this](https://github.com/MarioCatuogno/Clean-macOS/releases) link, copy and unzip into your __Documents__ folder.
 
-After this you can run the script /Clean-macOS/src/__config.sh__ from __Terminal.app__. If you run this for the first time, you have to launch first the command `(1) Install`: this will install homebrew and few others basic stuff. Feel free to explore the code of each script.
+You can run the script /Clean-macOS/src/__config.sh__ from __Terminal.app__. If you run this for the first time, you have to launch first the command `(1) Install`: this will install homebrew and few others basic stuff. Feel free to explore the code of each script.
+
+The __setup.sh__ script will: 
 
 * Install XCode
 * Install [Homebrew](https://brew.sh)
@@ -41,6 +42,7 @@ After this you can run the script /Clean-macOS/src/__config.sh__ from __Terminal
 * Install and configure Python
 * Install and configure Visual Studio Code
 * Install and configure iTerm2 and ZSH
+* Launch macOS commands to improve system speed
 
 ### Configure VS Code
 
@@ -85,6 +87,10 @@ These are the extensions I think are the most useful:
 ### More apps
 
 [Here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md) you can find a collection of various apps I've personally tested or used on macOS.
+
+## Changelog
+
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/changelog.md) for the full history changelog.
 
 ## Thanks to
 
