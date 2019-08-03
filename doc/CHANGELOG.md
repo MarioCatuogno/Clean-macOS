@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file. The types o
 * __FIXED__: for any bug fixes
 * __SECURITY__: in case of vulnerabilities
 
+---
+
 ## __1.6.3__ (pre-release)
 
 __NOTES:__ With this release I've started to be more organized, keeping track of issues and changelog. I've also created a Kanban board to manage my backlog for this project.
