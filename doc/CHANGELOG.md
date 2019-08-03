@@ -29,6 +29,7 @@ __NOTES:__ With this release I've started to be more organized, keeping track of
 * NEW: add `speedtest-cli` Python package
 * NEW: add `tldr` homebrew formula
 * NEW: add icon files
+* NEW: add new wallpapers
 
 ## __1.6.2__ (2019-07-09)
 
