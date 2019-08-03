@@ -13,17 +13,17 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 ## Table of content
 
-- [Clean macOS](#Clean-macOS)
-  - [Table of content](#Table-of-content)
-  - [Installation](#Installation)
-    - [Install basic stuff](#Install-basic-stuff)
-    - [Configure VS Code](#Configure-VS-Code)
-    - [Configure iTerm2](#Configure-iTerm2)
-    - [Configure Git](#Configure-Git)
-    - [Configure Alfred](#Configure-Alfred)
-    - [Configure Popclip](#Configure-Popclip)
-    - [More apps](#More-apps)
-  - [Thanks to](#Thanks-to)
+- [Clean macOS](#clean-macos)
+  - [Table of content](#table-of-content)
+  - [Installation](#installation)
+    - [Install basic stuff](#install-basic-stuff)
+    - [Configure VS Code](#configure-vs-code)
+    - [Configure iTerm2](#configure-iterm2)
+    - [Configure Git](#configure-git)
+    - [Configure Alfred](#configure-alfred)
+    - [Configure Popclip](#configure-popclip)
+    - [More apps](#more-apps)
+  - [Thanks to](#thanks-to)
 
 ## Installation
 
@@ -91,3 +91,5 @@ These are the extensions I think are the most useful:
 * [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
+* [Tomu02](https://www.reddit.com/user/Tomu02/) for his amazing [wallpaper](https://www.reddit.com/r/Art/comments/7ysmt2/lakeside_sunset_digital_8000x4500/)
+* [Wallpapersden](https://wallpapersden.com) for their amazing [wallpaper](https://wallpapersden.com/pirate-ship-minimal-wallpaper/2880x1800/)
