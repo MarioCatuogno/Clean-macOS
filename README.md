@@ -91,5 +91,4 @@ These are the extensions I think are the most useful:
 * [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
-* [Tomu02](https://www.reddit.com/user/Tomu02/) for his amazing [wallpaper](https://www.reddit.com/r/Art/comments/7ysmt2/lakeside_sunset_digital_8000x4500/)
 * [Wallpapersden](https://wallpapersden.com) for their amazing [wallpaper](https://wallpapersden.com/pirate-ship-minimal-wallpaper/2880x1800/)
