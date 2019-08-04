@@ -29,8 +29,6 @@ __NOTES:__ With this release I've started to be more organized, keeping track of
 * NEW: add `NSAutomaticWindowAnimationsEnabled` command set to FALSE [[#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
 * NEW: add `Pages` homebrew formula
 * NEW: add `WebTorrent` homebrew formula
-* NEW: add `font-fontawesome` homebrew formula [[#24](https://github.com/MarioCatuogno/Clean-macOS/issues/24)]
-* NEW: add `homebrew/cask-fonts` homebrew tap [[#24](https://github.com/MarioCatuogno/Clean-macOS/issues/24)]
 * NEW: add `speedtest-cli` Python package
 * NEW: add `tldr` homebrew formula
 * NEW: add icon files
