@@ -37,9 +37,10 @@ brew doctor && brew update && brew upgrade
 #Installing Repositories
 printf "Installing Brew Cask and MAS..."
 brew install cask
+brew install mas
 brew tap buo/cask-upgrade
 brew tap cjbassi/gotop
-brew install mas
+brew tap homebrew/cask-fonts
 
 ###############################################################################
 # Installing Applications                                                     #
@@ -155,6 +156,8 @@ printf "Installing Comic-Neue font...\n"
 brew cask install caskroom/fonts/font-comic-neue
 printf "Installing Fira-code font...\n"
 brew cask install caskroom/fonts/font-fira-code
+printf "Installing FontAwesome font...\n"
+brew install homebrew/cask-fonts/font-fontawesome
 printf "Installing Hack font...\n"
 brew cask install caskroom/fonts/font-hack
 printf "Installing Lato font...\n"
