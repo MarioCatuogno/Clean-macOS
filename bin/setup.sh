@@ -96,6 +96,8 @@ mas install 1320666476
 #Installing Productivity apps
 printf "Installing Magnet.app...\n"
 mas install 441258766
+printf "Installing Pages.app...\n"
+mas install 409201541
 printf "Installing Popclip.app...\n"
 mas install 445189367
 printf "Installing Spark.app...\n"
