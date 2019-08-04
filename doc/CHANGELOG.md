@@ -27,6 +27,7 @@ __NOTES:__ With this release I've started to be more organized, keeping track of
 * NEW: add CHANGELOG file [[#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
 * NEW: add `DisableAllAnimations` command set to TRUE [[#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
 * NEW: add `NSAutomaticWindowAnimationsEnabled` command set to FALSE [[#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
+* NEW: add `Pages` homebrew formula
 * NEW: add `WebTorrent` homebrew formula
 * NEW: add `speedtest-cli` Python package
 * NEW: add `tldr` homebrew formula
