@@ -90,7 +90,7 @@ These are the extensions I think are the most useful:
 
 ## Changelog
 
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/changelog.md) for the full history changelog.
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGELOG.md) for the full history changelog.
 
 ## Thanks to
 
