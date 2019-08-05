@@ -1,5 +1,4 @@
-# Compiled source #
-###################
+# Compiled source
 *.com
 *.class
 *.dll
@@ -7,8 +6,7 @@
 *.o
 *.so
 
-# Configuration files #
-#######################
+# Configuration files
 .pyc
 *-Ex.R
 .RData
@@ -19,14 +17,12 @@
 *.knit.md
 .Rproj.user
 
-# Logs and databases #
-######################
+# Logs and databases
 *.log
 *.sql
 *.sqlite
 
-# OS generated files #
-######################
+# OS generated files
 .AppleDB
 .AppleDesktop
 .apdisk
@@ -44,8 +40,7 @@ ehthumbs.db
 Thumbs.db
 *.exe
 
-# Packages #
-############
+# Packages
 *.7z
 *.dmg
 *.gz

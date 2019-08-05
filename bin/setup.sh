@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # NAME: Clean macOS SETUP script
-# DESC: Setup script for clean macOS configuration
-# DATE: 13-02-2019
-# VERSION: 1.6.0
+# DESC: Setup script for a clean macOS configuration
+# DATE: 2019-07-31
+# VERSION: 1.6.3
 
 ###############################################################################
 # Launch script                                                               #
@@ -37,9 +37,9 @@ brew doctor && brew update && brew upgrade
 #Installing Repositories
 printf "Installing Brew Cask and MAS..."
 brew install cask
+brew install mas
 brew tap buo/cask-upgrade
 brew tap cjbassi/gotop
-brew install mas
 
 ###############################################################################
 # Installing Applications                                                     #
@@ -52,10 +52,6 @@ printf "Installing Github.app...\n"
 brew cask install --appdir="/Applications" github
 printf "Installing iTerm2.app...\n"
 brew cask install --appdir="/Applications" iterm2
-printf "Installing Kitematic.app...\n"
-brew cask install --appdir="/Applications" kitematic
-printf "Installing Lepton.app...\n"
-brew cask install --appdir="/Applications" lepton
 
 #Installing Editor apps
 printf "Installing Visual Studio Code.app...\n"
@@ -70,7 +66,6 @@ printf "Installing Steam.app...\n"
 brew cask install --appdir="/Applications" steam
 printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
-
 
 #Installing Multimedia and Graphics apps
 printf "Installing Easyres.app...\n"
@@ -91,26 +86,24 @@ brew cask install --appdir="/Applications" sip
 #Installing Internet and Networking apps
 printf "Installing Google Chrome.app...\n"
 brew cask install --appdir="/Applications" google-chrome
-printf "Installing Microsoft Remote Desktop.app...\n"
-mas install 1295203466
 printf "Installing Transmission.app...\n"
 brew cask install --appdir="/Applications" transmission
+printf "Installing WebTorrent.app...\n"
+brew cask install --appdir="/Applications" webtorrent-cli
 printf "Installing Wipr.app...\n"
 mas install 1320666476
 
 #Installing Productivity apps
 printf "Installing Magnet.app...\n"
 mas install 441258766
-printf "Installing MyTouchbarMyRules.app...\n"
-brew cask install --appdir="/Applications" mtmr
+printf "Installing Pages.app...\n"
+mas install 409201541
 printf "Installing Popclip.app...\n"
 mas install 445189367
 printf "Installing Spark.app...\n"
 mas install 1176895641
 
 #Installing Security apps
-printf "Installing SonicWall Mobile Connect.app...\n"
-mas install 822514576
 printf "Installing Expressvpn.app...\n"
 brew cask install --appdir="/Applications" expressvpn
 
@@ -125,8 +118,6 @@ printf "Installing Amphetamine.app...\n"
 mas install 937984704
 printf "Installing App Cleaner.app...\n"
 brew cask install --appdir="/Applications" appcleaner
-printf "Installing Cakebrew.app...\n"
-brew cask install --appdir="/Applications" cakebrew
 printf "Installing Cheatsheet.app...\n"
 brew cask install --appdir="/Applications" cheatsheet
 printf "Installing DaisyDisk.app...\n"
@@ -150,6 +141,7 @@ brew install htop
 brew install nano
 brew install neofetch
 brew install prettyping
+brew install tldr
 brew install tree
 brew install wget
 brew install wifi-password
@@ -209,6 +201,7 @@ pip3 install organize-tool
 pip3 install pandas
 pip3 install pylint
 pip3 install requests
+pip3 install speedtest-cli
 pip3 install virtualenv
 
 ###############################################################################
@@ -315,6 +308,10 @@ printf "Finder: set sidebar icon size to medium\n"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 printf "Finder: show full path\n"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+printf "Finder: turn off window opening animation\n"
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+printf "Finder: turn off file info animation\n"
+defaults write com.apple.finder DisableAllAnimations -bool true
 
 ###############################################################################
 # Configure macOS: Keyboard                                                   #
