@@ -34,6 +34,8 @@
   },
   // Hide release notes
   "update.showReleaseNotes": false,
+  // Forget previously opened session
+  "window.restoreWindows": "none",
   // Check for updates
   "extensions.autoCheckUpdates": true,
   // Do not send data
