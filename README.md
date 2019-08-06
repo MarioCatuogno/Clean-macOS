@@ -32,25 +32,25 @@ Download the last release .zip from [this](https://github.com/MarioCatuogno/Clea
 
 You can run the script /Clean-macOS/bin/__config.sh__ from __Terminal.app__. If you run this for the first time, you have to launch first the command `(1) Install`: this will install homebrew and few others basic stuff. Feel free to explore the code of each script.
 
-The __setup.sh__ script will: 
+The __setup.sh__ script will:
 
-* Install XCode
-* Install [Homebrew](https://brew.sh)
-* Install [Cask](http://caskroom.io)
-* Install various application (list [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
-* Install and configure GIT
-* Install and configure Python
-* Install and configure Visual Studio Code
-* Install and configure iTerm2 and ZSH
-* Launch macOS commands to improve system speed
+- Install XCode
+- Install [Homebrew](https://brew.sh)
+- Install [Cask](http://caskroom.io)
+- Install various application (list [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
+- Install and configure GIT
+- Install and configure Python
+- Install and configure Visual Studio Code
+- Install and configure iTerm2 and ZSH
+- Launch macOS commands to improve system speed
 
 ### Configure VS Code
 
 Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following steps:
 
-* _theme > Preferences: Color Theme > Ayu Mirage_
-* _theme > Preferences: File Icon Theme > Ayu_
-* _shell > Shell Command: Install 'code' command in PATH_
+- _theme > Preferences: Color Theme > Ayu Mirage_
+- _theme > Preferences: File Icon Theme > Ayu_
+- _shell > Shell Command: Install 'code' command in PATH_
 
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_myvscode.png" width="800" align="middle"/>
 
@@ -72,17 +72,17 @@ Go to _System Preferences > Keyboard > Shortcuts > Spotlight_ and remove the key
 
 These are the workflows I think are the most useful:
 
-* [Colors](http://www.packal.org/workflow/colors): Color tools for developers
-* [Open-with-VSCode](https://github.com/alexchantastic/alfred-open-with-vscode-workflow): Open files or folders with Visual Studio Code
-* [Playsong](https://github.com/caleb531/play-song): Make playing music in iTunes extremely quick and convenient
+- [Colors](http://www.packal.org/workflow/colors): Color tools for developers
+- [Open-with-VSCode](https://github.com/alexchantastic/alfred-open-with-vscode-workflow): Open files or folders with Visual Studio Code
+- [Playsong](https://github.com/caleb531/play-song): Make playing music in iTunes extremely quick and convenient
 
 ### Configure Popclip
 
 These are the extensions I think are the most useful:
 
-* [Alfred](https://pilotmoon.com/popclip/extensions/page/Alfred): Activate Alfred with the selected text
-* [Copy as Markdown](https://pilotmoon.com/popclip/extensions/page/CopyAsMarkdown): Copy web content as Markdown text
-* [Notes](https://pilotmoon.com/popclip/extensions/page/Notes): Make a new note, or append to an existing note, in the Notes app
+- [Alfred](https://pilotmoon.com/popclip/extensions/page/Alfred): Activate Alfred with the selected text
+- [Copy as Markdown](https://pilotmoon.com/popclip/extensions/page/CopyAsMarkdown): Copy web content as Markdown text
+- [Notes](https://pilotmoon.com/popclip/extensions/page/Notes): Make a new note, or append to an existing note, in the Notes app
 
 ### More apps
 
@@ -94,7 +94,7 @@ Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGE
 
 ## Thanks to
 
-* [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
-* [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
-* [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-* [Wallpapersden](https://wallpapersden.com) for their amazing wallpapers
+- [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
+- [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [Wallpapersden](https://wallpapersden.com) for their amazing wallpapers
