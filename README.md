@@ -86,7 +86,7 @@ These are the extensions I think are the most useful:
 
 ### More apps
 
-[Here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md) you can find a collection of various apps I've personally tested or used on macOS.
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md) to find a collection of various apps I've personally tested or used on macOS.
 
 ## Changelog
 
