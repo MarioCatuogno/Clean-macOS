@@ -9,11 +9,11 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.6.4__ (2019-08-05)
+## __1.6.4__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/3))
 
 * FIXED: fix broken link for CHANGELOG file [[#26](https://github.com/MarioCatuogno/Clean-macOS/issues/26)]
 
-## __1.6.3__ (2019-08-05)
+## __1.6.3__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/1))
 
 __NOTES:__ With this release I've started to be more organized, keeping track of issues and changelog. I've also created a Kanban board to manage my backlog for this project.
 
