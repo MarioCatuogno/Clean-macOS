@@ -30,7 +30,7 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 Download the last release .zip from [this](https://github.com/MarioCatuogno/Clean-macOS/releases) link, copy and unzip into your __Documents__ folder.
 
-You can run the script /Clean-macOS/src/__config.sh__ from __Terminal.app__. If you run this for the first time, you have to launch first the command `(1) Install`: this will install homebrew and few others basic stuff. Feel free to explore the code of each script.
+You can run the script /Clean-macOS/bin/__config.sh__ from __Terminal.app__. If you run this for the first time, you have to launch first the command `(1) Install`: this will install homebrew and few others basic stuff. Feel free to explore the code of each script.
 
 The __setup.sh__ script will: 
 
