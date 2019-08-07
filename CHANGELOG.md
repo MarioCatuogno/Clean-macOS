@@ -11,10 +11,15 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.7.0__ ([2019-09-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
 
+* CHANGED: add `brew tap homebrew/cask-fonts` command
+* CHANGED: remove `brew tap cjbassi/gotop` command
 * CHANGED: update README file [[#28](https://github.com/MarioCatuogno/Clean-macOS/issues/28)]
 * CHANGED: update `Visual Studio Code` preferences file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
 * FIXED: correct typo [[PR#31](https://github.com/MarioCatuogno/Clean-macOS/pull/31)]
 * FIXED: correct typo [[PR#33](https://github.com/MarioCatuogno/Clean-macOS/pull/33)]
+* FIXED: remove deprecated `brew install cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
+* FIXED: remove deprecated `brew tap caskroom/cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
+* FIXED: remove unnecessary `brew tap buo/cask-upgrade` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 
 ## __1.6.4__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/3))
 
