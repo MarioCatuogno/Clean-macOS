@@ -267,6 +267,8 @@ defaults write com.apple.dock autohide -bool true
 printf "Dock: remove animation\n"
 defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide-delay -float 0
+printf "Dock: show only active apps\n"
+defaults write com.apple.dock static-only -bool true
 
 ###############################################################################
 # Configure macOS: Finder                                                     #
