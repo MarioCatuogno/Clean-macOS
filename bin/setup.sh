@@ -46,8 +46,6 @@ brew tap homebrew/cask-fonts
 #Installing Developing tools
 printf "Installing Docker.app...\n"
 brew cask install --appdir="/Applications" docker
-printf "Installing Github.app...\n"
-brew cask install --appdir="/Applications" github
 printf "Installing iTerm2.app...\n"
 brew cask install --appdir="/Applications" iterm2
 

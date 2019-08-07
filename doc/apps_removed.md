@@ -1,5 +1,12 @@
 # Removed apps changelog
 
+## __1.7.0__ (2019-09-30)
+
+```bash
+printf "Installing Github.app...\n"
+brew cask install --appdir="/Applications" github
+```
+
 ## __1.6.3__ (2019-07-28)
 
 [commit](https://github.com/MarioCatuogno/Clean-macOS/commit/fc35ba8b77b9d0a45c34518c5218362c678f8265)
