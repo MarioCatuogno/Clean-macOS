@@ -86,6 +86,8 @@ These are the extensions I think are the most useful:
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md) to find a collection of various apps I've personally tested or used on macOS.
 
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_removed.md) to find the removed apps from previous script versions.
+
 ## Changelog
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGELOG.md) for the full history changelog.
@@ -94,5 +96,5 @@ Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGE
 
 - [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
-- [@robbyrussell](https://github.com/robbyrussell) for the amazing guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [Wallpapersden](https://wallpapersden.com) for their amazing wallpapers
+- [@robbyrussell](https://github.com/robbyrussell) for the guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [Wallpapersden](https://wallpapersden.com) for their beautiful wallpapers
