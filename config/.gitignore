@@ -39,6 +39,7 @@ Desktop.ini
 ehthumbs.db
 Thumbs.db
 *.exe
+.localized
 
 # Packages
 *.7z
