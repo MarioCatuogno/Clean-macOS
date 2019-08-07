@@ -2,8 +2,8 @@
 
 # NAME: Clean macOS SETUP script
 # DESC: Setup script for a clean macOS configuration
-# DATE: 2019-07-31
-# VERSION: 1.6.3
+# DATE: 2019-09-30
+# VERSION: 1.7.0
 
 ###############################################################################
 # Launch script                                                               #
@@ -36,10 +36,8 @@ brew doctor && brew update && brew upgrade
 
 #Installing Repositories
 printf "Installing Brew Cask and MAS..."
-brew install cask
 brew install mas
-brew tap buo/cask-upgrade
-brew tap cjbassi/gotop
+brew tap homebrew/cask-fonts
 
 ###############################################################################
 # Installing Applications                                                     #
@@ -152,15 +150,15 @@ brew install wifi-password
 
 #Installing fonts
 printf "Installing Comic-Neue font...\n"
-brew cask install caskroom/fonts/font-comic-neue
+brew cask install homebrew/cask-fonts/font-comic-neue
 printf "Installing Fira-code font...\n"
-brew cask install caskroom/fonts/font-fira-code
+brew cask install homebrew/cask-fonts/font-fira-code
 printf "Installing Hack font...\n"
-brew cask install caskroom/fonts/font-hack
+brew cask install homebrew/cask-fonts/font-hack
 printf "Installing Lato font...\n"
-brew cask install caskroom/fonts/font-lato
+brew cask install homebrew/cask-fonts/font-lato
 printf "Installing Roboto font...\n"
-brew cask install caskroom/fonts/font-roboto
+brew cask install homebrew/cask-fonts/font-roboto
 
 ###############################################################################
 # Installing Quicklook plugins                                                #
