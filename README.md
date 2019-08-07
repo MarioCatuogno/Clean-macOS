@@ -46,7 +46,7 @@ The __setup.sh__ script will:
 
 ### Configure VS Code
 
-Open __Visaul Studio Code__ app and press `ALT+CMD+P` then do the following steps:
+Open __Visual Studio Code__ app and press `ALT+CMD+P` then do the following steps:
 
 * _theme > Preferences: Color Theme > Ayu Mirage_
 * _theme > Preferences: File Icon Theme > Ayu_
