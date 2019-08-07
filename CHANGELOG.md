@@ -13,6 +13,8 @@ All notable changes to this project will be documented in this file. The types o
 
 * CHANGED: update README file [[#28](https://github.com/MarioCatuogno/Clean-macOS/issues/28)]
 * CHANGED: update `Visual Studio Code` preferences file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
+* FIXED: correct typo [[PR#31](https://github.com/MarioCatuogno/Clean-macOS/pull/31)]
+* FIXED: correct typo [[PR#33](https://github.com/MarioCatuogno/Clean-macOS/pull/33)]
 
 ## __1.6.4__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/3))
 
