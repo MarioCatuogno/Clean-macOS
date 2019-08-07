@@ -72,9 +72,7 @@ Go to _System Preferences > Keyboard > Shortcuts > Spotlight_ and remove the key
 
 These are the workflows I think are the most useful:
 
-- [Colors](http://www.packal.org/workflow/colors): Color tools for developers
 - [Open-with-VSCode](https://github.com/alexchantastic/alfred-open-with-vscode-workflow): Open files or folders with Visual Studio Code
-- [Playsong](https://github.com/caleb531/play-song): Make playing music in iTunes extremely quick and convenient
 
 ### Configure Popclip
 
