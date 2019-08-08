@@ -134,6 +134,7 @@ brew install bash
 brew install gotop
 brew install gzip
 brew install htop
+brew install imagemagick
 brew install nano
 brew install neofetch
 brew install prettyping
@@ -141,6 +142,7 @@ brew install tldr
 brew install tree
 brew install wget
 brew install wifi-password
+brew install youtube-dl
 
 ###############################################################################
 # Fonts                                                                       #
@@ -165,10 +167,11 @@ brew cask install homebrew/cask-fonts/font-roboto
 #Installing Quick Look plugins
 printf "Installing QL Plugins...\n"
 brew cask install qlcolorcode
-brew cask install qlstephen
 brew cask install qlmarkdown
-brew cask install quicklook-json
+brew cask install qlstephen
 brew cask install qlvideo
+brew cask install quicklook-csv
+brew cask install quicklook-json
 
 ###############################################################################
 # Installing GIT                                                              #
