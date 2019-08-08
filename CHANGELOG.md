@@ -25,7 +25,10 @@ __NOTES:__ First release with external contributors; it's now time to use a CONT
 * FIXED: remove deprecated `brew tap caskroom/cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * FIXED: remove unnecessary `brew tap buo/cask-upgrade` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * NEW: add `com.apple.dock static-only` command set to TRUE [[#35](https://github.com/MarioCatuogno/Clean-macOS/issues/35)]
-* NEW: add `jupyter` pip3 command
+* NEW: add `imagemagick` homebrew formula
+* NEW: add `jupyter` Python package
+* NEW: add `quicklook-csv` homebrew formula
+* NEW: add `youtube-dl` homebrew formula
 
 ## __1.6.4__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/3))
 
