@@ -17,7 +17,7 @@ __NOTES:__ First release with external contributors; it's now time to use a CONT
 * CHANGED: remove `Github-Desktop` homebrew formula [[#30](https://github.com/MarioCatuogno/Clean-macOS/issues/30)]
 * CHANGED: remove `brew tap cjbassi/gotop` command
 * CHANGED: update APPS_REMOVED file
-* CHANGED: update README file [[#28](https://github.com/MarioCatuogno/Clean-macOS/issues/28)]
+* CHANGED: update README file [[#28](https://github.com/MarioCatuogno/Clean-macOS/issues/28)] [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * CHANGED: update `Visual Studio Code` preferences file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
 * FIXED: correct typo [[PR#31](https://github.com/MarioCatuogno/Clean-macOS/pull/31)]
 * FIXED: correct typo [[PR#33](https://github.com/MarioCatuogno/Clean-macOS/pull/33)]
