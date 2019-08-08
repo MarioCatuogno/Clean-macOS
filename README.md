@@ -36,13 +36,12 @@ The __setup.sh__ script will:
 
 - Install XCode
 - Install [Homebrew](https://brew.sh)
-- Install [Cask](http://caskroom.io)
 - Install various application (list [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
 - Install and configure GIT
 - Install and configure Python
 - Install and configure Visual Studio Code
 - Install and configure iTerm2 and ZSH
-- Launch macOS commands to improve system speed
+- Launch macOS commands to improve system performance
 
 ### Configure VS Code
 
