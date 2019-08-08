@@ -71,5 +71,6 @@
   "markdown.extension.orderedList.autoRenumber": false,
   "markdown.extension.tableFormatter.enabled": false,
   // Configure GIT
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true
 }
