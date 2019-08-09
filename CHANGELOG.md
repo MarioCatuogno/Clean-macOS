@@ -21,6 +21,7 @@ __NOTES:__ First release with external contributors; it's now time to use a CONT
 * CHANGED: update `Visual Studio Code` preferences file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
 * FIXED: correct typo [[PR#31](https://github.com/MarioCatuogno/Clean-macOS/pull/31)]
 * FIXED: correct typo [[PR#33](https://github.com/MarioCatuogno/Clean-macOS/pull/33)]
+* FIXED: remove `Easyres` homebrew formula [[#40](https://github.com/MarioCatuogno/Clean-macOS/issues/40)]
 * FIXED: remove deprecated `brew install cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * FIXED: remove deprecated `brew tap caskroom/cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * FIXED: remove unnecessary `brew tap buo/cask-upgrade` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]

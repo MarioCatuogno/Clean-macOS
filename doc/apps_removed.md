@@ -2,6 +2,13 @@
 
 ## __1.7.0__ ([2019-09-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
 
+[commit]()
+
+```bash
+printf "Installing Easyres.app...\n"
+mas install 688211836
+```
+
 [commit](https://github.com/MarioCatuogno/Clean-macOS/commit/a95fba1b87e4bde71d979cfdb019a9ab8d9ad8d3)
 
 ```bash
