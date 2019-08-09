@@ -64,8 +64,6 @@ printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
 
 #Installing Multimedia and Graphics apps
-printf "Installing Easyres.app...\n"
-mas install 688211836
 printf "Installing Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
 printf "Installing Helium.app...\n"
