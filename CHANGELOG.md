@@ -17,31 +17,34 @@ First release with external contributors; it's now time to use a CONTRIBUTING fi
 
 __CHANGED__
 
-* 🔥 add `brew tap homebrew/cask-fonts` command
-* 🔥 remove `Github-Desktop` homebrew formula [[#30](https://github.com/MarioCatuogno/Clean-macOS/issues/30)]
-* 🔥 remove `brew tap cjbassi/gotop` command
 * 🔥 update APPS_REMOVED file
+* 🔥 update CHANGELOG file [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]
 * 🔥 update README file [[#28](https://github.com/MarioCatuogno/Clean-macOS/issues/28)] [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)] [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)] 
 * 🔥 update `Visual Studio Code` preferences file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
-* 🔥 update CHANGELOG file [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]
 
 __FIXED__
 
 * 🐛 correct typo [[#31](https://github.com/MarioCatuogno/Clean-macOS/pull/31)]
 * 🐛 correct typo [[#33](https://github.com/MarioCatuogno/Clean-macOS/pull/33)]
-* 🐛 remove `Easyres` homebrew formula [[#40](https://github.com/MarioCatuogno/Clean-macOS/issues/40)]
-* 🐛 remove deprecated `brew install cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
-* 🐛 remove deprecated `brew tap caskroom/cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
-* 🐛 remove unnecessary `brew tap buo/cask-upgrade` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
-* 🐛 remove unnecessary `homebrew/cask-fonts/` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 
 __NEW__
 
+* 📦 add `brew tap homebrew/cask-fonts` command
 * 📦 add `com.apple.dock static-only` command set to TRUE [[#35](https://github.com/MarioCatuogno/Clean-macOS/issues/35)]
 * 📦 add `imagemagick` homebrew formula
 * 📦 add `jupyter` Python package
 * 📦 add `quicklook-csv` homebrew formula
 * 📦 add `youtube-dl` homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Easyres` homebrew formula [[#40](https://github.com/MarioCatuogno/Clean-macOS/issues/40)]
+* 🗑️ remove `Github-Desktop` homebrew formula [[#30](https://github.com/MarioCatuogno/Clean-macOS/issues/30)]
+* 🗑️ remove `brew tap cjbassi/gotop` command
+* 🗑️ remove deprecated `brew install cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
+* 🗑️ remove deprecated `brew tap caskroom/cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
+* 🗑️ remove unnecessary `brew tap buo/cask-upgrade` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
+* 🗑️ remove unnecessary `homebrew/cask-fonts/` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 
 __SECURITY__
 
