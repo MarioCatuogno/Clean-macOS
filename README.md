@@ -12,7 +12,7 @@
 ---
 
 <p align="center">
-💻 A bash script to install and configure mac-OS after a clean install.
+💻 A bash script to install and configure macOS after a clean install.
   <br>
 </p>
 
