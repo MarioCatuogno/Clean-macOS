@@ -1,6 +1,20 @@
-# Clean macOS
+<h2 align="center">Clean mac-OS</h2>
 
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/MarioCatuogno/Clean-macOS?color=red&style=flat-square"> <img alt="GitHub issues" src="https://img.shields.io/github/issues/MarioCatuogno/Clean-macOS?style=flat-square"> <img alt="GitHub" src="https://img.shields.io/github/license/MarioCatuogno/Clean-macOS?color=green&style=flat-square"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/MarioCatuogno/Clean-macOS?style=flat-square">
+<div align="center">
+
+[![Status](https://img.shields.io/github/last-commit/MarioCatuogno/Clean-macOS.svg?style=flat-square)](https://github.com/MarioCatuogno/Clean-macOS/commits/master)
+[![GitHub Issues](https://img.shields.io/github/issues/MarioCatuogno/Clean-macOS.svg?style=flat-square)](https://github.com/MarioCatuogno/Clean-macOS/issues)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](https://github.com/MarioCatuogno/Clean-macOS/blob/master/LICENSE)
+[![Version](https://img.shields.io/github/v/release/MarioCatuogno/Clean-macOS.svg?style=flat-square)](https://github.com/MarioCatuogno/Clean-macOS/releases)
+
+</div>
+
+---
+
+<p align="center">
+💻 A bash script to install and configure mac-OS after clean install.
+  <br>
+</p>
 
 This document describes how to set up a clean environment for macOS.
 I use this repository to keep track of the steps required to have a an up-and-running operating system in __less then one hour__.
@@ -11,22 +25,36 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" width="800" align="middle"/>
 
-## Table of content
+## 📝 Table of content
 
-- [Clean macOS](#clean-macos)
-  - [Table of content](#table-of-content)
-  - [Installation](#installation)
-    - [Install basic stuff](#install-basic-stuff)
-    - [Configure VS Code](#configure-vs-code)
-    - [Configure iTerm2](#configure-iterm2)
-    - [Configure Git](#configure-git)
-    - [Configure Alfred](#configure-alfred)
-    - [Configure Popclip](#configure-popclip)
-    - [More apps](#more-apps)
-  - [Changelog](#changelog)
-  - [Thanks to](#thanks-to)
++ [About](#about)
++ [How it works](#working)
++ [Getting started](#getting-started)
+  + [Prerequisites](#prerequisites)
+  + [Installing](#installing)
++ [Roadmap](#roadmap)
++ [Authors](#authors)
++ [Thanks to](#thanks-to)
 
-## Installation
+## 🧐 About <a name = "about"></a>
+
+## 💭 How it works <a name = "working"></a>
+
+## 🏁 Getting Started <a name = "getting-started"></a>
+
+### Prerequisites
+
+### Installing
+
+## 📅 Roadmap <a name = "roadmap"></a>
+
+## ✍️ Authors <a name = "authors"></a>
+
+## 🎉 Thanks to <a name = "thanks-to"></a>
+
++ [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
++ [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
++ [@robbyrussell](https://github.com/robbyrussell) for the guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 ### Install basic stuff
 
@@ -95,7 +123,3 @@ Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGE
 
 ## Thanks to
 
-- [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
-- [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
-- [@robbyrussell](https://github.com/robbyrussell) for the guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [Wallpapersden](https://wallpapersden.com) for their beautiful wallpapers
