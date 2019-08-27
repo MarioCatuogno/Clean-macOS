@@ -78,6 +78,8 @@ printf "Installing Sip.app...\n"
 brew cask install --appdir="/Applications" sip
 
 #Installing Internet and Networking apps
+printf "Installing Ecosia.app...\n"
+mas install 1463400445
 printf "Installing Google Chrome.app...\n"
 brew cask install --appdir="/Applications" google-chrome
 printf "Installing Transmission.app...\n"
