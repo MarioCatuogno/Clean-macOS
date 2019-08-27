@@ -12,44 +12,52 @@
 ---
 
 <p align="center">
-💻 A bash script to install and configure mac-OS after clean install.
+💻 A bash script to install and configure mac-OS after a clean install.
   <br>
 </p>
 
-## 📝 Table of content
+## Table of content
 
-+ [About](#about)
-+ [How it works](#working)
-+ [Getting started](#getting-started)
-  + [Prerequisites](#prerequisites)
-  + [Installing](#installing)
-+ [Roadmap](#roadmap)
-+ [Contributing](#contributing)
-+ [Acknowledgements](#acknowledgements)
+- [Table of content](#table-of-content)
+- [About](#about)
+- [How it works](#how-it-works)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+  - [Install basic stuff](#install-basic-stuff)
+  - [Configure VS Code](#configure-vs-code)
+  - [Configure iTerm2](#configure-iterm2)
+  - [Configure Git](#configure-git)
+  - [Configure Alfred](#configure-alfred)
+  - [Configure Popclip](#configure-popclip)
+  - [More apps](#more-apps)
 
-## 🧐 About <a name = "about"></a>
+## About
 
-## 💭 How it works <a name = "working"></a>
+## How it works
 
-## 🏁 Getting Started <a name = "getting-started"></a>
+## Getting Started
 
 ### Prerequisites
 
 ### Installing
 
-## 📅 Roadmap <a name = "roadmap"></a>
+## Roadmap
 
 To check the current status and the upcoming milestones of the Clean-macOS project, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/projects/8).
 
 For the full changelog history, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGELOG.md).
 
-## ✍️ Contributing <a name = "contributing"></a>
+## Contributing
 
 You are encouraged to fork this repository and to open issue to discuss the change you wish to make. If you want to actively contribute, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CONTRIBUTING.md) for guidelines.
 
 If you find it useful, please star or tell others about this repo.
 
-## 🎉 Acknowledgements <a name = "acknowledgements"></a>
+## Acknowledgements
 
 + [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
 + [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
