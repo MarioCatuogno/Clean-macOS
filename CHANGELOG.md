@@ -33,6 +33,7 @@ __FIXED__
 * 🐛 remove deprecated `brew install cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * 🐛 remove deprecated `brew tap caskroom/cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * 🐛 remove unnecessary `brew tap buo/cask-upgrade` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
+* 🐛 remove unnecessary `homebrew/cask-fonts/` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 
 __NEW__
 
