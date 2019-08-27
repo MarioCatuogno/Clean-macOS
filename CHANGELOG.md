@@ -21,7 +21,7 @@ __CHANGED__
 * 🔥 remove `Github-Desktop` homebrew formula [[#30](https://github.com/MarioCatuogno/Clean-macOS/issues/30)]
 * 🔥 remove `brew tap cjbassi/gotop` command
 * 🔥 update APPS_REMOVED file
-* 🔥 update README file [[#28](https://github.com/MarioCatuogno/Clean-macOS/issues/28)] [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
+* 🔥 update README file [[#28](https://github.com/MarioCatuogno/Clean-macOS/issues/28)] [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)] [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)] 
 * 🔥 update `Visual Studio Code` preferences file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
 * 🔥 update CHANGELOG file [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]
 
