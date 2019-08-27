@@ -88,8 +88,12 @@ printf "Installing Wipr.app...\n"
 mas install 1320666476
 
 #Installing Productivity apps
+printf "Installing Keynote.app...\n"
+mas install 409183694
 printf "Installing Magnet.app...\n"
 mas install 441258766
+printf "Installing Numbers.app...\n"
+mas install 409203825
 printf "Installing Pages.app...\n"
 mas install 409201541
 printf "Installing Popclip.app...\n"
