@@ -29,6 +29,8 @@ __FIXED__
 
 __NEW__
 
+* 📦 add `Keynote` homebrew formula [[#39](https://github.com/MarioCatuogno/Clean-macOS/issues/39)]
+* 📦 add `Numbers` homebrew formula [[#39](https://github.com/MarioCatuogno/Clean-macOS/issues/39)]
 * 📦 add `brew tap homebrew/cask-fonts` command
 * 📦 add `com.apple.dock static-only` command set to TRUE [[#35](https://github.com/MarioCatuogno/Clean-macOS/issues/35)]
 * 📦 add `imagemagick` homebrew formula
