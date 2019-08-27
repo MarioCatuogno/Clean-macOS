@@ -148,15 +148,15 @@ brew install youtube-dl
 
 #Installing fonts
 printf "Installing Comic-Neue font...\n"
-brew cask install homebrew/cask-fonts/font-comic-neue
+brew cask install font-comic-neue
 printf "Installing Fira-code font...\n"
-brew cask install homebrew/cask-fonts/font-fira-code
+brew cask install font-fira-code
 printf "Installing Hack font...\n"
-brew cask install homebrew/cask-fonts/font-hack
+brew cask install font-hack
 printf "Installing Lato font...\n"
-brew cask install homebrew/cask-fonts/font-lato
+brew cask install font-lato
 printf "Installing Roboto font...\n"
-brew cask install homebrew/cask-fonts/font-roboto
+brew cask install font-roboto
 
 ###############################################################################
 # Installing Quicklook plugins                                                #
