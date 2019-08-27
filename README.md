@@ -1,5 +1,7 @@
 # Clean macOS
 
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/MarioCatuogno/Clean-macOS?color=red&style=flat-square"> <img alt="GitHub issues" src="https://img.shields.io/github/issues/MarioCatuogno/Clean-macOS?style=flat-square"> <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/MarioCatuogno/Clean-macOS?color=green&style=flat-square"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/MarioCatuogno/Clean-macOS?style=flat-square">
+
 This document describes how to set up a clean environment for macOS.
 I use this repository to keep track of the steps required to have a an up-and-running operating system in __less then one hour__.
 
