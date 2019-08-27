@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.7.0__ ([2019-09-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
 
-__NOTES:__ First release with external contributors; it's now time to use a CONTRIBUTING file for next releases. I'm also using a new way to keep track of changes (for more details check [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]).
+First release with external contributors; it's now time to use a CONTRIBUTING file for next releases. I'm also using a new way to keep track of changes (for more details check [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]).
 
 __CHANGED__ 
 
@@ -48,7 +48,7 @@ __NEW__
 
 ## __1.6.3__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/1))
 
-__NOTES:__ With this release I've started to be more organized, keeping track of issues and changelog. I've also created a Kanban board to manage my backlog for this project.
+With this release I've started to be more organized, keeping track of issues and changelog. I've also created a Kanban board to manage my backlog for this project.
 
 __CHANGED__
 
@@ -136,7 +136,7 @@ __NEW__
 
 ## __1.4.1__ (2018-09-24)
 
-__NOTES:__ Minor release with bug fixes, ready for macOS Mojave.
+Minor release with bug fixes, ready for macOS Mojave.
 
 __CHANGED__
 
@@ -148,7 +148,7 @@ __NEW__
 
 ## __1.4.0__ (2018-09-23)
 
-__NOTES:__ After further testing I decided to remove Sublime Text as main editor and switch to Visual Studio Code which is open source with a huge community and monthly updates.
+After further testing I decided to remove Sublime Text as main editor and switch to Visual Studio Code which is open source with a huge community and monthly updates.
 
 __CHANGED__
 
