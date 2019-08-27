@@ -20,7 +20,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Update                                                                      #
 ###############################################################################
 
-brew update && brew upgrade && brew cleanup && brew doctor && mas upgrade
+brew doctor && brew update && brew upgrade && brew cleanup && mas upgrade
 
 ###############################################################################
 # Config                                                                      #
