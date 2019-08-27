@@ -29,6 +29,7 @@ __FIXED__
 
 __NEW__
 
+* 📦 add `Ecosia` homebrew formula
 * 📦 add `Keynote` homebrew formula [[#39](https://github.com/MarioCatuogno/Clean-macOS/issues/39)]
 * 📦 add `Numbers` homebrew formula [[#39](https://github.com/MarioCatuogno/Clean-macOS/issues/39)]
 * 📦 add `brew tap homebrew/cask-fonts` command
