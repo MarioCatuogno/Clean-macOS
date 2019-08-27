@@ -2,7 +2,8 @@
 # Paths                                                                       #
 ###############################################################################
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 export ZSH=$HOME/.oh-my-zsh
 
 ###############################################################################
@@ -47,3 +48,6 @@ alias speedtest="speedtest-cli"
 # Useful alias
 alias python=python3
 alias pip=pip3
+
+# Brew
+alias bup="brew doctor && brew update && brew upgrade && brew cleanup && mas upgrade"
