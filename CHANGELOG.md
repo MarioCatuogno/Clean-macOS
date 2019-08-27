@@ -52,7 +52,7 @@ __SECURITY__
 
 ## __1.6.4__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/3))
 
-* 🐛 fix broken link for CHANGELOG file [[#26](https://github.com/MarioCatuogno/Clean-macOS/issues/26)]
+* 🐛 fix broken link in CHANGELOG file [[#26](https://github.com/MarioCatuogno/Clean-macOS/issues/26)]
 
 ## __1.6.3__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/1))
 
