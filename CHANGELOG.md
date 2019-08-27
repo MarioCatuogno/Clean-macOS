@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file. The types o
 
 First release with external contributors; it's now time to use a CONTRIBUTING file for next releases. I'm also using a new way to keep track of changes (for more details check [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]).
 
-__CHANGED__ 
+__CHANGED__
 
 * 🔥 add `brew tap homebrew/cask-fonts` command
 * 🔥 remove `Github-Desktop` homebrew formula [[#30](https://github.com/MarioCatuogno/Clean-macOS/issues/30)]
@@ -42,6 +42,10 @@ __NEW__
 * 📦 add `jupyter` Python package
 * 📦 add `quicklook-csv` homebrew formula
 * 📦 add `youtube-dl` homebrew formula
+
+__SECURITY__
+
+* 🔑 update .zshrc file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
 
 ## __1.6.4__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/3))
 
