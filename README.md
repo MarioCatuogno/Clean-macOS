@@ -16,15 +16,6 @@
   <br>
 </p>
 
-This document describes how to set up a clean environment for macOS.
-I use this repository to keep track of the steps required to have a an up-and-running operating system in __less then one hour__.
-
-You are encouraged to fork this repository and to open issue to discuss the change you wish to make.
-
-If you find it useful, please leave a comment or tell others about this repo.
-
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" width="800" align="middle"/>
-
 ## 📝 Table of content
 
 + [About](#about)
@@ -33,8 +24,8 @@ If you find it useful, please leave a comment or tell others about this repo.
   + [Prerequisites](#prerequisites)
   + [Installing](#installing)
 + [Roadmap](#roadmap)
-+ [Authors](#authors)
-+ [Thanks to](#thanks-to)
++ [Contributing](#contributing)
++ [Acknowledgements](#acknowledgements)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -48,13 +39,28 @@ If you find it useful, please leave a comment or tell others about this repo.
 
 ## 📅 Roadmap <a name = "roadmap"></a>
 
-## ✍️ Authors <a name = "authors"></a>
+To check the current status and the upcoming milestones of the Clean-macOS project, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/projects/8).
 
-## 🎉 Thanks to <a name = "thanks-to"></a>
+For the full changelog history, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGELOG.md).
+
+## ✍️ Contributing <a name = "contributing"></a>
+
+You are encouraged to fork this repository and to open issue to discuss the change you wish to make. If you want to actively contribute, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CONTRIBUTING.md) for guidelines.
+
+If you find it useful, please star or tell others about this repo.
+
+## 🎉 Acknowledgements <a name = "acknowledgements"></a>
 
 + [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
 + [@mikaelgustafsson](https://mikaelgustafsson.art) for his amazing [wallpapers](https://www.instagram.com/mklgustafsson/)
 + [@robbyrussell](https://github.com/robbyrussell) for the guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+---
+
+This document describes how to set up a clean environment for macOS.
+I use this repository to keep track of the steps required to have a an up-and-running operating system in __less then one hour__.
+
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" width="800" align="middle"/>
 
 ### Install basic stuff
 
@@ -116,10 +122,3 @@ These are the extensions I think are the most useful:
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md) to find a collection of various apps I've personally tested or used on macOS.
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_removed.md) to find the removed apps from previous script versions.
-
-## Changelog
-
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGELOG.md) for the full history changelog.
-
-## Thanks to
-
