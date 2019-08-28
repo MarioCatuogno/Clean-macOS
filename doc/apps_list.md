@@ -97,7 +97,7 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 | Icon | Title | Description |
 | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_1password.png" width="30" align="middle" /> | [1Password](https://1password.com) | A cross-platform password manager. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_cakebrew.png" width="30" align="middle" /> | [Cakebrew](https://www.cakebrew.com) | Cakebrew is a free Homebirew GUI that makes overseeing your setup just a bit easier. |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_cakebrew.png" width="30" align="middle" /> | [Cakebrew](https://www.cakebrew.com) | Cakebrew is a free Homebrew GUI that makes overseeing your setup just a bit easier. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_githubdesktop.png" width="30" align="middle" /> | [Github Desktop](https://desktop.github.com) | Manage the entire Github workflow with a GUI, without the need to use the git commands in shell. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_kitematic.png" width="30" align="middle" /> | [Kitematic](https://kitematic.com) | Run containers through a simple and powerful graphical interface. |
