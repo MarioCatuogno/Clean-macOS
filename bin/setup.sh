@@ -2,7 +2,7 @@
 
 # NAME: Clean macOS SETUP script
 # DESC: Setup script for a clean macOS configuration
-# DATE: 2019-09-30
+# DATE: 2019-08-28
 # VERSION: 1.7.0
 
 ###############################################################################

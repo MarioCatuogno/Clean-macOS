@@ -2,7 +2,7 @@
 
 # NAME: Clean macOS UPDATE script
 # DESC: Update script for clean macOS
-# DATE: 2019-09-30
+# DATE: 2019-08-28
 # VERSION: 1.7.0
 
 ###############################################################################
