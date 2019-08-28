@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.7.0__ ([2019-09-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
+## __1.7.0__ ([2019-08-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
 
 First release with external contributors; it's now time to use a CONTRIBUTING file for next releases. I'm also using a new way to keep track of changes (for more details check [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]).
 
@@ -38,6 +38,7 @@ __NEW__
 * 📦 add `jupyter` Python package
 * 📦 add `quicklook-csv` homebrew formula
 * 📦 add `youtube-dl` homebrew formula
+* 📦 add a new official logo (thanks to [@JustInDraft](https://www.instagram.com/justindraft_adv/))
 
 __REMOVED__
 
