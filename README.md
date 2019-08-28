@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/MarioCatuogno/Clean-macOS" rel="noopener">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
  <img width=200px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/logo_clean_macos.png" alt="Clean-macOS logo"></a>
 </p>
 
@@ -36,13 +36,23 @@
 
 ## About
 
+⚠️ WIP
+
 ## How it works
+
+⚠️ WIP
 
 ## Getting Started
 
+⚠️ WIP
+
 ### Prerequisites
 
+⚠️ WIP
+
 ### Installing
+
+⚠️ WIP
 
 ### More apps
 
@@ -70,9 +80,6 @@ If you find it useful, please star or tell others about this repo.
 
 ---
 
-This document describes how to set up a clean environment for macOS.
-I use this repository to keep track of the steps required to have a an up-and-running operating system in __less then one hour__.
+⚠️ WIP
 
 <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" width="800" align="middle"/>
-
-
