@@ -1,6 +1,22 @@
 # Removed apps changelog
 
-## __1.6.3__ (2019-07-28)
+## __1.7.0__ ([2019-09-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
+
+[commit](https://github.com/MarioCatuogno/Clean-macOS/commit/c7fc47b3ea1186521be936a3dd15e905ce1f5ac1)
+
+```bash
+printf "Installing Easyres.app...\n"
+mas install 688211836
+```
+
+[commit](https://github.com/MarioCatuogno/Clean-macOS/commit/a95fba1b87e4bde71d979cfdb019a9ab8d9ad8d3)
+
+```bash
+printf "Installing Github.app...\n"
+brew cask install --appdir="/Applications" github
+```
+
+## __1.6.3__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/1))
 
 [commit](https://github.com/MarioCatuogno/Clean-macOS/commit/fc35ba8b77b9d0a45c34518c5218362c678f8265)
 

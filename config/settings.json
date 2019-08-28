@@ -34,6 +34,8 @@
   },
   // Hide release notes
   "update.showReleaseNotes": false,
+  // Forget previously opened session
+  "window.restoreWindows": "none",
   // Check for updates
   "extensions.autoCheckUpdates": true,
   // Do not send data
@@ -67,5 +69,8 @@
   "markdown.extension.italic.indicator": "_",
   "markdown.extension.syntax.decorations": false,
   "markdown.extension.orderedList.autoRenumber": false,
-  "markdown.extension.tableFormatter.enabled": false
+  "markdown.extension.tableFormatter.enabled": false,
+  // Configure GIT
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true
 }

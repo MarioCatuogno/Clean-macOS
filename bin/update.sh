@@ -2,8 +2,8 @@
 
 # NAME: Clean macOS UPDATE script
 # DESC: Update script for clean macOS
-# DATE: 2019-07-31
-# VERSION: 1.6.3
+# DATE: 2019-08-28
+# VERSION: 1.7.0
 
 ###############################################################################
 # Launch script                                                               #
@@ -20,7 +20,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Update                                                                      #
 ###############################################################################
 
-brew update && brew upgrade && brew cleanup && brew doctor && mas upgrade
+brew doctor && brew update && brew upgrade && brew cleanup && mas upgrade
 
 ###############################################################################
 # Config                                                                      #

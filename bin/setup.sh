@@ -2,8 +2,8 @@
 
 # NAME: Clean macOS SETUP script
 # DESC: Setup script for a clean macOS configuration
-# DATE: 2019-07-31
-# VERSION: 1.6.3
+# DATE: 2019-08-28
+# VERSION: 1.7.0
 
 ###############################################################################
 # Launch script                                                               #
@@ -36,10 +36,8 @@ brew doctor && brew update && brew upgrade
 
 #Installing Repositories
 printf "Installing Brew Cask and MAS..."
-brew install cask
 brew install mas
-brew tap buo/cask-upgrade
-brew tap cjbassi/gotop
+brew tap homebrew/cask-fonts
 
 ###############################################################################
 # Installing Applications                                                     #
@@ -48,8 +46,6 @@ brew tap cjbassi/gotop
 #Installing Developing tools
 printf "Installing Docker.app...\n"
 brew cask install --appdir="/Applications" docker
-printf "Installing Github.app...\n"
-brew cask install --appdir="/Applications" github
 printf "Installing iTerm2.app...\n"
 brew cask install --appdir="/Applications" iterm2
 
@@ -68,8 +64,6 @@ printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
 
 #Installing Multimedia and Graphics apps
-printf "Installing Easyres.app...\n"
-mas install 688211836
 printf "Installing Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
 printf "Installing Helium.app...\n"
@@ -84,6 +78,8 @@ printf "Installing Sip.app...\n"
 brew cask install --appdir="/Applications" sip
 
 #Installing Internet and Networking apps
+printf "Installing Ecosia.app...\n"
+mas install 1463400445
 printf "Installing Google Chrome.app...\n"
 brew cask install --appdir="/Applications" google-chrome
 printf "Installing Transmission.app...\n"
@@ -94,8 +90,12 @@ printf "Installing Wipr.app...\n"
 mas install 1320666476
 
 #Installing Productivity apps
+printf "Installing Keynote.app...\n"
+mas install 409183694
 printf "Installing Magnet.app...\n"
 mas install 441258766
+printf "Installing Numbers.app...\n"
+mas install 409203825
 printf "Installing Pages.app...\n"
 mas install 409201541
 printf "Installing Popclip.app...\n"
@@ -138,6 +138,7 @@ brew install bash
 brew install gotop
 brew install gzip
 brew install htop
+brew install imagemagick
 brew install nano
 brew install neofetch
 brew install prettyping
@@ -145,6 +146,7 @@ brew install tldr
 brew install tree
 brew install wget
 brew install wifi-password
+brew install youtube-dl
 
 ###############################################################################
 # Fonts                                                                       #
@@ -152,15 +154,15 @@ brew install wifi-password
 
 #Installing fonts
 printf "Installing Comic-Neue font...\n"
-brew cask install caskroom/fonts/font-comic-neue
+brew cask install font-comic-neue
 printf "Installing Fira-code font...\n"
-brew cask install caskroom/fonts/font-fira-code
+brew cask install font-fira-code
 printf "Installing Hack font...\n"
-brew cask install caskroom/fonts/font-hack
+brew cask install font-hack
 printf "Installing Lato font...\n"
-brew cask install caskroom/fonts/font-lato
+brew cask install font-lato
 printf "Installing Roboto font...\n"
-brew cask install caskroom/fonts/font-roboto
+brew cask install font-roboto
 
 ###############################################################################
 # Installing Quicklook plugins                                                #
@@ -169,10 +171,11 @@ brew cask install caskroom/fonts/font-roboto
 #Installing Quick Look plugins
 printf "Installing QL Plugins...\n"
 brew cask install qlcolorcode
-brew cask install qlstephen
 brew cask install qlmarkdown
-brew cask install quicklook-json
+brew cask install qlstephen
 brew cask install qlvideo
+brew cask install quicklook-csv
+brew cask install quicklook-json
 
 ###############################################################################
 # Installing GIT                                                              #
@@ -196,6 +199,7 @@ printf "Installing Python3...\n"
 brew install python3
 printf "Installing Python packages...\n"
 pip3 install autopep8
+pip3 install jupyter
 pip3 install numpy
 pip3 install organize-tool
 pip3 install pandas
@@ -271,6 +275,8 @@ defaults write com.apple.dock autohide -bool true
 printf "Dock: remove animation\n"
 defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide-delay -float 0
+printf "Dock: show only active apps\n"
+defaults write com.apple.dock static-only -bool true
 
 ###############################################################################
 # Configure macOS: Finder                                                     #
