@@ -32,7 +32,7 @@ __NEW__
 
 * 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
-* 📦 add `coreutils` homebrew formula (__DEVELOPER__)
+* 📦 (__DEVELOPER__) add `coreutils` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 
