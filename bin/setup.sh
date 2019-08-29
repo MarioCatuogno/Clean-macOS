@@ -1,44 +1,3 @@
-#!/bin/bash
-
-# NAME: Clean macOS SETUP script
-# DESC: Setup script for a clean macOS configuration
-# DATE: 2019-08-28
-# VERSION: 1.7.0
-
-###############################################################################
-# Launch script                                                               #
-###############################################################################
-
-#Entering as Root
-printf "Enter root password...\n"
-sudo -v
-
-#Keep alive Root
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
-###############################################################################
-# Installing HomeBrew                                                         #
-###############################################################################
-
-#Installing XCode Command Line Tools
-printf "Installing XCode CL tools...\n"
-xcode-select --install
-
-#Installing Brew
-printf "Installing Brew...\n"
-if test ! $(which brew); then
-  echo "Installing Homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
-
-#Check Brews
-brew doctor && brew update && brew upgrade
-
-#Installing Repositories
-printf "Installing Brew Cask and MAS..."
-brew install mas
-brew tap homebrew/cask-fonts
-
 ###############################################################################
 # Installing Applications                                                     #
 ###############################################################################
@@ -46,149 +5,40 @@ brew tap homebrew/cask-fonts
 #Installing Developing tools
 printf "Installing Docker.app...\n"
 brew cask install --appdir="/Applications" docker
-printf "Installing iTerm2.app...\n"
-brew cask install --appdir="/Applications" iterm2
-
-#Installing Editor apps
-printf "Installing Visual Studio Code.app...\n"
-brew cask install --appdir="/Applications" visual-studio-code
 
 #Installing Games apps
 printf "Installing Battle Net.app...\n"
 brew cask install --appdir="/Applications" battle-net
-printf "Installing Discord.app...\n"
-brew cask install --appdir="/Applications" discord
-printf "Installing Steam.app...\n"
-brew cask install --appdir="/Applications" steam
 printf "Installing Steermouse.app...\n"
 brew cask install --appdir="/Applications" steermouse
 
 #Installing Multimedia and Graphics apps
-printf "Installing Handbrake.app...\n"
-brew cask install --appdir="/Applications" handbrake
+
 printf "Installing Helium.app...\n"
 mas install 1054607607
-printf "Installing Iina.app...\n"
-brew cask install --appdir="/Applications" iina
-printf "Installing Imageoptim.app...\n"
-brew cask install --appdir="/Applications" imageoptim
 printf "Installing Pixelmator.app...\n"
 mas install 407963104
-printf "Installing Sip.app...\n"
-brew cask install --appdir="/Applications" sip
+
 
 #Installing Internet and Networking apps
-printf "Installing Ecosia.app...\n"
-mas install 1463400445
-printf "Installing Google Chrome.app...\n"
-brew cask install --appdir="/Applications" google-chrome
-printf "Installing Transmission.app...\n"
-brew cask install --appdir="/Applications" transmission
 printf "Installing WebTorrent.app...\n"
 brew cask install --appdir="/Applications" webtorrent-cli
 printf "Installing Wipr.app...\n"
 mas install 1320666476
 
 #Installing Productivity apps
-printf "Installing Keynote.app...\n"
-mas install 409183694
 printf "Installing Magnet.app...\n"
 mas install 441258766
-printf "Installing Numbers.app...\n"
-mas install 409203825
-printf "Installing Pages.app...\n"
-mas install 409201541
-printf "Installing Popclip.app...\n"
-mas install 445189367
-printf "Installing Spark.app...\n"
-mas install 1176895641
 
 #Installing Security apps
 printf "Installing Expressvpn.app...\n"
 brew cask install --appdir="/Applications" expressvpn
 
-#Installing Social apps
-printf "Installing Franz.app...\n"
-brew cask install --appdir="/Applications" franz
-
 #Installing Utility apps
-printf "Installing Alfred.app...\n"
-brew cask install --appdir="/Applications" alfred
-printf "Installing Amphetamine.app...\n"
-mas install 937984704
-printf "Installing App Cleaner.app...\n"
-brew cask install --appdir="/Applications" appcleaner
-printf "Installing Cheatsheet.app...\n"
-brew cask install --appdir="/Applications" cheatsheet
 printf "Installing DaisyDisk.app...\n"
 mas install 411643860
-printf "Installing Google Drive.app...\n"
-brew cask install --appdir="/Applications" google-drive-file-stream
-printf "Installing The Unarchiever.app...\n"
-brew cask install --appdir="/Applications" the-unarchiver
 
-###############################################################################
-# Installing binary commands                                                  #
-###############################################################################
 
-#Installing Commands
-printf "Installing Binary commands...\n"
-brew install ack
-brew install bash
-brew install gotop
-brew install gzip
-brew install htop
-brew install imagemagick
-brew install nano
-brew install neofetch
-brew install prettyping
-brew install tldr
-brew install tree
-brew install wget
-brew install wifi-password
-brew install youtube-dl
-
-###############################################################################
-# Fonts                                                                       #
-###############################################################################
-
-#Installing fonts
-printf "Installing Comic-Neue font...\n"
-brew cask install font-comic-neue
-printf "Installing Fira-code font...\n"
-brew cask install font-fira-code
-printf "Installing Hack font...\n"
-brew cask install font-hack
-printf "Installing Lato font...\n"
-brew cask install font-lato
-printf "Installing Roboto font...\n"
-brew cask install font-roboto
-
-###############################################################################
-# Installing Quicklook plugins                                                #
-###############################################################################
-
-#Installing Quick Look plugins
-printf "Installing QL Plugins...\n"
-brew cask install qlcolorcode
-brew cask install qlmarkdown
-brew cask install qlstephen
-brew cask install qlvideo
-brew cask install quicklook-csv
-brew cask install quicklook-json
-
-###############################################################################
-# Installing GIT                                                              #
-###############################################################################
-
-#Installing Git
-printf "Installing Git...\n"
-brew install git
-
-#Download settings
-printf "Git: update preferences\n"
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitignore -o ~/.gitignore
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitconfig -o ~/.gitconfig
 
 ###############################################################################
 # Installing Python                                                           #
@@ -207,58 +57,6 @@ pip3 install pylint
 pip3 install requests
 pip3 install speedtest-cli
 pip3 install virtualenv
-
-###############################################################################
-# Setup Visual Studio Code                                                    #
-###############################################################################
-
-#Install packages
-printf "Installing Visual Studio Code packages...\n"
-code --install-extension HookyQR.beautify
-code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension GrapeCity.gc-excelviewer
-code --install-extension teabyii.ayu
-code --install-extension 77qingliu.sas-syntax
-code --install-extension ms-python.python
-code --install-extension Tyriar.sort-lines
-code --install-extension pnp.polacode
-code --install-extension formulahendry.code-runner
-code --install-extension mikestead.dotenv
-code --install-extension formulahendry.code-runner
-code --install-extension yzhang.markdown-all-in-one
-code --install-extension JaimeOlivares.yuml
-
-#Download settings
-printf "Visual Studio Code: update preferences\n"
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/settings.json -o ~/Library/Application\ Support/Code/User/settings.json
-
-###############################################################################
-# Setup iTerm2                                                                #
-###############################################################################
-
-#Download color schema
-printf "Downloading iTerm color schema ayu-dark...\n"
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-dark.itermcolors -o ~/Downloads/ayu-dark.itermcolors && open ~/Downloads/ayu-dark.itermcolors
-printf "Downloading iTerm color schema ayu-light...\n"
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-light.itermcolors -o ~/Downloads/ayu-light.itermcolors && open ~/Downloads/ayu-light.itermcolors
-printf "Downloading iTerm color schema ayu-mirage...\n"
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-mirage.itermcolors -o ~/Downloads/ayu-mirage.itermcolors && open ~/Downloads/ayu-mirage.itermcolors
-
-#Install ZSH
-printf "Installing ZSH...\n"
-brew install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-chsh -s $(which zsh)
-
-#Install plugins
-printf "Installing ZSH packages...\n"
-brew install zsh-completions
-brew install zsh-autosuggestions
-brew install zsh-syntax-highlighting
-
-#Download settings
-printf "ZSH: update preferences\n"
-curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.zshrc -o ~/.zshrc
 
 ###############################################################################
 # Configure macOS: Dock                                                       #
