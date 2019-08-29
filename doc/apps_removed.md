@@ -2,7 +2,7 @@
 
 ## __1.8.0__ ([2019-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/4))
 
-[commit]()
+[commit](https://github.com/MarioCatuogno/Clean-macOS/commit/41e426f0fe42820e9c8bb4f522ef85632fc94025)
 
 ```sh
 printf "Installing WebTorrent.app...\n"
