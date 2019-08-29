@@ -60,15 +60,4 @@ printf "🎛️  Update Visual Studio Code settings...\n"
 sudo rm -rf ~/Library/Application\ Support/Code/User/settings.json > /dev/null 2>&1
 curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/settings.json -o ~/Library/Application\ Support/Code/User/settings.json
 
-###############################################################################
-# Install Quicklook plugins                                                   #
-###############################################################################
 
-# ⚙️ Install Quicklook plugins
-printf "⚙️  Install Quicklook plugins...\n"
-brew cask install qlcolorcode
-brew cask install qlmarkdown
-brew cask install qlstephen
-brew cask install qlvideo
-brew cask install quicklook-csv
-brew cask install quicklook-json
