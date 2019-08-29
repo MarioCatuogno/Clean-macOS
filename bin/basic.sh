@@ -136,7 +136,7 @@ printf "🧮  Install Cheatsheet.app...\n"
 brew cask install --appdir="/Applications" cheatsheet
 
 printf "🧮  Install The Unarchiever.app...\n"
-brew cask install --appdir="/Applications" the-unarchiver
+mas install 425424353
 
 ###############################################################################
 # Install Fonts                                                            #

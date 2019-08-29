@@ -24,6 +24,7 @@ __CHANGED__
 
 __FIXED__
 
+* 🐛 change `brew cask install --appdir="/Applications" the-unarchiver` homebrew formula to `mas install 425424353`
 * 🐛 change `google-drive-file-stream` homebrew formula to `google-backup-and-sync` [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
 * 🐛 correct various typo
 
