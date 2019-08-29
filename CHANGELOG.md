@@ -11,6 +11,35 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.8.0__ ([2019-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/4))
+
+Biggest release ever! I've re-organized the setup, updated the config files and updated the README file with a detailed guide. This release is fully compatible with __macOS 10.15 "Catalina"__.
+
+__CHANGED__
+
+* 🔥 update APPS_REMOVED file
+* 🔥 update CHANGELOG file
+* 🔥 update README file [[#51](https://github.com/MarioCatuogno/Clean-macOS/issues/51)]
+* 🔥 update installation process for `Zsh` [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+
+__FIXED__
+
+* 🐛 change `google-drive-file-stream` homebrew formula to `google-backup-and-sync` [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+* 🐛 correct various typo
+
+__NEW__
+
+* 📦 add BASIC.sh script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+
+__REMOVED__
+
+* 🗑️ remove `Discord` homebrew formula
+* 🗑️ remove `Sip` homebrew formula [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+* 🗑️ remove `brew install zsh-autosuggestions` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+* 🗑️ remove `brew install zsh-completions` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+* 🗑️ remove `brew install zsh-syntax-highlighting` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+* 🗑️ remove `gotop` command [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+
 ## __1.7.0__ ([2019-08-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
 
 First release with external contributors; it's now time to use a CONTRIBUTING file for next releases. I'm also using a new way to keep track of changes (for more details check [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]).
