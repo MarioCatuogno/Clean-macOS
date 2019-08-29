@@ -31,6 +31,8 @@ __FIXED__
 __NEW__
 
 * 📦 add BASIC.sh script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
+* 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 
 __REMOVED__
 

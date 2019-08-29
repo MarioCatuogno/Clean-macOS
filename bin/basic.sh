@@ -61,7 +61,6 @@ brew install youtube-dl
 ###############################################################################
 
 # 🛠️ Developer Tools
-
 printf "🛠️  Install iTerm2.app...\n"
 brew cask install --appdir="/Applications" iterm2
 
@@ -69,7 +68,6 @@ printf "🛠️  Install Visual Studio Code.app...\n"
 brew cask install --appdir="/Applications" visual-studio-code
 
 # 🍿 Entertainment
-
 printf "🍿  Install Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
 
@@ -77,17 +75,14 @@ printf "🍿  Install Iina.app...\n"
 brew cask install --appdir="/Applications" iina
 
 # 🎲 Games
-
 printf "🎲  Install Steam.app...\n"
 brew cask install --appdir="/Applications" steam
 
 # 🏞️ Graphics & Design
-
 printf "🏞️  Install Imageoptim.app...\n"
 brew cask install --appdir="/Applications" imageoptim
 
 # 🧭 Navigation
-
 printf "🧭  Install Ecosia.app...\n"
 mas install 1463400445
 
@@ -98,7 +93,6 @@ printf "🧭  Install Transmission.app...\n"
 brew cask install --appdir="/Applications" transmission
 
 # 📝 Productivity
-
 printf "📝  Install Keynote.app...\n"
 mas install 409183694
 
@@ -117,12 +111,10 @@ mas install 1176895641
 # 🔑 Security
 
 # 🥳 Social
-
 printf "🥳  Install Franz.app...\n"
 brew cask install --appdir="/Applications" franz
 
 # 🧮 Utilities
-
 printf "🧮  Install Alfred.app...\n"
 brew cask install --appdir="/Applications" alfred
 
@@ -152,11 +144,17 @@ brew cask install font-fira-code
 printf "💬  Install Hack font...\n"
 brew cask install font-hack
 
+printf "💬  Install Heavy-Data Nerd font...\n"
+brew cask install font-heavydata-nerd-font
+
 printf "💬  Install Lato font...\n"
 brew cask install font-lato
 
 printf "💬  Install Roboto font...\n"
 brew cask install font-roboto
+
+printf "💬  Install Ubuntu-mono Nerd font...\n"
+brew cask install font-ubuntumono-nerd-font
 
 ###############################################################################
 # Install Dotfiles                                                         #
