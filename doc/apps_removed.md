@@ -2,6 +2,13 @@
 
 ## __1.8.0__ ([2019-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/4))
 
+[commit]()
+
+```sh
+printf "Installing WebTorrent.app...\n"
+brew cask install --appdir="/Applications" webtorrent-cli
+```
+
 [commit](https://github.com/MarioCatuogno/Clean-macOS/commit/23022a430b27d579be044b4453f084c2d67dfacb)
 
 ```sh

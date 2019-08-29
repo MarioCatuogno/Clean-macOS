@@ -1,46 +1,4 @@
 ###############################################################################
-# Installing Applications                                                     #
-###############################################################################
-
-#Installing Developing tools
-printf "Installing Docker.app...\n"
-brew cask install --appdir="/Applications" docker
-
-#Installing Games apps
-printf "Installing Battle Net.app...\n"
-brew cask install --appdir="/Applications" battle-net
-printf "Installing Steermouse.app...\n"
-brew cask install --appdir="/Applications" steermouse
-
-#Installing Multimedia and Graphics apps
-
-printf "Installing Helium.app...\n"
-mas install 1054607607
-printf "Installing Pixelmator.app...\n"
-mas install 407963104
-
-
-#Installing Internet and Networking apps
-printf "Installing WebTorrent.app...\n"
-brew cask install --appdir="/Applications" webtorrent-cli
-printf "Installing Wipr.app...\n"
-mas install 1320666476
-
-#Installing Productivity apps
-printf "Installing Magnet.app...\n"
-mas install 441258766
-
-#Installing Security apps
-printf "Installing Expressvpn.app...\n"
-brew cask install --appdir="/Applications" expressvpn
-
-#Installing Utility apps
-printf "Installing DaisyDisk.app...\n"
-mas install 411643860
-
-
-
-###############################################################################
 # Installing Python                                                           #
 ###############################################################################
 
