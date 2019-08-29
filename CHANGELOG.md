@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file. The types o
 
 Biggest release ever! I've re-organized the setup, updated the config files and updated the README file with a detailed guide. This release is fully compatible with __macOS 10.15 "Catalina"__.
 
-__CHANGED__
+__CHANGED__ 
 
 * 🔥 update APPS_REMOVED file
 * 🔥 update CHANGELOG file
@@ -31,6 +31,7 @@ __FIXED__
 __NEW__
 
 * 📦 add BASIC.sh script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 add `coreutils` homebrew formula (only Developer.sh)
 * 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 
