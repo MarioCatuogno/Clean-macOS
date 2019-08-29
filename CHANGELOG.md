@@ -30,8 +30,9 @@ __FIXED__
 
 __NEW__
 
-* 📦 add BASIC.sh script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
-* 📦 add `coreutils` homebrew formula (only Developer.sh)
+* 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 add `coreutils` homebrew formula (__DEVELOPER__)
 * 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 
