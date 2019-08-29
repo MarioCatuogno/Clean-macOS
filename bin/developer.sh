@@ -62,6 +62,12 @@ brew install youtube-dl
 ###############################################################################
 
 # 🛠️ Developer Tools
+printf "🛠️  Install DBeaver.app...\n"
+brew cask install --appdir="/Applications" dbeaver-community
+
+printf "🛠️  Install Docker.app...\n"
+brew cask install --appdir="/Applications" docker
+
 printf "🛠️  Install iTerm2.app...\n"
 brew cask install --appdir="/Applications" iterm2
 
@@ -158,7 +164,7 @@ printf "💬  Install Ubuntu-mono Nerd font...\n"
 brew cask install font-ubuntumono-nerd-font
 
 ###############################################################################
-# Install Dotfiles                                                         #
+# Install Dotfiles                                                            #
 ###############################################################################
 
 # ⚙️ Install Git [1/2]
@@ -231,3 +237,23 @@ brew cask install qlstephen
 brew cask install qlvideo
 brew cask install quicklook-csv
 brew cask install quicklook-json
+
+###############################################################################
+# Install Python                                                              #
+###############################################################################
+
+# ⚙️ Install Python [1/2]
+printf "⚙️  Install Python3...\n"
+brew install python3
+
+# ⚙️ Download Python packages [2/2]
+printf "⚙️  Download Python packages...\n"
+pip3 install autopep8
+pip3 install jupyter
+pip3 install numpy
+pip3 install organize-tool
+pip3 install pandas
+pip3 install pylint
+pip3 install requests
+pip3 install speedtest-cli
+pip3 install virtualenv
