@@ -36,7 +36,11 @@
 
 ## About
 
-⚠️ WIP
+__Clean-macOS__ is a simple script which keeps updated the mac-OS or install all the stuff after a clean installation. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of mac-OS when you have to re-install your computer.
+
+I've seen various repositories of various people on Github, and every single one of them seemed to be very different. The reason for this is that _dotfiles_ are very personal and there is no "best setup". What I tried to acoomplish with this project is to create the simpliest setup for different kind of users: basic, developers, photographer, etc.
+
+To do this I dove deep down into several repositories (see [Acknowledgements](#acknowledgements)) and found incredible ways to tweak various setup or organize things. Let me show you how the script is structured.
 
 ## How it works
 
