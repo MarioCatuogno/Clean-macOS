@@ -1,51 +1,44 @@
-# Compiled source
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
 
-# Configuration files
-.pyc
-*-Ex.R
-.RData
-.Rproj.user/
-.Rhistory
-.Rapp.history
-*.utf8.md
-*.knit.md
-.Rproj.user
+# Thumbnails
+._*
 
-# Logs and databases
-*.log
-*.sql
-*.sqlite
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# OS generated files
+# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
+Network Trash Folder
+Temporary Items
 .apdisk
+
+# General macOS files
 .DS_Store
-.DS_Store?
 .AppleDouble
 .LSOverride
-Desktop.ini
-._*
-.Spotlight-V100
-.DocumentRevisions-V100
-.VolumeIcon.icns
-.Trashes
-ehthumbs.db
-Thumbs.db
-*.exe
-.localized
 
-# Packages
-*.7z
-*.dmg
-*.gz
-*.iso
-*.rar
-*.tar
-*.zip
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk

@@ -26,6 +26,7 @@ __CHANGED__
 * 🔥 (__PERSONAL__) move `SteerMouse` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 * 🔥 (__PERSONAL__) move `Wipr` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 * 🔥 (__PERSONAL__)(__DEVELOPER__)  move `Docker` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)] [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 update .gitignore file [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 * 🔥 update APPS_REMOVED file
 * 🔥 update CHANGELOG file
 * 🔥 update README file [[#51](https://github.com/MarioCatuogno/Clean-macOS/issues/51)]
