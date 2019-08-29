@@ -28,7 +28,7 @@ brew install mas
 brew tap homebrew/cask-fonts
 
 ###############################################################################
-# Install Binaries                                                            #
+# Install Binaries and utils                                                  #
 ###############################################################################
 
 # ️⚙️ Binary
@@ -46,6 +46,15 @@ brew install tree
 brew install wget
 brew install wifi-password
 brew install youtube-dl
+
+# ⚙️ Install Quicklook plugins
+printf "⚙️  Install Quicklook plugins...\n"
+brew cask install qlcolorcode
+brew cask install qlmarkdown
+brew cask install qlstephen
+brew cask install qlvideo
+brew cask install quicklook-csv
+brew cask install quicklook-json
 
 ###############################################################################
 # Install Brews                                                               #
@@ -85,10 +94,8 @@ printf "💬  Install Ubuntu-mono Nerd font...\n"
 brew cask install font-ubuntumono-nerd-font
 
 # 🎲 Games
-printf "🎲  Install XXX.app...\n"
 
 # 🏞️ Graphics & Design
-printf "🏞️  Install XXX.app...\n"
 
 # 🧭 Navigation
 printf "🧭  Install Google Chrome.app...\n"
@@ -111,7 +118,6 @@ printf "📝  Install Popclip.app...\n"
 mas install 445189367
 
 # 🔑 Security
-printf "🔑  Install XXX.app...\n"
 
 # 🥳 Social
 printf "🥳  Install Franz.app...\n"
