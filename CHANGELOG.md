@@ -17,6 +17,15 @@ Biggest release ever! I've re-organized the setup, updated the config files and 
 
 __CHANGED__ 
 
+* 🔥 (__PERSONAL__) move `BattleNet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (__PERSONAL__) move `DaisyDisk` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (__PERSONAL__) move `ExpressVPN` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (__PERSONAL__) move `Helium` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (__PERSONAL__) move `Magnet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (__PERSONAL__) move `Pixelmator` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (__PERSONAL__) move `SteerMouse` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (__PERSONAL__) move `Wipr` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (__PERSONAL__)(__DEVELOPER__)  move `Docker` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)] [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 * 🔥 update APPS_REMOVED file
 * 🔥 update CHANGELOG file
 * 🔥 update README file [[#51](https://github.com/MarioCatuogno/Clean-macOS/issues/51)]
@@ -30,10 +39,11 @@ __FIXED__
 
 __NEW__
 
+* 📦 (__DEVELOPER__) add `DBeaver` homebrew formula [[#57](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
+* 📦 (__DEVELOPER__) add `coreutils` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add PERSONAL script [[#38](https://github.com/MarioCatuogno/Clean-macOS/issues/38)]
-* 📦 (__DEVELOPER__) add `coreutils` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 
@@ -45,6 +55,7 @@ __REMOVED__
 * 🗑️ remove `brew install zsh-completions` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 * 🗑️ remove `brew install zsh-syntax-highlighting` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 * 🗑️ remove `gotop` command [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+* 🗑️ remove `webtorrent-cli` homebrew formula
 
 ## __1.7.0__ ([2019-08-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
 
