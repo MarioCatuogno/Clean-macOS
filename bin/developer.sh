@@ -15,7 +15,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
-# Install HomeBrew                                                         #
+# Install HomeBrew                                                            #
 ###############################################################################
 
 # Install XCode Command Line Tools
@@ -38,7 +38,7 @@ brew install mas
 brew tap homebrew/cask-fonts
 
 ###############################################################################
-# Install binary commands                                                  #
+# Install binary commands                                                     #
 ###############################################################################
 
 printf "⚙️  Install Binary commands...\n"
@@ -138,7 +138,7 @@ printf "🧮  Install The Unarchiever.app...\n"
 mas install 425424353
 
 ###############################################################################
-# Install Fonts                                                            #
+# Install Fonts                                                               #
 ###############################################################################
 
 # 💬 Fonts

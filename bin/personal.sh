@@ -15,7 +15,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
-# Install HomeBrew                                                         #
+# Install HomeBrew                                                            #
 ###############################################################################
 
 # Install XCode Command Line Tools
@@ -38,7 +38,7 @@ brew install mas
 brew tap homebrew/cask-fonts
 
 ###############################################################################
-# Install binary commands                                                  #
+# Install binary commands                                                     #
 ###############################################################################
 
 printf "⚙️  Install Binary commands...\n"
@@ -57,7 +57,7 @@ brew install wifi-password
 brew install youtube-dl
 
 ###############################################################################
-# Install Applications                                                     #
+# Install Applications                                                        #
 ###############################################################################
 
 # 🛠️ Developer Tools
@@ -157,7 +157,7 @@ printf "🧮  Install The Unarchiever.app...\n"
 mas install 425424353
 
 ###############################################################################
-# Install Fonts                                                            #
+# Install Fonts                                                               #
 ###############################################################################
 
 # 💬 Fonts
@@ -183,7 +183,7 @@ printf "💬  Install Ubuntu-mono Nerd font...\n"
 brew cask install font-ubuntumono-nerd-font
 
 ###############################################################################
-# Install Dotfiles                                                         #
+# Install Dotfiles                                                            #
 ###############################################################################
 
 # ⚙️ Install Git [1/2]
