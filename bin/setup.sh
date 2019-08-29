@@ -1,20 +1,4 @@
-###############################################################################
-# Installing Python                                                           #
-###############################################################################
 
-#Installing Python
-printf "Installing Python3...\n"
-brew install python3
-printf "Installing Python packages...\n"
-pip3 install autopep8
-pip3 install jupyter
-pip3 install numpy
-pip3 install organize-tool
-pip3 install pandas
-pip3 install pylint
-pip3 install requests
-pip3 install speedtest-cli
-pip3 install virtualenv
 
 ###############################################################################
 # Configure macOS: Dock                                                       #
