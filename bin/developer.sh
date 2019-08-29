@@ -58,7 +58,7 @@ brew install wifi-password
 brew install youtube-dl
 
 ###############################################################################
-# Install Applications                                                     #
+# Install Applications                                                        #
 ###############################################################################
 
 # 🛠️ Developer Tools
