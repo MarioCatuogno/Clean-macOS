@@ -33,19 +33,21 @@ Launching the __install__ mode let you chose what kind of profile you want to ap
   <i>Diagram : Clean-macOS scripts in 1.8.0-RELEASE</i>
 </p>
 
+The list of applications included in each profile is reported [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md).
+
 Also this release is fully compatible with __macOS 10.15 "Catalina"__.
 
 __CHANGED__ 
 
-* 🔥 (__PERSONAL__) move `BattleNet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (__PERSONAL__) move `DaisyDisk` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (__PERSONAL__) move `ExpressVPN` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (__PERSONAL__) move `Helium` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (__PERSONAL__) move `Magnet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (__PERSONAL__) move `Pixelmator` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (__PERSONAL__) move `SteerMouse` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (__PERSONAL__) move `Wipr` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (__PERSONAL__)(__DEVELOPER__)  move `Docker` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)] [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `BattleNet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `DaisyDisk` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `ExpressVPN` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Helium` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Magnet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Pixelmator` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `SteerMouse` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Wipr` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__)(👨‍💻 __developer__)  move `Docker` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)] [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 * 🔥 update .gitignore file [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 * 🔥 update APPS_REMOVED file
 * 🔥 update CHANGELOG file
@@ -60,8 +62,8 @@ __FIXED__
 
 __NEW__
 
-* 📦 (__DEVELOPER__) add `DBeaver` homebrew formula [[#57](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
-* 📦 (__DEVELOPER__) add `coreutils` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 (👨‍💻 __developer__) add `DBeaver` homebrew formula [[#57](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
+* 📦 (👨‍💻 __developer__) add `coreutils` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add PERSONAL script [[#38](https://github.com/MarioCatuogno/Clean-macOS/issues/38)]
@@ -106,7 +108,7 @@ __NEW__
 * 📦 add `jupyter` Python package
 * 📦 add `quicklook-csv` homebrew formula
 * 📦 add `youtube-dl` homebrew formula
-* 📦 add a new official logo (thanks to [@JustInDraft](https://www.instagram.com/justindraft_adv/))
+* 📦 add a new official logo (thanks to [__@JustInDraft__](https://www.instagram.com/justindraft_adv/))
 
 __REMOVED__
 
