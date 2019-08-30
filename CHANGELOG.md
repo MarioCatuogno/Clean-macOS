@@ -23,13 +23,14 @@ There is now one single script called `cleanMacOs.sh` that has two functions:
 Launching the __install__ mode let you chose what kind of profile you want to apply to your macOS. Each profile has different apps and configurations, but everyone shares a `core.sh` script which install common apps and dependencies. Included in this release there are the following profiles, more to come in next releases:
 
 * 👩‍🎨 __artist__ [[#59](https://github.com/MarioCatuogno/Clean-macOS/issues/59)]
-* 🦄 __basic__ [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
-* 🛠️ __developer__ [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
-* 👨‍💻 __personal__ [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 👶 __basic__ [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 👨‍💻 __developer__ [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 🧟 __personal__ [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">
- <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_script_diagram.png" alt="Clean-macOS logo"></a>
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_script_diagram.png" alt="Clean-macOS logo"><br></a>
+  <i>Diagram : Clean-macOS scripts in 1.8.0-RELEASE</i>
 </p>
 
 Also this release is fully compatible with __macOS 10.15 "Catalina"__.
