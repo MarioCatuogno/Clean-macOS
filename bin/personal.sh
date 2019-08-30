@@ -153,6 +153,9 @@ mas install 411643860
 printf "🧮  Install Magnet.app...\n"
 mas install 441258766
 
+printf "📝  Install Popclip.app...\n"
+mas install 445189367
+
 printf "🧮  Install The Unarchiever.app...\n"
 mas install 425424353
 

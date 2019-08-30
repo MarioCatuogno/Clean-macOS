@@ -114,9 +114,6 @@ mas install 409203825
 printf "📝  Install Pages.app...\n"
 mas install 409201541
 
-printf "📝  Install Popclip.app...\n"
-mas install 445189367
-
 # 🔑 Security
 
 # 🥳 Social
