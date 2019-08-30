@@ -44,7 +44,7 @@ To do this I dove deep down into several repositories (see [Acknowledgements](#a
 
 The basic idea behind this project is that the setup and configuration of a new Mac should be as smooth, simple and fast as possible. For this reason there is just one script that prompts a menu from which you chose what kind of profile you want to install on your Mac. Each profile has different apps/options but everyone shares a "core" function that install basic apps, dependencies or binaries. So no matter if you're a developer or a graphic designer, your Mac will be run just fine.
 
-You can check [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md) for a complete list of apps installed with each profile.
+You can check [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md) a complete list of apps installed with each profile.
 
 ## How it works
 
