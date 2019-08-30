@@ -13,7 +13,26 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.8.0__ ([2019-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/4))
 
-Biggest release ever! I've re-organized the setup, updated the config files and updated the README file with a detailed guide. This release is fully compatible with __macOS 10.15 "Catalina"__.
+Biggest release ever! I've re-organized the setup, updated the config files and updated the README file with a detailed guide.
+
+There is now one single script called `cleanMacOs.sh` that has two functions:
+
+* __update__: update macOS apps and binaries, clean temporary files and run some _brew_ diagnostics
+* __install__: install apps, binaries and configure macOS, to be launched only once
+
+Launching the __install__ mode let you chose what kind of profile you want to apply to your macOS. Each profile has different apps and configurations, but everyone shares a `core.sh` script which install common apps and dependencies. Included in this release there are the following profiles, more to come in next releases:
+
+* 👩‍🎨 __artist__ [[#59](https://github.com/MarioCatuogno/Clean-macOS/issues/59)]
+* 🦄 __basic__ [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 🛠️ __developer__ [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 👨‍💻 __personal__ [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+ <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_script_diagram.png" alt="Clean-macOS logo"></a>
+</p>
+
+Also this release is fully compatible with __macOS 10.15 "Catalina"__.
 
 __CHANGED__ 
 
