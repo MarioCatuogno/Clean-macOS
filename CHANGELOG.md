@@ -65,8 +65,8 @@ __NEW__
 
 * 📦 (👨‍💻 __developer__) add `DBeaver` homebrew formula [[#57](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
 * 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
-* 📦 (🧟 __personal__) add `Telegram` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
-* 📦 (🧟 __personal__) add `Whatsapp` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 (👶 __basic__) add `Telegram` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 (👶 __basic__) add `Whatsapp` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add PERSONAL script [[#38](https://github.com/MarioCatuogno/Clean-macOS/issues/38)]
