@@ -64,10 +64,14 @@ __FIXED__
 __NEW__
 
 * 📦 (👨‍💻 __developer__) add `DBeaver` homebrew formula [[#57](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
-* 📦 (👨‍💻 __developer__) add `coreutils` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
+* 📦 (🧟 __personal__) add `Telegram` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 (🧟 __personal__) add `Whatsapp` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add PERSONAL script [[#38](https://github.com/MarioCatuogno/Clean-macOS/issues/38)]
+* 📦 add `coreutils` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 add `dockutil` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add various graphic resources [[#58](https://github.com/MarioCatuogno/Clean-macOS/issues/58)]
