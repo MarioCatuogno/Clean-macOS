@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# DATE: 2019-10-31
+# VERSION: 1.8.0
+
 ###############################################################################
 # Install Applications                                                        #
 ###############################################################################
@@ -5,28 +10,24 @@
 # 🛠️ Developer Tools
 
 # 🍿 Entertainment
-printf "🍿  Install Handbrake.app...\n"
-brew cask install --appdir="/Applications" handbrake
 
 # 🎲 Games
-printf "🎲  Install Steam.app...\n"
-brew cask install --appdir="/Applications" steam
 
 # 🏞️ Graphics & Design
-printf "🏞️  Install Imageoptim.app...\n"
-brew cask install --appdir="/Applications" imageoptim
 
 # 🧭 Navigation
 printf "🧭  Install Ecosia.app...\n"
 mas install 1463400445
 
 # 📝 Productivity
-printf "📝  Install Spark.app...\n"
-mas install 1176895641
 
 # 🔑 Security
 
 # 🥳 Social
+printf "🥳  Install Telegram.app...\n"
+brew cask install --appdir="/Applications" telegram
+printf "🥳  Install Whatsapp.app...\n"
+brew cask install --appdir="/Applications" whatsapp
 
 # 🧮 Utilities
 
