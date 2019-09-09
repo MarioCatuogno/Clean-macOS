@@ -137,6 +137,9 @@ brew cask install --appdir="/Applications" appcleaner
 printf "🧮  Install Cheatsheet.app...\n"
 brew cask install --appdir="/Applications" cheatsheet
 
+printf "🧮  Install Google Backup and Sync.app...\n"
+brew cask install --appdir="/Applications" google-backup-and-sync
+
 printf "🧮  Install The Unarchiever.app...\n"
 mas install 425424353
 
