@@ -4,46 +4,6 @@
 # VERSION: 1.8.0
 
 ###############################################################################
-# Launch script                                                               #
-###############################################################################
-
-# Entering as Root
-printf "Enter root password...\n"
-sudo -v
-
-# Keep alive Root
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
-###############################################################################
-# Install HomeBrew                                                            #
-###############################################################################
-
-# Install XCode Command Line Tools
-printf "🏗️  Install XCode CL tools...\n"
-xcode-select --install
-
-# Install Brew
-printf "🏗️  Check Brew...\n"
-if test ! $(which brew); then
-  echo "🏗️  Install Homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
-
-# Check Brews
-brew doctor && brew update && brew upgrade
-
-# Tap Repositories
-printf "🏗️  Install Brew Cask and MAS..."
-brew install mas
-brew tap homebrew/cask-fonts
-
-###############################################################################
-# Install binary commands                                                     #
-###############################################################################
-
-printf "⚙️  Install Binary commands...\n"
-
-###############################################################################
 # Install Applications                                                        #
 ###############################################################################
 
@@ -58,12 +18,7 @@ brew cask install --appdir="/Applications" docker
 printf "🍿  Install Handbrake.app...\n"
 brew cask install --appdir="/Applications" handbrake
 
-printf "🍿  Install Iina.app...\n"
-brew cask install --appdir="/Applications" iina
-
 # 🎲 Games
-printf "🎲  Install Steam.app...\n"
-brew cask install --appdir="/Applications" steam
 
 # 🏞️ Graphics & Design
 printf "🏞️  Install Imageoptim.app...\n"
@@ -74,9 +29,6 @@ printf "🧭  Install Firefox.app...\n"
 brew cask install --appdir="/Applications" firefox
 
 # 📝 Productivity
-printf "📝  Install Popclip.app...\n"
-mas install 445189367
-
 printf "📝  Install Spark.app...\n"
 mas install 1176895641
 
@@ -87,32 +39,8 @@ printf "🥳  Install Franz.app...\n"
 brew cask install --appdir="/Applications" franz
 
 # 🧮 Utilities
-
-###############################################################################
-# Install Fonts                                                               #
-###############################################################################
-
-# 💬 Fonts
-printf "💬  Install Comic-Neue font...\n"
-brew cask install font-comic-neue
-
-printf "💬  Install Fira-code font...\n"
-brew cask install font-fira-code
-
-printf "💬  Install Hack font...\n"
-brew cask install font-hack
-
-printf "💬  Install Heavy-Data Nerd font...\n"
-brew cask install font-heavydata-nerd-font
-
-printf "💬  Install Lato font...\n"
-brew cask install font-lato
-
-printf "💬  Install Roboto font...\n"
-brew cask install font-roboto
-
-printf "💬  Install Ubuntu-mono Nerd font...\n"
-brew cask install font-ubuntumono-nerd-font
+printf "🧮  Install Popclip.app...\n"
+mas install 445189367
 
 ###############################################################################
 # Install Python                                                              #

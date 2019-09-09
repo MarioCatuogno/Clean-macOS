@@ -99,6 +99,9 @@ brew cask install font-ubuntumono-nerd-font
 # 🏞️ Graphics & Design
 
 # 🧭 Navigation
+printf "🧭  Install Ecosia.app...\n"
+mas install 1463400445
+
 printf "🧭  Install Google Chrome.app...\n"
 brew cask install --appdir="/Applications" google-chrome
 
