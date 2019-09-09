@@ -70,6 +70,7 @@ __NEW__
 * 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add PERSONAL script [[#38](https://github.com/MarioCatuogno/Clean-macOS/issues/38)]
+* 📦 add `Bitwarden` homebrew formula [[#64](https://github.com/MarioCatuogno/Clean-macOS/issues/64)]
 * 📦 add `coreutils` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add `dockutil` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]

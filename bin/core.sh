@@ -116,6 +116,8 @@ printf "📝  Install Pages.app...\n"
 mas install 409201541
 
 # 🔑 Security
+printf "🔑  Install Bitwarden.app...\n"
+brew cask install --appdir="/Applications" bitwarden
 
 # 🥳 Social
 
