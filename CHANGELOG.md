@@ -74,6 +74,7 @@ __NEW__
 * 📦 add `Bitwarden` homebrew formula [[#64](https://github.com/MarioCatuogno/Clean-macOS/issues/64)]
 * 📦 add `coreutils` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add `dockutil` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 add `fantasque-sans-mono` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add various graphic resources [[#58](https://github.com/MarioCatuogno/Clean-macOS/issues/58)]

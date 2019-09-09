@@ -76,6 +76,9 @@ brew cask install --appdir="/Applications" iina
 printf "💬  Install Comic-Neue font...\n"
 brew cask install font-comic-neue
 
+printf "💬  Install Fantasque Sans Mono font...\n"
+brew cask install font-fantasque-sans-mono
+
 printf "💬  Install Fira-code font...\n"
 brew cask install font-fira-code
 
