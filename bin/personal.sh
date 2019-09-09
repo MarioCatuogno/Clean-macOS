@@ -41,6 +41,9 @@ mas install 407963104
 # 🧭 Navigation
 
 # 📝 Productivity
+printf "📝  Install Notion.app...\n"
+brew cask install --appdir="/Applications" notion
+
 printf "📝  Install Spark.app...\n"
 mas install 1176895641
 
