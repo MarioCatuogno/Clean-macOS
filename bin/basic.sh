@@ -24,6 +24,7 @@
 # 🥳 Social
 printf "🥳  Install Telegram.app...\n"
 brew cask install --appdir="/Applications" telegram
+
 printf "🥳  Install Whatsapp.app...\n"
 brew cask install --appdir="/Applications" whatsapp
 
