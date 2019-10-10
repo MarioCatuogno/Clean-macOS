@@ -27,6 +27,8 @@ printf "🏗️  Check Brew...\n"
 if test ! $(which brew); then
   echo "🏗️  Install Homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+exit
 fi
 
 # Check Brews
@@ -187,6 +189,9 @@ mas install 411643860
 
 printf "🧮  Install Google Backup and Sync.app...\n"
 brew cask install --appdir="/Applications" google-backup-and-sync
+
+printf "🧮  Install gSwitch.app...\n"
+brew cask install --appdir="/Applications" gswitch
 
 printf "🧮  Install Magnet.app...\n"
 mas install 441258766
