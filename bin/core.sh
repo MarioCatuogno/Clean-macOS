@@ -120,9 +120,6 @@ printf "💬  Install Ubuntu-mono Nerd font...\n"
 brew cask install font-ubuntumono-nerd-font
 
 # 🎲 Games
-printf "🎲  Install Battle Net.app...\n"
-brew cask install --appdir="/Applications" battle-net
-
 printf "🎲  Install Steam.app...\n"
 brew cask install --appdir="/Applications" steam
 
@@ -219,7 +216,6 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.
 
 # 🎛️ Install Zsh [1/3]
 printf "🎛️  Install Zsh...\n"
-chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # 🎛️ Download Zsh plugins [2/3]
@@ -365,12 +361,6 @@ printf "Configuring Safari.app...\n"
 printf "Safari: disable Apple send queries\n"
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-printf "Safari: don't open safe files\n"
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
-printf "Safari: show favorites bar\n"
-defaults write com.apple.Safari ShowFavoritesBar -bool true
-printf "Safari: enable develop menu\n"
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
 printf "Safari: disable auto-correct\n"
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
 
