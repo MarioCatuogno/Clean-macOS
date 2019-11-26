@@ -11,6 +11,83 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.8.0__ ([2019-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/4))
+
+Biggest release ever! I've re-organized the setup, updated the config files and updated the README file with a detailed guide.
+
+There is now one single script called `cleanMacOs.sh` that has two functions:
+
+* __update__: update macOS apps and binaries, clean temporary files and run some _brew_ diagnostics
+* __install__: install apps, binaries and configure macOS, to be launched only once
+
+Launching the __install__ mode let you chose what kind of profile you want to apply to your macOS. Each profile has different apps and configurations, but everyone shares a `core.sh` script which install common apps and dependencies. Included in this release there are the following profiles, more to come in next releases:
+
+* 👩‍🎨 __artist__ [[#59](https://github.com/MarioCatuogno/Clean-macOS/issues/59)]
+* 👶 __basic__ [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 👨‍💻 __developer__ [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 🧟 __personal__ [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_script_diagram.png" alt="Clean-macOS logo"><br></a>
+  <i>Diagram : Clean-macOS scripts in 1.8.0-RELEASE</i>
+</p>
+
+The list of applications included in each profile is reported [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md).
+
+Also this release is fully compatible with __macOS 10.15 "Catalina"__.
+
+__CHANGED__ 
+
+* 🔥 (🧟 __personal__) move `BattleNet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `DaisyDisk` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `ExpressVPN` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Helium` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Magnet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Pixelmator` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__)(👨‍💻 __developer__) move `PopClip` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `SteerMouse` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Wipr` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__)(👨‍💻 __developer__)  move `Docker` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)] [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 update .gitignore file [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+* 🔥 update APPS_REMOVED file
+* 🔥 update CHANGELOG file
+* 🔥 update README file [[#51](https://github.com/MarioCatuogno/Clean-macOS/issues/51)]
+* 🔥 update installation process for `Zsh` [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+
+__FIXED__
+
+* 🐛 change `brew cask install --appdir="/Applications" the-unarchiver` homebrew formula to `mas install 425424353`
+* 🐛 change `google-drive-file-stream` homebrew formula to `google-backup-and-sync` [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+* 🐛 correct various typo
+
+__NEW__
+
+* 📦 (👨‍💻 __developer__) add `DBeaver` homebrew formula [[#57](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
+* 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
+* 📦 (👶 __basic__) add `Telegram` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 (👶 __basic__) add `Whatsapp` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 add PERSONAL script [[#38](https://github.com/MarioCatuogno/Clean-macOS/issues/38)]
+* 📦 add `Bitwarden` homebrew formula [[#64](https://github.com/MarioCatuogno/Clean-macOS/issues/64)]
+* 📦 add `coreutils` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 add `dockutil` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 add `fantasque-sans-mono` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
+* 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
+* 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
+* 📦 add various graphic resources [[#58](https://github.com/MarioCatuogno/Clean-macOS/issues/58)]
+
+__REMOVED__
+
+* 🗑️ remove `Discord` homebrew formula
+* 🗑️ remove `Sip` homebrew formula [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+* 🗑️ remove `brew install zsh-autosuggestions` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+* 🗑️ remove `brew install zsh-completions` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+* 🗑️ remove `brew install zsh-syntax-highlighting` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
+* 🗑️ remove `gotop` command [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+* 🗑️ remove `webtorrent-cli` homebrew formula
+
 ## __1.7.0__ ([2019-08-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
 
 First release with external contributors; it's now time to use a CONTRIBUTING file for next releases. I'm also using a new way to keep track of changes (for more details check [[#42](https://github.com/MarioCatuogno/Clean-macOS/issues/42)]).
@@ -38,7 +115,7 @@ __NEW__
 * 📦 add `jupyter` Python package
 * 📦 add `quicklook-csv` homebrew formula
 * 📦 add `youtube-dl` homebrew formula
-* 📦 add a new official logo (thanks to [@JustInDraft](https://www.instagram.com/justindraft_adv/))
+* 📦 add a new official logo (thanks to [__@JustInDraft__](https://www.instagram.com/justindraft_adv/))
 
 __REMOVED__
 

@@ -1,4 +1,155 @@
+#!/bin/bash
 
+# DATE: 2019-10-31
+# VERSION: 1.8.0
+
+###############################################################################
+# Launch script                                                               #
+###############################################################################
+
+# Entering as Root
+printf "Enter root password...\n"
+sudo -v
+
+# Keep alive Root
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+###############################################################################
+# Install HomeBrew                                                            #
+###############################################################################
+
+# Install XCode Command Line Tools
+printf "🏗️  Install XCode CL tools...\n"
+xcode-select --install
+
+# Install Brew
+printf "🏗️  Check Brew...\n"
+if test ! $(which brew); then
+  echo "🏗️  Install Homebrew..."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+exit
+fi
+
+# Check Brews
+brew doctor && brew update && brew upgrade
+
+# Tap Repositories
+printf "🏗️  Install Brew Cask and MAS..."
+brew install mas
+brew tap homebrew/cask-fonts
+
+###############################################################################
+# Install Binaries and utils                                                  #
+###############################################################################
+
+# ️⚙️ Binary
+printf "⚙️  Install Binaries...\n"
+brew install ack
+brew install bash
+brew install coreutils
+brew install dockutil
+brew install gzip
+brew install htop
+brew install imagemagick
+brew install nano
+brew install neofetch
+brew install prettyping
+brew install tldr
+brew install tree
+brew install wget
+brew install wifi-password
+brew install youtube-dl
+
+# ⚙️ Install Quicklook plugins
+printf "⚙️  Install Quicklook plugins...\n"
+brew cask install qlcolorcode
+brew cask install qlmarkdown
+brew cask install qlstephen
+brew cask install qlvideo
+brew cask install quicklook-csv
+brew cask install quicklook-json
+
+###############################################################################
+# Install Brews                                                               #
+###############################################################################
+
+# 🛠️ Developer Tools
+printf "🛠️  Install iTerm2.app...\n"
+brew cask install --appdir="/Applications" iterm2
+
+# 🍿 Entertainment
+printf "🍿  Install VLC.app...\n"
+brew cask install --appdir="/Applications" vlc
+
+# 💬 Fonts
+
+# 🎲 Games
+
+# 🏞️ Graphics & Design
+
+# 🧭 Navigation
+printf "🧭  Install Ecosia.app...\n"
+mas install 1463400445
+
+printf "🧭  Install Google Chrome.app...\n"
+brew cask install --appdir="/Applications" google-chrome
+
+printf "🧭  Install Transmission.app...\n"
+brew cask install --appdir="/Applications" transmission
+
+# 📝 Productivity
+
+# 🔑 Security
+
+# 🥳 Social
+printf "🧮  Install Whatsapp.app...\n"
+brew cask install --appdir="/Applications" whatsapp
+
+# 🧮 Utilities
+printf "🧮  Install Amphetamine.app...\n"
+mas install 937984704
+
+printf "🧮  Install App Cleaner.app...\n"
+brew cask install --appdir="/Applications" appcleaner
+
+printf "🧮  Install Cheatsheet.app...\n"
+brew cask install --appdir="/Applications" cheatsheet
+
+printf "🧮  Install Google Backup and Sync.app...\n"
+brew cask install --appdir="/Applications" google-backup-and-sync
+
+printf "🧮  Install The Unarchiever.app...\n"
+mas install 425424353
+
+###############################################################################
+# Configure Terminal                                                          #
+###############################################################################
+
+# 🎛️ Install Zsh [1/3]
+printf "🎛️  Install Zsh...\n"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# 🎛️ Download Zsh plugins [2/3]
+printf "🎛️  Download Zsh plugins...\n"
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# 🎛️ Update Zsh settings [3/3]
+printf "🎛️  Update Zsh settings...\n"
+sudo rm -rf ~/.zshrc > /dev/null 2>&1
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.zshrc -o ~/.zshrc
+
+###############################################################################
+# Install Config files                                                        #
+###############################################################################
+
+# 🎛️ Download iTerm2 plugins [1/1]
+printf "🎛️  Download iTerm2 plugins...\n"
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-dark.itermcolors -o ~/Downloads/ayu-dark.itermcolors && open ~/Downloads/ayu-dark.itermcolors
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-light.itermcolors -o ~/Downloads/ayu-light.itermcolors && open ~/Downloads/ayu-light.itermcolors
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/ayu-mirage.itermcolors -o ~/Downloads/ayu-mirage.itermcolors && open ~/Downloads/ayu-mirage.itermcolors
 
 ###############################################################################
 # Configure macOS: Dock                                                       #
@@ -7,16 +158,9 @@
 printf "Configuring Dock...\n"
 printf "Dock: set icon size\n"
 defaults write com.apple.dock tilesize -int 40
-printf "Dock: disable dashboard\n"
-defaults write com.apple.dashboard mcx-disabled -bool true
-defaults write com.apple.dock dashboard-in-overlay -bool true
-printf "Dock: automatically hide\n"
-defaults write com.apple.dock autohide -bool true
 printf "Dock: remove animation\n"
 defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock autohide-delay -float 0
-printf "Dock: show only active apps\n"
-defaults write com.apple.dock static-only -bool true
 
 ###############################################################################
 # Configure macOS: Finder                                                     #
@@ -82,16 +226,6 @@ printf "Keyboard: disable cotninuous spell checking\n"
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
 ###############################################################################
-# Configure macOS: Mail                                                       #
-###############################################################################
-
-printf "Configuring Mail.app...\n"
-printf "Mail: show attachments as icons\n"
-defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
-printf "Mail: disable autocorrect\n"
-defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnabled"
-
-###############################################################################
 # Configure macOS: Safari                                                     #
 ###############################################################################
 
@@ -99,12 +233,6 @@ printf "Configuring Safari.app...\n"
 printf "Safari: disable Apple send queries\n"
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-printf "Safari: don't open safe files\n"
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
-printf "Safari: show favorites bar\n"
-defaults write com.apple.Safari ShowFavoritesBar -bool true
-printf "Safari: enable develop menu\n"
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
 printf "Safari: disable auto-correct\n"
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
 
@@ -148,10 +276,6 @@ printf "Security: Enable firewall\n"
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 printf "TimeMachine: prevent from prompting to use new hard drives as backup volume\n"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-printf "Notifications: set banner time to 3 seconds\n"
-defaults write com.apple.notificationcenterui bannerTime 3
-printf "FileVault: Enable encryption\n"
-sudo fdesetup enable
 
 ###############################################################################
 # Final touches                                                               #
