@@ -58,9 +58,15 @@ You can check [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/maste
 
 ⚠️ WIP
 
+1. Do a fresh install of macOS (version 10.10+)
+2. Download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
+3. Choose a configuration file from `~/cleanMacOS/config` and copy it into `~/cleanMacOS/setup`
+
 ### Installing
 
 ⚠️ WIP
+
+Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/install.sh`
 
 ### More apps
 
