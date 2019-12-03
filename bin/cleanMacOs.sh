@@ -19,4 +19,4 @@ while IFS="" read -r p || [ -n "$p" ]
 do
   printf '%s\n' "Installing $p..."
   printf '%s\n' "Ciao!"
-done < /Users/mariocatuogno/Desktop/testo.txt
+done < ~/Desktop/testo.txt
