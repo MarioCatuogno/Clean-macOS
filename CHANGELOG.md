@@ -17,7 +17,7 @@ Complete overhaul of configuration and setup. Now it's even easier to choose whi
 
 __CHANGED__
 
-* 🔥
+* 🔥 update shell script files [[#68](https://github.com/MarioCatuogno/Clean-macOS/issues/68)]
 
 __DOCS__
 
