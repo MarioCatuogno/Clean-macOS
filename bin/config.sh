@@ -1,16 +1,17 @@
 #!/bin/bash
 
-# NAME: Clean macOS CONFIG script
-# DESC: Setup a clean environment for your Mac operating system
-# DATE: 2019-08-28
-# VERSION: 1.7.0
+# DATE: 2019-12-31
+# VERSION: 1.9.0
 
 ###############################################################################
-# Define Variables                                                            #
+# Set variables                                                               #
 ###############################################################################
 
 RED='\033[0;41;30m'
 STD='\033[0;0;39m'
+SETUP=~/cleanMacOS/setup
+CONFIG=~/cleanMacOS/config
+BIN=~/cleanMacOS/bin
 
 ###############################################################################
 # Menu                                                                        #
@@ -21,8 +22,8 @@ do
     clear
     cat<<EOF
     ###############################################################################
-    # CLN : Clean macOS                                                           #
-    # Version : 1.6.0                                                             #
+    # cleanMacOS                                                                  #
+    # Version : 1.9.0                                                             #
     ###############################################################################
 
     Please enter your choice:
@@ -30,7 +31,8 @@ do
     (1) Install
     (2) Update
     (3) Exit
-    ------------------------------
+
+    -------------------------------------------------------------------------------
 EOF
     read -n1 -s
     case "$REPLY" in
