@@ -9,8 +9,8 @@
 
 RED='\033[0;41;30m'
 STD='\033[0;0;39m'
-SETUP=~/cleanMacOS/setup
-CONFIG=~/cleanMacOS/config
+SETUP=~/cleanMacOS/setup            # shell script directory
+CONFIG=~/cleanMacOS/config          # configuration files directory
 BIN=~/cleanMacOS/bin
 
 ###############################################################################
