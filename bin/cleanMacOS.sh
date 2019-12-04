@@ -25,21 +25,23 @@ do
     # cleanMacOS                                                                  #
     # Version : 1.9.0                                                             #
     ###############################################################################
-
-    Please enter your choice:
-
-    (1) Install
-    (2) Update
-    (3) Exit
-
-    -------------------------------------------------------------------------------
+    #                                                                             #
+    #  Please enter your choice:                                                  #
+    #                                                                             #
+    #  (1) Install Homebrew                                                       #
+    #  (2) Configure macOS                                                        #
+    #  (3) Update                                                                 #
+    #  (0) Exit                                                                   #
+    #                                                                             #
+    ###############################################################################
 EOF
     read -n1 -s
     case "$REPLY" in
-    "1")  echo "Ready to install..."            | ~/Documents/Clean-macOS/bin/setup.sh          ;;
-    "2")  echo "Ready to update..."             | ~/Documents/Clean-macOS/bin/update.sh            ;;
-    "3")  exit                                  ;;
-     * )  echo "Invalid option!"                ;;
+    "1")  echo "Ready to install Homebrew..."            | $BIN/setup.sh             ;;
+    "2")  echo "Ready to configure macOS..."             | $BIN/config.sh            ;;
+    "3")  echo "Ready to update..."                      | $BIN/update.sh            ;;
+    "0")  exit                                                                       ;;
+     * )  echo "Invalid option!"                                                     ;;
     esac
     sleep 1
 done
