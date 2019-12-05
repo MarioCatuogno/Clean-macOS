@@ -18,6 +18,7 @@ Complete overhaul of configuration and setup. Now it's even easier to choose whi
 __CHANGED__
 
 * 🔥 update shell script files [[#68](https://github.com/MarioCatuogno/Clean-macOS/issues/68)]
+* 🔥 update `Visual Studio Code` preferences file
 
 __DOCS__
 
@@ -27,15 +28,15 @@ __DOCS__
 
 __FIXED__
 
-* 🐛
+* 🐛 fix varioust commands
 
 __NEW__
 
-* 📦
+* 📦 add (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles
 
 __REMOVED__
 
-* 🗑️
+* 🗑️ remove unused scripts
 
 ## __1.8.0__ ([2019-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/4))
 
