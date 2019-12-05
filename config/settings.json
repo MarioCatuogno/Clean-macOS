@@ -15,7 +15,7 @@
   "editor.renderWhitespace": "all",
   "editor.trimAutoWhitespace": true,
   // Insert a new line at the end of the page
-  "files.insertFinalNewline": true,
+  "files.insertFinalNewline": false,
   // Controls CSV parameters
   "csv-preview.separator": ";",
   "csv-preview.resizeColumns": "all",
