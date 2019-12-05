@@ -40,4 +40,17 @@ printf "🥡 Installing Brew Cask and MAS...\n"
 brew install mas
 brew tap homebrew/cask-fonts
 
+###############################################################################
+# Final touches                                                               #
+###############################################################################
+
+# Cleanup
+printf "Cleanup and final touches...\n"
+brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
+
+#Exit script
+printf "Done. Some of these changes require a restart to take effect\n"
+sudo shutdown -r +1
+
+#Exit script
 exit

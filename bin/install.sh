@@ -7,8 +7,7 @@
 # Set variables                                                               #
 ###############################################################################
 
-SETUP=~/cleanMacOS/setup
-PROFILE=$1
+SETUP=~/cleanMacOS
 
 ###############################################################################
 # Launch script                                                               #
@@ -22,32 +21,6 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
-# Install dependencies                                                        #
-###############################################################################
-
-# Install XCode Command Line Tools
-printf "🥡 Installing XCode CL tools...\n"
-xcode-select --install
-
-# Install Brew
-printf "🥡 Check Brew...\n"
-if test ! $(which brew); then
-  printf "🥡 Installing Homebrew...\n"
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-else
-  brew doctor && brew update && brew upgrade
-  exit
-fi
-
-# Check Brews
-brew doctor && brew update && brew upgrade
-
-# Tap Repositories
-printf "🥡 Installing Brew Cask and MAS...\n"
-brew install mas
-brew tap homebrew/cask-fonts
-
-###############################################################################
 # Install apps                                                                #
 ###############################################################################
 
@@ -55,19 +28,34 @@ brew tap homebrew/cask-fonts
 while IFS="" read -r p || [ -n "$p" ]
 do
   printf '%s\n' "🍺 Installing $p..."
-  brew install --appdir="/Applications" $p
-done < $SETUP/$PROFILE_config_brew.txt
+  brew install $p
+done < $SETUP/???_brew.txt
 
 # Install Homebrew Cask apps
 while IFS="" read -r p || [ -n "$p" ]
 do
   printf '%s\n' "🍻 Installing $p..."
-  brew cask install --appdir="/Applications" $p
-done < $SETUP/$PROFILE_config_cask.txt
+  brew cask install $p
+done < $SETUP/???_cask.txt
 
 # Install MAS apps
 while IFS="" read -r p || [ -n "$p" ]
 do
   printf '%s\n' "🍎 Installing $p..."
   mas install $p
-done < $SETUP/$PROFILE_config_mas.txt
+done < $SETUP/???_mas.txt
+
+###############################################################################
+# Final touches                                                               #
+###############################################################################
+
+# Cleanup
+printf "Cleanup and final touches...\n"
+brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
+
+#Exit script
+printf "Done. Some of these changes require a restart to take effect\n"
+sudo shutdown -r +1
+
+#Exit script
+exit
