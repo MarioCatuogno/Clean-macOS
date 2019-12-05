@@ -1,0 +1,14 @@
+appcleaner
+cheatsheet
+font-fira-code
+google-chrome
+iterm2
+qlcolorcode
+qlmarkdown
+qlstephen
+qlvideo
+quicklook-csv
+quicklook-json
+transmission
+visual-studio-code
+vlc

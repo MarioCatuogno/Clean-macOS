@@ -1,0 +1,17 @@
+ack
+bash
+coreutils
+dockutil
+git
+gzip
+htop
+imagemagick
+nano
+neofetch
+prettyping
+python3
+tldr
+tree
+wget
+wifi-password
+youtube-dl
