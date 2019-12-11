@@ -64,7 +64,10 @@ The basic idea behind this project is that the setup and configuration of a new 
 
 Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/install.sh`, the following promtp will appear from which you can choose one of the options:
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" width="400" align="middle"/>
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+  <img width=400px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
+</p>
 
 1. `Install Homebrew`: install Homebrew package and dependencies
 2. `Install Applications`: install binaries, cask and Mac Apple Store application listed in profile files
@@ -99,4 +102,7 @@ If you find it useful, please star or tell others about this repo.
 
 ---
 
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_mydesktop.png" width="800" align="middle"/>
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_mydesktop.png" alt="Clean-macOS desktop"><br></a>
+</p>
