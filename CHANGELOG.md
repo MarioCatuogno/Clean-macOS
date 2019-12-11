@@ -33,6 +33,7 @@ __FIXED__
 __NEW__
 
 * 📦 add (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles
+* 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula
 
 __REMOVED__
 
