@@ -44,7 +44,7 @@ To do this I dove deep down into several repositories (see [Acknowledgements](#a
 
 The basic idea behind this project is that the setup and configuration of a new Mac should be as smooth, simple and fast as possible. For this reason there is just one script that prompts a menu from which you chose what kind of profile you want to install on your Mac. Each profile has different apps/options but everyone shares a "core" function that install basic apps, dependencies or binaries. So no matter if you're a developer or a graphic designer, your Mac will be run just fine.
 
-You can check [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md) a complete list of apps installed with each profile.
+⚠️ WIP - You can check [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md) a complete list of apps installed with each profile.
 
 ## How it works
 
@@ -56,17 +56,22 @@ You can check [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/maste
 
 ### Prerequisites
 
-⚠️ WIP
-
 1. Do a fresh install of macOS (version 10.10+)
 2. Download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
-3. Choose a configuration file from `~/cleanMacOS/config` and copy it into `~/cleanMacOS/setup`
+3. Choose a configuration file from `~/cleanMacOS/config` and copy it into `~/cleanMacOS/`
 
 ### Installing
 
-⚠️ WIP
+Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/install.sh`, the following promtp will appear from which you can choose one of the options:
 
-Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/install.sh`
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" width="400" align="middle"/>
+
+1. `Install Homebrew`: install Homebrew package and dependencies
+2. `Install Applications`: install binaries, cask and Mac Apple Store application listed in profile files
+3. `Configure macOS`: configure macOS with useful commands
+4. `Update`: update brews, casks and MAS applications and formulaes
+
+If you are doing a fresh install, run all the commands in the sequence above.
 
 ### More apps
 
@@ -94,6 +99,4 @@ If you find it useful, please star or tell others about this repo.
 
 ---
 
-⚠️ WIP
-
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" width="800" align="middle"/>
+<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_mydesktop.png" width="800" align="middle"/>
