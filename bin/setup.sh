@@ -45,7 +45,7 @@ brew tap homebrew/cask-fonts
 ###############################################################################
 
 # Cleanup
-printf "Cleanup and final touches...\n"
+printf "🥡 Cleanup and final touches...\n"
 brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
 
 #Exit script
