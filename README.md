@@ -52,11 +52,16 @@ The basic idea behind this project is that the setup and configuration of a new 
 
 ## Getting Started
 
-⚠️ WIP
+You need an active internet connection and one of the following macOS version:
+
+* macOS 10.12 "Sierra"
+* macOS 10.13 "High Sierra"
+* macOS 10.14 "Mojave"
+* macOS 10.15 "Catalina"
 
 ### Prerequisites
 
-1. Do a fresh install of macOS (version 10.10+)
+1. Do a fresh install of macOS (version 10.12+)
 2. Download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
 3. Choose a configuration file from `~/cleanMacOS/config` and copy it into `~/cleanMacOS/`
 
