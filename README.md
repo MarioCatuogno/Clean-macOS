@@ -83,11 +83,11 @@ Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/ap
 
 To check the current status and the upcoming milestones of the Clean-macOS project, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/projects/8).
 
-For the full changelog history, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGELOG.md).
+For the full changelog history, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CHANGELOG.md).
 
 ## Contributing
 
-You are encouraged to fork this repository and to open issue to discuss the change you wish to make. If you want to actively contribute, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CONTRIBUTING.md) for guidelines.
+You are encouraged to fork this repository and to open issue to discuss the change you wish to make. If you want to actively contribute, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CONTRIBUTING.md) for guidelines.
 
 If you find it useful, please star or tell others about this repo.
 
