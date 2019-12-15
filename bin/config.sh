@@ -212,6 +212,12 @@ defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 printf "⚙️ Safari: disable auto-correct\n"
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
+printf "⚙️ Safari: don't open safe files\n"
+defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+printf "⚙️ Safari: show favorites bar\n"
+defaults write com.apple.Safari ShowFavoritesBar -bool true
+printf "⚙️ Safari: enable develop menu\n"
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
 
 ###############################################################################
 # Configure macOS: Trackpad                                                   #
