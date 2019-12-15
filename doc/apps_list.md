@@ -44,6 +44,7 @@ A collection of useful apps for macOS installed with `setup.sh` script.
 
 | Icon | Title | Description |
 | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_audiohijack.png" width="30" align="middle" /> | [Audio Hijack](https://rogueamoeba.com/audiohijack) | Record any application's audio, including VoIP calls from Skype, web streams from Safari, and much more. Save audio from hardware devices like microphones and mixers as well. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_easyres.png" width="30" align="middle" /> | [Easyres](http://easyresapp.com) | A tool for fast switch the screen resolution on your Mac. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_handbrake.png" width="30" align="middle" /> | [Handbrake](https://handbrake.fr) | A tool for converting video from nearly any format to a selection of modern, widely supported codecs. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iina.png" width="30" align="middle" /> | [Iina](https://lhc70000.github.io/iina/) | A modern video player for macOS. |
