@@ -66,7 +66,9 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 | Icon | Title | Description | Brew |
 | --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_betterblocker.png" width="30" align="middle" /> | [Better Blocker](https://better.fyi) | Better is a privacy tool for Safari on iPhone, iPad, and Mac that protect you from behavioural ads and companies that track and profile you on the web. | mas "Better Blocker", id: 1121192229 |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space. | cask "dropbox" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_firefox.png" width="30" align="middle" /> | [Firefox](https://www.mozilla.org/en/firefox/) | A free open-source web browser developed by the Mozilla Foundation. | cask "firefox" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_chrome.png" width="30" align="middle" /> | [Google Chrome](https://www.google.com/chrome/) | Browser developed by Google. | cask "google-chrome" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_googledrive.png" width="30" align="middle" /> | [Google Drive](https://drive.google.com/) | A file-hosting service that offers cloud storage, synchronization and client software. | |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client. | cask "transmission" |

@@ -32,8 +32,10 @@ __FIXED__
 
 __NEW__
 
-* 📦 add (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles
 * 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula
+* 📦 add (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles
+* 📦 add `Audio Hijack`, `Better Blocker` and `Firefox` to APPS_LIST
+* 📦 upload new icons
 
 __REMOVED__
 
