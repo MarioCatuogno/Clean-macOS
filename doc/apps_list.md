@@ -64,7 +64,7 @@ A collection of useful apps for macOS, you can configure your personal profile c
 | --- | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_chrome.png" width="30" align="middle" /> | [Google Chrome](https://www.google.com/chrome/) | Browser developed by Google. | cask "google-chrome" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client. | cask "transmission" |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_webtorrent.png" width="30" align="middle" /> | [WebTorrent](https://webtorrent.io) | App for streaming torrent. | |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_webtorrent.png" width="30" align="middle" /> | [WebTorrent](https://webtorrent.io) | App for streaming torrent. | cask "webtorrent" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](https://itunes.apple.com/it/app/wipr/id1320666476) | A lightweight blocker extension for Safari. | mas "Wipr", id: 1320666476 |
 
 ## Productivity
@@ -91,12 +91,14 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 | Icon | Title | Description | Brew |
 | --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_alfred.png" width="30" align="middle" /> | [Alfred](https://www.alfredapp.com) | An application launcher which boosts productivity, can replace macOS Spotlight. | cask "alfred" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_amphetamine.png" width="30" align="middle" /> | [Amphetamine](https://itunes.apple.com/it/app/amphetamine/id937984704?mt=12) | This app can effortlessly override your energy saver settings and keep your Mac awake. | mas "Amphetamine", id: 937984704 |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_appcleaner.png" width="30" align="middle" /> | [AppCleaner](https://freemacsoft.net/appcleaner/) | A simple tool to safely delete App on MacOS. | cask "appcleaner" |
 
 ## Video
 
 | Icon | Title | Description | Brew |
 | --- | --- | --- | --- |
-
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_easyres.png" width="30" align="middle" /> | [Easyres](http://easyresapp.com) | A tool for fast switch the screen resolution on your Mac. | mas "EasyRes", id: 688211836 |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_handbrake.png" width="30" align="middle" /> | [Handbrake](https://handbrake.fr) | A tool for converting video from nearly any format to a selection of modern, widely supported codecs. | cask "handbrake" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iina.png" width="30" align="middle" /> | [Iina](https://lhc70000.github.io/iina/) | A modern video player for macOS. | cask "iina" |
@@ -127,9 +129,9 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 | Icon | Title | Description |
 | --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_alfred.png" width="30" align="middle" /> | [Alfred](https://www.alfredapp.com) | An application launcher which boosts productivity. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_amphetamine.png" width="30" align="middle" /> | [Amphetamine](https://itunes.apple.com/it/app/amphetamine/id937984704?mt=12) | This app can effortlessly override your energy saver settings and keep your Mac awake. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_appcleaner.png" width="30" align="middle" /> | [AppCleaner](https://freemacsoft.net/appcleaner/) | A simple tool to safely delete App on MacOS. |
+
+
+
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_cheatsheet.png" width="30" align="middle" /> | [CheatSheet](https://www.mediaatelier.com/CheatSheet/) | This free utility quickly summons a list of all keyboard shortcuts for the app you're using. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_daisydisk.png" width="30" align="middle" /> | [DaisyDisk](https://daisydiskapp.com) | It scans the disk and shows all the files and folders as a visual interactive map. It is possible to see unusual large file, preview it and then delete it directly from the app. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_googledrive.png" width="30" align="middle" /> | [Google Drive](https://drive.google.com/) | A file-hosting service that offers cloud storage, synchronization and client software. |
