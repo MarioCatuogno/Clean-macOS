@@ -7,8 +7,9 @@
 # Set variables                                                               #
 ###############################################################################
 
-CONFIG=~/cleanMacOS/config
-SETUP=~/cleanMacOS
+BIN=~/cleanMacOS/bin                # shell scripts
+CONFIG=~/cleanMacOS/config          # configuration files directory
+SETUP=~/cleanMacOS                  # root folder of cleanMacOS
 
 ###############################################################################
 # Launch script                                                               #

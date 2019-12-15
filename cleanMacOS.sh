@@ -7,10 +7,9 @@
 # Set variables                                                               #
 ###############################################################################
 
-RED='\033[0;41;30m'
-STD='\033[0;0;39m'
+BIN=~/cleanMacOS/bin                # shell scripts
 CONFIG=~/cleanMacOS/config          # configuration files directory
-BIN=~/cleanMacOS/bin
+SETUP=~/cleanMacOS                  # root folder of cleanMacOS
 
 ###############################################################################
 # Menu                                                                        #
