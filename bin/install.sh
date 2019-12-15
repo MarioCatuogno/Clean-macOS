@@ -27,8 +27,16 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Install Homebrew apps
-printf "📦 Installing apps..."
-brew bundle --file=$SETUP/Brewfile
+printf "📦 Installing apps...\n"
+BUNDLE=brew bundle check
+if [ $BUNDLE -eq 0 ]; then
+  printf "📦 Installing Apps...\n"
+  brew bundle --file=$SETUP/Brewfile
+else
+  printf "📦 No Brewfile...\n"
+  exit
+fi
+
 
 ###############################################################################
 # Final touches                                                               #
