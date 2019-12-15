@@ -11,6 +11,37 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.9.0__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
+
+Complete overhaul of configuration and setup. Now it's even easier to choose which configuration you want for your newly fresh macOS.
+
+__CHANGED__
+
+* 🔥 update shell script files [[#68](https://github.com/MarioCatuogno/Clean-macOS/issues/68)]
+* 🔥 update `Visual Studio Code` preferences file
+
+__DOCS__
+
+* 📝 update APPS_LIST file
+* 📝 update CHANGELOG file
+* 📝 update README file
+
+__FIXED__
+
+* 🐛 fix varioust commands
+
+__NEW__
+
+* 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula
+* 📦 (🧟 __personal__) add `NetNewsWire` homebrew formula
+* 📦 add (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles
+* 📦 add `Audio Hijack`, `Better Blocker`, `Firefox` and `NetNewsWire` to APPS_LIST
+* 📦 upload new icons
+
+__REMOVED__
+
+* 🗑️ remove unused scripts
+
 ## __1.8.0__ ([2019-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/4))
 
 Biggest release ever! I've re-organized the setup, updated the config files and updated the README file with a detailed guide.
@@ -37,7 +68,7 @@ The list of applications included in each profile is reported [__here__](https:/
 
 Also this release is fully compatible with __macOS 10.15 "Catalina"__.
 
-__CHANGED__ 
+__CHANGED__
 
 * 🔥 (🧟 __personal__) move `BattleNet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 * 🔥 (🧟 __personal__) move `DaisyDisk` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
@@ -50,11 +81,14 @@ __CHANGED__
 * 🔥 (🧟 __personal__) move `Wipr` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 * 🔥 (🧟 __personal__)(👨‍💻 __developer__)  move `Docker` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)] [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 * 🔥 update .gitignore file [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
-* 🔥 update APPS_REMOVED file
-* 🔥 update CHANGELOG file
-* 🔥 update README file [[#51](https://github.com/MarioCatuogno/Clean-macOS/issues/51)]
 * 🔥 update installation process for `Zsh` [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 
+__DOCS__
+
+* 📝 update APPS_REMOVED file
+* 📝 update CHANGELOG file
+* 📝 update README file [[#51](https://github.com/MarioCatuogno/Clean-macOS/issues/51)]
+  
 __FIXED__
 
 * 🐛 change `brew cask install --appdir="/Applications" the-unarchiver` homebrew formula to `mas install 425424353`

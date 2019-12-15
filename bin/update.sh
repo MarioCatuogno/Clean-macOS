@@ -23,44 +23,24 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
-# Install dependencies                                                        #
+# Update config files                                                         #
 ###############################################################################
 
-# Install XCode Command Line Tools
-printf "📦 Installing XCode CL tools...\n"
-xcode-select --install
+printf "⚙️ Update Zsh settings...\n"
+sudo rm -rf ~/.zshrc > /dev/null 2>&1
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.zshrc -o ~/.zshrc
 
-# Install Brew
-printf "📦 Check Brew...\n"
-if test ! $(which brew); then
-  printf "📦 Installing Homebrew...\n"
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-else
-  printf "📦 Homebrew is already installed...\n"
-  exit
-fi
-# Change permissions
-brew -v
-sudo chown -R $USER /usr/local/Cellar
+printf "⚙️ Update Visual Studio Code settings...\n"
+sudo rm -rf ~/Library/Application\ Support/Code/User/settings.json > /dev/null 2>&1
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/settings.json -o ~/Library/Application\ Support/Code/User/settings.json
 
-# Check Brews
-brew doctor && brew update && brew upgrade
-
-# Install MAS
-printf "📦 Installing Brew Cask and MAS...\n"
-brew install mas
+printf "⚙️ Update Git settings...\n"
+sudo rm -rf ~/.gitignore > /dev/null 2>&1
+curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.gitignore -o ~/.gitignore
 
 ###############################################################################
-# Final touches                                                               #
+# Update apps                                                                 #
 ###############################################################################
 
-# Cleanup
-printf "📦 Cleanup and final touches...\n"
+printf "📦 Update macOS...\n"
 brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
-
-#Exit script
-printf "Done. Some of these changes require a restart to take effect\n"
-sudo shutdown -r +1
-
-#Exit script
-exit

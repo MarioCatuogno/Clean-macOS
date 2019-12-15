@@ -23,32 +23,19 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
-# Install dependencies                                                        #
+# Install apps                                                                #
 ###############################################################################
 
-# Install XCode Command Line Tools
-printf "📦 Installing XCode CL tools...\n"
-xcode-select --install
-
-# Install Brew
-printf "📦 Check Brew...\n"
-if test ! $(which brew); then
-  printf "📦 Installing Homebrew...\n"
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Install Homebrew apps
+printf "📦 Installing apps...\n"
+BUNDLE=brew bundle check
+if [ $BUNDLE -eq 0 ]; then
+  printf "📦 Installing Apps...\n"
+  brew bundle --file=$SETUP/Brewfile
 else
-  printf "📦 Homebrew is already installed...\n"
+  printf "📦 No Brewfile...\n"
   exit
 fi
-# Change permissions
-brew -v
-sudo chown -R $USER /usr/local/Cellar
-
-# Check Brews
-brew doctor && brew update && brew upgrade
-
-# Install MAS
-printf "📦 Installing Brew Cask and MAS...\n"
-brew install mas
 
 ###############################################################################
 # Final touches                                                               #

@@ -17,7 +17,7 @@
 ---
 
 <p align="center">
-💻 A bash script to install and configure macOS after a clean install.
+💻 A shell script to install and configure macOS.
   <br>
 </p>
 
@@ -25,11 +25,10 @@
 
 - [Table of content](#table-of-content)
 - [About](#about)
-- [How it works](#how-it-works)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installing](#installing)
-  - [More apps](#more-apps)
+- [Prerequisites](#prerequisites)
+- [Installing](#installing)
+- [More apps](#more-apps)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
@@ -44,45 +43,52 @@ To do this I dove deep down into several repositories (see [Acknowledgements](#a
 
 The basic idea behind this project is that the setup and configuration of a new Mac should be as smooth, simple and fast as possible. For this reason there is just one script that prompts a menu from which you chose what kind of profile you want to install on your Mac. Each profile has different apps/options but everyone shares a "core" function that install basic apps, dependencies or binaries. So no matter if you're a developer or a graphic designer, your Mac will be run just fine.
 
-You can check [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md) a complete list of apps installed with each profile.
-
-## How it works
-
-⚠️ WIP
-
 ## Getting Started
 
-⚠️ WIP
+You need an active internet connection and one of the following macOS version:
 
-### Prerequisites
+* macOS 10.12 "Sierra"
+* macOS 10.13 "High Sierra"
+* macOS 10.14 "Mojave"
+* macOS 10.15 "Catalina"
 
-⚠️ WIP
+## Prerequisites
 
-1. Do a fresh install of macOS (version 10.10+)
+1. Do a fresh install of macOS (version 10.12+)
 2. Download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
-3. Choose a configuration file from `~/cleanMacOS/config` and copy it into `~/cleanMacOS/setup`
+3. Choose a configuration file from `~/cleanMacOS/config`, copy it into `~/cleanMacOS/` and rename as `Brewfile`
 
-### Installing
+## Installing
 
-⚠️ WIP
+Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/install.sh`, the following promtp will appear from which you can choose one of the options:
 
-Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/install.sh`
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+  <img width=400px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
+</p>
 
-### More apps
+1. `Install Homebrew`: install Homebrew package and dependencies
+2. `Install Applications`: install binaries, cask and Mac Apple Store application listed in profile files
+3. `Configure macOS`: configure macOS with useful commands
+4. `Update`: update brews, casks and MAS applications and formulaes
 
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md) to find a collection of various apps I've personally tested or used in the past on macOS.
+If you are doing a fresh install, run all the commands in the sequence above.
 
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_removed.md) to find a list of all apps used in previous script versions.
+## More apps
+
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_LIST.md) to find a collection of various apps I've personally tested or used in the past on macOS.
+
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_REMOVED.md) to find a list of all apps used in previous script versions.
 
 ## Roadmap
 
 To check the current status and the upcoming milestones of the Clean-macOS project, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/projects/8).
 
-For the full changelog history, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CHANGELOG.md).
+For the full changelog history, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CHANGELOG.md).
 
 ## Contributing
 
-You are encouraged to fork this repository and to open issue to discuss the change you wish to make. If you want to actively contribute, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/CONTRIBUTING.md) for guidelines.
+You are encouraged to fork this repository and to open issue to discuss the change you wish to make. If you want to actively contribute, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CONTRIBUTING.md) for guidelines.
 
 If you find it useful, please star or tell others about this repo.
 
@@ -94,6 +100,7 @@ If you find it useful, please star or tell others about this repo.
 
 ---
 
-⚠️ WIP
-
-<img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/scrn_mydesktop.png" width="800" align="middle"/>
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_mydesktop.png" alt="Clean-macOS desktop"><br></a>
+</p>

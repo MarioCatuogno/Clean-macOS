@@ -15,7 +15,7 @@
   "editor.renderWhitespace": "all",
   "editor.trimAutoWhitespace": true,
   // Insert a new line at the end of the page
-  "files.insertFinalNewline": true,
+  "files.insertFinalNewline": false,
   // Controls CSV parameters
   "csv-preview.separator": ";",
   "csv-preview.resizeColumns": "all",
@@ -62,8 +62,6 @@
     "statusBar.noFolderBackground": "#313641",
     "statusBar.noFolderForeground": "#fff"
   },
-  // Configure Python
-  "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
   // Extension: markdown-all-in-one
   "markdown.extension.preview.autoShowPreviewToSide": false,
   "markdown.extension.italic.indicator": "_",
