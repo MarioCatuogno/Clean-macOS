@@ -1,6 +1,6 @@
 # Apps List
 
-A collection of useful apps for macOS installed with `setup.sh` script.
+A collection of useful apps for macOS, you can configure your personal profile choosing the apps that you like the most. Copy the command from the __Brew__ column and paste to your `Brewfile` file.
 
 ## Best Mac Apps
 
