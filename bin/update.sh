@@ -41,5 +41,5 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.
 # Update apps                                                                 #
 ###############################################################################
 
-printf "🥡 Update macOS...\n"
+printf "📦 Update macOS...\n"
 brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
