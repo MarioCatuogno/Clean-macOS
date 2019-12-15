@@ -6,51 +6,95 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 - [Apps List](#apps-list)
   - [Best Mac Apps](#best-mac-apps)
-  - [Development](#development)
-  - [Editor](#editor)
+  - [Audio](#audio)
+  - [Developers](#developers)
+  - [Editors](#editors)
   - [Games](#games)
-  - [Multimedia and Graphics](#multimedia-and-graphics)
+  - [Graphics](#graphics)
   - [Internet and Networking](#internet-and-networking)
   - [Productivity](#productivity)
+  - [Utilities](#utilities)
+  - [Video](#video)
+  - [Others](#others)
+  - [Internet and Networking](#internet-and-networking-1)
+  - [Productivity](#productivity-1)
   - [Security](#security)
   - [Social](#social)
-  - [Utilities](#utilities)
+  - [Utilities](#utilities-1)
   - [Other useful apps](#other-useful-apps)
 
-## Development
+## Audio
 
-| Icon | Title | Description |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_docker.png" width="30" align="middle" /> | [Docker](https://www.docker.com) | A container software ideal for developer looking to get started and experimenting with container-based application. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iterm2.png" width="30" align="middle" /> | [iTerm2](https://www.iterm2.com) | A macOS terminal replacement. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_ohmyzsh.png" width="30" align="middle" /> | [Oh My Zsh](http://ohmyz.sh) | Oh-My-Zsh is an open source, community-driven framework for managing the ZSH configuration of Terminal app. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software I can install different OS to experiment and run programs that otherwise would not run on my macOS. |
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_audiohijack.png" width="30" align="middle" /> | [Audio Hijack](https://rogueamoeba.com/audiohijack) | Record any application's audio, including VoIP calls from Skype, web streams from Safari, and much more. Save audio from hardware devices like microphones and mixers as well. | cask "audio-hijack" |
 
-## Editor
+## Developers
 
-| Icon | Title | Description |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://code.visualstudio.com) | A hackable free and open source code editor. |
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_docker.png" width="30" align="middle" /> | [Docker](https://www.docker.com) | A container software ideal for developer looking to get started and experimenting with container-based application. | cask "docker" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iterm2.png" width="30" align="middle" /> | [iTerm2](https://www.iterm2.com) | A macOS terminal replacement. | cask "iterm2" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_virtualbox.png" width="30" align="middle"/> | [VirtualBox](https://www.virtualbox.org) | A powerful virtualization tool, freely available and developed by Oracle. With this software you can install different OS to experiment and run programs that otherwise would not run on my macOS. | |
+
+## Editors
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://code.visualstudio.com) | A hackable free and open source code editor. | cask "visual-studio-code" |
 
 ## Games
 
-| Icon | Title | Description |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_battlenet.png" width="30" align="middle" />  | [Battle.net](http://eu.battle.net/en/) | Battle.net launcher for Blizzard games, such as Heartstone, World of Warcraft and Starcraft2. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steam.png" width="30" align="middle" />  | [Steam](https://store.steampowered.com) | Steam is a digital distribution platform developed by Valve Corporation for purchasing and playing video games. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steermouse.png" width="30" align="middle" /> | [Steermouse](http://plentycom.jp/en/steermouse/) | A utility that lets you freely customize buttons, wheels and cursor speed of both USB and Bluetooth mice. |
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_battlenet.png" width="30" align="middle" />  | [Battle.net](http://eu.battle.net/en/) | Battle.net launcher for Blizzard games, such as Heartstone, World of Warcraft and Starcraft2. | |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steam.png" width="30" align="middle" />  | [Steam](https://store.steampowered.com) | Steam is a digital distribution platform developed by Valve Corporation for purchasing and playing video games. | cask "steam" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steermouse.png" width="30" align="middle" /> | [Steermouse](http://plentycom.jp/en/steermouse/) | A utility that lets you freely customize buttons, wheels and cursor speed of both USB and Bluetooth mice. | cask "steermouse" |
 
-## Multimedia and Graphics
+## Graphics
 
-| Icon | Title | Description |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_audiohijack.png" width="30" align="middle" /> | [Audio Hijack](https://rogueamoeba.com/audiohijack) | Record any application's audio, including VoIP calls from Skype, web streams from Safari, and much more. Save audio from hardware devices like microphones and mixers as well. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_easyres.png" width="30" align="middle" /> | [Easyres](http://easyresapp.com) | A tool for fast switch the screen resolution on your Mac. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_handbrake.png" width="30" align="middle" /> | [Handbrake](https://handbrake.fr) | A tool for converting video from nearly any format to a selection of modern, widely supported codecs. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iina.png" width="30" align="middle" /> | [Iina](https://lhc70000.github.io/iina/) | A modern video player for macOS. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) | A powerful, fast, and easy-to-use image editor. I use this as a cheaper alternative to Photoshop, it covers more than enough my usual tasks. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_sip.png" width="30" align="middle" /> | [Sip](https://sipapp.io) | A modern color picker built for designers and developers, that allows you to collect, organize and edit colors. |
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata. | cask "imageoptim" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) | A powerful, fast, and easy-to-use image editor. I use this as a cheaper alternative to Photoshop, it covers more than enough my usual tasks. | mas "Pixelmator", id: 407963104 |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_sip.png" width="30" align="middle" /> | [Sip](https://sipapp.io) | A modern color picker built for designers and developers, that allows you to collect, organize and edit colors. | |
+
+## Internet and Networking
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+
+## Productivity
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+
+## Utilities
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+
+## Video
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_easyres.png" width="30" align="middle" /> | [Easyres](http://easyresapp.com) | A tool for fast switch the screen resolution on your Mac. | mas "EasyRes", id: 688211836 |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_handbrake.png" width="30" align="middle" /> | [Handbrake](https://handbrake.fr) | A tool for converting video from nearly any format to a selection of modern, widely supported codecs. | cask "handbrake" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_iina.png" width="30" align="middle" /> | [Iina](https://lhc70000.github.io/iina/) | A modern video player for macOS. | cask "iina" |
+
+## Others
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+
+
+
+
+
+
+
+
 
 ## Internet and Networking
 
