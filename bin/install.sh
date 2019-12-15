@@ -7,6 +7,7 @@
 # Set variables                                                               #
 ###############################################################################
 
+CONFIG=~/cleanMacOS/config
 SETUP=~/cleanMacOS
 
 ###############################################################################
@@ -25,25 +26,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Install Homebrew apps
-while IFS="" read -r p || [ -n "$p" ]
-do
-  printf '%s\n' "🍺 Installing $p..."
-  brew install $p
-done < $SETUP/???_brew.txt
-
-# Install Homebrew Cask apps
-while IFS="" read -r p || [ -n "$p" ]
-do
-  printf '%s\n' "🍻 Installing $p..."
-  brew cask install $p
-done < $SETUP/???_cask.txt
-
-# Install MAS apps
-while IFS="" read -r p || [ -n "$p" ]
-do
-  printf '%s\n' "🍎 Installing $p..."
-  mas install $p
-done < $SETUP/???_mas.txt
+printf "🍺 Installing apps..."
+brew bundle --file=$SETUP/Brewfile
 
 ###############################################################################
 # Final touches                                                               #
