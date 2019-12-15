@@ -39,19 +39,16 @@ else
   printf "📦 Homebrew is already installed...\n"
   exit
 fi
+# Change permissions
+brew -v
+sudo chown -R $USER /usr/local/Cellar
 
 # Check Brews
 brew doctor && brew update && brew upgrade
 
-# 
+# Install MAS
 printf "📦 Installing Brew Cask and MAS...\n"
 brew install mas
-brew -v
-sudo chown -R $USER /usr/local/Cellar
-
-###############################################################################
-# Configure MAS                                                              #
-###############################################################################
 
 ###############################################################################
 # Final touches                                                               #
