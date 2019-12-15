@@ -25,11 +25,10 @@
 
 - [Table of content](#table-of-content)
 - [About](#about)
-- [How it works](#how-it-works)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installing](#installing)
-  - [More apps](#more-apps)
+- [Prerequisites](#prerequisites)
+- [Installing](#installing)
+- [More apps](#more-apps)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
@@ -44,12 +43,6 @@ To do this I dove deep down into several repositories (see [Acknowledgements](#a
 
 The basic idea behind this project is that the setup and configuration of a new Mac should be as smooth, simple and fast as possible. For this reason there is just one script that prompts a menu from which you chose what kind of profile you want to install on your Mac. Each profile has different apps/options but everyone shares a "core" function that install basic apps, dependencies or binaries. So no matter if you're a developer or a graphic designer, your Mac will be run just fine.
 
-⚠️ WIP - You can check [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md) a complete list of apps installed with each profile.
-
-## How it works
-
-⚠️ WIP
-
 ## Getting Started
 
 You need an active internet connection and one of the following macOS version:
@@ -59,13 +52,13 @@ You need an active internet connection and one of the following macOS version:
 * macOS 10.14 "Mojave"
 * macOS 10.15 "Catalina"
 
-### Prerequisites
+## Prerequisites
 
 1. Do a fresh install of macOS (version 10.12+)
 2. Download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
-3. Choose a configuration file from `~/cleanMacOS/config` and copy it into `~/cleanMacOS/`
+3. Choose a configuration file from `~/cleanMacOS/config` and copy it into `~/cleanMacOS/` renaming it as `Brewfile`
 
-### Installing
+## Installing
 
 Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/install.sh`, the following promtp will appear from which you can choose one of the options:
 
@@ -81,11 +74,11 @@ Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/instal
 
 If you are doing a fresh install, run all the commands in the sequence above.
 
-### More apps
+## More apps
 
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md) to find a collection of various apps I've personally tested or used in the past on macOS.
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_LIST.md) to find a collection of various apps I've personally tested or used in the past on macOS.
 
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_removed.md) to find a list of all apps used in previous script versions.
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_REMOVED.md) to find a list of all apps used in previous script versions.
 
 ## Roadmap
 
