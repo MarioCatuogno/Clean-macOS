@@ -26,7 +26,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Install Homebrew apps
-printf "🍺 Installing apps..."
+printf "📦 Installing apps..."
 brew bundle --file=$SETUP/Brewfile
 
 ###############################################################################
@@ -34,7 +34,7 @@ brew bundle --file=$SETUP/Brewfile
 ###############################################################################
 
 # Cleanup
-printf "🥡 Cleanup and final touches...\n"
+printf "📦 Cleanup and final touches...\n"
 brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
 
 #Exit script
