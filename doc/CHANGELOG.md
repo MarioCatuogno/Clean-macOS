@@ -33,8 +33,9 @@ __FIXED__
 __NEW__
 
 * 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula
+* 📦 (🧟 __personal__) add `NetNewsWire` homebrew formula
 * 📦 add (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles
-* 📦 add `Audio Hijack`, `Better Blocker` and `Firefox` to APPS_LIST
+* 📦 add `Audio Hijack`, `Better Blocker`, `Firefox` and `NetNewsWire` to APPS_LIST
 * 📦 upload new icons
 
 __REMOVED__

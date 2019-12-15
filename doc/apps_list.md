@@ -12,6 +12,7 @@ A collection of useful apps for macOS, you can configure your personal profile c
   - [Games](#games)
   - [Graphics](#graphics)
   - [Internet and Networking](#internet-and-networking)
+  - [News](#news)
   - [Productivity](#productivity)
   - [Security](#security)
   - [Social](#social)
@@ -74,6 +75,12 @@ A collection of useful apps for macOS, you can configure your personal profile c
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client. | cask "transmission" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_webtorrent.png" width="30" align="middle" /> | [WebTorrent](https://webtorrent.io) | App for streaming torrent. | cask "webtorrent" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](https://itunes.apple.com/it/app/wipr/id1320666476) | A lightweight blocker extension for Safari. | mas "Wipr", id: 1320666476 |
+
+## News
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_netnewswire.png" width="30" align="middle" /> | [NetNewsWire](https://ranchero.com/netnewswire/) | It is a free and open source RSS reader for Mac, shows you articles from your favorite blogs and news sites, and it keeps track of what you’ve read. | cask "netnewswire" |
 
 ## Productivity
 
