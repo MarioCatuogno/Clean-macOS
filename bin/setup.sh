@@ -26,16 +26,16 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Install XCode Command Line Tools
-printf "🥡 Installing XCode CL tools...\n"
+printf "📦 Installing XCode CL tools...\n"
 xcode-select --install
 
 # Install Brew
-printf "🥡 Check Brew...\n"
+printf "📦 Check Brew...\n"
 if test ! $(which brew); then
-  printf "🥡 Installing Homebrew...\n"
+  printf "📦 Installing Homebrew...\n"
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
-  printf "🥡 Homebrew is already installed...\n"
+  printf "📦 Homebrew is already installed...\n"
   exit
 fi
 
@@ -43,7 +43,7 @@ fi
 brew doctor && brew update && brew upgrade
 
 # 
-printf "🥡 Installing Brew Cask and MAS...\n"
+printf "📦 Installing Brew Cask and MAS...\n"
 brew install mas
 brew -v
 sudo chown -R $USER /usr/local/Cellar
@@ -57,7 +57,7 @@ sudo chown -R $USER /usr/local/Cellar
 ###############################################################################
 
 # Cleanup
-printf "🥡 Cleanup and final touches...\n"
+printf "📦 Cleanup and final touches...\n"
 brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
 
 #Exit script
