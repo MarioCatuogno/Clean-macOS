@@ -18,7 +18,7 @@ Minor bugfixes.
 __DOCS__
 * 📝 update CHANGELOG file
 * 📝 update README file
-* 
+
 ## __1.9.0__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
 Complete overhaul of configuration and setup. Now it's even easier to choose which configuration you want for your newly fresh macOS.
