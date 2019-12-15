@@ -64,7 +64,7 @@ Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/instal
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">
-  <img width=400px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
 </p>
 
 1. `Install Homebrew`: install Homebrew package and dependencies
