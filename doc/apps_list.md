@@ -13,13 +13,12 @@ A collection of useful apps for macOS, you can configure your personal profile c
   - [Graphics](#graphics)
   - [Internet and Networking](#internet-and-networking)
   - [Productivity](#productivity)
+  - [Security](#security)
+  - [Social](#social)
   - [Utilities](#utilities)
   - [Video](#video)
   - [Others](#others)
-  - [Internet and Networking](#internet-and-networking-1)
   - [Productivity](#productivity-1)
-  - [Security](#security)
-  - [Social](#social)
   - [Utilities](#utilities-1)
   - [Other useful apps](#other-useful-apps)
 
@@ -63,11 +62,30 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 | Icon | Title | Description | Brew |
 | --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_chrome.png" width="30" align="middle" /> | [Google Chrome](https://www.google.com/chrome/) | Browser developed by Google. | cask "google-chrome" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client. | cask "transmission" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_webtorrent.png" width="30" align="middle" /> | [WebTorrent](https://webtorrent.io) | App for streaming torrent. | |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](https://itunes.apple.com/it/app/wipr/id1320666476) | A lightweight blocker extension for Safari. | mas "Wipr", id: 1320666476 |
 
 ## Productivity
 
 | Icon | Title | Description | Brew |
 | --- | --- | --- | --- |
+
+## Security
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_1password.png" width="30" align="middle" /> | [1Password](https://1password.com) | A cross-platform password manager. | cask "1password" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_expressvpn.png" width="30" align="middle" /> | [ExpressVPN](https://www.expressvpn.com) | High speed VPN service available on both macOS and iOS. | cask "expressvpn" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tunnelbear.png" width="30" align="middle" /> | [TunnelBear](https://www.tunnelbear.com) | TunnelBear VPN provides you with a secure and private connection to a less restricted Internet. | cask "tunnelbear" |
+
+## Social
+
+| Icon | Title | Description | Brew |
+| --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_franz.png" width="30" align="middle" /> | [Franz](http://meetfranz.com) | Is a free messaging app which combines various chat and messaging services into one interface. | |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_skype.png" width="30" align="middle" /> | [Skype](https://skype.com) | The most famous VoIP application which provides video chat and voice call services. | cask "skype" |
 
 ## Utilities
 
@@ -96,15 +114,6 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 
 
-## Internet and Networking
-
-| Icon | Title | Description |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_chrome.png" width="30" align="middle" /> | [Google Chrome](https://www.google.com/chrome/) | Browser developed by Google. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://www.transmissionbt.com) | An open source torrent client. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_webtorrent.png" width="30" align="middle" /> | [WebTorrent](https://webtorrent.io) | App for streaming torrent. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_wipr.png" width="30" align="middle" /> | [Wipr](https://itunes.apple.com/it/app/wipr/id1320666476) | A lightweight blocker extension for Safari. |
-
 ## Productivity
 
 | Icon | Title | Description |
@@ -113,17 +122,6 @@ A collection of useful apps for macOS, you can configure your personal profile c
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_popclip.png" width="30" align="middle" /> | [Popclip](https://pilotmoon.com/popclip/) | A tool which appears when you select text with your mouse on your Mac. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_spark.png" width="30" align="middle" /> | [Spark](https://sparkmailapp.com/it) | A modern mail app for macOS and iOS. |
 
-## Security
-
-| Icon | Title | Description |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_expressvpn.png" width="30" align="middle" /> | [ExpressVPN](https://www.expressvpn.com) | High speed VPN service available on both macOS and iOS. |
-
-## Social
-
-| Icon | Title | Description |
-| --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_franz.png" width="30" align="middle" /> | [Franz](http://meetfranz.com) | Is a free messaging app which combines various chat and messaging services into one interface. |
 
 ## Utilities
 
@@ -141,7 +139,7 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 | Icon | Title | Description |
 | --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_1password.png" width="30" align="middle" /> | [1Password](https://1password.com) | A cross-platform password manager. |
+
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_cakebrew.png" width="30" align="middle" /> | [Cakebrew](https://www.cakebrew.com) | Cakebrew is a free Homebrew GUI that makes overseeing your setup just a bit easier. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_dropbox.png" width="30" align="middle" /> | [Dropbox](https://www.dropbox.com) | A file-hosting service that offers cloud storage, synchronization and client software. The free version offers 2GB space. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_githubdesktop.png" width="30" align="middle" /> | [Github Desktop](https://desktop.github.com) | Manage the entire Github workflow with a GUI, without the need to use the git commands in shell. |
@@ -151,8 +149,8 @@ A collection of useful apps for macOS, you can configure your personal profile c
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_mtmr.png" width="30" align="middle" /> | [My Touchbar. My Rules](https://mtmr.app) | A touch bar customization tool. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_nucleo.png" width="30" align="middle" /> | [Nucleo](https://nucleoapp.com/application) | An icon manager which support SVG files. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tableplus.png" width="30" align="middle" /> | [Tableplus](https://tableplus.io) | Modern and friendly GUI for relational databases such as MySQL, PostgreSQL and more. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_skype.png" width="30" align="middle" /> | [Skype](https://skype.com) | The most famous VoIP application which provides video chat and voice call services. |
+
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_netextender.png" width="30" align="middle" /> | [SonicWall NetExtender](https://www.sonicwall.com) | NetExtender is an SSL VPN client that is downloaded transparently and that allows you to run any application securely on the company’s network. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_sublimetext.png" width="30" align="middle" /> | [Sublime Text](https://www.sublimetext.com) | A sophisticated and lightweight text editor for code, markup and prose. |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_typora.png" width="30" align="middle" /> | [Typora](https://typora.io) | A minimal markdown editor. |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tunnelbear.png" width="30" align="middle" /> | [TunnelBear](https://www.tunnelbear.com) | TunnelBear VPN provides you with a secure and private connection to a less restricted Internet. |
+
