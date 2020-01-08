@@ -13,11 +13,12 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.9.1__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
-Minor bugfixes.
+Minor bugfixes and better documentation.
 
 __DOCS__
 * 📝 update CHANGELOG file
 * 📝 update README file
+* 📝 add SETUP file
 
 ## __1.9.0__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
