@@ -28,7 +28,7 @@
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
-- [More apps](#more-apps)
+- [Useful links](#useful-links)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
@@ -57,6 +57,7 @@ You need an active internet connection and one of the following macOS version:
 1. Do a fresh install of macOS (version 10.12+)
 2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
 3. Choose a configuration file from `~/cleanMacOS/config`, copy it into `~/cleanMacOS/` and rename it as `Brewfile`
+4. Launch the command `chmod 777 ~/cleanMacOS/setup/install.sh`
 
 ## Installing
 
@@ -74,11 +75,13 @@ Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/instal
 
 If you have done a fresh install, run all the commands in the sequence listed above.
 
-## More apps
+## Useful links
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_LIST.md) to find a collection of various apps I've personally tested or used in the past on macOS.
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_REMOVED.md) to find a list of all apps used in previous script versions.
+
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md) to find a collection of commands/configuration for a fresh setup.
 
 ## Roadmap
 
