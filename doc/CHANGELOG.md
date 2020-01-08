@@ -11,14 +11,24 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.9.1__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
+
+Minor bugfixes and better documentation.
+
+__DOCS__
+* 📝 update CHANGELOG file
+* 📝 update README file
+* 📝 add SETUP file
+
 ## __1.9.0__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
 Complete overhaul of configuration and setup. Now it's even easier to choose which configuration you want for your newly fresh macOS.
 
 __CHANGED__
 
-* 🔥 update shell script files [[#68](https://github.com/MarioCatuogno/Clean-macOS/issues/68)]
+* 🔥 add `Audio Hijack`, `Better Blocker`, `Firefox` and `NetNewsWire` to APPS_LIST
 * 🔥 update `Visual Studio Code` preferences file
+* 🔥 update shell script files [[#68](https://github.com/MarioCatuogno/Clean-macOS/issues/68)]
 
 __DOCS__
 
@@ -35,7 +45,6 @@ __NEW__
 * 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula
 * 📦 (🧟 __personal__) add `NetNewsWire` homebrew formula
 * 📦 add (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles
-* 📦 add `Audio Hijack`, `Better Blocker`, `Firefox` and `NetNewsWire` to APPS_LIST
 * 📦 upload new icons
 
 __REMOVED__

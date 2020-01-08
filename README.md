@@ -28,7 +28,7 @@
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
-- [More apps](#more-apps)
+- [Useful links](#useful-links)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
@@ -55,8 +55,9 @@ You need an active internet connection and one of the following macOS version:
 ## Prerequisites
 
 1. Do a fresh install of macOS (version 10.12+)
-2. Download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
-3. Choose a configuration file from `~/cleanMacOS/config`, copy it into `~/cleanMacOS/` and rename as `Brewfile`
+2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
+3. Choose a configuration file from `~/cleanMacOS/config`, copy it into `~/cleanMacOS/` and rename it as `Brewfile`
+4. Launch the command `chmod 777 ~/cleanMacOS/setup/install.sh`
 
 ## Installing
 
@@ -64,7 +65,7 @@ Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/instal
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">
-  <img width=400px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
 </p>
 
 1. `Install Homebrew`: install Homebrew package and dependencies
@@ -72,9 +73,9 @@ Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/instal
 3. `Configure macOS`: configure macOS with useful commands
 4. `Update`: update brews, casks and MAS applications and formulaes
 
-If you are doing a fresh install, run all the commands in the sequence above.
+If you have done a fresh install, run all the commands in the sequence listed above. For details on how to run the script click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
 
-## More apps
+## Useful links
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_LIST.md) to find a collection of various apps I've personally tested or used in the past on macOS.
 
