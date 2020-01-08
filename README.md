@@ -73,11 +73,9 @@ Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/instal
 3. `Configure macOS`: configure macOS with useful commands
 4. `Update`: update brews, casks and MAS applications and formulaes
 
-If you have done a fresh install, run all the commands in the sequence listed above.
+If you have done a fresh install, run all the commands in the sequence listed above. For details on how to run the script click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
 
 ## Useful links
-
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md) to find a detailed list of instructions to run this script.
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_LIST.md) to find a collection of various apps I've personally tested or used in the past on macOS.
 
