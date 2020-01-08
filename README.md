@@ -77,11 +77,11 @@ If you have done a fresh install, run all the commands in the sequence listed ab
 
 ## Useful links
 
+Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md) to find a detailed list of instructions to run this script.
+
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_LIST.md) to find a collection of various apps I've personally tested or used in the past on macOS.
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPS_REMOVED.md) to find a list of all apps used in previous script versions.
-
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md) to find a collection of commands/configuration for a fresh setup.
 
 ## Roadmap
 
