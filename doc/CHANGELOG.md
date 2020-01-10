@@ -22,6 +22,7 @@ __DOCS__
 
 __FIXED__
 
+* 🐛 fix `config.sh` script (add `xattr -dr` command for `Visual Studio Code` app)
 * 🐛 fix `install.sh` script (remove loop and change `brew bundle` command)
 * 🐛 fix `setup.sh` script (remove shutdown command)
 * 🐛 fix `update.sh` script (remove shutdown command)
