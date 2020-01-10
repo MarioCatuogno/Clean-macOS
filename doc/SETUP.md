@@ -30,8 +30,8 @@ Do a fresh install of macOS (version 10.12+) and after your first access to macO
   <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
 </p>
 
-6. Input number __1__ (`Install Homebrew`) to install Homebrew package and dependencies
-7. Launch the command `mas signin YOUREMAIL`
+6. Signin with your AppleID via Mac App Store
+7. Input number __1__ (`Install Homebrew`) to install Homebrew package and dependencies
 8. Input number __2__ (`Install Applications`) to install binaries, cask and Mac Apple Store application listed in `Brewfile` file
 9. Input number __3__ (`Configure macOS`) to configure macOS with useful commands
 10. Go to __Keyboard > Text >__ Disable "Correct spelling automatically"
