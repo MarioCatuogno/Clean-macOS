@@ -56,12 +56,12 @@ You need an active internet connection and one of the following macOS version:
 
 1. Do a fresh install of macOS (version 10.12+)
 2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
-3. Choose a configuration file from `~/cleanMacOS/config`, copy it into `~/cleanMacOS/` and rename it as `Brewfile`
-4. Launch the command `chmod 777 ~/cleanMacOS/setup/install.sh`
+3. Choose a configuration file from `~/cleanMacOS/profiles`, copy it into `~/cleanMacOS/` and rename it as `Brewfile`
+4. Launch the command `chmod 777 ~/cleanMacOS/cleanMacOS.sh`
 
 ## Installing
 
-Open __Terminal.app__ and run the following command `./~/cleanMacOS/setup/install.sh`, the following promtp will appear from which you can choose one of the options:
+Open __Terminal.app__ and run the following command `~/cleanMacOS/cleanMacOS.sh`, the following promtp will appear from which you can choose one of the options:
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">
