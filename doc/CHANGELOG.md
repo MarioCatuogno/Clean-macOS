@@ -11,6 +11,22 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.9.2__ ([2020-01-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
+
+Major bugfixing and better documentation.
+
+__DOCS__
+* 📝 update CHANGELOG file
+* 📝 update README file
+* 📝 update SETUP file
+
+__FIXED__
+
+* 🐛 fix `config.sh` script (add `xattr -dr` command for `Visual Studio Code` app)
+* 🐛 fix `install.sh` script (remove loop and change `brew bundle` command)
+* 🐛 fix `setup.sh` script (remove shutdown command)
+* 🐛 fix `update.sh` script (remove shutdown command)
+
 ## __1.9.1__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
 Minor bugfixes and better documentation.

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# DATE: 2019-12-31
-# VERSION: 1.9.0
+# DATE: 2020-01-11
+# VERSION: 1.9.2
 
 ###############################################################################
 # Set variables                                                               #
@@ -52,6 +52,8 @@ open $CONFIG/ayu-mirage.itermcolors
 ###############################################################################
 
 # ⚙️ Download Visual Studio Code plugins [1/2]
+printf "⚙️ Put Visual Studio Code in quarantine to install plugins...\n"
+xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 printf "⚙️ Download Visual Studio Code plugins...\n"
 open -a "Visual Studio Code"
 code --install-extension 77qingliu.sas-syntax
