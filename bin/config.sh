@@ -52,6 +52,8 @@ open $CONFIG/ayu-mirage.itermcolors
 ###############################################################################
 
 # ⚙️ Download Visual Studio Code plugins [1/2]
+printf "⚙️ Put Visual Studio Code in quarantine to install plugins...\n"
+xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 printf "⚙️ Download Visual Studio Code plugins...\n"
 open -a "Visual Studio Code"
 code --install-extension 77qingliu.sas-syntax
