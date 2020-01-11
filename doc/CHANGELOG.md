@@ -13,6 +13,8 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.9.3__ ([2020-01-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
+Minor bugfixing and better documentation.
+
 __CHANGED__
 
 * 🔥 (🧟 __personal__) remove `NetNewsWire` homebrew formula
@@ -36,7 +38,7 @@ __FIXED__
 
 ## __1.9.1__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
-Minor bugfixes and better documentation.
+Minor bugfixing and better documentation.
 
 __DOCS__
 * 📝 update CHANGELOG file
