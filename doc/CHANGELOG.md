@@ -36,7 +36,7 @@ __FIXED__
 
 ## __1.9.1__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
-Minor bugfixes and better documentation.
+Minor bugfixing and better documentation.
 
 __DOCS__
 * 📝 update CHANGELOG file
