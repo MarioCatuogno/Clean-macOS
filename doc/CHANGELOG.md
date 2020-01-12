@@ -15,6 +15,9 @@ All notable changes to this project will be documented in this file. The types o
 
 Minor bugfixing and new formulaes.
 
+__DOCS__
+* 📝 update CHANGELOG file
+
 __FIXED__
 
 * 🐛 remove shutdown command from `config.sh`
