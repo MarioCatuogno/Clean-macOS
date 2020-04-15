@@ -24,6 +24,7 @@ __FIXED__
 
 __NEW__
 
+* 📦 (🧟 __personal__) add `Discord` homebrew formula
 * 📦 (👨‍💻 __developer__)(🧟 __personal__) add `nmap` homebrew formula
 * 📦 (🧟 __personal__) add `istat-menus` homebrew formula
 * 📦 (🧟 __personal__) add `Spotify` homebrew formula
