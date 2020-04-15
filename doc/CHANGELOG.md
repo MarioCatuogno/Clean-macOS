@@ -10,7 +10,21 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+## __1.10.0__ ([2020-06-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
+Major overhaul and more polish.
+
+__DOCS__
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 New `Brewfile` containing all apps and bins. If you want to personalize your configuration you can edit this file choosing from various reviewed apps (click [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
+
+__REMOVED__
+
+* 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listend in one single file
+* 
 ## __1.9.3__ ([2020-04-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
 Minor bugfixing and new formulaes.
