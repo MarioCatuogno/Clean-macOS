@@ -24,6 +24,7 @@ __FIXED__
 
 __NEW__
 
+* 📦 (👨‍💻 __developer__)(🧟 __personal__) add `Cyberduck` homebrew formula
 * 📦 (🧟 __personal__) add `Discord` homebrew formula
 * 📦 (👨‍💻 __developer__)(🧟 __personal__) add `nmap` homebrew formula
 * 📦 (🧟 __personal__) add `istat-menus` homebrew formula
@@ -33,6 +34,11 @@ __REMOVED__
 
 * 🗑️ (🧟 __personal__) remove `gswitch` homebrew formula
 * 🗑️ (🧟 __personal__) remove `NetNewsWire` homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlcolorcode` homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlmarkdown` homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlvideo` homebrew formula
+* 🗑️ (🧟 __personal__) remove `quicklook-csv` homebrew formula
+* 🗑️ (🧟 __personal__) remove `quicklook-json` homebrew formula
 * 🗑️ (🧟 __personal__) remove `qlstephen` homebrew formula
 * 🗑️ (🧟 __personal__) remove `Steermouse` homebrew formula
 
