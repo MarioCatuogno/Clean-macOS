@@ -11,6 +11,37 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.9.3__ ([2020-04-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
+
+Minor bugfixing and new formulaes.
+
+__DOCS__
+* 📝 update CHANGELOG file
+
+__FIXED__
+
+* 🐛 remove shutdown command from `config.sh`
+
+__NEW__
+
+* 📦 (👨‍💻 __developer__)(🧟 __personal__) add `Cyberduck` homebrew formula
+* 📦 (🧟 __personal__) add `Discord` homebrew formula
+* 📦 (👨‍💻 __developer__)(🧟 __personal__) add `nmap` homebrew formula
+* 📦 (🧟 __personal__) add `istat-menus` homebrew formula
+* 📦 (🧟 __personal__) add `Spotify` homebrew formula
+
+__REMOVED__
+
+* 🗑️ (🧟 __personal__) remove `gswitch` homebrew formula
+* 🗑️ (🧟 __personal__) remove `NetNewsWire` homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlcolorcode` homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlmarkdown` homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlvideo` homebrew formula
+* 🗑️ (🧟 __personal__) remove `quicklook-csv` homebrew formula
+* 🗑️ (🧟 __personal__) remove `quicklook-json` homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlstephen` homebrew formula
+* 🗑️ (🧟 __personal__) remove `Steermouse` homebrew formula
+
 ## __1.9.2__ ([2020-01-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
 Major bugfixing and better documentation.
@@ -29,7 +60,7 @@ __FIXED__
 
 ## __1.9.1__ ([2019-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
-Minor bugfixes and better documentation.
+Minor bugfixing and better documentation.
 
 __DOCS__
 * 📝 update CHANGELOG file
