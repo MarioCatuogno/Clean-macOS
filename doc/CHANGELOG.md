@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.9.3__ ([2020-01-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
+## __1.9.3__ ([2020-04-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
 Minor bugfixing and new formulaes.
 
