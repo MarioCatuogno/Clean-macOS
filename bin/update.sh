@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# DATE: 2020-01-11
-# VERSION: 1.9.2
+# DATE: 2020-04-19
+# VERSION: 1.10.0
 
 ###############################################################################
 # Set variables                                                               #
@@ -43,4 +43,4 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.
 ###############################################################################
 
 printf "📦 Update macOS...\n"
-brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
+brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade && conda update --all

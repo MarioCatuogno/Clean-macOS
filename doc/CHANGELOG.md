@@ -10,12 +10,38 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
+
+Major overhaul and more polish.
+
+__CHANGED__
+
+* 🔥 add `conda update --all` command to `update.sh` file
+
+__DOCS__
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Microsoft-Teams` homebrew formula
+* 📦 add `Miniconda` install script into `install.sh` file
+* 📦 new `Brewfile` containing all apps and bins. If you want to personalize your configuration you can edit this file choosing from various reviewed apps (click [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
+
+__REMOVED__
+
+* 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listend in one single file
+* 🗑️ remove `Cyberduck` homebrew formula
+
+__SECURITY__
+
+* 🔑 update `.zshrc` file
 
 ## __1.9.3__ ([2020-04-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
 Minor bugfixing and new formulaes.
 
 __DOCS__
+
 * 📝 update CHANGELOG file
 
 __FIXED__
@@ -47,6 +73,7 @@ __REMOVED__
 Major bugfixing and better documentation.
 
 __DOCS__
+
 * 📝 update CHANGELOG file
 * 📝 update README file
 * 📝 update SETUP file
@@ -63,6 +90,7 @@ __FIXED__
 Minor bugfixing and better documentation.
 
 __DOCS__
+
 * 📝 update CHANGELOG file
 * 📝 update README file
 * 📝 add SETUP file
@@ -219,7 +247,7 @@ __REMOVED__
 
 __SECURITY__
 
-* 🔑 update .zshrc file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
+* 🔑 update `.zshrc` file [[#29](https://github.com/MarioCatuogno/Clean-macOS/issues/29)]
 
 ## __1.6.4__ ([2019-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/3))
 
@@ -239,7 +267,7 @@ __CHANGED__
 * 🔥 remove `Mtmr` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * 🔥 remove `SonicWall Mobile Connect` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * 🔥 update .gitignore file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
-* 🔥 update .zshrc file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
+* 🔥 update `.zshrc` file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * 🔥 update APPS_LIST file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * 🔥 update README file [[#21](https://github.com/MarioCatuogno/Clean-macOS/issues/21)]
 
@@ -260,7 +288,7 @@ __NEW__
 __CHANGED__
 
 * 🔥 switch VPN service from `Tunnelbear` to `ExpressVPN`
-* 🔥 update .zshrc file
+* 🔥 update `.zshrc` file
 * 🔥 update README file
 
 __NEW__
@@ -287,7 +315,7 @@ __NEW__
 
 __CHANGED__
 
-* 🔥 update .zshrc file
+* 🔥 update `.zshrc` file
 * 🔥 update README file
 * 🔥 update setup files
 
@@ -333,7 +361,7 @@ __CHANGED__
 
 * 🔥 remove outdated file
 * 🔥 update .gitignore and .gitconfig files
-* 🔥 update .zshrc file
+* 🔥 update `.zshrc` file
 * 🔥 update README file
 * 🔥 update `Visual Studio Code` preferences file
 * 🔥 update homebrew upgrade command
@@ -369,7 +397,7 @@ __NEW__
 * 📦 add font-hack font
 * 📦 add `htop` homebrew formula
 * 📦 add `Alfred` configuration file
-* 📦 add `Brew` plugin into .zshrc configuration file
+* 📦 add `Brew` plugin into `.zshrc` configuration file
 * 📦 add MIT license file
 
 ## __1.2.0__ (2018-09-18)
@@ -377,7 +405,7 @@ __NEW__
 __CHANGED__
 
 * 🔥 remove `Kap` homebrew formula
-* 🔥 update .zshrc file
+* 🔥 update `.zshrc` file
 * 🔥 update APPS_LIST file
 * 🔥 update README file
 
