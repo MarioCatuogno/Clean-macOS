@@ -21,6 +21,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__REMOVED__
+
+* 🗑️ remove `.zshrc` from `update.sh` file
+
 ## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
 Major overhaul and more polish.
