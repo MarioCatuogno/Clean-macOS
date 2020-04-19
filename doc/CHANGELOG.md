@@ -10,7 +10,7 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
-## __1.10.0__ ([2020-06-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
+## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
 Major overhaul and more polish.
 
