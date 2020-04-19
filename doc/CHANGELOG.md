@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file. The types o
 
 __CHANGED__
 
+* 🔥 move `Miniconda` install script into `config.sh` file
 * 🔥 update `Visual Studio Code` packages list
 
 __DOCS__
@@ -24,6 +25,7 @@ __DOCS__
 __REMOVED__
 
 * 🗑️ remove `.zshrc` from `update.sh` file
+* 🗑️ remove Python libraries from `config.sh` file
 
 ## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
