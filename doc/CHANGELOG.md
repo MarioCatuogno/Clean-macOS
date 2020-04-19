@@ -10,6 +10,17 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+
+## __1.10.1__ ([2020-06-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
+
+__CHANGED__
+
+* 🔥 update `Visual Studio Code` packages list
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
 ## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
 Major overhaul and more polish.
@@ -19,6 +30,7 @@ __CHANGED__
 * 🔥 add `conda update --all` command to `update.sh` file
 
 __DOCS__
+
 * 📝 update CHANGELOG file
 
 __NEW__
