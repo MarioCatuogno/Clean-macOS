@@ -22,7 +22,7 @@ Do a fresh install of macOS (version 10.12+) and after your first access to macO
 1. Update macOS via Mac App Store and signin with your AppleID
 2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
 3. Install command line developer tool if asked by clicking on `Install`
-4. Choose a configuration file from `~/cleanMacOS/profiles`, copy it into `~/cleanMacOS/` and rename it as `Brewfile`
+4. If you want to change the apps that will be installed edit the `Brewfile` file
 5. Launch the command `chmod -R 777 ~/cleanMacOS/`
 6. Open __Terminal.app__ and run the following command `~/cleanMacOS/cleanMacOS.sh`, the following promtp will appear from which you can choose one of the options:
 
