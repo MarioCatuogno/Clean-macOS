@@ -14,11 +14,16 @@ All notable changes to this project will be documented in this file. The types o
 
 Major overhaul and more polish.
 
+__CHANGED__
+
+* 🔥 add `conda update --all` command to `update.sh` file
+
 __DOCS__
 * 📝 update CHANGELOG file
 
 __NEW__
 
+* 📦 add `Miniconda` install script into `install.sh` file
 * 📦 new `Brewfile` containing all apps and bins. If you want to personalize your configuration you can edit this file choosing from various reviewed apps (click [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
 
 __REMOVED__
