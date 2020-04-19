@@ -24,7 +24,6 @@ __NEW__
 __REMOVED__
 
 * 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listend in one single file
-* 🗑️ remove `Python` homebrew formula
 
 ## __1.9.3__ ([2020-04-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
