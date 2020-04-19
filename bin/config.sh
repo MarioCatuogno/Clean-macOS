@@ -58,15 +58,16 @@ printf "⚙️ Download Visual Studio Code plugins...\n"
 open -a "Visual Studio Code"
 code --install-extension 77qingliu.sas-syntax
 code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension formulahendry.code-runner
 code --install-extension GrapeCity.gc-excelviewer
 code --install-extension HookyQR.beautify
+code --install-extension ivangabriele.vscode-git-add-and-commit
 code --install-extension JaimeOlivares.yuml
-code --install-extension Tyriar.sort-lines
-code --install-extension formulahendry.code-runner
 code --install-extension mikestead.dotenv
 code --install-extension ms-python.python
 code --install-extension pnp.polacode
 code --install-extension teabyii.ayu
+code --install-extension Tyriar.sort-lines
 code --install-extension yzhang.markdown-all-in-one
 
 # ⚙️ Update Visual Studio Code settings [2/2]
