@@ -23,12 +23,14 @@ __DOCS__
 
 __NEW__
 
+* 📦 add `Microsoft-Teams` homebrew formula
 * 📦 add `Miniconda` install script into `install.sh` file
 * 📦 new `Brewfile` containing all apps and bins. If you want to personalize your configuration you can edit this file choosing from various reviewed apps (click [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
 
 __REMOVED__
 
 * 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listend in one single file
+* 🗑️ remove `Cyberduck` homebrew formula
 
 __SECURITY__
 
