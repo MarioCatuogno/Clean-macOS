@@ -38,13 +38,13 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~
 zsh ~/miniconda.sh -b -p $HOME/miniconda
 source $HOME/miniconda/bin/activate
 conda init zsh
-conda create --name devMario python=3.7.7
-conda install -c --name devMario anaconda-navigator
-conda install -c --name devMario spyder
-conda install -c conda-forge --name devMario jupyterlab
-conda install -c --name devMario pandas
-conda install -c --name devMario numpy
-conda install -c --name devMario scipy
+conda create --name devConda python=3.7.7
+conda install -c --name devConda anaconda-navigator
+conda install -c --name devConda spyder
+conda install -c conda-forge --name devConda jupyterlab
+conda install -c --name devConda pandas
+conda install -c --name devConda numpy
+conda install -c --name devConda scipy
 conda deactivate
 
 ###############################################################################
