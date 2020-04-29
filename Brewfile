@@ -18,6 +18,7 @@ brew "wget"
 brew "wifi-password"
 brew "youtube-dl"
 cask "alfred"
+cask "authy"
 cask "appcleaner"
 cask "bitwarden"
 cask "cheatsheet"
@@ -46,6 +47,7 @@ cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
 mas "Daisydisk", id: 411643860
 mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop 10", id: 1295203466
 mas "Pixelmator", id: 407963104
 mas "PopClip", id: 445189367
 mas "Save to Pocket", id: 1477385213
