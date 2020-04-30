@@ -22,6 +22,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__NEW__
+
+* 📦 add `Authy` homebrew formula
+
 __REMOVED__
 
 * 🗑️ remove `.zshrc` from `update.sh` file
