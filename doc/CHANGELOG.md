@@ -51,7 +51,7 @@ __NEW__
 
 __REMOVED__
 
-* 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listend in one single file
+* 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listed in one single file
 * 🗑️ remove `Cyberduck` homebrew formula
 
 __SECURITY__
