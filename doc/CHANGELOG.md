@@ -17,6 +17,7 @@ __CHANGED__
 
 * 🔥 move `Miniconda` install script into `config.sh` file
 * 🔥 update `Visual Studio Code` packages list
+* 🔥 update `Visual Studio Code` preferences file
 
 __DOCS__
 
@@ -37,6 +38,7 @@ Major overhaul and more polish.
 
 __CHANGED__
 
+* 🔥 add `conda update --all` command to `update.sh` file
 * 🔥 add `conda update --all` command to `update.sh` file
 
 __DOCS__

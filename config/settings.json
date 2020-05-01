@@ -4,7 +4,7 @@
   // Specifies workbench icon theme.
   "workbench.iconTheme": "ayu",
   // Format a file on save.
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   // Format on paste.
   "editor.formatOnPaste": true,
   // Controls whether Spaces will be detected when a file is opened, based on the file contents.
