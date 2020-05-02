@@ -26,6 +26,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Authy` homebrew formula
+* 📦 add `Fork` homebrew formula
 
 __REMOVED__
 
