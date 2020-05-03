@@ -18,6 +18,7 @@ __CHANGED__
 * 🔥 move `Miniconda` install script into `config.sh` file
 * 🔥 update `Visual Studio Code` packages list
 * 🔥 update `Visual Studio Code` preferences file
+* 🔥 update `.zshrc` config file
 
 __DOCS__
 
