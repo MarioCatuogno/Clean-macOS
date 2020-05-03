@@ -28,6 +28,7 @@ __NEW__
 
 * 📦 add `Authy` homebrew formula
 * 📦 add `Transmit` homebrew formula
+* 📦 add `devPython.yml` config file fon Miniconda
 
 __REMOVED__
 
