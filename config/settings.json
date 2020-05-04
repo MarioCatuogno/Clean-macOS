@@ -6,7 +6,7 @@
   // Format a file on save.
   "editor.formatOnSave": false,
   // Format on paste.
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   // Controls whether Spaces will be detected when a file is opened, based on the file contents.
   "editor.detectIndentation": true,
   // Use ZSH as integrated terminal shell
