@@ -36,6 +36,7 @@ __REMOVED__
 * 🗑️ remove `.zshrc` from `update.sh` file
 * 🗑️ remove Python libraries from `config.sh` file
 * 🗑️ remove some VSCode extensions
+* 🗑️ remove `Wipr` homebrew formula
 
 ## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
