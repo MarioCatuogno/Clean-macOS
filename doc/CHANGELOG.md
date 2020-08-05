@@ -13,9 +13,11 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.10.1__ ([2020-06-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
+Cleanup and few changes before the next big update (in time for macOS Big Sur).
+
 __CHANGED__
 
-* 🔥 move `Miniconda` install script into `config.sh` file
+* 🔥 move `Miniconda` install script into `config.sh` file (major overhaul next release)
 * 🔥 update `Visual Studio Code` packages list
 * 🔥 update `Visual Studio Code` preferences file
 * 🔥 update `.zshrc` config file
@@ -23,6 +25,7 @@ __CHANGED__
 __DOCS__
 
 * 📝 update CHANGELOG file
+* 📝 remove outdated docs
 
 __NEW__
 
@@ -36,6 +39,10 @@ __REMOVED__
 * 🗑️ remove `.zshrc` from `update.sh` file
 * 🗑️ remove Python libraries from `config.sh` file
 * 🗑️ remove some VSCode extensions
+* 🗑️ remove `Discord` homebrew formula
+* 🗑️ remove `Docker` homebrew formula
+* 🗑️ remove `ExpressVPN` homebrew formula
+* 🗑️ remove `Steam` homebrew formula
 * 🗑️ remove `Wipr` homebrew formula
 
 ## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
