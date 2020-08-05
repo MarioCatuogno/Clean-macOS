@@ -10,6 +10,43 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+
+## __1.10.1__ ([2020-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
+
+Cleanup and few changes before the next big update (in time for macOS Big Sur).
+
+__CHANGED__
+
+* 🔥 move `Miniconda` install script into `config.sh` file (major overhaul next release)
+* 🔥 update `Visual Studio Code` packages list
+* 🔥 update `Visual Studio Code` preferences file
+* 🔥 update `.zshrc` config file
+
+__DOCS__
+
+* 📝 update APPLIST file
+* 📝 update CHANGELOG file
+* 📝 update README file
+* 📝 remove outdated docs
+
+__NEW__
+
+* 📦 add `Authy` homebrew formula
+* 📦 add `Sourcetree` homebrew formula
+* 📦 add `Transmit` homebrew formula
+* 📦 add `devPython.yml` config file fon Miniconda
+
+__REMOVED__
+
+* 🗑️ remove `.zshrc` from `update.sh` file
+* 🗑️ remove Python libraries from `config.sh` file
+* 🗑️ remove some VSCode extensions
+* 🗑️ remove `Discord` homebrew formula
+* 🗑️ remove `Docker` homebrew formula
+* 🗑️ remove `ExpressVPN` homebrew formula
+* 🗑️ remove `Steam` homebrew formula
+* 🗑️ remove `Wipr` homebrew formula
+
 ## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
 Major overhaul and more polish.
@@ -17,8 +54,10 @@ Major overhaul and more polish.
 __CHANGED__
 
 * 🔥 add `conda update --all` command to `update.sh` file
+* 🔥 add `conda update --all` command to `update.sh` file
 
 __DOCS__
+
 * 📝 update CHANGELOG file
 
 __NEW__
@@ -29,7 +68,7 @@ __NEW__
 
 __REMOVED__
 
-* 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listend in one single file
+* 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listed in one single file
 * 🗑️ remove `Cyberduck` homebrew formula
 
 __SECURITY__

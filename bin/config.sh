@@ -58,15 +58,14 @@ printf "⚙️ Download Visual Studio Code plugins...\n"
 open -a "Visual Studio Code"
 code --install-extension 77qingliu.sas-syntax
 code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension GrapeCity.gc-excelviewer
-code --install-extension HookyQR.beautify
-code --install-extension JaimeOlivares.yuml
-code --install-extension Tyriar.sort-lines
 code --install-extension formulahendry.code-runner
+code --install-extension HookyQR.beautify
+code --install-extension ivangabriele.vscode-git-add-and-commit
+code --install-extension JaimeOlivares.yuml
 code --install-extension mikestead.dotenv
 code --install-extension ms-python.python
-code --install-extension pnp.polacode
 code --install-extension teabyii.ayu
+code --install-extension Tyriar.sort-lines
 code --install-extension yzhang.markdown-all-in-one
 
 # ⚙️ Update Visual Studio Code settings [2/2]
@@ -86,20 +85,14 @@ cp $CONFIG/.gitignore ~/.gitignore
 cp $CONFIG/.gitconfig ~/.gitconfig
 
 ###############################################################################
-# Configure Python                                                            #
+# Install Miniconda                                                           #
 ###############################################################################
 
-# ⚙️ Download Python libraries [1/1]
-printf "⚙️ Download Python libraries...\n"
-pip3 install autopep8
-pip3 install jupyter
-pip3 install numpy
-pip3 install organize-tool
-pip3 install pandas
-pip3 install pylint
-pip3 install requests
-pip3 install speedtest-cli
-pip3 install virtualenv
+# wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
+# zsh ~/miniconda.sh -b -p $HOME/miniconda
+# source $HOME/miniconda/bin/activate
+# conda init zsh
+# conda deactivate
 
 ###############################################################################
 # Configure macOS: Dock                                                       #

@@ -50,4 +50,7 @@ alias python=python3
 alias pip=pip3
 
 # Brew
-alias bup="brew doctor && brew update && brew upgrade && brew cleanup && mas upgrade && conda update --all"
+alias bup="brew doctor && brew update && brew upgrade && brew cleanup && mas upgrade"
+
+# Miniconda
+alias devMario="conda activate devPython && conda run anaconda-navigator"
