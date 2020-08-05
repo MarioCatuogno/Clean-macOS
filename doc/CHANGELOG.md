@@ -24,6 +24,7 @@ __CHANGED__
 
 __DOCS__
 
+* 📝 update APPLIST file
 * 📝 update CHANGELOG file
 * 📝 update README file
 * 📝 remove outdated docs
