@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.10.1__ ([2020-06-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
+## __1.10.1__ ([2020-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
 Cleanup and few changes before the next big update (in time for macOS Big Sur).
 
