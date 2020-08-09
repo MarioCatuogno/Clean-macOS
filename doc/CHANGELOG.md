@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file. The types o
 
 __CHANGED__
 
-* 🔥 
+* 🔥 update `Visual Studio Code` preferences file
 
 __DOCS__
 

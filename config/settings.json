@@ -68,7 +68,12 @@
   "markdown.extension.syntax.decorations": false,
   "markdown.extension.orderedList.autoRenumber": false,
   "markdown.extension.tableFormatter.enabled": false,
+  // Extension
+  "extensions.ignoreRecommendations": true,
   // Configure GIT
   "git.confirmSync": false,
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  // Terminal
+  "terminal.integrated.inheritEnv": false
 }
