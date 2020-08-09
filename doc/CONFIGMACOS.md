@@ -118,82 +118,164 @@ defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 defaults write com.apple.finder DisableAllAnimations -bool true
 ```
 
-###############################################################################
-# Configure macOS: Keyboard                                                   #
-###############################################################################
+---
 
-printf "⚙️ Configuring Keyboard...\n"
-printf "⚙️ Keyboard: disable auto-correct\n"
+## Configure Keyboard
+
+### Disable auto-correct
+
+```sh
 defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
-printf "⚙️ Keyboard: enable key-repeat\n"
+```
+
+### Enable key-repeat
+
+```sh
 defaults write -g ApplePressAndHoldEnabled -bool false
-printf "⚙️ Keyboard: set repeat rate to 2\n"
+```
+
+### Set repeat rate to 2
+
+```sh
 defaults write -g KeyRepeat -int 2
-printf "⚙️ Keyboard: disable automatic capitalization\n"
+```
+
+### Disable automatic capitalization
+
+```sh
 defaults write -g NSAutomaticCapitalizationEnabled -bool false
-printf "⚙️ Keyboard: disable automatic period substitution\n"
+```
+
+### Disable automatic period substitution
+
+```sh
 defaults write -g NSAutomaticPeriodSubstitutionEnabled -bool false
-printf "⚙️ Keyboard: disable smart dashes\n"
+```
+
+### Disable smart dashes
+
+```sh
 defaults write -g NSAutomaticDashSubstitutionEnabled -bool false
-printf "⚙️ Keyboard: disable smart quotes\n"
+```
+
+### Disable smart quotes
+
+```sh
 defaults write -g NSAutomaticQuoteSubstitutionEnabled -bool false
-printf "⚙️ Keyboard: disable cotninuous spell checking\n"
+```
+
+### Disable cotninuous spell checking
+
+```sh
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
+```
 
-###############################################################################
-# Configure macOS: Various                                                    #
-###############################################################################
+---
 
-printf "⚙️ Configuring various stuff...\n"
-printf "⚙️ AppStore: check for software updates daily\n"
-defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
-printf "⚙️ Game Center: disable Game Center\n"
-defaults write com.apple.gamed Disabled -bool true
-printf "⚙️ Monitor: fix blurry fonts on lower resolution monitor\n"
-defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
-printf "⚙️ SSD: Disable hibernation\n"
-sudo pmset -a hibernatemode 0
-printf "⚙️ Security: Enable firewall\n"
-sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
-printf "⚙️ TimeMachine: prevent from prompting to use new hard drives as backup volume\n"
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+## Configure Safari
 
-###############################################################################
-# Configure macOS: TextEdit                                                   #
-###############################################################################
+### Disable Apple send queries
 
-printf "⚙️ Configuring TextEdit.app...n"
-printf "⚙️ TextEdit: use plain text mode for new documents\n"
-defaults write com.apple.TextEdit RichText -int 0
-printf "⚙️ TextEdit: open and save files as UTF-8 encoding\n"
-defaults write com.apple.TextEdit PlainTextEncoding -int 4
-defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
-
-###############################################################################
-# Configure macOS: Safari                                                     #
-###############################################################################
-
-printf "⚙️ Configuring Safari.app...\n"
-printf "⚙️ Safari: disable Apple send queries\n"
+```sh
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-printf "⚙️ Safari: disable auto-correct\n"
+```
+
+### Disable auto-correct
+
+```sh
 defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
-printf "⚙️ Safari: don't open safe files\n"
+```
+
+### Don't open safe files
+
+```sh
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
-printf "⚙️ Safari: show favorites bar\n"
+```
+
+### Show favorites bar
+
+```sh
 defaults write com.apple.Safari ShowFavoritesBar -bool true
-printf "⚙️ Safari: enable develop menu\n"
+```
+
+### Enable develop menu
+
+```sh
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
+```
 
-###############################################################################
-# Configure macOS: Trackpad                                                   #
-###############################################################################
+---
 
-printf "⚙️ Configuring Trackpad...\n"
-printf "⚙️ Trackpad: enable tap to click\n"
+## Configure TextEdit
+
+### Use plain text mode for new documents
+
+```sh
+defaults write com.apple.TextEdit RichText -int 0
+```
+
+### Open and save files as UTF-8 encoding
+
+```sh
+defaults write com.apple.TextEdit PlainTextEncoding -int 4
+defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
+```
+
+---
+
+## Configure Trackpad
+
+### Enable tap to click
+
+```sh
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-printf "⚙️ Trackpad: disable Natural scrolling\n"
+```
+
+### Disable Natural scrolling
+
+```sh
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+```
+
+---
+
+## Various configuration
+
+### AppStore: check for software updates daily
+
+```sh
+defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+```
+
+### Game Center: disable Game Center
+
+```sh
+defaults write com.apple.gamed Disabled -bool true
+```
+
+### Monitor: fix blurry fonts on lower resolution monitor
+
+```sh
+defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
+```
+
+### SSD: Disable hibernation
+
+```sh
+sudo pmset -a hibernatemode 0
+```
+
+### Security: Enable firewall
+
+```sh
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
+```
+
+### TimeMachine: prevent from prompting to use new hard drives as backup volume
+
+```sh
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+```
