@@ -11,6 +11,25 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.11.0__ ([2020-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
+
+__CHANGED__
+
+* 🔥 
+
+__DOCS__
+
+* 📝 update APPLIST file
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `ProtonVPN` homebrew formula
+
+__REMOVED__
+
+* 🗑️
+
 ## __1.10.1__ ([2020-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
 Cleanup and few changes before the next big update (in time for macOS Big Sur).
