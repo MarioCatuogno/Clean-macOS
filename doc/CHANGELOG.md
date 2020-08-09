@@ -28,7 +28,7 @@ __NEW__
 
 __REMOVED__
 
-* 🗑️
+* 🗑️ remove `Miniconda` install script from `config.sh`
 
 ## __1.10.1__ ([2020-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
