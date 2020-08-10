@@ -36,4 +36,4 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.
 ###############################################################################
 
 printf "📦 Update macOS...\n"
-brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade && conda update --all
+brew -v update && brew -v upgrade && brew cask upgrade && mas upgrade && brew -v cleanup --prune=5 && brew doctor

@@ -53,7 +53,7 @@ brew install mas
 
 # Cleanup
 printf "📦 Cleanup and final touches...\n"
-brew doctor && brew update && brew cleanup && brew upgrade && brew cask upgrade && mas upgrade
+brew -v update && brew -v upgrade && brew cask upgrade && mas upgrade && brew -v cleanup --prune=5 && brew doctor
 
 #Exit script
 exit
