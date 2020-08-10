@@ -34,26 +34,25 @@
 
 ## About
 
-__Clean-macOS__ is a simple script which keeps updated the mac-OS or install all the stuff after a clean installation. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of mac-OS when you have to re-install your computer.
+__Clean-macOS__ is a simple script that can be used after a clean installation of macOS to configure and install all the apps. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of macOS.
 
-I've seen various repositories of various people on Github, and every single one of them seemed to be very different. The reason for this is that _dotfiles_ are very personal and there is no "best setup". What I tried to acoomplish with this project is to create the simpliest setup for different kind of users: basic, developers, photographer, etc.
+There are many repositories of various developers on Github, and every single one of them seemed to be very "unique". The reason for this is that _dotfiles_ are very personal and there is no "best setup".
 
-To do this I dove deep down into several repositories (see [Acknowledgements](#acknowledgements)) and found incredible ways to tweak various setup or organize things.
-
-The basic idea behind this project is that the setup and configuration of a new Mac should be as smooth, simple and fast as possible. For this reason there is just one script that prompts a menu from which you chose what kind of profile you want to install on your Mac. Each profile has different apps/options but everyone shares a "core" function that install basic apps, dependencies or binaries. So no matter if you're a developer or a graphic designer, your Mac will be run just fine.
+The basic idea behind this project is that the setup and configuration of a new Mac should be as smooth, simple and fast as possible. For this reason there is just one script that prompts a menu from which you chose what kind of profile you want to install on your Mac. Each profile has different apps, options, dependencies and binaries. So no matter if you're a developer or a graphic designer, your Mac will run just fine.
 
 ## Getting Started
 
 You need an active internet connection and one of the following macOS version:
 
-* macOS 10.12 "Sierra"
-* macOS 10.13 "High Sierra"
-* macOS 10.14 "Mojave"
-* macOS 10.15 "Catalina"
+* ~~macOS 10.12 "Sierra"~~ ❌ (_use version 1.9 or older_)
+* ~~macOS 10.13 "High Sierra"~~ ❌ (_use version 1.9 or older_)
+* ~~macOS 10.14 "Mojave"~~ ❌ (_use version 1.9 or older_)
+* macOS 10.15 "Catalina" ✔️
+* macOS 11.00 "Big Sur" ✔️
 
 ## Prerequisites
 
-1. Do a fresh install of macOS (version 10.12+)
+1. Do a fresh install of macOS (version 10.15+)
 2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
 3. If you want to change the apps that will be installed edit the `Brewfile` file
 4. Launch the command `chmod 777 ~/cleanMacOS/cleanMacOS.sh`
