@@ -40,17 +40,13 @@ alias path='echo -e ${PATH//:/\\n}'
 alias reload="exec ${SHELL} -l"
 
 # Shortcuts
-alias gh="cd ~/Google Drive/Develop/Github"
-alias docs="cd ~/Google Drive/Personal"
 alias ping="prettyping --nolegend"
 alias speedtest="speedtest-cli"
+alias myip="ipconfig getifaddr en0"
 
 # Useful alias
 alias python=python3
 alias pip=pip3
 
 # Brew
-alias bup="brew doctor && brew update && brew upgrade && brew cleanup && mas upgrade"
-
-# Miniconda
-alias devMario="conda activate devPython && conda run anaconda-navigator"
+alias update="brew -v update && brew -v upgrade && brew cask upgrade && mas upgrade && brew -v cleanup --prune=5 && brew doctor"
