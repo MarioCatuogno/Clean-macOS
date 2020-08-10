@@ -16,14 +16,14 @@ All notable changes to this project will be documented in this file. The types o
 __CHANGED__
 
 * 🔥 update `Visual Studio Code` preferences file
-* 🔥 remove some unused commands from `config.sh` file [#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)
+* 🔥 remove some unused commands from `config.sh` file [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 
 __DOCS__
 
-* 📝 create CONFIGMACOS file [#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)
+* 📝 create CONFIGMACOS file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
 * 📝 update APPLIST file
 * 📝 update CHANGELOG file
-* 📝 update README file [#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)
+* 📝 update README file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
 
 __NEW__
 
@@ -32,7 +32,7 @@ __NEW__
 __REMOVED__
 
 * 🗑️ remove `Miniconda` install script from `config.sh`
-* 🗑️ remove version control from shell scripts [#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)
+* 🗑️ remove version control from shell scripts [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 
 ## __1.10.1__ ([2020-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
