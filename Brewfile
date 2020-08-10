@@ -1,6 +1,5 @@
 tap "homebrew/cask-fonts"
 brew "ack"
-brew "bash"
 brew "coreutils"
 brew "dockutil"
 brew "git"

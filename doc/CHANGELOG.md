@@ -33,6 +33,7 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ remove `Bash` homebrew formula
 * 🗑️ remove `Miniconda` install script from `config.sh`
 * 🗑️ remove version control from shell scripts [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 
