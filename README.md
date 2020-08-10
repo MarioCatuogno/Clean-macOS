@@ -44,11 +44,11 @@ The basic idea behind this project is that the setup and configuration of a new 
 
 You need an active internet connection and one of the following macOS version:
 
-* ~~macOS 10.12 "Sierra"~~ ❌ (_use version 1.9 or older_)
-* ~~macOS 10.13 "High Sierra"~~ ❌ (_use version 1.9 or older_)
-* ~~macOS 10.14 "Mojave"~~ ❌ (_use version 1.9 or older_)
-* macOS 10.15 "Catalina" ✔️
-* macOS 11.00 "Big Sur" ✔️
+- ❌ ~~macOS 10.12 "Sierra"~~
+- ❌ ~~macOS 10.13 "High Sierra"~~
+- ❌ ~~macOS 10.14 "Mojave"~~
+- ✔️ macOS 10.15 "Catalina"
+- ✔️ macOS 11.00 "Big Sur"
 
 ## Prerequisites
 
