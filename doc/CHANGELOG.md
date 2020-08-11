@@ -15,6 +15,10 @@ All notable changes to this project will be documented in this file. The types o
 
 __CHANGED__
 
+* 🔥 update `cleanMacOS.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🔥 update `config.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🔥 update `install.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🔥 update `update.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `Visual Studio Code` preferences file
 * 🔥 update `.zshrc` file
 * 🔥 remove some unused commands from `config.sh` file [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
@@ -27,14 +31,20 @@ __DOCS__
 * 📝 update CONTRIBUTING file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
 * 📝 update README file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
 
+__FIXED__
+
+* 🐛 fix `brew cleanup` command (add `--prune=5` in order to remove cache older than 5 days, this saves a lot of space)
+* 🐛 fix `install.sh` script (Homebrew install commands inserted in `while loop`)
+
 __NEW__
 
+* 📦 add `Pandoc` homebrew formula
 * 📦 add `ProtonVPN` homebrew formula
 
 __REMOVED__
 
-* 🗑️ remove `Bash` homebrew formula
 * 🗑️ remove `Miniconda` install script from `config.sh`
+* 🗑️ remove `setup.sh` script
 * 🗑️ remove version control from shell scripts [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 
 __SECURITY__
