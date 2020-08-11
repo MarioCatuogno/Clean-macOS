@@ -3,7 +3,7 @@
  <img width=200px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/logo_clean_macos.png" alt="Clean-macOS logo"></a>
 </p>
 
-<h2 align="center">Clean mac-OS</h2>
+<h2 align="center">Clean macOS</h2>
 
 <div align="center">
 
