@@ -67,12 +67,11 @@ Open __Terminal.app__ and run the following command `~/cleanMacOS/cleanMacOS.sh`
   <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
 </p>
 
-1. `Install Homebrew`: install Homebrew package and dependencies
-2. `Install Applications`: install binaries, cask and Mac Apple Store application listed in profile files
-3. `Configure macOS`: configure macOS with useful commands
-4. `Update`: update brews, casks and MAS applications and formulaes
+1. `Install`: install Homebrew package, binaries, casks, dependencies and Mac Apple Store application listed in `Brewfile` file
+2. `Configure`: configure macOS with useful commands and update `zsh` and `Visual Studio Code` plugins and preferences
+3. `Update`: update brews, casks and MAS applications and formulaes
 
-If you have done a fresh install, run all the commands in the sequence listed above. For details on how to run the script click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
+If you have done a fresh install, run all the commands in the sequence listed above. For a detailed list on how to run the script click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
 
 ## Useful links
 
