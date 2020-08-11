@@ -90,7 +90,6 @@ If you find it useful, please star or tell others about this repo.
 
 - [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [@robbyrussell](https://github.com/robbyrussell) for the guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [@Wallheaven](https://wallhaven.cc) for their amazing [wallpaper](https://wallhaven.cc/w/6k5m8x)
 
 ---
 
