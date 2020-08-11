@@ -21,6 +21,7 @@ __CHANGED__
 * 🔥 update `update.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `Visual Studio Code` preferences file
 * 🔥 update `.zshrc` file
+* 🔥 update various screenshots
 * 🔥 remove some unused commands from `config.sh` file [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 
 __DOCS__
