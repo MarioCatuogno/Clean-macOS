@@ -45,7 +45,7 @@ __REMOVED__
 
 * 🗑️ remove `Miniconda` install script from `config.sh`
 * 🗑️ remove `setup.sh` script
-* 🗑️ remove version control from shell scripts [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🗑️ remove version number from shell scripts [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 
 __SECURITY__
 
