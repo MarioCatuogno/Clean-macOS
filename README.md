@@ -53,9 +53,10 @@ You need an active internet connection and one of the following macOS version:
 ## Prerequisites
 
 1. Do a fresh install of macOS (version 10.15+)
-2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
-3. If you want to change the apps that will be installed edit the `Brewfile` file
-4. Launch the command `chmod 777 ~/cleanMacOS/cleanMacOS.sh`
+2. Sign in Apple Store with your iCloud account
+3. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
+4. If you want to change the apps that will be installed edit the `Brewfile` file
+5. Launch the command `chmod 777 ~/cleanMacOS/cleanMacOS.sh`
 
 ## Installing
 
