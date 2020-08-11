@@ -32,7 +32,7 @@ do
 EOF
     read -n1 -s
     case "$REPLY" in
-    "1")  echo "Ready to install Homebrew..."            | $BIN/setup.sh         ;;
+    "1")  echo "Ready to install Homebrew..."            | $BIN/install.sh       ;;
     "2")  echo "Ready to configure macOS..."             | $BIN/config.sh        ;;
     "3")  echo "Ready to update Homebrew..."             | $BIN/update.sh        ;;
     "0")  exit                                                                   ;;
