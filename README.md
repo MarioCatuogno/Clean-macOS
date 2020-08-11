@@ -59,7 +59,7 @@ You need an active internet connection and one of the following macOS version:
 
 ## Installing
 
-Open __Terminal.app__ and run the following command `~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
+Open __Terminal.app__ and run the following command `chmod -R 777 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">

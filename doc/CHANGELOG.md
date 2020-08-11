@@ -52,6 +52,7 @@ __REMOVED__
 
 __SECURITY__
 
+* 🔑 add `chmod -R 777 ~/Clean-macOS` command in order to give the correct permissions to scripts
 * 🔑 update various aliases and brew commands [[#78](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 
 ## __1.10.1__ ([2020-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))

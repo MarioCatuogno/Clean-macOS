@@ -30,7 +30,7 @@ Do a fresh install of macOS (version 10.15+) and after your first access to macO
 </p>
 
 4. If you want to change the apps that will be installed edit the `Brewfile` file
-5. Open __Terminal.app__ and run the following command `~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
+5. Open __Terminal.app__ and run the following command `chmod -R 777 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">
