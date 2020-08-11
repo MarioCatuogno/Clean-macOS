@@ -1,1 +1,5 @@
 wget -P ~/ https://github.com/MarioCatuogno/Clean-macOS/archive/1.11.0-RELEASE.zip && unzip ~/1.11.0-RELEASE.zip -d ~/Clean-macOS && mv -f ~/Clean-macOS/Clean-macOS-1.11.0-RELEASE/bin ~/Clean-macOS && mv -f ~/Clean-macOS/Clean-macOS-1.11.0-RELEASE/config/ ~/Clean-macOS && mv -f ~/Clean-macOS/Clean-macOS-1.11.0-RELEASE/Clean-macOS.sh ~/Clean-macOS/Clean-macOS.sh && mv -f ~/Clean-macOS/Clean-macOS-1.11.0-RELEASE/Brewfile ~/Clean-macOS && rm -rf ~/Clean-macOS/Clean-macOS-1.11.0-RELEASE/ && chmod -R 777 ~/Clean-macOS/
+
+
+
+git clone -b 1.11.0-RELEASE https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS
