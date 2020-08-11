@@ -30,6 +30,7 @@ __DOCS__
 * 📝 update CHANGELOG file
 * 📝 update CONTRIBUTING file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
 * 📝 update README file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
+* 📝 update SETUP file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
 
 __FIXED__
 
