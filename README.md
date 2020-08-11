@@ -34,11 +34,7 @@
 
 ## About
 
-__Clean-macOS__ is a simple script that can be used after a clean installation of macOS to configure and install all the apps. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of macOS.
-
-There are many repositories of various developers on Github, and every single one of them seemed to be very "unique". The reason for this is that _dotfiles_ are very personal and there is no "best setup".
-
-The basic idea behind this project is that the setup and configuration of a new Mac should be as smooth, simple and fast as possible. For this reason there is just one script that prompts a menu from which you chose what kind of profile you want to install on your Mac. Each profile has different apps, options, dependencies and binaries. So no matter if you're a developer or a graphic designer, your Mac will run just fine.
+__Clean-macOS__ is a simple script that can be used after a clean installation of macOS to configure and install all the apps that you need. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of macOS.
 
 ## Getting Started
 
