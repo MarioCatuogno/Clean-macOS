@@ -4,9 +4,9 @@
 # Set variables                                                               #
 ###############################################################################
 
-BIN=~/cleanMacOS/bin                # shell scripts
-CONFIG=~/cleanMacOS/config          # configuration files directory
-SETUP=~/cleanMacOS                  # root folder of cleanMacOS
+BIN=~/Clean-macOS/bin                # shell scripts
+CONFIG=~/Clean-macOS/config          # configuration files directory
+SETUP=~/Clean-macOS                  # root folder of Clean-macOS
 
 ###############################################################################
 # Update                                                                      #

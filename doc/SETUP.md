@@ -21,11 +21,11 @@ You need an active internet connection and one of the following macOS version:
 Do a fresh install of macOS (version 10.15+) and after your first access to macOS follow the instructions below:
 
 1. Update macOS via Mac App Store and signin with your AppleID
-2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
+2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS`
 3. Install command line developer tool if asked by clicking on `Install`
 4. If you want to change the apps that will be installed edit the `Brewfile` file
-5. Launch the command `chmod -R 777 ~/cleanMacOS/`
-6. Open __Terminal.app__ and run the following command `~/cleanMacOS/cleanMacOS.sh`, the following promtp will appear from which you can choose one of the options:
+5. Launch the command `chmod -R 777 ~/Clean-macOS/`
+6. Open __Terminal.app__ and run the following command `~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">

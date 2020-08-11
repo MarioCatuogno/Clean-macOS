@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file. The types o
 
 __CHANGED__
 
-* 🔥 update `cleanMacOS.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🔥 update `Clean-macOS.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `config.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `install.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `update.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
@@ -35,6 +35,7 @@ __DOCS__
 
 __FIXED__
 
+* 🐛 correct various typos in script and docs (e.g. _cleanMacOs > Clean-macOS_)
 * 🐛 fix `brew cleanup` command (add `--prune=5` in order to remove cache older than 5 days, this saves a lot of space)
 * 🐛 fix `install.sh` script (Homebrew install commands inserted in `while loop`)
 
@@ -211,7 +212,7 @@ __REMOVED__
 
 Biggest release ever! I've re-organized the setup, updated the config files and updated the README file with a detailed guide.
 
-There is now one single script called `cleanMacOs.sh` that has two functions:
+There is now one single script called `Clean-macOS.sh` that has two functions:
 
 * __update__: update macOS apps and binaries, clean temporary files and run some _brew_ diagnostics
 * __install__: install apps, binaries and configure macOS, to be launched only once
