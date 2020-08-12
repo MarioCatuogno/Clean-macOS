@@ -45,6 +45,9 @@ __FIXED__
 
 __NEW__
 
+* 📦 add `Microsoft Excel` homebrew formula
+* 📦 add `Microsoft Powerpoint` homebrew formula
+* 📦 add `Microsoft Word` homebrew formula
 * 📦 add `Pandoc` homebrew formula
 * 📦 add `ProtonVPN` homebrew formula
 * 📦 add `TablePlus` homebrew formula

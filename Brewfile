@@ -46,6 +46,9 @@ cask "transmit"
 cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
 mas "Magnet", id: 441258766
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft Powerpoint", id: 462062816
+mas "Microsoft Word", id: 462054704
 mas "Microsoft Remote Desktop 10", id: 1295203466
 mas "Pixelmator", id: 407963104
 mas "PopClip", id: 445189367
