@@ -21,41 +21,34 @@
   <br>
 </p>
 
+__Clean-macOS__ is a simple script that can be used after a clean installation of macOS to configure and install all the apps that you need. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of macOS.
+
 ## Table of content
 
 - [Table of content](#table-of-content)
-- [About](#about)
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installing](#installing)
-- [Useful links](#useful-links)
+- [Requirements](#requirements)
+- [Setup](#setup)
 - [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-
-## About
-
-__Clean-macOS__ is a simple script that can be used after a clean installation of macOS to configure and install all the apps that you need. It uses _dotfiles_ and _shell scripts_ in order to speed up the configuration of macOS.
+- [Useful links](#useful-links)
+- [Credits](#credits)
 
 ## Getting Started
 
-You need an active internet connection and one of the following macOS version:
+You need an active internet connection and one of the following macOS version already installed:
 
-- ❌ ~~macOS 10.12 "Sierra"~~
-- ❌ ~~macOS 10.13 "High Sierra"~~
-- ❌ ~~macOS 10.14 "Mojave"~~
 - ✔️ macOS 10.15 "Catalina"
 - ✔️ macOS 11.00 "Big Sur"
 
-## Prerequisites
+## Requirements
 
-1. Do a fresh install of macOS (version 10.15+)
-2. Sign in Apple Store with your iCloud account
-3. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS`
-4. If you want to change the apps that will be installed edit the `Brewfile` file
+1. Fresh installation of macOS (version 10.15+)
+2. Signed to Apple Store with your iCloud account
+3. Cloned the repo with the command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS`
 
-## Installing
+## Setup
 
-Open __Terminal.app__ and run the following command `chmod -R 777 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
+Open __Terminal.app__ and run the command `chmod -R 777 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">
@@ -66,7 +59,13 @@ Open __Terminal.app__ and run the following command `chmod -R 777 ~/Clean-macOS 
 2. `Configure`: configure macOS with useful commands and update `zsh` and `Visual Studio Code` plugins and preferences
 3. `Update`: update brews, casks and MAS applications and formulaes
 
-If you have done a fresh install, run all the commands in the sequence listed above. For a detailed list on how to run the script click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
+For a step-by-step guide click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
+
+## Contributing
+
+You are encouraged to fork this repository and to open issue to discuss the change you wish to make. If you want to actively contribute, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CONTRIBUTING.md) for guidelines.
+
+If you find it useful, please star or tell others about this repo.
 
 ## Useful links
 
@@ -76,13 +75,7 @@ Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CH
 
 Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/projects/8) to find the current status and the upcoming milestones of the Clean-macOS project.
 
-## Contributing
-
-You are encouraged to fork this repository and to open issue to discuss the change you wish to make. If you want to actively contribute, click [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CONTRIBUTING.md) for guidelines.
-
-If you find it useful, please star or tell others about this repo.
-
-## Acknowledgements
+## Credits
 
 - [@mathiasbynens](https://github.com/mathiasbynens) for his amazing [dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [@robbyrussell](https://github.com/robbyrussell) for the guides of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
