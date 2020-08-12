@@ -47,10 +47,13 @@ __NEW__
 
 * 📦 add `Pandoc` homebrew formula
 * 📦 add `ProtonVPN` homebrew formula
+* 📦 add `TablePlus` homebrew formula
 
 __REMOVED__
 
 * 🗑️ remove `devPython.yml` config file
+* 🗑️ remove `Daisydisk` homebrew formula
+* 🗑️ remove `dockutil` homebrew formula
 * 🗑️ remove `Miniconda` install script from `config.sh`
 * 🗑️ remove `setup.sh` script
 * 🗑️ remove various graphics template

@@ -2,7 +2,6 @@ tap "homebrew/cask-fonts"
 brew "ack"
 brew "bash"
 brew "coreutils"
-brew "dockutil"
 brew "git"
 brew "gzip"
 brew "htop"
@@ -41,11 +40,11 @@ cask "microsoft-teams"
 cask "protonvpn"
 cask "sourcetree"
 cask "spotify"
+cask "tableplus"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
-mas "Daisydisk", id: 411643860
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop 10", id: 1295203466
 mas "Pixelmator", id: 407963104
