@@ -1,9 +1,6 @@
 # How to contribute
 
-Thanks for taking an interest in this open source project. If you are interested in fixing issues and contributing directly to the code base, please read the following document.
-
-- Submit bugs and feature requests, and help me verify the code
-- Review the documentation and make pull requests for anything from typos to new content
+Thanks for taking an interest in this open source project. You can contribute directly to the code base by submitting bugs and feature requests, and help me verify the code or reviewing the documentation and make pull requests for anything from typos to new content.
 
 ## Issues
 
