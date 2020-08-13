@@ -19,14 +19,13 @@ Reorganized the repository removing unnecessary stuff (e.g. wallpapers) and redu
 
 __CHANGED__
 
+* 🔥 update `.zshrc` file
 * 🔥 update `Clean-macOS.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `config.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `install.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `update.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🔥 update `Visual Studio Code` preferences file
-* 🔥 update `.zshrc` file
 * 🔥 update various screenshots
-* 🔥 remove some unused commands from `config.sh` file [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 
 __DOCS__
 
@@ -45,22 +44,24 @@ __FIXED__
 
 __NEW__
 
+* 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code`, `iTerm` and `Terminal`
 * 📦 add `file-icons-colourless` icon theme for `Visual Studio Code`
 * 📦 add `Microsoft Excel` homebrew formula
 * 📦 add `Microsoft Powerpoint` homebrew formula
 * 📦 add `Microsoft Word` homebrew formula
-* 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code`, `iTerm` and `Terminal`
 * 📦 add `Pandoc` homebrew formula
 * 📦 add `ProtonVPN` homebrew formula
 * 📦 add `TablePlus` homebrew formula
 
 __REMOVED__
 
-* 🗑️ remove `devPython.yml` config file
 * 🗑️ remove `Daisydisk` homebrew formula
+* 🗑️ remove `devPython.yml` config file
 * 🗑️ remove `dockutil` homebrew formula
 * 🗑️ remove `Miniconda` install script from `config.sh`
 * 🗑️ remove `setup.sh` script
+* 🗑️ remove `yuml` from `Visual Studio Code` plugins
+* 🗑️ remove some unused commands from `config.sh` file [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
 * 🗑️ remove various graphics template
 * 🗑️ remove various wallpapers
 * 🗑️ remove version number from shell scripts [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
