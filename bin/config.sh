@@ -40,6 +40,7 @@ open $CONFIG/ayu-dark.itermcolors
 open $CONFIG/ayu-light.itermcolors
 open $CONFIG/ayu-mirage.itermcolors
 open $CONFIG/nord.itermcolors
+open $CONFIG/nord.terminal
 
 # Install Visual Studio Code plugins [1/2]
 printf "⚙️ Put Visual Studio Code in quarantine to install plugins...\n"
