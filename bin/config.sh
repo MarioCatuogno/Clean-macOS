@@ -49,6 +49,7 @@ open -a "Visual Studio Code"
 code --install-extension 77qingliu.sas-syntax
 code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension file-icons.file-icons
 code --install-extension formulahendry.code-runner
 code --install-extension HookyQR.beautify
 code --install-extension ivangabriele.vscode-git-add-and-commit
