@@ -51,6 +51,7 @@ __NEW__
 * 📦 add `Pandoc` homebrew formula
 * 📦 add `ProtonVPN` homebrew formula
 * 📦 add `TablePlus` homebrew formula
+* 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code` and `iTerm`
 
 __REMOVED__
 

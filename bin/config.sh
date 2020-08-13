@@ -39,6 +39,7 @@ printf "📦 Install iTerm2 themes...\n"
 open $CONFIG/ayu-dark.itermcolors
 open $CONFIG/ayu-light.itermcolors
 open $CONFIG/ayu-mirage.itermcolors
+open $CONFIG/nord.itermcolors
 
 # Install Visual Studio Code plugins [1/2]
 printf "⚙️ Put Visual Studio Code in quarantine to install plugins...\n"
@@ -46,6 +47,7 @@ xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 printf "📦 Install Visual Studio Code plugins...\n"
 open -a "Visual Studio Code"
 code --install-extension 77qingliu.sas-syntax
+code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension formulahendry.code-runner
 code --install-extension HookyQR.beautify
