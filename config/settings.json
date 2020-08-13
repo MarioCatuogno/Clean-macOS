@@ -2,7 +2,7 @@
   // The number of spaces in a tab.
   "editor.tabSize": 2,
   // Specifies workbench icon theme.
-  "workbench.iconTheme": "file-icons",
+  "workbench.iconTheme": "file-icons-colourless",
   // Format a file on save.
   "editor.formatOnSave": false,
   // Format on paste.

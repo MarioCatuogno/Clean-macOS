@@ -45,6 +45,7 @@ __FIXED__
 
 __NEW__
 
+* 📦 add `file-icons-colourless` icon theme for `Visual Studio Code`
 * 📦 add `Microsoft Excel` homebrew formula
 * 📦 add `Microsoft Powerpoint` homebrew formula
 * 📦 add `Microsoft Word` homebrew formula
