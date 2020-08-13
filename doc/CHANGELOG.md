@@ -49,10 +49,10 @@ __NEW__
 * 📦 add `Microsoft Excel` homebrew formula
 * 📦 add `Microsoft Powerpoint` homebrew formula
 * 📦 add `Microsoft Word` homebrew formula
+* 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code` and `iTerm`
 * 📦 add `Pandoc` homebrew formula
 * 📦 add `ProtonVPN` homebrew formula
 * 📦 add `TablePlus` homebrew formula
-* 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code` and `iTerm`
 
 __REMOVED__
 
