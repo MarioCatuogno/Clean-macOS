@@ -45,6 +45,7 @@ __FIXED__
 __NEW__
 
 * 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code`, `iTerm` and `Terminal`
+* 📦 add `Discord` homebrew formula
 * 📦 add `file-icons-colourless` icon theme for `Visual Studio Code`
 * 📦 add `Microsoft Excel` homebrew formula
 * 📦 add `Microsoft Powerpoint` homebrew formula
