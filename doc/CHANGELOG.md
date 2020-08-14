@@ -56,6 +56,7 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ `Clean-macOS` now supports only `Catalina` and `Big Sur`, older versions of macOS are no longer supported
 * 🗑️ remove `Daisydisk` homebrew formula
 * 🗑️ remove `devPython.yml` config file
 * 🗑️ remove `dockutil` homebrew formula
