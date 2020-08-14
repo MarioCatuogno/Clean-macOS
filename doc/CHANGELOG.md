@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file. The types o
 
 Reorganized the repository removing unnecessary stuff (e.g. wallpapers) and reducing the total size from 16MB to 4MB! Fixed some bugs and changed the way the script is executed. Also completed the documentation and polish here and there.
 
-⚠️ The script is ready for macOS "Big Sur" but older macOS versions (except "Catalina") are not supported anymore!
+⚠️ Clean-macOS now supports only Catalina and Big Sur, older versions of macOS are no longer supported!
 
 __CHANGED__
 
