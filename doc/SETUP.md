@@ -1,14 +1,14 @@
 # Setup
 
-This is a detailed list of instruction to setup a fresh macOS environment as fast and efficient as possible.
+This is a detailed list of instructions to setup a fresh macOS environment as fast and efficient as possible.
 
 ## Table of content
 
 - [Setup](#setup)
   - [Table of content](#table-of-content)
-  - [Instructions](#instructions)
+  - [Requirements](#requirements)
 
-## Instructions
+## Requirements
 
 You need an active internet connection and one of the following macOS version:
 
@@ -29,7 +29,7 @@ Do a fresh install of macOS (version 10.15+) and after your first access to macO
   <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_install_xcode.png" alt="Install X-code"><br></a>
 </p>
 
-4. If you want to change the apps that will be installed edit the `Brewfile` file
+4. Edit the `Brewfile` file choosing the apps that you want to install
 5. Open __Terminal.app__ and run the following command `chmod -R 777 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
 
 <p align="center">
@@ -38,7 +38,13 @@ Do a fresh install of macOS (version 10.15+) and after your first access to macO
 </p>
 
 7. Input number __1__ (`Install`) to install Homebrew packages, Cask apps and dependencies
-8. Input number __2__ (`Configure`) to configure macOS with useful commands and to update `zsh` and `Visual Studio Code` plugins and preferences
+8. Input number __2__ (`Configure`) to configure macOS with useful commands and to update `zsh` and `Visual Studio Code` plugins and preferences. After that Visual Studio Code will look like this:
+
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_myvscode.png" alt="Visual Studio Code"><br></a>
+</p>
+
 9. Go to __Keyboard > Text >__ Disable "Correct spelling automatically"
 10. Go to __Security and Privacy > Firewall >__ On
 11. Go to __Security and Privacy > General >__ App Store and identified developers
