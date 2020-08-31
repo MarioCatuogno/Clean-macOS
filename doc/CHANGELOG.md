@@ -45,6 +45,7 @@ __FIXED__
 __NEW__
 
 * 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code`, `iTerm` and `Terminal`
+* 📦 add `ApolloOne` homebrew formula
 * 📦 add `Discord` homebrew formula
 * 📦 add `Docker` homebrew formula
 * 📦 add `file-icons-colourless` icon theme for `Visual Studio Code`
@@ -52,7 +53,6 @@ __NEW__
 * 📦 add `Microsoft Powerpoint` homebrew formula
 * 📦 add `Microsoft Word` homebrew formula
 * 📦 add `Pandoc` homebrew formula
-* 📦 add `ProtonVPN` homebrew formula
 * 📦 add `TablePlus` homebrew formula
 
 __REMOVED__

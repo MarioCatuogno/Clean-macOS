@@ -39,7 +39,6 @@ cask "imageoptim"
 cask "istat-menus"
 cask "iterm2"
 cask "microsoft-teams"
-cask "protonvpn"
 cask "sourcetree"
 cask "spotify"
 cask "tableplus"
@@ -47,6 +46,7 @@ cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
+mas "ApolloOne", id: 1044484672
 mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft Powerpoint", id: 462062816
