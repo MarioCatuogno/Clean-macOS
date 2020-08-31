@@ -11,6 +11,69 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.11.0__ ([2020-08-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/7))
+
+Reorganized the repository removing unnecessary stuff (e.g. wallpapers) and reducing the total size from 16MB to 4MB! Fixed some bugs and changed the way the script is executed. Also completed the documentation and polish here and there.
+
+⚠️ Clean-macOS now supports only Catalina and Big Sur, older versions of macOS are no longer supported!
+
+__CHANGED__
+
+* 🔥 update `.zshrc` file
+* 🔥 update `Clean-macOS.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🔥 update `config.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🔥 update `install.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🔥 update `update.sh` script [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🔥 update `Visual Studio Code` preferences file
+* 🔥 update various screenshots
+
+__DOCS__
+
+* 📝 create CONFIGMACOS file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
+* 📝 update APPLIST file
+* 📝 update CHANGELOG file
+* 📝 update CONTRIBUTING file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
+* 📝 update README file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
+* 📝 update SETUP file [[#80](https://github.com/MarioCatuogno/Clean-macOS/issues/80)]
+
+__FIXED__
+
+* 🐛 correct various typos in script and docs (e.g. _cleanMacOs > Clean-macOS_)
+* 🐛 fix `brew cleanup` command (add `--prune=5` in order to remove cache older than 5 days, this saves a lot of space)
+* 🐛 fix `install.sh` script (Homebrew install commands inserted in `while loop`)
+
+__NEW__
+
+* 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code`, `iTerm` and `Terminal`
+* 📦 add `ApolloOne` homebrew formula
+* 📦 add `Discord` homebrew formula
+* 📦 add `Docker` homebrew formula
+* 📦 add `file-icons-colourless` icon theme for `Visual Studio Code`
+* 📦 add `Microsoft Excel` homebrew formula
+* 📦 add `Microsoft Powerpoint` homebrew formula
+* 📦 add `Microsoft Word` homebrew formula
+* 📦 add `Pandoc` homebrew formula
+* 📦 add `TablePlus` homebrew formula
+
+__REMOVED__
+
+* 🗑️ `Clean-macOS` now supports only `Catalina` and `Big Sur`, older versions of macOS are no longer supported
+* 🗑️ remove `Daisydisk` homebrew formula
+* 🗑️ remove `devPython.yml` config file
+* 🗑️ remove `dockutil` homebrew formula
+* 🗑️ remove `Miniconda` install script from `config.sh`
+* 🗑️ remove `setup.sh` script
+* 🗑️ remove `yuml` from `Visual Studio Code` plugins
+* 🗑️ remove some unused commands from `config.sh` file [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+* 🗑️ remove various graphics template
+* 🗑️ remove various wallpapers
+* 🗑️ remove version number from shell scripts [[#79](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+
+__SECURITY__
+
+* 🔑 add `chmod -R 777 ~/Clean-macOS` command in order to give the correct permissions to scripts
+* 🔑 update various aliases and brew commands [[#78](https://github.com/MarioCatuogno/Clean-macOS/issues/79)]
+
 ## __1.10.1__ ([2020-08-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
 Cleanup and few changes before the next big update (in time for macOS Big Sur).
@@ -169,7 +232,7 @@ __REMOVED__
 
 Biggest release ever! I've re-organized the setup, updated the config files and updated the README file with a detailed guide.
 
-There is now one single script called `cleanMacOs.sh` that has two functions:
+There is now one single script called `Clean-macOS.sh` that has two functions:
 
 * __update__: update macOS apps and binaries, clean temporary files and run some _brew_ diagnostics
 * __install__: install apps, binaries and configure macOS, to be launched only once

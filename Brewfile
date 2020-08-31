@@ -2,7 +2,6 @@ tap "homebrew/cask-fonts"
 brew "ack"
 brew "bash"
 brew "coreutils"
-brew "dockutil"
 brew "git"
 brew "gzip"
 brew "htop"
@@ -10,6 +9,7 @@ brew "imagemagick"
 brew "nano"
 brew "nmap"
 brew "neofetch"
+brew "pandoc"
 brew "python3"
 brew "prettyping"
 brew "tldr"
@@ -22,6 +22,8 @@ cask "authy"
 cask "appcleaner"
 cask "bitwarden"
 cask "cheatsheet"
+cask "discord"
+cask "docker"
 cask "font-comic-neue"
 cask "font-fantasque-sans-mono"
 cask "font-fira-code"
@@ -39,12 +41,16 @@ cask "iterm2"
 cask "microsoft-teams"
 cask "sourcetree"
 cask "spotify"
+cask "tableplus"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
-mas "Daisydisk", id: 411643860
+mas "ApolloOne", id: 1044484672
 mas "Magnet", id: 441258766
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft Powerpoint", id: 462062816
+mas "Microsoft Word", id: 462054704
 mas "Microsoft Remote Desktop 10", id: 1295203466
 mas "Pixelmator", id: 407963104
 mas "PopClip", id: 445189367

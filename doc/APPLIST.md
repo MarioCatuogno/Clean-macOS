@@ -96,6 +96,7 @@ A collection of useful apps for macOS, you can configure your personal profile c
 | --- | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_1password.png" width="30" align="middle" /> | [1Password](https://1password.com) | A cross-platform password manager. | cask "1password" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_expressvpn.png" width="30" align="middle" /> | [ExpressVPN](https://www.expressvpn.com) | High speed VPN service available on both macOS and iOS. | cask "expressvpn" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_protonvpn.png" width="30" align="middle" /> | [ProtonVPN](https://www.protonvpn.com) | Free and open source VPN service available on both macOS and iOS. | cask "protonvpn" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_netextender.png" width="30" align="middle" /> | [SonicWall NetExtender](https://www.sonicwall.com) | NetExtender is an SSL VPN client that is downloaded transparently and that allows you to run any application securely on the company’s network. | |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_tunnelbear.png" width="30" align="middle" /> | [TunnelBear](https://www.tunnelbear.com) | TunnelBear VPN provides you with a secure and private connection to a less restricted Internet. | cask "tunnelbear" |
 

@@ -1,42 +1,53 @@
 # Setup
 
-This is a detailed list of instruction to setup a fresh macOS environment as fast and efficient as possible.
+This is a detailed list of instructions to setup a fresh macOS environment as fast and efficient as possible.
 
 ## Table of content
 
 - [Setup](#setup)
   - [Table of content](#table-of-content)
-  - [Instructions](#instructions)
+  - [Requirements](#requirements)
 
-## Instructions
+## Requirements
 
 You need an active internet connection and one of the following macOS version:
 
-* macOS 10.12 "Sierra"
-* macOS 10.13 "High Sierra"
-* macOS 10.14 "Mojave"
-* macOS 10.15 "Catalina"
+- ❌ ~~macOS 10.12 "Sierra"~~
+- ❌ ~~macOS 10.13 "High Sierra"~~
+- ❌ ~~macOS 10.14 "Mojave"~~
+- ✔️ macOS 10.15 "Catalina"
+- ✔️ macOS 11.00 "Big Sur"
 
-Do a fresh install of macOS (version 10.12+) and after your first access to macOS follow the instructions below:
+Do a fresh install of macOS (version 10.15+) and after your first access to macOS follow the instructions below:
 
 1. Update macOS via Mac App Store and signin with your AppleID
-2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/cleanMacOS`
-3. Install command line developer tool if asked by clicking on `Install`
-4. If you want to change the apps that will be installed edit the `Brewfile` file
-5. Launch the command `chmod -R 777 ~/cleanMacOS/`
-6. Open __Terminal.app__ and run the following command `~/cleanMacOS/cleanMacOS.sh`, the following promtp will appear from which you can choose one of the options:
+2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS`
+3. If you haven't previously installed `X-code` then click __Yes__ in the following prompt
+
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_install_xcode.png" alt="Install X-code"><br></a>
+</p>
+
+4. Edit the `Brewfile` file choosing the apps that you want to install
+5. Open __Terminal.app__ and run the following command `chmod -R 777 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">
   <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
 </p>
 
-7. Input number __1__ (`Install Homebrew`) to install Homebrew package and dependencies
-8. Input number __2__ (`Install Applications`) to install binaries, cask and Mac Apple Store application listed in `Brewfile` file
-9. Input number __3__ (`Configure macOS`) to configure macOS with useful commands
-10. Go to __Keyboard > Text >__ Disable "Correct spelling automatically"
-11. Go to __Security and Privacy > Firewall >__ On
-12. Go to __Security and Privacy > General >__ App Store and identified developers
-13. Go to __File Sharing >__ Off
-14. Input number __4__ (`Update`) to update brews, casks and MAS applications and formulaes
-15. Restart macOS
+7. Input number __1__ (`Install`) to install Homebrew packages, Cask apps and dependencies
+8. Input number __2__ (`Configure`) to configure macOS with useful commands and to update `zsh` and `Visual Studio Code` plugins and preferences. After that Visual Studio Code will look like this:
+
+<p align="center">
+  <a href="https://github.com/MarioCatuogno/Clean-macOS">
+  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_myvscode.png" alt="Visual Studio Code"><br></a>
+</p>
+
+9. Go to __Keyboard > Text >__ Disable "Correct spelling automatically"
+10. Go to __Security and Privacy > Firewall >__ On
+11. Go to __Security and Privacy > General >__ App Store and identified developers
+12. Go to __File Sharing >__ Off
+13. Input number __3__ (`Update`) to update brews, casks and MAS applications and formulaes
+14. Restart macOS

@@ -2,7 +2,7 @@
   // The number of spaces in a tab.
   "editor.tabSize": 2,
   // Specifies workbench icon theme.
-  "workbench.iconTheme": "ayu",
+  "workbench.iconTheme": "file-icons-colourless",
   // Format a file on save.
   "editor.formatOnSave": false,
   // Format on paste.
@@ -55,7 +55,7 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
-  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.colorTheme": "Nord",
   "workbench.colorCustomizations": {
     "statusBar.background": "#313641",
     "statusBar.foreground": "#fff",
@@ -68,7 +68,12 @@
   "markdown.extension.syntax.decorations": false,
   "markdown.extension.orderedList.autoRenumber": false,
   "markdown.extension.tableFormatter.enabled": false,
+  // Extension
+  "extensions.ignoreRecommendations": true,
   // Configure GIT
   "git.confirmSync": false,
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  // Terminal
+  "terminal.integrated.inheritEnv": false
 }
