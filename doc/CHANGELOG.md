@@ -19,6 +19,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__FIXED__
+
+* 🐛 correct `brew upgrade` command for cask apps
+
 __NEW__
 
 * 📦 add `AdGuard` homebrew formula
