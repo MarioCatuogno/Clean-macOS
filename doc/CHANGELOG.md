@@ -21,6 +21,7 @@ __DOCS__
 
 __FIXED__
 
+* 🐛 correct alias in `.zshrc` file
 * 🐛 correct `brew upgrade` command for cask apps
 
 __NEW__
