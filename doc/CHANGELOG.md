@@ -37,11 +37,15 @@ __REMOVED__
 
 * 🗑️ remove `Docker` homebrew formula
 * 🗑️ remove `Google Chrome` homebrew formula
+* 🗑️ remove `iStat Menu` homebrew formula
 * 🗑️ remove `Microsoft Excel` homebrew formula
 * 🗑️ remove `Microsoft Powerpoint` homebrew formula
 * 🗑️ remove `Microsoft Remote Desktop` homebrew formula
 * 🗑️ remove `Microsoft Teams` homebrew formula
 * 🗑️ remove `Microsoft Word` homebrew formula
+* 🗑️ remove `Pixelmator` homebrew formula
+* 🗑️ remove `Sourcetree` homebrew formula
+* 🗑️ remove `Tableplus` homebrew formula
 
 ## __1.11.0__ ([2020-08-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/7))
 
