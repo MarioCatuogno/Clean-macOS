@@ -17,6 +17,7 @@ Minor release with some changes to Brewfile, update to documentation and bug fix
 
 __CHANGED__
 
+* 🔥 update `install.sh` script
 * 🔥 update `update.sh` script
 
 __DOCS__
