@@ -2,6 +2,8 @@
 # Paths                                                                       #
 ###############################################################################
 
+ZSH_DISABLE_COMPFIX="true"
+
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export ZSH=$HOME/.oh-my-zsh
