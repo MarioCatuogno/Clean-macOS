@@ -11,6 +11,16 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.1__ ([2020-11-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with bug fixes.
+
+__FIXED__
+
+* 🐛  add `svn` homebrew formula
+* 🐛  add `ZSH_DISABLE_COMPFIX` command in `.zshrc` file to avoid warning in iTerm2
+* 🐛  fix `font-heavy-data-nerd-font` homebrew formula
+
 ## __1.12.0__ ([2020-11-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes to Brewfile, update to documentation and bug fixing.
