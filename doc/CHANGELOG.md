@@ -30,6 +30,8 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ remove `Docker` homebrew formula
+* 🗑️ remove `Google Chrome` homebrew formula
 * 🗑️ remove `Microsoft Excel` homebrew formula
 * 🗑️ remove `Microsoft Powerpoint` homebrew formula
 * 🗑️ remove `Microsoft Remote Desktop` homebrew formula
