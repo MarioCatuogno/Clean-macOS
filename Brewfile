@@ -46,7 +46,6 @@ cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
 mas "ApolloOne", id: 1044484672
 mas "Magnet", id: 441258766
-mas "Pixelmator", id: 407963104
 mas "PopClip", id: 445189367
 mas "Save to Pocket", id: 1477385213
 mas "Spark", id: 1176895641
