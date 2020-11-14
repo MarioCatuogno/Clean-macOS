@@ -15,6 +15,10 @@ All notable changes to this project will be documented in this file. The types o
 
 Minor release with some changes to Brewfile, update to documentation and bug fixing.
 
+__CHANGED__
+
+* 🔥 update `update.sh` script
+
 __DOCS__
 
 * 📝 update CHANGELOG file
@@ -23,6 +27,7 @@ __FIXED__
 
 * 🐛 correct alias in `.zshrc` file
 * 🐛 correct `brew upgrade` command for cask apps
+* 🐛 fix many macOS commands not working with Big Sur
 
 __NEW__
 
