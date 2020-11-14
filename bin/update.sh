@@ -31,7 +31,7 @@ curl https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/config/.
 
 # Cleanup
 printf "⚙️ Cleanup and final touches...\n"
-brew -v update && brew -v upgrade && brew cask upgrade && mas upgrade && brew -v cleanup --prune=5 && brew doctor
+brew -v update && brew -v upgrade && mas upgrade && brew -v cleanup --prune=5 && brew doctor && brew -v upgrade --casks --greedy 
 
 #Exit script
 exit

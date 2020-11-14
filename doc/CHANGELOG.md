@@ -11,6 +11,42 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.0__ ([2020-11-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes to Brewfile, update to documentation and bug fixing.
+
+__CHANGED__
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__FIXED__
+
+* 🐛 correct alias in `.zshrc` file
+* 🐛 correct `brew upgrade` command for cask apps
+* 🐛 fix many macOS commands not working with Big Sur
+* 🐛 fix `install.sh` script
+* 🐛 fix `update.sh` script
+
+__NEW__
+
+* 📦 add `AdGuard` homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Docker` homebrew formula
+* 🗑️ remove `Google Chrome` homebrew formula
+* 🗑️ remove `iStat Menu` homebrew formula
+* 🗑️ remove `Microsoft Excel` homebrew formula
+* 🗑️ remove `Microsoft Powerpoint` homebrew formula
+* 🗑️ remove `Microsoft Remote Desktop` homebrew formula
+* 🗑️ remove `Microsoft Teams` homebrew formula
+* 🗑️ remove `Microsoft Word` homebrew formula
+* 🗑️ remove `Pixelmator` homebrew formula
+* 🗑️ remove `Sourcetree` homebrew formula
+* 🗑️ remove `Tableplus` homebrew formula
+
 ## __1.11.0__ ([2020-08-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/7))
 
 Reorganized the repository removing unnecessary stuff (e.g. wallpapers) and reducing the total size from 16MB to 4MB! Fixed some bugs and changed the way the script is executed. Also completed the documentation and polish here and there.
