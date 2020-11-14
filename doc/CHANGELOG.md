@@ -17,9 +17,6 @@ Minor release with some changes to Brewfile, update to documentation and bug fix
 
 __CHANGED__
 
-* 🔥 update `install.sh` script
-* 🔥 update `update.sh` script
-
 __DOCS__
 
 * 📝 update CHANGELOG file
@@ -29,6 +26,8 @@ __FIXED__
 * 🐛 correct alias in `.zshrc` file
 * 🐛 correct `brew upgrade` command for cask apps
 * 🐛 fix many macOS commands not working with Big Sur
+* 🐛 fix `install.sh` script
+* 🐛 fix `update.sh` script
 
 __NEW__
 
