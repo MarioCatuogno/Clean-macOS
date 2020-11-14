@@ -49,4 +49,4 @@ alias python=python3
 alias pip=pip3
 
 # Brew
-alias bup="brew -v update && brew -v upgrade && brew -v upgrade --cask && mas upgrade && brew -v cleanup --prune=5 && brew doctor"
+alias bup="brew -v update && brew -v upgrade && brew -v upgrade --casks --greedy && mas upgrade && brew -v cleanup --prune=5 && brew doctor"
