@@ -40,7 +40,7 @@ if test ! $(which brew); then
     brew bundle --file=$SETUP/Brewfile
   # Cleanup
     printf "⚙️ Cleanup and final touches...\n"
-    brew -v update && brew -v upgrade && brew cask upgrade && mas upgrade && brew -v cleanup --prune=5 && brew doctor
+    brew -v update && brew -v upgrade && mas upgrade && brew -v cleanup --prune=5 && brew doctor && brew -v upgrade --casks --greedy 
 else
     printf "📦 Homebrew is already installed...\n"
     exit
