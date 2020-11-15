@@ -313,12 +313,6 @@ Launching the __install__ mode let you chose what kind of profile you want to ap
 * 👨‍💻 __developer__ [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 🧟 __personal__ [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 
-<p align="center">
-  <a href="https://github.com/MarioCatuogno/Clean-macOS">
-  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_script_diagram.png" alt="Clean-macOS logo"><br></a>
-  <i>Diagram : Clean-macOS scripts in 1.8.0-RELEASE</i>
-</p>
-
 The list of applications included in each profile is reported [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md).
 
 Also this release is fully compatible with __macOS 10.15 "Catalina"__.
