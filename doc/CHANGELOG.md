@@ -10,6 +10,23 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+## __1.12.2__ ([2020-11-16](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with bug fixes and docs update.
+
+__CHANGED__
+
+* 🔥 change `--prune` parameter from 5 to 2
+
+__DOCS__
+
+* 📝 update APPLIST file
+* 📝 update CHANGELOG file
+* 📝 update SETUP file
+
+__FIXED__
+
+* 🐛  fix broken link in SETUP file
 
 ## __1.12.1__ ([2020-11-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
@@ -18,6 +35,10 @@ Minor release with bug fixes.
 __CHANGED__
 
 * 🔥 update various screenshots
+
+__DOCS__
+
+* 📝 update CHANGELOG file
 
 __FIXED__
 

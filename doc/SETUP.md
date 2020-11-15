@@ -22,13 +22,7 @@ Do a fresh install of macOS (version 10.15+) and after your first access to macO
 
 1. Update macOS via Mac App Store and signin with your AppleID
 2. Open __Terminal.app__ and download the project with the following command `git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS`
-3. If you haven't previously installed `X-code` then click __Yes__ in the following prompt
-
-<p align="center">
-  <a href="https://github.com/MarioCatuogno/Clean-macOS">
-  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_install_xcode.png" alt="Install X-code"><br></a>
-</p>
-
+3. If you haven't previously installed `X-code` then click __Yes__ in the prompt
 4. Edit the `Brewfile` file choosing the apps that you want to install
 5. Open __Terminal.app__ and run the following command `chmod -R 777 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh`, the following promtp will appear from which you can choose one of the options:
 
