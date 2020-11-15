@@ -12,9 +12,9 @@ This is a detailed list of instructions to setup a fresh macOS environment as fa
 
 You need an active internet connection and one of the following macOS version:
 
-- ❌ ~~macOS 10.12 "Sierra"~~
-- ❌ ~~macOS 10.13 "High Sierra"~~
-- ❌ ~~macOS 10.14 "Mojave"~~
+- ❌ ~~macOS 10.12 "Sierra"~~ (use [1.10.0-RELEASE](https://github.com/MarioCatuogno/Clean-macOS/releases/tag/1.10.0))
+- ❌ ~~macOS 10.13 "High Sierra"~~ (use [1.10.0-RELEASE](https://github.com/MarioCatuogno/Clean-macOS/releases/tag/1.10.0))
+- ❌ ~~macOS 10.14 "Mojave"~~ (use [1.10.0-RELEASE](https://github.com/MarioCatuogno/Clean-macOS/releases/tag/1.10.0))
 - ✔️ macOS 10.15 "Catalina"
 - ✔️ macOS 11.00 "Big Sur"
 
