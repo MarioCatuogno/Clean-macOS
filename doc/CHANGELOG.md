@@ -26,7 +26,7 @@ __DOCS__
 
 __FIXED__
 
-* 🐛  fix broken link in SETUP file
+* 🐛 fix broken link in SETUP file
 
 ## __1.12.1__ ([2020-11-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
@@ -42,9 +42,9 @@ __DOCS__
 
 __FIXED__
 
-* 🐛  add `svn` homebrew formula
-* 🐛  add `ZSH_DISABLE_COMPFIX` command in `.zshrc` file to avoid warning in iTerm2
-* 🐛  fix `font-heavy-data-nerd-font` homebrew formula
+* 🐛 add `svn` homebrew formula
+* 🐛 add `ZSH_DISABLE_COMPFIX` command in `.zshrc` file to avoid warning in iTerm2
+* 🐛 fix `font-heavy-data-nerd-font` homebrew formula
 
 ## __1.12.0__ ([2020-11-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
