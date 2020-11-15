@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+
 ## __1.12.2__ ([2020-11-16](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with bug fixes and docs update.
