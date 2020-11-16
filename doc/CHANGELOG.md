@@ -11,6 +11,24 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.2__ ([2020-11-16](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with bug fixes and docs update.
+
+__CHANGED__
+
+* 🔥 change `--prune` parameter from 5 to 2
+
+__DOCS__
+
+* 📝 update APPLIST file
+* 📝 update CHANGELOG file
+* 📝 update SETUP file
+
+__FIXED__
+
+* 🐛 fix broken link in SETUP file
+
 ## __1.12.1__ ([2020-11-15](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with bug fixes.
@@ -19,11 +37,15 @@ __CHANGED__
 
 * 🔥 update various screenshots
 
+__DOCS__
+
+* 📝 update CHANGELOG file
+
 __FIXED__
 
-* 🐛  add `svn` homebrew formula
-* 🐛  add `ZSH_DISABLE_COMPFIX` command in `.zshrc` file to avoid warning in iTerm2
-* 🐛  fix `font-heavy-data-nerd-font` homebrew formula
+* 🐛 add `svn` homebrew formula
+* 🐛 add `ZSH_DISABLE_COMPFIX` command in `.zshrc` file to avoid warning in iTerm2
+* 🐛 fix `font-heavy-data-nerd-font` homebrew formula
 
 ## __1.12.0__ ([2020-11-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
@@ -291,12 +313,6 @@ Launching the __install__ mode let you chose what kind of profile you want to ap
 * 👶 __basic__ [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 👨‍💻 __developer__ [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 🧟 __personal__ [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-
-<p align="center">
-  <a href="https://github.com/MarioCatuogno/Clean-macOS">
-  <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_script_diagram.png" alt="Clean-macOS logo"><br></a>
-  <i>Diagram : Clean-macOS scripts in 1.8.0-RELEASE</i>
-</p>
 
 The list of applications included in each profile is reported [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/PROFILES.md).
 

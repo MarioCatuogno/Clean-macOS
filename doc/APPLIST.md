@@ -42,7 +42,7 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 | Icon | Title | Description | Brew |
 | --- | --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_sublimetext.png" width="30" align="middle" /> | [Sublime Text](https://www.sublimetext.com) | A sophisticated and lightweight text editor for code, markup and prose. | |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_sublimetext.png" width="30" align="middle" /> | [Sublime Text](https://www.sublimetext.com) | A sophisticated and lightweight text editor for code, markup and prose. | cask "sublime-text" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_typora.png" width="30" align="middle" /> | [Typora](https://typora.io) | A minimal markdown editor. | |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://code.visualstudio.com) | A hackable free and open source code editor. | cask "visual-studio-code" |
 
