@@ -34,7 +34,7 @@ if test ! $(which brew); then
     printf "📦 Installing MAS...\n"
     brew install mas
   # Check Brews
-    brew doctor && brew update && brew upgrade
+    brew -v update && brew -v upgrade && mas upgrade && brew -v cleanup --prune=2 && brew doctor
   # Install Homebrew apps
     printf "📦 Installing Apps...\n"
     brew bundle --file=$SETUP/Brewfile

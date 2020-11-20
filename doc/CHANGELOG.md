@@ -11,6 +11,26 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.3__ ([2020-11-21](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with bug fixes and some removed apps.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__FIXED__
+
+* 🐛 fix `install.sh` script
+
+__REMOVED__
+
+* 🗑️ remove `HandBrake` homebrew formula
+* 🗑️ remove `ImageOptim` homebrew formula
+* 🗑️ remove `ms-python.python` VSCode extensions
+* 🗑️ remove `Pandoc` homebrew formula
+* 🗑️ remove `Python3` homebrew formula
+
 ## __1.12.2__ ([2020-11-16](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with bug fixes and docs update.
