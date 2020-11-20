@@ -55,7 +55,6 @@ code --install-extension formulahendry.code-runner
 code --install-extension HookyQR.beautify
 code --install-extension ivangabriele.vscode-git-add-and-commit
 code --install-extension mikestead.dotenv
-code --install-extension ms-python.python
 code --install-extension teabyii.ayu
 code --install-extension Tyriar.sort-lines
 code --install-extension yzhang.markdown-all-in-one
