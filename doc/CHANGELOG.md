@@ -18,6 +18,7 @@ Minor release with bug fixes and QOL improvements.
 __CHANGED__
 
 * 🔥 update `config.sh` script
+* 🔥 update `Visual Studio Code` preferences file
 
 __DOCS__
 

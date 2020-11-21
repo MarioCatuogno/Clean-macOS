@@ -75,5 +75,6 @@
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   // Terminal
-  "terminal.integrated.inheritEnv": false
+  "terminal.integrated.inheritEnv": false,
+  "python.defaultInterpreterPath": "/usr/local/bin/python3"
 }
