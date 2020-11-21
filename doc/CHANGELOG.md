@@ -29,6 +29,10 @@ __FIXED__
 * 🐛 correct various typos
 * 🐛 fix `font-ubuntu-mono-nerd-font` Homebrew formula
 
+__REMOVED__
+
+* 🗑️ remove `77qingliu.sas-syntax` VSCode extension
+
 ## __1.12.3__ ([2020-11-21](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with bug fixes and some removed apps.

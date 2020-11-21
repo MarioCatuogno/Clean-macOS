@@ -47,7 +47,6 @@ printf "⚙️ Put Visual Studio Code in quarantine to install plugins...\n"
 xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 printf "📦 Install Visual Studio Code plugins...\n"
 open -a "Visual Studio Code"
-code --install-extension 77qingliu.sas-syntax
 code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension file-icons.file-icons
