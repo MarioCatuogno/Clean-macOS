@@ -47,7 +47,6 @@ printf "⚙️ Put Visual Studio Code in quarantine to install plugins...\n"
 xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 printf "📦 Install Visual Studio Code plugins...\n"
 open -a "Visual Studio Code"
-code --install-extension 77qingliu.sas-syntax
 code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension file-icons.file-icons
@@ -121,6 +120,18 @@ printf "⚙️ Various configuration...\n"
 defaults write com.apple.gamed Disabled -bool true
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+# Create Projects directory
+printf "⚙️ Create Projects directory...\n"
+mkdir ${HOME}/Projects
+chmod 777 ${HOME}/Projects
+
+# Check if Python3 is installed via Homebrew
+if brew ls --versions python3 > /dev/null; then
+  brew uninstall --ignore-dependencies python3
+else
+  echo "Python3 is not installed! Install it from https://www.python.org"
+fi
 
 # Cleanup
 printf "⚙️ Cleanup and final touches...\n"
