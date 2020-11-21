@@ -49,7 +49,7 @@ __REMOVED__
 
 * 🗑️ remove `HandBrake` Homebrew formula
 * 🗑️ remove `ImageOptim` Homebrew formula
-* 🗑️ remove `ms-python.python` VSCode extensions
+* 🗑️ remove `ms-python.python` VSCode extension
 * 🗑️ remove `Pandoc` Homebrew formula
 * 🗑️ remove `Python3` Homebrew formula
 
