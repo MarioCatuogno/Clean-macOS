@@ -122,6 +122,18 @@ defaults write com.apple.gamed Disabled -bool true
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
+# Create Projects directory
+printf "⚙️ Create Projects directory...\n"
+mkdir ${HOME}/Projects
+chmod 777 ${HOME}/Projects
+
+# Check if Python3 is installed via Homebrew
+if brew ls --versions python3 > /dev/null; then
+  brew uninstall --ignore-dependencies python3
+else
+  echo "Python3 is not installed! Install it from https://www.python.org"
+fi
+
 # Cleanup
 printf "⚙️ Cleanup and final touches...\n"
 brew -v update && brew -v upgrade && brew cask upgrade && mas upgrade && brew -v cleanup --prune=2 && brew doctor

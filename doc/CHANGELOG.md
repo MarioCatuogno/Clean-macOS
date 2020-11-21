@@ -11,6 +11,24 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.4_ ([2020-11-22](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with bug fixes and QOL improvements.
+
+__CHANGED__
+
+* 🔥 update `config.sh` script
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__FIXED__
+
+* 🐛 add a command to unistall Python3 Homebrew formula due to [#17784](https://github.com/numpy/numpy/issues/17784) and [#319](https://github.com/pypa/packaging/pull/319)
+* 🐛 correct various typos
+* 🐛 fix `font-ubuntu-mono-nerd-font` Homebrew formula
+
 ## __1.12.3__ ([2020-11-21](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with bug fixes and some removed apps.
@@ -25,11 +43,11 @@ __FIXED__
 
 __REMOVED__
 
-* 🗑️ remove `HandBrake` homebrew formula
-* 🗑️ remove `ImageOptim` homebrew formula
+* 🗑️ remove `HandBrake` Homebrew formula
+* 🗑️ remove `ImageOptim` Homebrew formula
 * 🗑️ remove `ms-python.python` VSCode extensions
-* 🗑️ remove `Pandoc` homebrew formula
-* 🗑️ remove `Python3` homebrew formula
+* 🗑️ remove `Pandoc` Homebrew formula
+* 🗑️ remove `Python3` Homebrew formula
 
 ## __1.12.2__ ([2020-11-16](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
@@ -63,9 +81,9 @@ __DOCS__
 
 __FIXED__
 
-* 🐛 add `svn` homebrew formula
+* 🐛 add `svn` Homebrew formula
 * 🐛 add `ZSH_DISABLE_COMPFIX` command in `.zshrc` file to avoid warning in iTerm2
-* 🐛 fix `font-heavy-data-nerd-font` homebrew formula
+* 🐛 fix `font-heavy-data-nerd-font` Homebrew formula
 
 ## __1.12.0__ ([2020-11-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
@@ -85,21 +103,21 @@ __FIXED__
 
 __NEW__
 
-* 📦 add `AdGuard` homebrew formula
+* 📦 add `AdGuard` Homebrew formula
 
 __REMOVED__
 
-* 🗑️ remove `Docker` homebrew formula
-* 🗑️ remove `Google Chrome` homebrew formula
-* 🗑️ remove `iStat Menu` homebrew formula
-* 🗑️ remove `Microsoft Excel` homebrew formula
-* 🗑️ remove `Microsoft Powerpoint` homebrew formula
-* 🗑️ remove `Microsoft Remote Desktop` homebrew formula
-* 🗑️ remove `Microsoft Teams` homebrew formula
-* 🗑️ remove `Microsoft Word` homebrew formula
-* 🗑️ remove `Pixelmator` homebrew formula
-* 🗑️ remove `Sourcetree` homebrew formula
-* 🗑️ remove `Tableplus` homebrew formula
+* 🗑️ remove `Docker` Homebrew formula
+* 🗑️ remove `Google Chrome` Homebrew formula
+* 🗑️ remove `iStat Menu` Homebrew formula
+* 🗑️ remove `Microsoft Excel` Homebrew formula
+* 🗑️ remove `Microsoft Powerpoint` Homebrew formula
+* 🗑️ remove `Microsoft Remote Desktop` Homebrew formula
+* 🗑️ remove `Microsoft Teams` Homebrew formula
+* 🗑️ remove `Microsoft Word` Homebrew formula
+* 🗑️ remove `Pixelmator` Homebrew formula
+* 🗑️ remove `Sourcetree` Homebrew formula
+* 🗑️ remove `Tableplus` Homebrew formula
 
 ## __1.11.0__ ([2020-08-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/7))
 
@@ -135,22 +153,22 @@ __FIXED__
 __NEW__
 
 * 📦 add [Nord](https://github.com/arcticicestudio) color palette for `Visual Studio Code`, `iTerm` and `Terminal`
-* 📦 add `ApolloOne` homebrew formula
-* 📦 add `Discord` homebrew formula
-* 📦 add `Docker` homebrew formula
+* 📦 add `ApolloOne` Homebrew formula
+* 📦 add `Discord` Homebrew formula
+* 📦 add `Docker` Homebrew formula
 * 📦 add `file-icons-colourless` icon theme for `Visual Studio Code`
-* 📦 add `Microsoft Excel` homebrew formula
-* 📦 add `Microsoft Powerpoint` homebrew formula
-* 📦 add `Microsoft Word` homebrew formula
-* 📦 add `Pandoc` homebrew formula
-* 📦 add `TablePlus` homebrew formula
+* 📦 add `Microsoft Excel` Homebrew formula
+* 📦 add `Microsoft Powerpoint` Homebrew formula
+* 📦 add `Microsoft Word` Homebrew formula
+* 📦 add `Pandoc` Homebrew formula
+* 📦 add `TablePlus` Homebrew formula
 
 __REMOVED__
 
 * 🗑️ `Clean-macOS` now supports only `Catalina` and `Big Sur`, older versions of macOS are no longer supported
-* 🗑️ remove `Daisydisk` homebrew formula
+* 🗑️ remove `Daisydisk` Homebrew formula
 * 🗑️ remove `devPython.yml` config file
-* 🗑️ remove `dockutil` homebrew formula
+* 🗑️ remove `dockutil` Homebrew formula
 * 🗑️ remove `Miniconda` install script from `config.sh`
 * 🗑️ remove `setup.sh` script
 * 🗑️ remove `yuml` from `Visual Studio Code` plugins
@@ -184,9 +202,9 @@ __DOCS__
 
 __NEW__
 
-* 📦 add `Authy` homebrew formula
-* 📦 add `Sourcetree` homebrew formula
-* 📦 add `Transmit` homebrew formula
+* 📦 add `Authy` Homebrew formula
+* 📦 add `Sourcetree` Homebrew formula
+* 📦 add `Transmit` Homebrew formula
 * 📦 add `devPython.yml` config file fon Miniconda
 
 __REMOVED__
@@ -194,11 +212,11 @@ __REMOVED__
 * 🗑️ remove `.zshrc` from `update.sh` file
 * 🗑️ remove Python libraries from `config.sh` file
 * 🗑️ remove some VSCode extensions
-* 🗑️ remove `Discord` homebrew formula
-* 🗑️ remove `Docker` homebrew formula
-* 🗑️ remove `ExpressVPN` homebrew formula
-* 🗑️ remove `Steam` homebrew formula
-* 🗑️ remove `Wipr` homebrew formula
+* 🗑️ remove `Discord` Homebrew formula
+* 🗑️ remove `Docker` Homebrew formula
+* 🗑️ remove `ExpressVPN` Homebrew formula
+* 🗑️ remove `Steam` Homebrew formula
+* 🗑️ remove `Wipr` Homebrew formula
 
 ## __1.10.0__ ([2020-04-19](https://github.com/MarioCatuogno/Clean-macOS/milestone/6))
 
@@ -215,14 +233,14 @@ __DOCS__
 
 __NEW__
 
-* 📦 add `Microsoft-Teams` homebrew formula
+* 📦 add `Microsoft-Teams` Homebrew formula
 * 📦 add `Miniconda` install script into `install.sh` file
 * 📦 new `Brewfile` containing all apps and bins. If you want to personalize your configuration you can edit this file choosing from various reviewed apps (click [here](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/apps_list.md))
 
 __REMOVED__
 
 * 🗑️ remove (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles: now all apps and bins are listed in one single file
-* 🗑️ remove `Cyberduck` homebrew formula
+* 🗑️ remove `Cyberduck` Homebrew formula
 
 __SECURITY__
 
@@ -242,23 +260,23 @@ __FIXED__
 
 __NEW__
 
-* 📦 (👨‍💻 __developer__)(🧟 __personal__) add `Cyberduck` homebrew formula
-* 📦 (🧟 __personal__) add `Discord` homebrew formula
-* 📦 (👨‍💻 __developer__)(🧟 __personal__) add `nmap` homebrew formula
-* 📦 (🧟 __personal__) add `istat-menus` homebrew formula
-* 📦 (🧟 __personal__) add `Spotify` homebrew formula
+* 📦 (👨‍💻 __developer__)(🧟 __personal__) add `Cyberduck` Homebrew formula
+* 📦 (🧟 __personal__) add `Discord` Homebrew formula
+* 📦 (👨‍💻 __developer__)(🧟 __personal__) add `nmap` Homebrew formula
+* 📦 (🧟 __personal__) add `istat-menus` Homebrew formula
+* 📦 (🧟 __personal__) add `Spotify` Homebrew formula
 
 __REMOVED__
 
-* 🗑️ (🧟 __personal__) remove `gswitch` homebrew formula
-* 🗑️ (🧟 __personal__) remove `NetNewsWire` homebrew formula
-* 🗑️ (🧟 __personal__) remove `qlcolorcode` homebrew formula
-* 🗑️ (🧟 __personal__) remove `qlmarkdown` homebrew formula
-* 🗑️ (🧟 __personal__) remove `qlvideo` homebrew formula
-* 🗑️ (🧟 __personal__) remove `quicklook-csv` homebrew formula
-* 🗑️ (🧟 __personal__) remove `quicklook-json` homebrew formula
-* 🗑️ (🧟 __personal__) remove `qlstephen` homebrew formula
-* 🗑️ (🧟 __personal__) remove `Steermouse` homebrew formula
+* 🗑️ (🧟 __personal__) remove `gswitch` Homebrew formula
+* 🗑️ (🧟 __personal__) remove `NetNewsWire` Homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlcolorcode` Homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlmarkdown` Homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlvideo` Homebrew formula
+* 🗑️ (🧟 __personal__) remove `quicklook-csv` Homebrew formula
+* 🗑️ (🧟 __personal__) remove `quicklook-json` Homebrew formula
+* 🗑️ (🧟 __personal__) remove `qlstephen` Homebrew formula
+* 🗑️ (🧟 __personal__) remove `Steermouse` Homebrew formula
 
 ## __1.9.2__ ([2020-01-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/5))
 
@@ -309,8 +327,8 @@ __FIXED__
 
 __NEW__
 
-* 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula
-* 📦 (🧟 __personal__) add `NetNewsWire` homebrew formula
+* 📦 (👨‍💻 __developer__) add `Firefox` Homebrew formula
+* 📦 (🧟 __personal__) add `NetNewsWire` Homebrew formula
 * 📦 add (🧟 __personal__), (👨‍💻 __developer__) and (👶 __basic__) profiles
 * 📦 upload new icons
 
@@ -340,16 +358,16 @@ Also this release is fully compatible with __macOS 10.15 "Catalina"__.
 
 __CHANGED__
 
-* 🔥 (🧟 __personal__) move `BattleNet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__) move `DaisyDisk` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__) move `ExpressVPN` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__) move `Helium` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__) move `Magnet` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__) move `Pixelmator` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__)(👨‍💻 __developer__) move `PopClip` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__) move `SteerMouse` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__) move `Wipr` homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
-* 🔥 (🧟 __personal__)(👨‍💻 __developer__)  move `Docker` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)] [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `BattleNet` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `DaisyDisk` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `ExpressVPN` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Helium` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Magnet` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Pixelmator` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__)(👨‍💻 __developer__) move `PopClip` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `SteerMouse` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__) move `Wipr` Homebrew formula [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
+* 🔥 (🧟 __personal__)(👨‍💻 __developer__)  move `Docker` Homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)] [[#56](https://github.com/MarioCatuogno/Clean-macOS/issues/56)]
 * 🔥 update .gitignore file [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 * 🔥 update installation process for `Zsh` [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 
@@ -361,22 +379,22 @@ __DOCS__
   
 __FIXED__
 
-* 🐛 change `brew cask install --appdir="/Applications" the-unarchiver` homebrew formula to `mas install 425424353`
-* 🐛 change `google-drive-file-stream` homebrew formula to `google-backup-and-sync` [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+* 🐛 change `brew cask install --appdir="/Applications" the-unarchiver` Homebrew formula to `mas install 425424353`
+* 🐛 change `google-drive-file-stream` Homebrew formula to `google-backup-and-sync` [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
 * 🐛 correct various typo
 
 __NEW__
 
-* 📦 (👨‍💻 __developer__) add `DBeaver` homebrew formula [[#57](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
-* 📦 (👨‍💻 __developer__) add `Firefox` homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
-* 📦 (👶 __basic__) add `Telegram` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
-* 📦 (👶 __basic__) add `Whatsapp` homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 (👨‍💻 __developer__) add `DBeaver` Homebrew formula [[#57](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
+* 📦 (👨‍💻 __developer__) add `Firefox` Homebrew formula [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/57)]
+* 📦 (👶 __basic__) add `Telegram` Homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
+* 📦 (👶 __basic__) add `Whatsapp` Homebrew formula [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add BASIC script [[#50](https://github.com/MarioCatuogno/Clean-macOS/issues/50)]
 * 📦 add DEVELOPER script [[#55](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add PERSONAL script [[#38](https://github.com/MarioCatuogno/Clean-macOS/issues/38)]
-* 📦 add `Bitwarden` homebrew formula [[#64](https://github.com/MarioCatuogno/Clean-macOS/issues/64)]
-* 📦 add `coreutils` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
-* 📦 add `dockutil` homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 add `Bitwarden` Homebrew formula [[#64](https://github.com/MarioCatuogno/Clean-macOS/issues/64)]
+* 📦 add `coreutils` Homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
+* 📦 add `dockutil` Homebrew formula [[#36](https://github.com/MarioCatuogno/Clean-macOS/issues/55)]
 * 📦 add `fantasque-sans-mono` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `heavydata-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
 * 📦 add `ubuntumono-nerd-font` font [[#54](https://github.com/MarioCatuogno/Clean-macOS/issues/54)]
@@ -384,13 +402,13 @@ __NEW__
 
 __REMOVED__
 
-* 🗑️ remove `Discord` homebrew formula
-* 🗑️ remove `Sip` homebrew formula [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
+* 🗑️ remove `Discord` Homebrew formula
+* 🗑️ remove `Sip` Homebrew formula [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
 * 🗑️ remove `brew install zsh-autosuggestions` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 * 🗑️ remove `brew install zsh-completions` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 * 🗑️ remove `brew install zsh-syntax-highlighting` unnecessary command [[#48](https://github.com/MarioCatuogno/Clean-macOS/issues/48)]
 * 🗑️ remove `gotop` command [[#47](https://github.com/MarioCatuogno/Clean-macOS/issues/47)]
-* 🗑️ remove `webtorrent-cli` homebrew formula
+* 🗑️ remove `webtorrent-cli` Homebrew formula
 
 ## __1.7.0__ ([2019-08-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/2))
 
@@ -410,26 +428,26 @@ __FIXED__
 
 __NEW__
 
-* 📦 add `Ecosia` homebrew formula
-* 📦 add `Keynote` homebrew formula [[#39](https://github.com/MarioCatuogno/Clean-macOS/issues/39)]
-* 📦 add `Numbers` homebrew formula [[#39](https://github.com/MarioCatuogno/Clean-macOS/issues/39)]
-* 📦 add `brew tap homebrew/cask-fonts` command
+* 📦 add `Ecosia` Homebrew formula
+* 📦 add `Keynote` Homebrew formula [[#39](https://github.com/MarioCatuogno/Clean-macOS/issues/39)]
+* 📦 add `Numbers` Homebrew formula [[#39](https://github.com/MarioCatuogno/Clean-macOS/issues/39)]
+* 📦 add `brew tap Homebrew/cask-fonts` command
 * 📦 add `com.apple.dock static-only` command set to TRUE [[#35](https://github.com/MarioCatuogno/Clean-macOS/issues/35)]
-* 📦 add `imagemagick` homebrew formula
+* 📦 add `imagemagick` Homebrew formula
 * 📦 add `jupyter` Python package
-* 📦 add `quicklook-csv` homebrew formula
-* 📦 add `youtube-dl` homebrew formula
+* 📦 add `quicklook-csv` Homebrew formula
+* 📦 add `youtube-dl` Homebrew formula
 * 📦 add a new official logo (thanks to [__@JustInDraft__](https://www.instagram.com/justindraft_adv/))
 
 __REMOVED__
 
-* 🗑️ remove `Easyres` homebrew formula [[#40](https://github.com/MarioCatuogno/Clean-macOS/issues/40)]
-* 🗑️ remove `Github-Desktop` homebrew formula [[#30](https://github.com/MarioCatuogno/Clean-macOS/issues/30)]
+* 🗑️ remove `Easyres` Homebrew formula [[#40](https://github.com/MarioCatuogno/Clean-macOS/issues/40)]
+* 🗑️ remove `Github-Desktop` Homebrew formula [[#30](https://github.com/MarioCatuogno/Clean-macOS/issues/30)]
 * 🗑️ remove `brew tap cjbassi/gotop` command
 * 🗑️ remove deprecated `brew install cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * 🗑️ remove deprecated `brew tap caskroom/cask` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 * 🗑️ remove unnecessary `brew tap buo/cask-upgrade` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
-* 🗑️ remove unnecessary `homebrew/cask-fonts/` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
+* 🗑️ remove unnecessary `Homebrew/cask-fonts/` command [[#32](https://github.com/MarioCatuogno/Clean-macOS/issues/32)]
 
 __SECURITY__
 
@@ -446,12 +464,12 @@ With this release I've started to be more organized, keeping track of issues and
 __CHANGED__
 
 * 🔥 remove MACOS_COMMAND file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
-* 🔥 remove `Cakebrew` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* 🔥 remove `Kitematic` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* 🔥 remove `Lepton` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* 🔥 remove `Microsoft Remote Desktop` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* 🔥 remove `Mtmr` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
-* 🔥 remove `SonicWall Mobile Connect` homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* 🔥 remove `Cakebrew` Homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* 🔥 remove `Kitematic` Homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* 🔥 remove `Lepton` Homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* 🔥 remove `Microsoft Remote Desktop` Homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* 🔥 remove `Mtmr` Homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
+* 🔥 remove `SonicWall Mobile Connect` Homebrew formula [[#20](https://github.com/MarioCatuogno/Clean-macOS/issues/20)]
 * 🔥 update .gitignore file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * 🔥 update `.zshrc` file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
 * 🔥 update APPS_LIST file [[#22](https://github.com/MarioCatuogno/Clean-macOS/issues/22)]
@@ -462,10 +480,10 @@ __NEW__
 * 📦 add CHANGELOG file [[#19](https://github.com/MarioCatuogno/Clean-macOS/issues/19)]
 * 📦 add `DisableAllAnimations` command set to TRUE [[#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
 * 📦 add `NSAutomaticWindowAnimationsEnabled` command set to FALSE [[#23](https://github.com/MarioCatuogno/Clean-macOS/issues/23)]
-* 📦 add `Pages` homebrew formula
-* 📦 add `WebTorrent` homebrew formula
+* 📦 add `Pages` Homebrew formula
+* 📦 add `WebTorrent` Homebrew formula
 * 📦 add `speedtest-cli` Python package
-* 📦 add `tldr` homebrew formula
+* 📦 add `tldr` Homebrew formula
 * 📦 add icon files
 * 📦 add new wallpapers
 
@@ -479,9 +497,9 @@ __CHANGED__
 
 __NEW__
 
-* 📦 add `Easyres` homebrew formula
-* 📦 add `Helium` homebrew formula
-* 📦 add `Mtmr` homebrew formula
+* 📦 add `Easyres` Homebrew formula
+* 📦 add `Helium` Homebrew formula
+* 📦 add `Mtmr` Homebrew formula
 
 ## __1.6.1__ (2019-03-18)
 
@@ -507,10 +525,10 @@ __CHANGED__
 
 __NEW__
 
-* 📦 add `Amphetamine` homebrew formula
-* 📦 add `Magnet` homebrew formula
-* 📦 add `Spark` homebrew formula
-* 📦 add `Wipr` homebrew formula
+* 📦 add `Amphetamine` Homebrew formula
+* 📦 add `Magnet` Homebrew formula
+* 📦 add `Spark` Homebrew formula
+* 📦 add `Wipr` Homebrew formula
 
 ## __1.4.4__ (2018-09-24)
 
@@ -518,7 +536,7 @@ __NEW__
 
 ## __1.4.3__ (2018-09-24)
 
-* 🔥 add `Microsoft Remote Desktop` homebrew formula
+* 🔥 add `Microsoft Remote Desktop` Homebrew formula
 
 ## __1.4.2__ (2018-09-24)
 
@@ -533,11 +551,11 @@ Minor release with bug fixes, ready for macOS Mojave.
 
 __CHANGED__
 
-* 🔥 update homebrew upgrade command
+* 🔥 update Homebrew upgrade command
 
 __NEW__
 
-* 📦 add `neofetch` homebrew formula
+* 📦 add `neofetch` Homebrew formula
 
 ## __1.4.0__ (2018-09-23)
 
@@ -550,7 +568,7 @@ __CHANGED__
 * 🔥 update `.zshrc` file
 * 🔥 update README file
 * 🔥 update `Visual Studio Code` preferences file
-* 🔥 update homebrew upgrade command
+* 🔥 update Homebrew upgrade command
 * 🔥 switch main editor from Sublime Text to Visual Studio Code
 
 __NEW__
@@ -560,7 +578,7 @@ __NEW__
 * 📦 add ayu-mirage color scheme for iTerm
 * 📦 add tomorrow-night color scheme for iTerm
 * 📦 add `Alfred` workflow
-* 📦 add `Popclip` homebrew formula
+* 📦 add `Popclip` Homebrew formula
 * 📦 add `Popclip` extension list
 
 ## __1.3.0__ (2018-09-19)
@@ -581,7 +599,7 @@ __NEW__
 
 * 📦 add font-fira-code font
 * 📦 add font-hack font
-* 📦 add `htop` homebrew formula
+* 📦 add `htop` Homebrew formula
 * 📦 add `Alfred` configuration file
 * 📦 add `Brew` plugin into `.zshrc` configuration file
 * 📦 add MIT license file
@@ -590,7 +608,7 @@ __NEW__
 
 __CHANGED__
 
-* 🔥 remove `Kap` homebrew formula
+* 🔥 remove `Kap` Homebrew formula
 * 🔥 update `.zshrc` file
 * 🔥 update APPS_LIST file
 * 🔥 update README file
@@ -610,8 +628,8 @@ __CHANGED__
 __NEW__
 
 * 📦 add .gitignore and .gitconfig files
-* 📦 add `Imageoptim` homebrew formula
-* 📦 add `Visual Studio Code` homebrew formula
+* 📦 add `Imageoptim` Homebrew formula
+* 📦 add `Visual Studio Code` Homebrew formula
 
 ## __1.0.0__ (2018-09-17)
 
