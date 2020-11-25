@@ -15,6 +15,10 @@ All notable changes to this project will be documented in this file. The types o
 
 Minor release with bug fixes and some changed apps. Python3 installed from Homebrew still causes problems with macOS Big Sur (see [#17784](https://github.com/numpy/numpy/issues/17784), [#319](https://github.com/pypa/packaging/pull/319) and [#9138](https://github.com/pypa/pip/issues/9138))
 
+__CHANGED__
+
+* 🔥 update `Visual Studio Code` preferences file
+
 __DOCS__
 
 * 📝 update CHANGELOG file
