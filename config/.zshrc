@@ -4,8 +4,8 @@
 
 ZSH_DISABLE_COMPFIX="true"
 
-export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
+#export PATH="$PATH:/usr/local/bin"
+#export PATH="$PATH:/usr/local/sbin"
 export ZSH=$HOME/.oh-my-zsh
 
 ###############################################################################
@@ -43,12 +43,7 @@ alias reload="exec ${SHELL} -l"
 
 # Shortcuts
 alias ping="prettyping --nolegend"
-alias speedtest="speedtest-cli"
 alias myip="ipconfig getifaddr en0"
-
-# Useful alias
-alias python=python3
-alias pip=pip3
 
 # Brew
 alias bup="brew -v update && brew -v upgrade && mas upgrade && brew -v cleanup --prune=2 && brew doctor && brew -v upgrade --casks --greedy"
