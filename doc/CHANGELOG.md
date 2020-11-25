@@ -33,6 +33,7 @@ __FIXED__
 __NEW__
 
 * 📦 add `Cyberduck` Homebrew formula
+* 📦 add `istat-menus` Homebrew formula
 * 📦 add `ms-python.python` VSCode extension
 
 __REMOVED__
