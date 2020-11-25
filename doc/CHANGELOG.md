@@ -17,6 +17,7 @@ Minor release with bug fixes and some changed apps. Python3 installed from Homeb
 
 __CHANGED__
 
+* 🔥 update `Clean-macOS.sh` script
 * 🔥 update `Visual Studio Code` preferences file
 
 __DOCS__
