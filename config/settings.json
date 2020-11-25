@@ -76,7 +76,7 @@
   "git.autofetch": true,
   // Terminal
   "terminal.integrated.inheritEnv": false,
-  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  //"python.defaultInterpreterPath": "/usr/local/bin/python3",
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true
 }
