@@ -4,8 +4,8 @@
 
 ZSH_DISABLE_COMPFIX="true"
 
-#export PATH="$PATH:/usr/local/bin"
-#export PATH="$PATH:/usr/local/sbin"
+export PATH="$PATH:/usr/local/bin"
+export PATH="$PATH:/usr/local/sbin"
 export ZSH=$HOME/.oh-my-zsh
 
 ###############################################################################
