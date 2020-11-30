@@ -11,6 +11,33 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.6__ ([2020-11-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changed apps and fix of Python3 installed via Homebrew (see [#17784](https://github.com/numpy/numpy/issues/17784), [#9170](https://github.com/pypa/pip/pull/9170)).
+
+__CHANGED__
+
+* 🔥 update `Clean-macOS.sh` script
+* 🔥 update `config.sh` script
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__FIXED__
+
+* 🐛 add Python unused aliases in `.zshrc` file (removed in [1.12.5](https://github.com/MarioCatuogno/Clean-macOS/releases/tag/1.12.5))
+* 🐛 remove command to unistall Python3 Homebrew formula (added in [1.12.4](https://github.com/MarioCatuogno/Clean-macOS/releases/tag/1.12.4))
+
+__NEW__
+
+* 📦 add `Python3` Homebrew formula
+* 📦 add `Whatsapp` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Cyberduck` Homebrew formula
+
 ## __1.12.5__ ([2020-11-25](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with bug fixes and some changed apps. Python3 installed from Homebrew still causes problems with macOS Big Sur (see [#17784](https://github.com/numpy/numpy/issues/17784), [#319](https://github.com/pypa/packaging/pull/319) and [#9138](https://github.com/pypa/pip/issues/9138)).

@@ -128,11 +128,11 @@ mkdir ${HOME}/Projects
 chmod 777 ${HOME}/Projects
 
 # Check if Python3 is installed via Homebrew
-if brew ls --versions python3 > /dev/null; then
-  brew uninstall --ignore-dependencies python3
-else
-  echo "Python3 is not installed! Install it from https://www.python.org"
-fi
+#if brew ls --versions python3 > /dev/null; then
+#  brew uninstall --ignore-dependencies python3
+#else
+#  echo "Python3 is not installed! Install it from https://www.python.org"
+#fi
 
 # Cleanup
 printf "⚙️ Cleanup and final touches...\n"
