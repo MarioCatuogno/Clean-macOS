@@ -32,6 +32,7 @@ cask "transmit"
 cask "visual-studio-code"
 cask "whatsapp"
 mas "Amphetamine", id: 937984704
+mas "Affinity Designer", id: 824171161
 mas "ApolloOne", id: 1044484672
 mas "Magnet", id: 441258766
 mas "PopClip", id: 445189367
