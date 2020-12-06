@@ -13,16 +13,18 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.12.7__ ([2020-12-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
-Minor release with some changed apps and docs updates.
+Minor release with some changes in Brewfile and docs updates.
 
 __CHANGED__
 
 * 🔥 add `Affinity Designer` and `Bitwarden` to APPLIST
+* 🔥 update `Clean-macOS.sh` script
 
 __DOCS__
 
 * 📝 update APPLIST file
 * 📝 update CHANGELOG file
+* 📝 update SETUP file
 
 __NEW__
 
