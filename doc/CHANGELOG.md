@@ -29,7 +29,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Affinity Designer` MAS formula
-* 📦 add `Google Chrome` Homebrew formula
+* 📦 add `Brave Browser` Homebrew formula
 
 ## __1.12.6__ ([2020-11-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
