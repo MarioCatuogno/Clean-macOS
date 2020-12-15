@@ -30,6 +30,8 @@ __NEW__
 
 * 📦 add `Affinity Designer` MAS formula
 * 📦 add `Google Chrome` Homebrew formula
+* 📦 add `r` Homebrew formula
+* 📦 add `R-Studio` Homebrew formula
 
 ## __1.12.6__ ([2020-11-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
