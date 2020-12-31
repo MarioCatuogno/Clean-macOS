@@ -11,6 +11,28 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.7__ ([2020-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes in Brewfile and docs updates.
+
+__CHANGED__
+
+* 🔥 add `Affinity Designer` and `Bitwarden` to APPLIST
+* 🔥 update `Clean-macOS.sh` script
+
+__DOCS__
+
+* 📝 update APPLIST file
+* 📝 update CHANGELOG file
+* 📝 update SETUP file
+
+__NEW__
+
+* 📦 add `Affinity Designer` MAS formula
+* 📦 add `Google Chrome` Homebrew formula
+* 📦 add `r` Homebrew formula
+* 📦 add `R-Studio` Homebrew formula
+
 ## __1.12.6__ ([2020-11-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changed apps and fix of Python3 installed via Homebrew (see [#17784](https://github.com/numpy/numpy/issues/17784), [#9170](https://github.com/pypa/pip/pull/9170)).

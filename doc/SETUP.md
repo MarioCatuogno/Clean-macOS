@@ -40,8 +40,5 @@ Do a fresh install of macOS (version 10.15+) and after your first access to macO
 </p>
 
 9. Go to __Keyboard > Text >__ Disable "Correct spelling automatically"
-10. Go to __Security and Privacy > Firewall >__ On
-11. Go to __Security and Privacy > General >__ App Store and identified developers
-12. Go to __File Sharing >__ Off
-13. Input number __3__ (`Update`) to update brews, casks and MAS applications and formulaes
-14. Restart macOS
+10. Input number __3__ (`Update`) to update brews, casks and MAS applications and formulaes
+11. Restart macOS

@@ -58,6 +58,7 @@ A collection of useful apps for macOS, you can configure your personal profile c
 
 | Icon | Title | Description | Brew |
 | --- | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_affinity_designer.png" width="30" align="middle" /> | [Affinity Designer](https://affinity.serif.com/it/designer/) | The best alternative to Adobe Photoshop, native macOS client with beautiful interface. | mas "Affinity Designer", id: 824171161 |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_imageoptim.png" width="30" align="middle" /> | [ImageOptim](https://imageoptim.com/mac) | An open-source software to reduce image size removing bloated metadata. | cask "imageoptim" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_nucleo.png" width="30" align="middle" /> | [Nucleo](https://nucleoapp.com/application) | An icon manager which support SVG files. | |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-MacOS-X/master/img/icon_pixelmator.png" width="30" align="middle" /> | [Pixelmator](http://www.pixelmator.com/mac/) | A powerful, fast, and easy-to-use image editor. I use this as a cheaper alternative to Photoshop, it covers more than enough my usual tasks. | mas "Pixelmator", id: 407963104 |
@@ -95,6 +96,7 @@ A collection of useful apps for macOS, you can configure your personal profile c
 | Icon | Title | Description | Brew |
 | --- | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_1password.png" width="30" align="middle" /> | [1Password](https://1password.com) | A cross-platform password manager. | cask "1password" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_bitwarden.png" width="30" align="middle" /> | [Bitwarden](https://bitwarden.com) | A cross-platform open source password manager. | cask "bitwarden" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_expressvpn.png" width="30" align="middle" /> | [ExpressVPN](https://www.expressvpn.com) | High speed VPN service available on both macOS and iOS. | cask "expressvpn" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_protonvpn.png" width="30" align="middle" /> | [ProtonVPN](https://www.protonvpn.com) | Free and open source VPN service available on both macOS and iOS. | cask "protonvpn" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_netextender.png" width="30" align="middle" /> | [SonicWall NetExtender](https://www.sonicwall.com) | NetExtender is an SSL VPN client that is downloaded transparently and that allows you to run any application securely on the company’s network. | |

@@ -4,6 +4,7 @@ brew "htop"
 brew "nmap"
 brew "prettyping"
 brew "python3"
+brew "r"
 brew "svn"
 brew "tldr"
 brew "tree"
@@ -23,15 +24,18 @@ cask "font-heavy-data-nerd-font"
 cask "font-lato"
 cask "font-roboto"
 cask "font-ubuntu-mono-nerd-font"
+cask "google-chrome"
 cask "iina"
 cask "istat-menus"
 cask "iterm2"
+cask "rstudio"
 cask "spotify"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
 cask "whatsapp"
 mas "Amphetamine", id: 937984704
+mas "Affinity Designer", id: 824171161
 mas "ApolloOne", id: 1044484672
 mas "Magnet", id: 441258766
 mas "PopClip", id: 445189367
