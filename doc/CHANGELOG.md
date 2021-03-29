@@ -11,6 +11,19 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.8__ ([2021-03-29](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes in Brewfile and docs updates.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+* 📝 update README file ([@vladdoster](https://github.com/MarioCatuogno/Clean-macOS/pull/91))
+
+__REMOVED__
+
+* 🗑️ remove `Bitwarden` Homebrew formula
+
 ## __1.12.7__ ([2020-12-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile and docs updates.
