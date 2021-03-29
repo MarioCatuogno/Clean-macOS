@@ -47,7 +47,7 @@ _shell scripts_ to speed up the configuration of macOS.
   git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS
   ```
 
-1. Open __Terminal.app__ and run the command:
+2. Open __Terminal.app__ and run the command:
 
   ```shell
   chmod -R 755 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh
@@ -62,9 +62,9 @@ The following prompt will appear from which you can choose one of the options:
 
 1. `Install`: install Homebrew package, binaries, casks, dependencies, and Mac
    Apple Store application listed in `Brewfile` file
-1. `Configure`: configure macOS with useful commands, update `zsh`, and `Visual
+2. `Configure`: configure macOS with useful commands, update `zsh`, and `Visual
    Studio Code` plugins and preferences
-1. `Update`: update brews, casks, and MAC applications and formulaes
+3. `Update`: update brews, casks, and MAC applications and formulaes
 
 Find a step-by-step guide
 [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
