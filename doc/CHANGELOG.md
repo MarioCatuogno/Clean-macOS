@@ -10,6 +10,21 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+## __1.12.9__ ([2021-04-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes in Brewfile and docs updates.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Cryptomator` MAS formula
+
+__REMOVED__
+
+* 🗑️ remove `R-Studio` Homebrew formula
 
 ## __1.12.8__ ([2021-03-29](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
