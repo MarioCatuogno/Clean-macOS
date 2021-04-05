@@ -24,6 +24,7 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ remove `r` Homebrew formula
 * 🗑️ remove `R-Studio` Homebrew formula
 
 ## __1.12.8__ ([2021-03-29](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
