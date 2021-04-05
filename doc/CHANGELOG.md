@@ -20,10 +20,12 @@ __DOCS__
 
 __NEW__
 
-* 📦 add `Cryptomator` MAS formula
+* 📦 add `Cryptomator` Homebrew formula
+* 📦 add `Firefox` Homebrew formula
 
 __REMOVED__
 
+* 🗑️ remove `Google Chrome` Homebrew formula
 * 🗑️ remove `r` Homebrew formula
 * 🗑️ remove `R-Studio` Homebrew formula
 
