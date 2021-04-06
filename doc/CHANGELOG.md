@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+
 ## __1.12.9__ ([2021-04-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile and docs updates.
@@ -22,6 +23,7 @@ __NEW__
 
 * 📦 add `Cryptomator` Homebrew formula
 * 📦 add `Firefox` Homebrew formula
+* 📦 add `MullvadVPN` Homebrew formula
 
 __REMOVED__
 
