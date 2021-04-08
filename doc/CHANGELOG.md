@@ -26,7 +26,6 @@ __DOCS__
 __NEW__
 
 * 📦 add `MullvadVPN` Homebrew formula
-* 📦 add `Standard-Notes` Homebrew formula
 
 ## __1.12.9__ ([2021-04-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
