@@ -11,6 +11,31 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.10__ ([2021-04-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release focused on privacy.
+
+__CHANGED__
+
+* 🔥 update `config.sh` script
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Brave` Homebrew formula
+* 📦 add `Hugo` Homebrew formula
+* 📦 add `MullvadVPN` Homebrew formula
+* 📦 add `Signal` Homebrew formula
+* 📦 add `Standard Notes` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Discord` Homebrew formula
+* 🗑️ remove `Firefox` Homebrew formula
+
 ## __1.12.9__ ([2021-04-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile and docs updates.
@@ -23,7 +48,6 @@ __NEW__
 
 * 📦 add `Cryptomator` Homebrew formula
 * 📦 add `Firefox` Homebrew formula
-* 📦 add `MullvadVPN` Homebrew formula
 
 __REMOVED__
 
