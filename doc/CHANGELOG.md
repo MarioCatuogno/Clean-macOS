@@ -32,6 +32,7 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ remove `Discord` Homebrew formula
 * 🗑️ remove `Firefox` Homebrew formula
 
 ## __1.12.9__ ([2021-04-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
