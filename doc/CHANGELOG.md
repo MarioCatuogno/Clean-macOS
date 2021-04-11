@@ -26,6 +26,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Brave` Homebrew formula
+* 📦 add `Hugo` Homebrew formula
 * 📦 add `MullvadVPN` Homebrew formula
 * 📦 add `Signal` Homebrew formula
 * 📦 add `Standard Notes` Homebrew formula

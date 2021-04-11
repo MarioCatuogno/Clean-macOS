@@ -1,6 +1,7 @@
 tap "homebrew/cask-fonts"
 brew "git"
 brew "htop"
+brew "hugo"
 brew "nmap"
 brew "prettyping"
 brew "python3"
