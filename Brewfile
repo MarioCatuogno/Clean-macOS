@@ -31,10 +31,10 @@ cask "mullvadvpn"
 cask "signal"
 cask "spotify"
 cask "standard-notes"
+cask "tor-browser"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
-cask "whatsapp"
 mas "Amphetamine", id: 937984704
 mas "Affinity Designer", id: 824171161
 mas "ApolloOne", id: 1044484672

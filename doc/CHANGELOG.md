@@ -11,6 +11,22 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.11__ ([2021-04-17](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release focused on privacy.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Tor-Browser` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Whatsapp` Homebrew formula
+
 ## __1.12.10__ ([2021-04-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release focused on privacy.
