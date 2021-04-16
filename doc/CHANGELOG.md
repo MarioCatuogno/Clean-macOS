@@ -22,6 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Kap` Homebrew formula
+* 📦 add `Micro Snitch` Homebrew formula
 * 📦 add `Tor-Browser` Homebrew formula
 
 __REMOVED__
