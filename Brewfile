@@ -42,6 +42,5 @@ mas "Affinity Designer", id: 824171161
 mas "ApolloOne", id: 1044484672
 mas "Magnet", id: 441258766
 mas "PopClip", id: 445189367
-mas "Save to Pocket", id: 1477385213
 mas "Spark", id: 1176895641
 mas "The Unarchiever", id: 425424353

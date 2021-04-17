@@ -27,6 +27,7 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ remove `Save to Pocket` Homebrew formula
 * 🗑️ remove `Whatsapp` Homebrew formula
 
 ## __1.12.10__ ([2021-04-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
