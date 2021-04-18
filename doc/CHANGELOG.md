@@ -21,6 +21,7 @@ __DOCS__
 
 __NEW__
 
+* 📦 add `Duck Duck Go` Homebrew formula
 * 📦 add `Kap` Homebrew formula
 * 📦 add `Micro Snitch` Homebrew formula
 * 📦 add `Tor-Browser` Homebrew formula

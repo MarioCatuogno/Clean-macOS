@@ -40,6 +40,7 @@ cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
 mas "Affinity Designer", id: 824171161
 mas "ApolloOne", id: 1044484672
+mas "DuckDuckGo", id: 1482920575
 mas "Magnet", id: 441258766
 mas "PopClip", id: 445189367
 mas "Spark", id: 1176895641
