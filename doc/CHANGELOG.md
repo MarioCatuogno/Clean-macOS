@@ -10,6 +10,21 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+## __1.12.12__ ([2021-04-25](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes in Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Save to Pocket` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `ApolloOne` Homebrew formula
 
 ## __1.12.11__ ([2021-04-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
