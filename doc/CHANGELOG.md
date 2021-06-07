@@ -10,7 +10,7 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
-## __1.12.12__ ([2021-04-25](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+## __1.12.12__ ([2021-06-13](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
 
