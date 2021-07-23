@@ -25,6 +25,8 @@ __NEW__
 __REMOVED__
 
 * 🗑️ remove `ApolloOne` Homebrew formula
+* 🗑️ remove `Brave` Homebrew formula
+* 🗑️ remove `Spotify` Homebrew formula
 
 ## __1.12.11__ ([2021-04-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
