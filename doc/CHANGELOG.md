@@ -10,22 +10,30 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
-## __1.12.12__ ([2021-06-13](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+## __1.12.12__ ([2021-10-24](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
 
 __DOCS__
 
 * 📝 update CHANGELOG file
+* 📝 update SETUP file
 
 __NEW__
 
+* 📦 add `Bitwarden` MAS formula
+* 📦 add `Google Drive` Homebrew formula
+* 📦 add `iMovie` MAS formula
+* 📦 add `Pages` MAS formula
 * 📦 add `Save to Pocket` Homebrew formula
+* 📦 add `Steam` Homebrew formula
 
 __REMOVED__
 
 * 🗑️ remove `ApolloOne` Homebrew formula
 * 🗑️ remove `Brave` Homebrew formula
+* 🗑️ remove `Kap` Homebrew formula
+* 🗑️ remove `MullvadVPN` Homebrew formula
 * 🗑️ remove `Spotify` Homebrew formula
 
 ## __1.12.11__ ([2021-04-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
