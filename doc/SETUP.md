@@ -17,6 +17,7 @@ You need an active internet connection and one of the following macOS version:
 - ❌ ~~macOS 10.14 "Mojave"~~ (use [1.10.0-RELEASE](https://github.com/MarioCatuogno/Clean-macOS/releases/tag/1.10.0))
 - ✔️ macOS 10.15 "Catalina"
 - ✔️ macOS 11.00 "Big Sur"
+- ✔️ macOS 12.00 "Monterey"
 
 Do a fresh install of macOS (version 10.15+) and after your first access to macOS follow the instructions below:
 
