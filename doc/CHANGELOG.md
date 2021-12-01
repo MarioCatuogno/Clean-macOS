@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.12.14__ ([2021-11-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+## __1.12.14__ ([2021-12-01](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
 
@@ -22,6 +22,14 @@ __DOCS__
 __NEW__
 
 * 📦 add `Docker` Homebrew formula
+* 📦 add `Numbers` MAS formula
+* 📦 add `Pixelmator Pro` MAS formula
+* 📦 add `Raivo OTP` MAS formula
+
+__REMOVED__
+
+* 🗑️ remove `istat-menus` Homebrew formula
+* 🗑️ remove `Standard Notes` Homebrew formula
 
 ## __1.12.13__ ([2021-10-25](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
