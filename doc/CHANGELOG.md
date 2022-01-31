@@ -11,6 +11,18 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.17__ ([2022-01-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes in Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `ChronoSync Express` Homebrew formula
+
 ## __1.12.16__ ([2022-01-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
