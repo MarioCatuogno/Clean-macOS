@@ -38,6 +38,7 @@ cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
 mas "Affinity Designer", id: 824171161
 mas "Bitwarden", id: 1352778147
+mas "ChronoSync Express", id: 904801687
 mas "DuckDuckGo", id: 1482920575
 mas "iMovie", id: 408981434
 mas "Magnet", id: 441258766
