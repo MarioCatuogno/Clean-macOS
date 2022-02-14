@@ -22,7 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `ChronoSync Express` Homebrew formula
-* 📦 add `MullvadVPN` Homebrew formula
+* 📦 add `ProtonVPN` Homebrew formula
 
 ## __1.12.16__ ([2022-01-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
