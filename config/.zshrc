@@ -6,14 +6,8 @@ ZSH_DISABLE_COMPFIX="true"
 
 export PATH="$PATH:/usr/local/bin"
 export PATH="$PATH:/usr/local/sbin"
+export PATH="$PATH:/opt/homebrew/bin"
 export ZSH=$HOME/.oh-my-zsh
-
-###############################################################################
-# Themes                                                                      #
-###############################################################################
-
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="mh"
 
 ###############################################################################
 # Plugins to load                                                             #
@@ -21,6 +15,13 @@ ZSH_THEME="mh"
 
 # Plugins to load
 plugins=( brew git history osx pip zsh-completions zsh-autosuggestions zsh-syntax-highlighting )
+
+###############################################################################
+# Themes                                                                      #
+###############################################################################
+
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="mh"
 
 source $ZSH/oh-my-zsh.sh
 
