@@ -62,8 +62,7 @@ The following prompt will appear from which you can choose one of the options:
 
 1. `Install`: install Homebrew package, binaries, casks, dependencies, and Mac
    Apple Store application listed in `Brewfile` file
-2. `Configure`: configure macOS with useful commands, update `zsh`, and `Visual
-   Studio Code` plugins and preferences
+2. `Configure`: configure macOS with useful commands, update `zsh` and preferences
 3. `Update`: update brews, casks, and MAC applications and formulaes
 
 Find a step-by-step guide
