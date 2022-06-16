@@ -110,17 +110,22 @@ defaults write com.apple.gamed Disabled -bool true
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
+printf "⚙️ Configure energy saving...\n"
+sudo pmset -a displaysleep 15
+sudo pmset -c sleep 0
+sudo pmset -a hibernatemode 0
+
+# Change name if you do not own a MacBook
+printf "⚙️ Configure computer name...\n"
+sudo scutil --set ComputerName "MacBook"
+sudo scutil --set HostName "MacBook"
+sudo scutil --set LocalHostName "MacBook"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MacBook"
+
 # Create Projects directory
 printf "⚙️ Create Projects directory...\n"
 mkdir ${HOME}/Projects
 chmod 777 ${HOME}/Projects
-
-# Check if Python3 is installed via Homebrew
-#if brew ls --versions python3 > /dev/null; then
-#  brew uninstall --ignore-dependencies python3
-#else
-#  echo "Python3 is not installed! Install it from https://www.python.org"
-#fi
 
 # Cleanup
 printf "⚙️ Cleanup and final touches...\n"
