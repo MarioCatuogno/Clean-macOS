@@ -7,6 +7,7 @@
 BIN=~/Clean-macOS/bin                # shell scripts
 CONFIG=~/Clean-macOS/config          # configuration files directory
 SETUP=~/Clean-macOS                  # root folder of Clean-macOS
+SUDO_USER=$(whoami)                  # sudo user variable
 
 ###############################################################################
 # Configure                                                                   #
@@ -20,8 +21,8 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install Oh-My-Zsh [1/4]
-printf "📦 Install Zsh...\n"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+printf "📦 Install Oh-My-Zsh...\n"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install Zsh plugins [2/4]
 printf "📦 Install Zsh plugins...\n"
@@ -41,29 +42,6 @@ open $CONFIG/ayu-light.itermcolors
 open $CONFIG/ayu-mirage.itermcolors
 open $CONFIG/nord.itermcolors
 open $CONFIG/nord.terminal
-
-# Install Visual Studio Code plugins [1/2]
-printf "⚙️ Put Visual Studio Code in quarantine to install plugins...\n"
-xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
-printf "📦 Install Visual Studio Code plugins...\n"
-open -a "Visual Studio Code"
-code --install-extension arcticicestudio.nord-visual-studio-code
-code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension file-icons.file-icons
-code --install-extension formulahendry.code-runner
-code --install-extension HookyQR.beautify
-code --install-extension ivangabriele.vscode-git-add-and-commit
-code --install-extension knisterpeter.vscode-github
-code --install-extension mikestead.dotenv
-code --install-extension ms-python.python
-code --install-extension teabyii.ayu
-code --install-extension Tyriar.sort-lines
-code --install-extension yzhang.markdown-all-in-one
-
-# Update Visual Studio Code settings [2/2]
-printf "⚙️ Update Visual Studio Code settings...\n"
-sudo rm -rf ~/Library/Application\ Support/Code/User/settings.json > /dev/null 2>&1
-cp $CONFIG/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Update Git settings [1/1]
 printf "⚙️ Update Git settings...\n"
