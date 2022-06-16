@@ -7,6 +7,7 @@
 BIN=~/Clean-macOS/bin                # shell scripts
 CONFIG=~/Clean-macOS/config          # configuration files directory
 SETUP=~/Clean-macOS                  # root folder of Clean-macOS
+SUDO_USER=$(whoami)                  # sudo user variable
 
 ###############################################################################
 # Configure                                                                   #
@@ -20,8 +21,8 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install Oh-My-Zsh [1/4]
-printf "📦 Install Zsh...\n"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+printf "📦 Install Oh-My-Zsh...\n"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install Zsh plugins [2/4]
 printf "📦 Install Zsh plugins...\n"
@@ -42,35 +43,19 @@ open $CONFIG/ayu-mirage.itermcolors
 open $CONFIG/nord.itermcolors
 open $CONFIG/nord.terminal
 
-# Install Visual Studio Code plugins [1/2]
-printf "⚙️ Put Visual Studio Code in quarantine to install plugins...\n"
-xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
-printf "📦 Install Visual Studio Code plugins...\n"
-open -a "Visual Studio Code"
-code --install-extension arcticicestudio.nord-visual-studio-code
-code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension file-icons.file-icons
-code --install-extension formulahendry.code-runner
-code --install-extension HookyQR.beautify
-code --install-extension ivangabriele.vscode-git-add-and-commit
-code --install-extension knisterpeter.vscode-github
-code --install-extension mikestead.dotenv
-code --install-extension ms-python.python
-code --install-extension teabyii.ayu
-code --install-extension Tyriar.sort-lines
-code --install-extension yzhang.markdown-all-in-one
-
-# Update Visual Studio Code settings [2/2]
-printf "⚙️ Update Visual Studio Code settings...\n"
-sudo rm -rf ~/Library/Application\ Support/Code/User/settings.json > /dev/null 2>&1
-cp $CONFIG/settings.json ~/Library/Application\ Support/Code/User/settings.json
-
 # Update Git settings [1/1]
 printf "⚙️ Update Git settings...\n"
 sudo rm -rf ~/.gitconfig > /dev/null 2>&1
 sudo rm -rf ~/.gitignore > /dev/null 2>&1
 cp $CONFIG/.gitignore ~/.gitignore
 cp $CONFIG/.gitconfig ~/.gitconfig
+
+# Configure macOS Desktop
+printf "⚙️ Configure Desktop...\n"
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Configure macOS Finder
 printf "⚙️ Configure Finder...\n"
@@ -125,17 +110,22 @@ defaults write com.apple.gamed Disabled -bool true
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
+printf "⚙️ Configure energy saving...\n"
+sudo pmset -a displaysleep 15
+sudo pmset -c sleep 0
+sudo pmset -a hibernatemode 0
+
+# Change name if you do not own a MacBook
+printf "⚙️ Configure computer name...\n"
+sudo scutil --set ComputerName "MacBook"
+sudo scutil --set HostName "MacBook"
+sudo scutil --set LocalHostName "MacBook"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MacBook"
+
 # Create Projects directory
 printf "⚙️ Create Projects directory...\n"
 mkdir ${HOME}/Projects
 chmod 777 ${HOME}/Projects
-
-# Check if Python3 is installed via Homebrew
-#if brew ls --versions python3 > /dev/null; then
-#  brew uninstall --ignore-dependencies python3
-#else
-#  echo "Python3 is not installed! Install it from https://www.python.org"
-#fi
 
 # Cleanup
 printf "⚙️ Cleanup and final touches...\n"

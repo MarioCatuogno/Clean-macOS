@@ -11,6 +11,43 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.17__ ([2022-06-17](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes in Brewfile, config files and shell scripts.
+
+__CHANGED__
+
+* 🔥 update `config.sh` script
+* 🔥 update `install.sh` script
+* 🔥 update `update.sh` script
+* 🔥 update `.zshrc` file
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+* 📝 update README file
+
+__NEW__
+
+* 📦 add `ChronoSync Express` Homebrew formula
+* 📦 add `coreutils` Homebrew formula
+* 📦 add `findutils` Homebrew formula
+* 📦 add `moreutils` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Audio Hijack` Homebrew formula
+* 🗑️ remove `Alfred` Homebrew formula
+* 🗑️ remove `Cryptomator` Homebrew formula
+* 🗑️ remove `Cheatsheet` Homebrew formula
+* 🗑️ remove `Docker` Homebrew formula
+* 🗑️ remove `DuckDuckGo` Homebrew formula
+* 🗑️ remove `Hugo` Homebrew formula
+* 🗑️ remove `Save to Pocket` Homebrew formula
+* 🗑️ remove `Spark` Homebrew formula
+* 🗑️ remove `VSCode` plugins
+* 🗑️ remove `Tor-Browser` Homebrew formula
+
 ## __1.12.16__ ([2022-01-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
