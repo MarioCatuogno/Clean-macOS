@@ -25,6 +25,7 @@ __CHANGED__
 __DOCS__
 
 * 📝 update CHANGELOG file
+* 📝 update README file
 
 __NEW__
 
