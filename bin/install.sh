@@ -26,10 +26,7 @@ if test ! $(which brew); then
     printf "📦 Installing XCode CL tools...\n"
     xcode-select --install
     printf "📦 Installing Homebrew...\n"
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  # Change permissions
-    brew -v
-    sudo chown -R $USER /usr/local/Cellar
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   # Install MAS
     printf "📦 Installing MAS...\n"
     brew install mas
