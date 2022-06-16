@@ -28,6 +28,10 @@ __DOCS__
 __NEW__
 
 * 📦 add `ChronoSync Express` Homebrew formula
+* 📦 add `coreutils` Homebrew formula
+* 📦 add `findutils` Homebrew formula
+* 📦 add `moreutils` Homebrew formula
+* 📦 add `zsh` Homebrew formula
 
 __REMOVED__
 
@@ -38,7 +42,6 @@ __REMOVED__
 * 🗑️ remove `Docker` Homebrew formula
 * 🗑️ remove `DuckDuckGo` Homebrew formula
 * 🗑️ remove `Hugo` Homebrew formula
-* 🗑️ remove `Python3` Homebrew formula
 * 🗑️ remove `Save to Pocket` Homebrew formula
 * 🗑️ remove `Spark` Homebrew formula
 * 🗑️ remove `Tor-Browser` Homebrew formula
