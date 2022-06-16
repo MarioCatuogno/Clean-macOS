@@ -17,9 +17,10 @@ Minor release with some changes in Brewfile, config files and shell scripts.
 
 __CHANGED__
 
-* 🔥 update `.zshrc` file
 * 🔥 update `config.sh` script
 * 🔥 update `install.sh` script
+* 🔥 update `update.sh` script
+* 🔥 update `.zshrc` file
 
 __DOCS__
 
@@ -31,7 +32,6 @@ __NEW__
 * 📦 add `coreutils` Homebrew formula
 * 📦 add `findutils` Homebrew formula
 * 📦 add `moreutils` Homebrew formula
-* 📦 add `zsh` Homebrew formula
 
 __REMOVED__
 
@@ -44,6 +44,7 @@ __REMOVED__
 * 🗑️ remove `Hugo` Homebrew formula
 * 🗑️ remove `Save to Pocket` Homebrew formula
 * 🗑️ remove `Spark` Homebrew formula
+* 🗑️ remove `VSCode` plugins
 * 🗑️ remove `Tor-Browser` Homebrew formula
 
 ## __1.12.16__ ([2022-01-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
