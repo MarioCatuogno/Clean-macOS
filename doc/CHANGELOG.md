@@ -27,6 +27,20 @@ __NEW__
 
 * 📦 add `ChronoSync Express` Homebrew formula
 
+__REMOVED__
+
+* 🗑️ remove `Audio Hijack` Homebrew formula
+* 🗑️ remove `Alfred` Homebrew formula
+* 🗑️ remove `Cryptomator` Homebrew formula
+* 🗑️ remove `Cheatsheet` Homebrew formula
+* 🗑️ remove `Docker` Homebrew formula
+* 🗑️ remove `DuckDuckGo` Homebrew formula
+* 🗑️ remove `Hugo` Homebrew formula
+* 🗑️ remove `Python3` Homebrew formula
+* 🗑️ remove `Save to Pocket` Homebrew formula
+* 🗑️ remove `Spark` Homebrew formula
+* 🗑️ remove `Tor-Browser` Homebrew formula
+
 ## __1.12.16__ ([2022-01-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
