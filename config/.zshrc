@@ -14,7 +14,7 @@ export ZSH=$HOME/.oh-my-zsh
 ###############################################################################
 
 # Plugins to load
-plugins=( brew git history osx pip zsh-completions zsh-autosuggestions zsh-syntax-highlighting )
+plugins=( brew git history pip zsh-completions zsh-autosuggestions zsh-syntax-highlighting )
 
 ###############################################################################
 # Themes                                                                      #
