@@ -72,6 +72,13 @@ sudo rm -rf ~/.gitignore > /dev/null 2>&1
 cp $CONFIG/.gitignore ~/.gitignore
 cp $CONFIG/.gitconfig ~/.gitconfig
 
+# Configure macOS Desktop
+printf "⚙️ Configure Desktop...\n"
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+
 # Configure macOS Finder
 printf "⚙️ Configure Finder...\n"
 defaults write -g AppleShowAllExtensions -bool true
