@@ -11,6 +11,20 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.20__ ([2022-06-17](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes in Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Alfred` Homebrew formula
+* 📦 add `istat-menus` Homebrew formula
+* 📦 add `Spark` Homebrew formula
+
 ## __1.12.19__ ([2022-06-17](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Update docs.
