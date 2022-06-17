@@ -129,7 +129,7 @@ chmod 777 ${HOME}/Projects
 
 # Cleanup
 printf "⚙️ Cleanup and final touches...\n"
-brew -v update && brew -v upgrade && brew upgrade --cask && mas upgrade && brew -v cleanup --prune=2 && brew doctor
+brew -v update && brew -v upgrade && mas upgrade && brew -v cleanup --prune=2 && brew doctor && brew -v upgrade --casks --greedy
 
 # Exit script
 exit
