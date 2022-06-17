@@ -11,6 +11,17 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.18__ ([2022-06-17](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+__CHANGED__
+
+* 🔥 update `config.sh` script
+* 🔥 update `install.sh` script
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
 ## __1.12.17__ ([2022-06-17](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile, config files and shell scripts.

@@ -31,6 +31,9 @@ if test ! $(which brew); then
     printf "📦 Installing Homebrew...\n"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$SUDO_USER/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+    
   # Install MAS
     printf "📦 Installing MAS...\n"
     brew install mas
