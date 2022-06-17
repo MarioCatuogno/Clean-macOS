@@ -22,6 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Alfred` Homebrew formula
+* 📦 add `bitwarden-cli` Homebrew formula
 * 📦 add `istat-menus` Homebrew formula
 * 📦 add `Spark` Homebrew formula
 
