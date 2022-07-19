@@ -26,6 +26,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Alfred` Homebrew formula
+* 📦 add `TopNotch` Homebrew formula
 
 __REMOVED__
 
