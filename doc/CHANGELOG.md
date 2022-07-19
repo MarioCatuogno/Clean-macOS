@@ -15,6 +15,10 @@ All notable changes to this project will be documented in this file. The types o
 
 Minor release with some changes in Brewfile.
 
+__CHANGED__
+
+* 🔥 update `Clean-macOS.sh` script
+
 __DOCS__
 
 * 📝 update CHANGELOG file
