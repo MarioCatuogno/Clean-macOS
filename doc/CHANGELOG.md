@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.12.21__ ([2022-07-24](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+## __1.12.21__ ([2022-10-25](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
 
@@ -33,6 +33,7 @@ __REMOVED__
 
 * 🗑️ remove `bitwarden-cli` Homebrew formula
 * 🗑️ remove `Librewolf` Homebrew formula
+* 🗑️ remove `Spark` Homebrew formula
 
 ## __1.12.20__ ([2022-06-24](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
