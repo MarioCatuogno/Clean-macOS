@@ -15,6 +15,10 @@ All notable changes to this project will be documented in this file. The types o
 
 Minor release with some changes in Brewfile.
 
+__NEW__
+
+* 📦 add `Tor-Browser` Homebrew formula
+
 __REMOVED__
 
 * 🗑️ remove `Affinity Designer` MAS formula
