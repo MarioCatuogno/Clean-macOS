@@ -11,6 +11,23 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.12.22__ ([2022-12-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+
+Minor release with some changes in Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Tor-Browser` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Affinity Designer` MAS formula
+* 🗑️ remove `Spark` MAS formula
+
 ## __1.12.21__ ([2022-10-25](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.

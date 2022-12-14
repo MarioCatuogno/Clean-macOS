@@ -34,11 +34,11 @@ cask "micro-snitch"
 cask "signal"
 cask "steam"
 cask "topnotch"
+cask "tor-browser"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
 mas "Amphetamine", id: 937984704
-mas "Affinity Designer", id: 824171161
 mas "Bitwarden", id: 1352778147
 mas "ChronoSync Express", id: 904801687
 mas "iMovie", id: 408981434
@@ -48,5 +48,4 @@ mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "PopClip", id: 445189367
 mas "Raivo OTP", id: 1498497896
-mas "Spark", id: 1176895641
 mas "The Unarchiever", id: 425424353
