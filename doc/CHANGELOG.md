@@ -11,9 +11,13 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.12.22__ ([2022-12-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
+## __1.12.22__ ([2022-12-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
 
 __NEW__
 
