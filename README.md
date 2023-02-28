@@ -36,7 +36,7 @@ _shell scripts_ to speed up the configuration of macOS.
 ## Requirements
 
 1. An active internet connection
-2. macOS 10.15.0 or newer
+2. macOS 13.0 or newer
 3. Signed to Apple Store with your iCloud account
 
 ## Usage
