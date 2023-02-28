@@ -7,7 +7,7 @@
 BIN="${HOME}/Clean-macOS/bin"                # shell scripts
 CONFIG="${HOME}/Clean-macOS/config"          # configuration files directory
 SETUP="${HOME}/Clean-macOS"                  # root folder of Clean-macOS
-SUDO_USER=$(whoami)                  # sudo user variable
+SUDO_USER=$(whoami)                          # sudo user variable
 
 ###############################################################################
 # Update                                                                      #
