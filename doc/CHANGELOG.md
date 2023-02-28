@@ -21,8 +21,11 @@ __DOCS__
 * 📝 update README file
 
 __CHANGED__
+* 🔥 use absolute path instead of relative paths for variables in README file
 
-* 🔥 fix typo in `update.sh` script
+__FIXED__
+
+* 🐛 fix typo in `update.sh` script
 
 ## __1-13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
