@@ -4,51 +4,63 @@
 # Set variables                                                               #
 ###############################################################################
 
-BIN=~/Clean-macOS/bin                # shell scripts
-CONFIG=~/Clean-macOS/config          # configuration files directory
-SETUP=~/Clean-macOS                  # root folder of Clean-macOS
-SUDO_USER=$(whoami)                  # sudo user variable
+# Set variables
+CONFIG="${HOME}/Clean-macOS/config"             # configuration files directory
+PROJECTS_DIR=${HOME}/Projects                   # projects directory
+ZSH_CUSTOM=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}   # ZSH directory
 
 ###############################################################################
 # Configure                                                                   #
 ###############################################################################
 
-# Entering as Root
-printf "Enter root password...\n"
+# Exit script immediately if any command fails
+set -e
+
+# Prompt for root password
+echo "Enter root password..."
 sudo -v
 
-# Keep alive Root
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+# Keep root session alive
+while true; do
+  sudo -n true
+  sleep 60
+  kill -0 "$$" || exit
+done 2>/dev/null &
 
-# Install Oh-My-Zsh [1/4]
-printf "📦 Install Oh-My-Zsh...\n"
+# Install Oh-My-Zsh
+echo "📦 Install Oh-My-Zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# Install Zsh plugins [2/4]
-printf "📦 Install Zsh plugins...\n"
-git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# Install Zsh plugins
+echo "📦 Install Zsh plugins..."
+git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-completions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
-# Update Zsh settings [3/4]
-printf "⚙️ Update Zsh settings...\n"
+# Update Zsh settings
+echo "⚙️ Update Zsh settings..."
 sudo rm -rf ~/.zshrc > /dev/null 2>&1
-cp $CONFIG/.zshrc ~/.zshrc
+cp "$CONFIG/.zshrc" ~/.zshrc
 
-# Install iTerm2 themes [4/4]
-printf "📦 Install iTerm2 themes...\n"
-open $CONFIG/ayu-dark.itermcolors
-open $CONFIG/ayu-light.itermcolors
-open $CONFIG/ayu-mirage.itermcolors
-open $CONFIG/nord.itermcolors
-open $CONFIG/nord.terminal
+# Install iTerm2 themes
+echo "📦 Install iTerm2 themes..."
+open "$CONFIG/ayu-dark.itermcolors"
+open "$CONFIG/ayu-light.itermcolors"
+open "$CONFIG/ayu-mirage.itermcolors"
+open "$CONFIG/nord.itermcolors"
+open "$CONFIG/nord.terminal"
 
-# Update Git settings [1/1]
-printf "⚙️ Update Git settings...\n"
+# Update Git settings
+echo "⚙️ Update Git settings..."
 sudo rm -rf ~/.gitconfig > /dev/null 2>&1
 sudo rm -rf ~/.gitignore > /dev/null 2>&1
-cp $CONFIG/.gitignore ~/.gitignore
-cp $CONFIG/.gitconfig ~/.gitconfig
+cp "$CONFIG/.gitignore" ~/.gitignore
+cp "$CONFIG/.gitconfig" ~/.gitconfig
+
+# Create Projects directory
+echo "⚙️ Create Projects directory..."
+mkdir "$PROJECTS_DIR"
+chmod 777 "$PROJECTS_DIR"
 
 # Configure macOS Desktop
 printf "⚙️ Configure Desktop...\n"
@@ -69,7 +81,7 @@ chflags nohidden ~/Library
 # Configure macOS Screen Capture
 printf "⚙️ Save screenshots in PNG format...\n"
 mkdir ~/Pictures/Screenshots
-defaults write com.apple.screencapture location -string "~/Pictures/Screenshots"
+defaults write com.apple.screencapture location -string "${HOME}/Pictures/Screenshots"
 defaults write com.apple.screencapture type -string "png"
 
 # Configure macOS Keyboard
@@ -117,18 +129,13 @@ sudo pmset -a hibernatemode 0
 
 # Change name if you do not own a MacBook
 printf "⚙️ Configure computer name...\n"
-sudo scutil --set ComputerName "MacBook"
-sudo scutil --set HostName "MacBook"
-sudo scutil --set LocalHostName "MacBook"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MacBook"
+sudo scutil --set ComputerName "MecBuk"
+sudo scutil --set HostName "MecBuk"
+sudo scutil --set LocalHostName "MecBuk"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MecBuk"
 
-# Create Projects directory
-printf "⚙️ Create Projects directory...\n"
-mkdir ${HOME}/Projects
-chmod 777 ${HOME}/Projects
-
-# Cleanup
-printf "⚙️ Cleanup and final touches...\n"
+# Cleanup and final touches
+echo "⚙️ Cleanup and final touches..."
 brew -v update && brew -v upgrade && mas upgrade && brew -v cleanup --prune=2 && brew doctor && brew -v upgrade --casks --greedy
 
 # Exit script
