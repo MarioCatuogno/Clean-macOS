@@ -44,13 +44,13 @@ _shell scripts_ to speed up the configuration of macOS.
 1. Clone this repo with the following command:
 
   ```shell
-  git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS
+  git clone https://github.com/MarioCatuogno/Clean-macOS.git ${HOME}/Clean-macOS
   ```
 
 2. Open __Terminal.app__ and run the command:
 
   ```shell
-  chmod -R 755 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh
+  chmod -R 755 ${HOME}/Clean-macOS && ${HOME}/Clean-macOS/Clean-macOS.sh
   ```
 
 The following prompt will appear from which you can choose one of the options:
