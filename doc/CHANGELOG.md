@@ -11,6 +11,30 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1-13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+Major release.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__CHANGED__
+
+* 🔥 add a check to see if Homebrew is already installed before running the `update.sh` script
+* 🔥 add error handling for the commands in the case statements to handle cases where the command fails or returns an error in shell scripts
+* 🔥 use a more descriptive name for the script file in shell scripts
+* 🔥 use absolute path instead of relative paths for variables in shell scripts
+* 🔥 use double quotes around variable references to prevent word splitting and globbing in `install.sh` script
+* 🔥 use functions to encapsulate the functionality of each case statement, instead of using the pipeline to pass data in shell scripts
+* 🔥 use shellcheck to check for any potential issues in the script in shell scripts
+* 🔥 use the `brew update-reset` command instead of `brew update` to ensure that the Homebrew installation is fully up-to-date
+* 🔥 use the `mas outdated` command instead of `mas upgrade` to list outdated applications and then use mas upgrade <app-id> to upgrade individual applications
+
+__REMOVED__
+
+* 🗑️ remove unnecessary variables such as `SETUP` and `SUDO_USER` in `config.sh` script
+
 ## __1.12.22__ ([2022-12-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/8))
 
 Minor release with some changes in Brewfile.
