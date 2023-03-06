@@ -27,6 +27,15 @@ __FIXED__
 
 * 🐛 fix typo in `update.sh` script
 
+__NEW__
+
+* 📦 add `MullvadVPN` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `AppCleaer` Homebrew formula
+* 🗑️ remove `Transmit` Homebrew formula
+
 ## __1-13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 Major release.
