@@ -19,6 +19,7 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 * 📝 update README file
+* 📝 update SETUP file
 
 __CHANGED__
 * 🔥 use absolute path instead of relative paths for variables in README file
