@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1-13.2__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
-Minor release with an improved documentation.
+This minor release includes improved documentation and an updated Brewfile, which contains a list of applications that can be installed on macOS using the Homebrew package manager.
 
 __DOCS__
 
@@ -36,7 +36,7 @@ __REMOVED__
 
 ## __1-13.1__ ([2023-03-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
-Minor release with an improved documentation and an updated Brewfile.
+This minor release includes improved documentation and an updated Brewfile, which contains a list of applications that can be installed on macOS using the Homebrew package manager.
 
 __DOCS__
 
