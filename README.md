@@ -17,9 +17,7 @@ Issues](https://img.shields.io/github/issues/MarioCatuogno/Clean-macOS.svg?style
 
 ---
 
-__Clean-macOS__ is a simple script that can be used after a clean installation
-of macOS to configure and install all the apps you need. It uses _dotfiles_ and
-_shell scripts_ to speed up the configuration of macOS.
+__Clean-macOS__ is a script that automates the configuration of a new macOS installation. By using _dotfiles_ and _shell scripts_, Clean-macOS can quickly configure macOS and install all the necessary apps.
 
 ## Table of content
 
@@ -33,60 +31,49 @@ _shell scripts_ to speed up the configuration of macOS.
 
 ## Getting Started
 
+To get started with Clean-macOS, clone this repository using the command:
+
+  ```shell
+  git clone https://github.com/MarioCatuogno/Clean-macOS.git ${HOME}/Clean-macOS
+  ```
+
 ## Requirements
+
+Clean-macOS requires the following:
 
 1. An active internet connection
 2. macOS 10.15.0 or newer
-3. Signed to Apple Store with your iCloud account
+3. Signed in to Apple Store with your iCloud account
 
 ## Usage
 
-1. Clone this repo with the following command:
+To use Clean-macOS, open Terminal.app and run the command:
 
   ```shell
-  git clone https://github.com/MarioCatuogno/Clean-macOS.git ~/Clean-macOS
+  chmod -R 755 ${HOME}/Clean-macOS && ${HOME}/Clean-macOS/Clean-macOS.sh
   ```
 
-2. Open __Terminal.app__ and run the command:
-
-  ```shell
-  chmod -R 755 ~/Clean-macOS && ~/Clean-macOS/Clean-macOS.sh
-  ```
-
-The following prompt will appear from which you can choose one of the options:
+This will bring up a prompt with the following options: 
 
 <p align="center">
   <a href="https://github.com/MarioCatuogno/Clean-macOS">
   <img width=600px src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/scrn_cleanmacos_terminal.png" alt="Clean-macOS terminal"><br></a>
 </p>
 
-1. `Install`: install Homebrew package, binaries, casks, dependencies, and Mac
-   Apple Store application listed in `Brewfile` file
-2. `Configure`: configure macOS with useful commands, update `zsh` and preferences
-3. `Update`: update brews, casks, and MAC applications and formulaes
+1. `Install`: Install Homebrew packages, binaries, casks, dependencies, and Mac Apple Store applications listed in the `Brewfile` file.
+2. `Configure`: Configure macOS with useful commands, update `zsh`, and preferences.
+3. `Update`: Update brews, casks, and MAC applications and formulas.
 
-Find a step-by-step guide
-[__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
+A step-by-step guide for setting up Clean-macOS can be found [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
 
 ## Contributing
 
-You are encouraged to fork this repository and open an issue to discuss the
-change you wish to make. If you want to contribute, please read our
-[contributing guidelines](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CONTRIBUTING.md).
+You are welcome to contribute to Clean-macOS by forking this repository and opening an issue to discuss the changes you want to make. Please read our [contributing guidelines](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CONTRIBUTING.md) before contributing.
 
 ## Useful links
 
-Click
-[__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPLIST.md)
-to find a collection of various apps I've personally tested or used in the past
-on macOS.
-
-Click
-[__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CHANGELOG.md)
-to find the full changelog history.
-
-Click [__here__](https://github.com/MarioCatuogno/Clean-macOS/projects/8) to
-find the current status and the upcoming milestones of the Clean-macOS project.
+* [__APPLIST__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPLIST.md): a collection of various apps I've personally tested or used in the past on macOS.
+* [__CHANGELOG__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CHANGELOG.md): the full changelog history.
 
 ## Credits
 

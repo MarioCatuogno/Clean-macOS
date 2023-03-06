@@ -11,6 +11,33 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1-13.1__ ([2023-03-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+Minor release with an improved documentation and an updated Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+* 📝 update CONTRIBUTING file
+* 📝 update README file
+* 📝 update SETUP file
+
+__CHANGED__
+* 🔥 use absolute path instead of relative paths for variables in README file
+
+__FIXED__
+
+* 🐛 fix typo in `update.sh` script
+
+__NEW__
+
+* 📦 add `MullvadVPN` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `AppCleaer` Homebrew formula
+* 🗑️ remove `Transmit` Homebrew formula
+
 ## __1-13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 Major release.
