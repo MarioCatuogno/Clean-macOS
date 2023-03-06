@@ -11,6 +11,19 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1-13.2__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+Minor release with an improved documentation.
+
+__DOCS__
+
+* 📝 update APPLIST file
+* 📝 update CHANGELOG file
+
+__CHANGED__
+* 🔥 change the project logo (click [here](https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/logo_clean_macos.png) for the new high-resolution icon)
+
+
 ## __1-13.1__ ([2023-03-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 Minor release with an improved documentation and an updated Brewfile.
@@ -36,7 +49,6 @@ __NEW__
 __REMOVED__
 
 * 🗑️ remove `AppCleaer` Homebrew formula
-* 🗑️ remove `Transmit` Homebrew formula
 
 ## __1-13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
