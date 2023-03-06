@@ -25,8 +25,8 @@ __CHANGED__
 
 __REMOVED__
 
+* 🗑️ remove `Amphetamine` MAS formula
 * 🗑️ remove `fujifilm-x-raw-studio` Homebrew formula
-
 
 ## __1-13.1__ ([2023-03-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
