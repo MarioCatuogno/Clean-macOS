@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1-13.1__ ([2023-03-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
-Minor release.
+Minor release with an improved documentation and an updated Brewfile.
 
 __DOCS__
 
