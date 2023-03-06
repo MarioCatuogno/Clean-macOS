@@ -72,7 +72,7 @@ You are welcome to contribute to Clean-macOS by forking this repository and open
 
 ## Useful links
 
-* [__APPLIST__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPLIST.md): a collection of various apps I've personally tested or used in the past on macOS.
+* [__APPLIST__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/APPLIST.md): a collection of various apps I've personally tested or used. These apps are included in my Brewfile, which allows you to quickly and easily install them on your own machine using Homebrew.
 * [__CHANGELOG__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/CHANGELOG.md): the full changelog history.
 
 ## Credits

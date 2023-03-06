@@ -19,9 +19,15 @@ __DOCS__
 
 * 📝 update APPLIST file
 * 📝 update CHANGELOG file
+* 📝 update README file
 
 __CHANGED__
+
 * 🔥 change the project logo (click [here](https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/logo_clean_macos.png) for the new high-resolution icon)
+
+__NEW__
+
+* 📦 upload new icons
 
 __REMOVED__
 
@@ -40,6 +46,7 @@ __DOCS__
 * 📝 update SETUP file
 
 __CHANGED__
+
 * 🔥 use absolute path instead of relative paths for variables in README file
 
 __FIXED__
