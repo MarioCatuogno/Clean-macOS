@@ -18,6 +18,7 @@ Minor release with an improved documentation and an updated Brewfile.
 __DOCS__
 
 * 📝 update CHANGELOG file
+* 📝 update CONTRIBUTING file
 * 📝 update README file
 * 📝 update SETUP file
 
