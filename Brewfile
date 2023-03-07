@@ -23,7 +23,6 @@ cask "font-heavy-data-nerd-font"
 cask "font-lato"
 cask "font-roboto"
 cask "font-ubuntu-mono-nerd-font"
-cask "fujifilm-x-raw-studio"
 cask "hazel"
 cask "iina"
 cask "istat-menus"
@@ -38,7 +37,6 @@ cask "tor-browser"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
-mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "ChronoSync Express", id: 904801687
 mas "iMovie", id: 408981434
