@@ -22,31 +22,22 @@ Note: You will need to have Homebrew installed in order to use the commands abov
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_magnet.png" width="30" align="middle" /> | [Magnet](https://magnet.crowdcafe.com) | Magnet is a window manager for macOS that lets you easily organize multiple windows into tiles on your screen. | brew install --cask "magnet" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_microsnitch.png" width="30" align="middle" /> | [Micro Snitch](https://obdev.at/products/microsnitch/index.html) | Micro Snitch is an app that alerts you whenever your microphone or camera is activated. | brew install --cask "micro-snitch" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_mullvadvpn.png" width="30" align="middle" /> | [Mullvad VPN](https://mullvad.net/en/) | Mullvad VPN is a virtual private network service offered by Amagicom AB. | brew install --cask "mullvadvpn" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_numbers.png" width="30" align="middle" /> | [Numbers](https://www.apple.com/numbers/) | Numbers is a spreadsheet application developed by Apple Inc. | mas install "numbers" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_pages.png" width="30" align="middle" /> | [Pages](https://www.apple.com/pages/) | Pages is a word processor and page layout application developed by Apple Inc. | mas install "pages" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_pixelmatorpro.png" width="30" align="middle" /> | [Pixelmator Pro](https://www.pixelmator.com/pro/) | Pixelmator Pro is a powerful, beautiful, and easy to use image editor. | mas install "pixelmator pro" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_popclip.png" width="30" align="middle" /> | [PopClip](https://pilotmoon.com/popclip/) | PopClip appears when you select text with your mouse on your Mac. | mas install "popclip" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_raivootp.png" width="30" align="middle" /> | [Raivo OTP](https://raivo-otp.com) | Raivo OTP is a simple and secure two-factor authentication app for macOS. | mas install "raivo otp" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_signal.png" width="30" align="middle" /> | [Signal](https://signal.org) | Signal is a cross-platform encrypted messaging service developed by the Signal Foundation and Signal Messenger. | brew install --cask "signal" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steam.png" width="30" align="middle" /> | [Steam](https://store.steampowered.com) | Steam is a digital distribution platform for video games. | brew install --cask "steam" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_theunarchiever.png" width="30" align="middle" /> | [The Unarchiver](https://iina.io) | The Unarchiver is a small utility that can handle various formats, including RAR, Zip, 7-zip, Tar, Gzip, and Bzip2. | mas install "the unarchiever" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_topnotch.png" width="30" align="middle" /> | [TopNotch](https://topnotch.app) | TopNotch is an app that makes the Notch of new MacBook disappear. | brew install --cask "topnotch" |
 
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Numbers](https://iina.io) | Numbers is a spreadsheet application developed by Apple Inc. | brew install --cask "iina" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_torbrowser.png" width="30" align="middle" /> | [Tor Browser](https://iina.io) | Tor is a web browser that allows for anonymous browsing and communication. | brew install --cask "tor-browser" |
 
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Pages](https://iina.io) | Pages is a word processor and page layout application developed by Apple Inc. | brew install --cask "iina" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://iina.io) | Transmission is an open-source BitTorrent client. | brew install --cask "transmission" |
 
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Pixelmator Pro](https://iina.io) | Pixelmator Pro is a powerful, beautiful, and easy to use image editor. | brew install --cask "iina" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_transmit.png" width="30" align="middle" /> | [Transmit](https://iina.io) | Transmit is a file transfer client that supports a variety of protocols including FTP, SFTP, and Amazon S3. | brew install --cask "transmit" |
 
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [PopClip](https://iina.io) | PopClip appears when you select text with your mouse on your Mac. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Raivo OTP](https://iina.io) | Raivo OTP is a simple and secure two-factor authentication app for macOS. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Signal](https://iina.io) | Signal is a cross-platform encrypted messaging service developed by the Signal Foundation and Signal Messenger. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Steam](https://iina.io) | Steam is a digital distribution platform for video games. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [The Unarchiver](https://iina.io) | The Unarchiver is a small utility that can handle various formats, including RAR, Zip, 7-zip, Tar, Gzip, and Bzip2. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [TopNotch](https://iina.io) | Steam is a digital distribution platform for video games. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Tor Browser](https://iina.io) | Steam is a digital distribution platform for video games. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Transmission](https://iina.io) | Steam is a digital distribution platform for video games. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Transmit](https://iina.io) | Steam is a digital distribution platform for video games. | brew install --cask "iina" |
-
-| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_iina.png" width="30" align="middle" /> | [Visual Studio Code](https://iina.io) | Steam is a digital distribution platform for video games. | brew install --cask "iina" |
+| <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://iina.io) | Visual Studio Code is lightweight code editor developed by Microsoft. | brew install --cask "visual-studio-code" |
 
 ## Other useful Apps
