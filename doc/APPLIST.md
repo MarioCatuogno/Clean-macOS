@@ -37,3 +37,5 @@ Note: You will need to have Homebrew installed in order to use the commands abov
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://iina.io) | Visual Studio Code is lightweight code editor developed by Microsoft. | brew install --cask "visual-studio-code" |
 
 ## Other useful Apps
+
+T.B.D.
