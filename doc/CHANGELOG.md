@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1-13.2__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1-13.2__ ([2023-03-07](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release includes improved documentation and an updated Brewfile, which contains a list of applications that can be installed on macOS using the Homebrew package manager.
 
