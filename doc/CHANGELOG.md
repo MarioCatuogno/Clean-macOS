@@ -26,6 +26,10 @@ __CHANGED__
 * 🔥 change the project logo (click [here](https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/logo_clean_macos.png) for the new high-resolution icon)
 * 🔥 update the script version in `Clean-macOS.sh` file
 
+__FIXED__
+
+* 🐛 fix typo in APPLIST file
+
 __NEW__
 
 * 📦 upload new icons
