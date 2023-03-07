@@ -31,13 +31,9 @@ Note: You will need to have Homebrew installed in order to use the commands abov
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_steam.png" width="30" align="middle" /> | [Steam](https://store.steampowered.com) | Steam is a digital distribution platform for video games. | brew install --cask "steam" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_theunarchiever.png" width="30" align="middle" /> | [The Unarchiver](https://iina.io) | The Unarchiver is a small utility that can handle various formats, including RAR, Zip, 7-zip, Tar, Gzip, and Bzip2. | mas install "the unarchiever" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_topnotch.png" width="30" align="middle" /> | [TopNotch](https://topnotch.app) | TopNotch is an app that makes the Notch of new MacBook disappear. | brew install --cask "topnotch" |
-
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_torbrowser.png" width="30" align="middle" /> | [Tor Browser](https://iina.io) | Tor is a web browser that allows for anonymous browsing and communication. | brew install --cask "tor-browser" |
-
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_transmission.png" width="30" align="middle" /> | [Transmission](https://iina.io) | Transmission is an open-source BitTorrent client. | brew install --cask "transmission" |
-
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_transmit.png" width="30" align="middle" /> | [Transmit](https://iina.io) | Transmit is a file transfer client that supports a variety of protocols including FTP, SFTP, and Amazon S3. | brew install --cask "transmit" |
-
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://iina.io) | Visual Studio Code is lightweight code editor developed by Microsoft. | brew install --cask "visual-studio-code" |
 
 ## Other useful Apps
