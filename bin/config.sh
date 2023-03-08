@@ -39,8 +39,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 # Update Zsh settings
 echo "⚙️ Update Zsh settings..."
-sudo rm -rf ~/.zshrc > /dev/null 2>&1
-cp "$CONFIG/.zshrc" ~/.zshrc
+sudo rm -rf ${HOME}/.zshrc > /dev/null 2>&1
+cp "$CONFIG/.zshrc" ${HOME}/.zshrc
 
 # Install iTerm2 themes
 echo "📦 Install iTerm2 themes..."
@@ -52,10 +52,10 @@ open "$CONFIG/nord.terminal"
 
 # Update Git settings
 echo "⚙️ Update Git settings..."
-sudo rm -rf ~/.gitconfig > /dev/null 2>&1
-sudo rm -rf ~/.gitignore > /dev/null 2>&1
-cp "$CONFIG/.gitignore" ~/.gitignore
-cp "$CONFIG/.gitconfig" ~/.gitconfig
+sudo rm -rf ${HOME}/.gitconfig > /dev/null 2>&1
+sudo rm -rf ${HOME}/.gitignore > /dev/null 2>&1
+cp "$CONFIG/.gitignore" ${HOME}/.gitignore
+cp "$CONFIG/.gitconfig" ${HOME}/.gitconfig
 
 # Create Projects directory
 echo "⚙️ Create Projects directory..."
