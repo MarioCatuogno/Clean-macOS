@@ -14,7 +14,9 @@ brew "tree"
 brew "wget"
 cask "adguard"
 cask "alfred"
+cask "bartender"
 cask "discord"
+cask "fliqlo"
 cask "font-comic-neue"
 cask "font-fantasque-sans-mono"
 cask "font-fira-code"
@@ -30,10 +32,10 @@ cask "iterm2"
 cask "lyn"
 cask "micro-snitch"
 cask "mullvadvpn"
+cask "shottr"
 cask "signal"
 cask "steam"
 cask "topnotch"
-cask "tor-browser"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
@@ -46,4 +48,5 @@ mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "PopClip", id: 445189367
 mas "Raivo OTP", id: 1498497896
+mas "System Color Picker", id: 1545870783
 mas "The Unarchiever", id: 425424353

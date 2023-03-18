@@ -10,6 +10,33 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+## __1-13.4__ ([2023-03-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release includes improved documentation, an updated Brewfile and a new wallpaper.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__CHANGED__
+
+* 🔥 disable Homebrew analytics in `install.sh` script [[#113]](https://github.com/MarioCatuogno/Clean-macOS/issues/113)
+* 🔥 update `scrn_cleanmacos_terminal.png` image file
+* 🔥 update `scrn_mydesktop.png` image file
+* 🔥 update `scrn_myiterm.png` image file
+* 🔥 update `scrn_myvscode.png` image file
+
+__NEW__
+
+* 📦 add `Bartender` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `Fliqlo` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `Shottr` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `System Color Picker` MAS formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 upload new wallpaper `wall_nord_iceberg.png`
+
+__REMOVED__
+
+* 🗑️ remove `Tor Browser` Homebrew formula
 
 ## __1-13.3__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 

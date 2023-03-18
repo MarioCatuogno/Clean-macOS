@@ -62,6 +62,8 @@ if ! command -v brew >/dev/null 2>&1; then
   brew install mas
   update_brew
   install_apps
+  echo "⚙️ Disabling Homebrew Analytics"
+  brew analytics off
 else
   echo "📦 Homebrew is already installed."
 fi
