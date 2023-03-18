@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+
 ## __1-13.4__ ([2023-03-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release includes improved documentation, an updated Brewfile and a new wallpaper.
