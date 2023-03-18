@@ -24,6 +24,10 @@ __NEW__
 * 📦 add `System Color Picker` MAS formula
 * 📦 upload new wallpaper `wall_nord_iceberg.png`
 
+__REMOVED__
+
+* 🗑️ remove `Tor Browser` MAS formula
+
 ## __1-13.3__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release fix a variable and change email address to an alias.
