@@ -20,7 +20,8 @@ __DOCS__
 
 __NEW__
 
-* 📦 add `Shottr` MAS formula
+* 📦 add `Bartender` Homebrew formula
+* 📦 add `Shottr` Homebrew formula
 * 📦 add `System Color Picker` MAS formula
 * 📦 upload new wallpaper `wall_nord_iceberg.png`
 
