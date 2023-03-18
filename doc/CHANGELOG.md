@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1-13.4__ ([2023-03-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.4__ ([2023-03-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release includes improved documentation, an updated Brewfile and a new wallpaper.
 
@@ -27,6 +27,10 @@ __CHANGED__
 * 🔥 update `scrn_myiterm.png` image file
 * 🔥 update `scrn_myvscode.png` image file
 
+__FIXED__
+
+* 🐛 fix typo in CHANGELOG file
+
 __NEW__
 
 * 📦 add `Bartender` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
@@ -40,7 +44,7 @@ __REMOVED__
 
 * 🗑️ remove `Tor Browser` Homebrew formula
 
-## __1-13.3__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.3__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release fix a variable and change email address to an alias.
 
@@ -56,7 +60,7 @@ __FIXED__
 
 * 🐛 fix variable in `config.sh` script
 
-## __1-13.2__ ([2023-03-07](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.2__ ([2023-03-07](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release includes improved documentation and an updated Brewfile, which contains a list of applications that can be installed on macOS using the Homebrew package manager.
 
@@ -84,7 +88,7 @@ __REMOVED__
 * 🗑️ remove `Amphetamine` MAS formula
 * 🗑️ remove `fujifilm-x-raw-studio` Homebrew formula
 
-## __1-13.1__ ([2023-03-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.1__ ([2023-03-06](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release includes improved documentation and an updated Brewfile, which contains a list of applications that can be installed on macOS using the Homebrew package manager.
 
@@ -111,7 +115,7 @@ __REMOVED__
 
 * 🗑️ remove `AppCleaer` Homebrew formula
 
-## __1-13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 Major release.
 
