@@ -21,6 +21,7 @@ __DOCS__
 __CHANGED__
 
 * 🔥 disable Homebrew analytics in `install.sh` script [[#113]](https://github.com/MarioCatuogno/Clean-macOS/issues/113)
+* 🔥 update `scrn_cleanmacos_terminal.png` image file
 * 🔥 update `scrn_mydesktop.png` image file
 * 🔥 update `scrn_myiterm.png` image file
 * 🔥 update `scrn_myvscode.png` image file
