@@ -20,9 +20,10 @@ __DOCS__
 
 __NEW__
 
-* 📦 add `Bartender` Homebrew formula
-* 📦 add `Shottr` Homebrew formula
-* 📦 add `System Color Picker` MAS formula
+* 📦 add `Bartender` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `Fliqlo` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `Shottr` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `System Color Picker` MAS formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
 * 📦 upload new wallpaper `wall_nord_iceberg.png`
 
 __REMOVED__
