@@ -10,6 +10,17 @@ All notable changes to this project will be documented in this file. The types o
 * 🔑 __SECURITY__: in case of vulnerabilities
 
 ---
+## __1-13.4__ ([2023-03-XX](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release includes improved documentation, an updated Brewfile and a new wallpaper.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 upload new wallpaper `wall_nord_iceberg.png`
 
 ## __1-13.3__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
