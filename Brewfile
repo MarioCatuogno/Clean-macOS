@@ -46,4 +46,5 @@ mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "PopClip", id: 445189367
 mas "Raivo OTP", id: 1498497896
+mas "System Color Picker", id: 1545870783
 mas "The Unarchiever", id: 425424353

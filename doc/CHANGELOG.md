@@ -20,6 +20,7 @@ __DOCS__
 
 __NEW__
 
+* 📦 add `System Color Picker` MAS formula
 * 📦 upload new wallpaper `wall_nord_iceberg.png`
 
 ## __1-13.3__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
