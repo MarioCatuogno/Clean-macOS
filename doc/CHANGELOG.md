@@ -18,6 +18,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__CHANGED__
+
+* 🔥 disable Homebrew analytics in `install.sh` script [[#113]](https://github.com/MarioCatuogno/Clean-macOS/issues/113)
+
 __NEW__
 
 * 📦 add `Bartender` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
