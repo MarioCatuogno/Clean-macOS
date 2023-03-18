@@ -36,7 +36,7 @@ __NEW__
 
 __REMOVED__
 
-* 🗑️ remove `Tor Browser` MAS formula
+* 🗑️ remove `Tor Browser` Homebrew formula
 
 ## __1-13.3__ ([2023-03-08](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
