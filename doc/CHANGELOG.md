@@ -15,6 +15,14 @@ All notable changes to this project will be documented in this file. The types o
 
 This minor release disable telemtry for VSCode and update the Brewfile.
 
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Arc` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+
 __SECURITY__
 
 * 🔑 set `telemetryLevel` to `off` in VSCode Json settings file
