@@ -22,6 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Arc` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `Hush` MAS formula
 * 📦 add `Swiftcord` Homebrew formula
 
 __REMOVED__
