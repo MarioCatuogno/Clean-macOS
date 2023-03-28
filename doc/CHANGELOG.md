@@ -28,6 +28,7 @@ __NEW__
 __REMOVED__
 
 * 🗑️ remove `Discord` Homebrew formula
+* 🗑️ remove `Pages` MAS formula
 
 __SECURITY__
 

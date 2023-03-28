@@ -46,7 +46,6 @@ mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "PopClip", id: 445189367
 mas "Quiet", id: 1441525727
