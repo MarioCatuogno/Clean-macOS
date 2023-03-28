@@ -22,6 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Arc` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `bitwarden-cli` Homebrew formula
 * 📦 add `Hush` MAS formula
 * 📦 add `Raycast` Homebrew formula [[#130]](https://github.com/MarioCatuogno/Clean-macOS/issues/130)
 * 📦 add `Swiftcord` Homebrew formula
