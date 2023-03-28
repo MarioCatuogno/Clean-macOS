@@ -23,10 +23,12 @@ __NEW__
 
 * 📦 add `Arc` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
 * 📦 add `Hush` MAS formula
+* 📦 add `Raycast` Homebrew formula [[#130]](https://github.com/MarioCatuogno/Clean-macOS/issues/130)
 * 📦 add `Swiftcord` Homebrew formula
 
 __REMOVED__
 
+* 🗑️ remove `Alfred` Homebrew formula [[#130]](https://github.com/MarioCatuogno/Clean-macOS/issues/130)
 * 🗑️ remove `Discord` Homebrew formula
 * 🗑️ remove `Pages` MAS formula
 
