@@ -40,6 +40,7 @@
   "extensions.autoCheckUpdates": true,
   // Do not send data
   "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
   // Hide confirm box when delete
   "explorer.confirmDelete": false,
   // Removes files from editor window

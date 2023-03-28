@@ -11,6 +11,14 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.5__ ([2023-03-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release disable telemtry for VSCode and update the Brewfile.
+
+__SECURITY__
+
+* 🔑 set `telemetryLevel` to `off` in VSCode Json settings file
+
 ## __1.13.4__ ([2023-03-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release includes improved documentation, an updated Brewfile and a new wallpaper.
