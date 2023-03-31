@@ -11,6 +11,32 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.5__ ([2023-03-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release disable telemtry for VSCode and update the Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Arc` Homebrew formula [[#114]](https://github.com/MarioCatuogno/Clean-macOS/issues/114)
+* 📦 add `bitwarden-cli` Homebrew formula
+* 📦 add `Hush` MAS formula
+* 📦 add `Raycast` Homebrew formula [[#130]](https://github.com/MarioCatuogno/Clean-macOS/issues/130)
+* 📦 add `Swiftcord` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Alfred` Homebrew formula [[#130]](https://github.com/MarioCatuogno/Clean-macOS/issues/130)
+* 🗑️ remove `Discord` Homebrew formula
+* 🗑️ remove `Pages` MAS formula
+
+__SECURITY__
+
+* 🔑 set `telemetryLevel` to `off` in VSCode Json settings file
+
 ## __1.13.4__ ([2023-03-18](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release includes improved documentation, an updated Brewfile and a new wallpaper.
