@@ -23,6 +23,10 @@ __NEW__
 
 * 📦 add `Notion` Homebrew formula
 
+__REMOVED__
+
+* 🗑️ remove `Magnet` MAS formula
+
 ## __1.13.5__ ([2023-03-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release disable telemtry for VSCode and update the Brewfile.
