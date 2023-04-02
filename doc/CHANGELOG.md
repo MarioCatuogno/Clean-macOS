@@ -22,6 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `Notion` Homebrew formula
+* 📦 add `Pages` MAS formula
 
 __REMOVED__
 
