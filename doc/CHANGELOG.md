@@ -23,6 +23,7 @@ __NEW__
 
 * 📦 add `Notion` Homebrew formula
 * 📦 add `Pages` MAS formula
+* 📦 add `Reeder` MAS formula
 
 __REMOVED__
 
