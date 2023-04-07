@@ -21,6 +21,7 @@ __DOCS__
 
 __NEW__
 
+* 📦 add `Obsidian` Homebrew formula [#132](https://github.com/MarioCatuogno/Clean-macOS/issues/132)
 * 📦 add `Pages` MAS formula
 * 📦 add `Reeder` MAS formula
 
