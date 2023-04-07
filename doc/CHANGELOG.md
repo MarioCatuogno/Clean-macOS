@@ -11,6 +11,24 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.6__ ([2023-04-07](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release update the Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Obsidian` Homebrew formula [#132](https://github.com/MarioCatuogno/Clean-macOS/issues/132)
+* 📦 add `Pages` MAS formula
+* 📦 add `Reeder` MAS formula
+
+__REMOVED__
+
+* 🗑️ remove `Magnet` MAS formula
+
 ## __1.13.5__ ([2023-03-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release disable telemtry for VSCode and update the Brewfile.
