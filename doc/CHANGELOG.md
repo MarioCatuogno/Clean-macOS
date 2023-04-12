@@ -23,6 +23,10 @@ __NEW__
 
 * 📦 add `font-atkinson-hyperlegible` Homebrew formula
 
+__REMOVED__
+
+* 🗑️ remove `Obsidian` Homebrew formula
+
 ## __1.13.6__ ([2023-04-07](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile.
