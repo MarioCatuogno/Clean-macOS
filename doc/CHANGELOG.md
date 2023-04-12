@@ -26,6 +26,7 @@ __NEW__
 __REMOVED__
 
 * 🗑️ remove `Obsidian` Homebrew formula
+* 🗑️ remove `Quiet` Safari extension
 * 🗑️ remove `Swiftcord` Homebrew formula
 
 ## __1.13.6__ ([2023-04-07](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
