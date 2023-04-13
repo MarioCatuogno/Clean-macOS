@@ -11,6 +11,22 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.8__ ([2023-04-13](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release update the Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__FIXED__
+
+* 🐛 fix missing formula for `font-comic-neue`
+
+__NEW__
+
+* 📦 add `DuckDuckGo` Homebrew formula
+
 ## __1.13.7__ ([2023-04-12](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile.
