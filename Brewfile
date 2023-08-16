@@ -1,5 +1,4 @@
 tap "homebrew/cask-fonts"
-tap "homebrew/cask-drivers"
 brew "bitwarden-cli"
 brew "coreutils"
 brew "findutils"

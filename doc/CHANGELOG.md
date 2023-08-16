@@ -19,6 +19,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__FIXED__
+
+* 🐛 untap `cask-drivers` which is deprecated
+
 __REMOVED__
 
 * 🗑️ remove `TopNotch` Homebrew formula
