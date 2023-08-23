@@ -19,6 +19,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__NEW__
+
+* 📦 add `Vinegear - Tube Cleaner` Safari extension via MAS
+
 __FIXED__
 
 * 🐛 untap `cask-drivers` which is deprecated
