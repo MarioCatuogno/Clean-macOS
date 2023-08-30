@@ -11,6 +11,26 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.9__ ([2023-08-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release update the Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `Vinegear - Tube Cleaner` Safari extension via MAS
+
+__FIXED__
+
+* 🐛 untap `cask-drivers` which is deprecated
+
+__REMOVED__
+
+* 🗑️ remove `TopNotch` Homebrew formula
+
 ## __1.13.8__ ([2023-04-13](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile.

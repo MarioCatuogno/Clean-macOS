@@ -1,5 +1,4 @@
 tap "homebrew/cask-fonts"
-tap "homebrew/cask-drivers"
 brew "bitwarden-cli"
 brew "coreutils"
 brew "findutils"
@@ -37,7 +36,6 @@ cask "raycast"
 cask "shottr"
 cask "signal"
 cask "steam"
-cask "topnotch"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code"
@@ -53,3 +51,4 @@ mas "Raivo OTP", id: 1498497896
 mas "Reeder", id: 1529448980
 mas "System Color Picker", id: 1545870783
 mas "The Unarchiever", id: 425424353
+mas "Vinegear - Tube Cleaner", id: 1591303229
