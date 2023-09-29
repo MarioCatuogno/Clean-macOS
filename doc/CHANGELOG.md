@@ -24,6 +24,7 @@ __NEW__
 * 📦 add `PhotoMill` MAS formula
 * 📦 add `PhotoSweeper` MAS formula
 * 📦 add `Powerphotos` Homebrew formula
+* 📦 add `Transnomino` Homebrew formula
 
 
 ## __1.13.9__ ([2023-08-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))

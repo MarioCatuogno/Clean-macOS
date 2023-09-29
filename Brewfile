@@ -39,6 +39,7 @@ cask "signal"
 cask "steam"
 cask "transmission"
 cask "transmit"
+cask "transnomino"
 cask "visual-studio-code"
 mas "Bitwarden", id: 1352778147
 mas "ChronoSync Express", id: 904801687
