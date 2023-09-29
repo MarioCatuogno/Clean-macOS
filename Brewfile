@@ -43,6 +43,7 @@ cask "transnomino"
 cask "visual-studio-code"
 mas "Bitwarden", id: 1352778147
 mas "ChronoSync Express", id: 904801687
+mas "DaisyDisk", id: 411643860
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Numbers", id: 409203825

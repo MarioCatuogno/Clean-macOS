@@ -21,6 +21,7 @@ __DOCS__
 
 __NEW__
 
+* 📦 add `DaisyDisk` MAS formula
 * 📦 add `PhotoMill` MAS formula
 * 📦 add `PhotoSweeper` MAS formula
 * 📦 add `Powerphotos` Homebrew formula
