@@ -46,6 +46,7 @@ mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "PhotoMill", id: 778590574
 mas "PhotoSweeper", id: 463362050
 mas "Pixelmator Pro", id: 1289583905
 mas "PopClip", id: 445189367
