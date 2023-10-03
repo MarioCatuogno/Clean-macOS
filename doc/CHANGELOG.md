@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.13.10__ ([2023-10-02](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.10__ ([2023-10-03](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile.
 
@@ -22,6 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `DaisyDisk` MAS formula
+* 📦 add `Diffusionbee` Homebrew formula
 * 📦 add `PhotoMill` MAS formula
 * 📦 add `PhotoSweeper` MAS formula
 * 📦 add `Powerphotos` Homebrew formula
