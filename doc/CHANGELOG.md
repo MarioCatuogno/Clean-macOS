@@ -28,6 +28,10 @@ __NEW__
 * 📦 add `Powerphotos` Homebrew formula
 * 📦 add `Transnomino` Homebrew formula
 
+__REMOVED__
+
+* 🗑️ remove `Arc` Homebrew formula
+
 
 ## __1.13.9__ ([2023-08-30](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
