@@ -13,8 +13,8 @@ brew "tldr"
 brew "tree"
 brew "wget"
 cask "adguard"
-cask "arc"
 cask "bartender"
+cask "diffusionbee"
 cask "duckduckgo"
 cask "fliqlo"
 cask "font-atkinson-hyperlegible"
@@ -32,19 +32,24 @@ cask "iterm2"
 cask "lyn"
 cask "micro-snitch"
 cask "mullvadvpn"
+cask "powerphotos"
 cask "raycast"
 cask "shottr"
 cask "signal"
 cask "steam"
 cask "transmission"
 cask "transmit"
+cask "transnomino"
 cask "visual-studio-code"
 mas "Bitwarden", id: 1352778147
 mas "ChronoSync Express", id: 904801687
+mas "DaisyDisk", id: 411643860
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "PhotoMill", id: 778590574
+mas "PhotoSweeper", id: 463362050
 mas "Pixelmator Pro", id: 1289583905
 mas "PopClip", id: 445189367
 mas "Raivo OTP", id: 1498497896
