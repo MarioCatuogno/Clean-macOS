@@ -11,6 +11,20 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.11__ ([2023-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `AppCleaner` MAS formula
+
+__REMOVED__
+
+* 🗑️ remove `Transnomino` Homebrew formula
+
 ## __1.13.10__ ([2023-10-03](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile.
@@ -233,7 +247,7 @@ __NEW__
 
 __REMOVED__
 
-* 🗑️ remove `AppCleaer` Homebrew formula
+* 🗑️ remove `AppCleaner` Homebrew formula
 
 ## __1.13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
