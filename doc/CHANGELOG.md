@@ -19,7 +19,7 @@ __DOCS__
 
 __NEW__
 
-* 📦 add `AppCleaner` MAS formula
+* 📦 add `AppCleaner` Homebrew formula
 
 __REMOVED__
 
