@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.13.11__ ([2023-10-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.11__ ([2023-11-13](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 __DOCS__
 
@@ -20,6 +20,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `AppCleaner` Homebrew formula
+* 📦 add `KeyClu` Homebrew formula
 
 __REMOVED__
 
