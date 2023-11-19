@@ -21,6 +21,7 @@ __NEW__
 
 * 📦 add `AppCleaner` Homebrew formula
 * 📦 add `KeyClu` Homebrew formula
+* 📦 add `Wipr` MAS formula
 
 __REMOVED__
 
