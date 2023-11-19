@@ -24,6 +24,7 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ remove `AdGuard` MAS formula
 * 🗑️ remove `Hush` MAS formula
 * 🗑️ remove `Transnomino` Homebrew formula
 
