@@ -24,6 +24,7 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ remove `Hush` MAS formula
 * 🗑️ remove `Transnomino` Homebrew formula
 
 ## __1.13.10__ ([2023-10-03](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
