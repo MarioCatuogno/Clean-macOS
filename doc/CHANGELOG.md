@@ -22,6 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `AppCleaner` Homebrew formula
+* 📦 add `Dato` MAS formula
 * 📦 add `Latest` Homebrew formula
 * 📦 add `KeyClu` Homebrew formula
 * 📦 add `Wipr` MAS formula
