@@ -41,7 +41,7 @@ cask "shottr"
 cask "steam"
 cask "transmission"
 cask "transmit"
-cask "visual-studio-code"
+cask "vscodium"
 mas "Bitwarden", id: 1352778147
 mas "ChronoSync Express", id: 904801687
 mas "DaisyDisk", id: 411643860

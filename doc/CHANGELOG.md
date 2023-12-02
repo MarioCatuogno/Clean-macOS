@@ -19,6 +19,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__CHANGED__
+
+* 🔥 switched from `VisualStudioCode` to `VsCodium` brew formula
+
 __NEW__
 
 * 📦 add `AppCleaner` Homebrew formula
