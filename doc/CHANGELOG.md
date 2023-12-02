@@ -32,6 +32,7 @@ __REMOVED__
 
 * 🗑️ remove `AdGuard` Homebrew formula
 * 🗑️ remove `Hush` MAS formula
+* 🗑️ remove `Reeder` MAS formula
 * 🗑️ remove `Signal` Homebrew formula
 * 🗑️ remove `Transnomino` Homebrew formula
 
