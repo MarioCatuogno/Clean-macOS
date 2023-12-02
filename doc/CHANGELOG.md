@@ -37,6 +37,7 @@ __REMOVED__
 * 🗑️ remove `AdGuard` Homebrew formula
 * 🗑️ remove `DiffusionBee` Homebrew formula
 * 🗑️ remove `Hush` MAS formula
+* 🗑️ remove `Raivo OTP` MAS formula
 * 🗑️ remove `Reeder` MAS formula
 * 🗑️ remove `Signal` Homebrew formula
 * 🗑️ remove `Transmit` Homebrew formula

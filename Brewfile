@@ -51,7 +51,6 @@ mas "PhotoMill", id: 778590574
 mas "PhotoSweeper", id: 463362050
 mas "Pixelmator Pro", id: 1289583905
 mas "PopClip", id: 445189367
-mas "Raivo OTP", id: 1498497896
 mas "System Color Picker", id: 1545870783
 mas "The Unarchiever", id: 425424353
 mas "Vinegear - Tube Cleaner", id: 1591303229
