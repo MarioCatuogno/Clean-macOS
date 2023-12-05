@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ## __1.13.11__ ([2023-12-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
-This minor release update the Brewfile.
+This minor release update the Brewfile and the removal of `mas` command to install apps from App Store.
 
 __DOCS__
 
@@ -22,6 +22,10 @@ __DOCS__
 __CHANGED__
 
 * 🔥 switched from `VisualStudioCode` to `VsCodium` brew formula
+
+__FIXED__
+
+* 🐛 remove `mas` references because, due to Apple restricting APIs, it seems to no longer work properly [link](https://github.com/mas-cli/mas/issues/486)
 
 __NEW__
 
