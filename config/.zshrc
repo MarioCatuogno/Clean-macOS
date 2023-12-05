@@ -47,4 +47,4 @@ alias ping="prettyping --nolegend"
 alias myip="ipconfig getifaddr en0"
 
 # Brew
-alias bup="brew -v update && brew -v upgrade && mas upgrade && brew -v cleanup --prune=2 && brew doctor && brew -v upgrade --casks --greedy"
+alias bup="brew -v update && brew -v upgrade && brew -v cleanup --prune=2 && brew doctor && brew -v upgrade --casks --greedy"

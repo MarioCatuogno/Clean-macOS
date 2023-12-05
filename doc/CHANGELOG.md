@@ -11,6 +11,42 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.11__ ([2023-12-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release update the Brewfile and the removal of `mas` command to install apps from App Store.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__CHANGED__
+
+* 🔥 switched from `VisualStudioCode` to `VsCodium` brew formula
+
+__FIXED__
+
+* 🐛 remove `mas` references because, due to Apple restricting APIs, it seems to no longer work properly [link](https://github.com/mas-cli/mas/issues/486)
+
+__NEW__
+
+* 📦 add `AppCleaner` Homebrew formula
+* 📦 add `Dato` MAS formula
+* 📦 add `Latest` Homebrew formula
+* 📦 add `NetNewsWire` Homebrew formula
+* 📦 add `KeyClu` Homebrew formula
+* 📦 add `Wipr` MAS formula
+
+__REMOVED__
+
+* 🗑️ remove `AdGuard` Homebrew formula
+* 🗑️ remove `DiffusionBee` Homebrew formula
+* 🗑️ remove `Hush` MAS formula
+* 🗑️ remove `Raivo OTP` MAS formula
+* 🗑️ remove `Reeder` MAS formula
+* 🗑️ remove `Signal` Homebrew formula
+* 🗑️ remove `Transmit` Homebrew formula
+* 🗑️ remove `Transnomino` Homebrew formula
+
 ## __1.13.10__ ([2023-10-03](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile.
@@ -233,7 +269,7 @@ __NEW__
 
 __REMOVED__
 
-* 🗑️ remove `AppCleaer` Homebrew formula
+* 🗑️ remove `AppCleaner` Homebrew formula
 
 ## __1.13.0__ ([2023-02-28](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 

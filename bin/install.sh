@@ -34,7 +34,6 @@ update_brew() {
   echo "⚙️ Update and cleanup Homebrew..."
   brew -v update
   brew -v upgrade
-  mas upgrade
   brew -v cleanup --prune=2
   brew doctor
   brew -v upgrade --casks --greedy
@@ -58,8 +57,6 @@ if ! command -v brew >/dev/null 2>&1; then
   echo "📦 Installing XCode CL tools..."
   xcode-select --install
   install_homebrew
-  echo "📦 Installing MAS..."
-  brew install mas
   update_brew
   install_apps
   echo "⚙️ Disabling Homebrew Analytics"
