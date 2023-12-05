@@ -40,18 +40,3 @@ cask "shottr"
 cask "steam"
 cask "transmission"
 cask "vscodium"
-mas "Bitwarden", id: 1352778147
-mas "ChronoSync Express", id: 904801687
-mas "DaisyDisk", id: 411643860
-mas "Dato", id: 1470584107
-mas "iMovie", id: 408981434
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "PhotoMill", id: 778590574
-mas "PhotoSweeper", id: 463362050
-mas "Pixelmator Pro", id: 1289583905
-mas "PopClip", id: 445189367
-mas "System Color Picker", id: 1545870783
-mas "The Unarchiever", id: 425424353
-mas "Vinegear - Tube Cleaner", id: 1591303229
-mas "Wipr", id: 1320666476
