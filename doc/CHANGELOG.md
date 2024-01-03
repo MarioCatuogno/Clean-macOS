@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.13.12__ ([2023-01-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.12__ ([2024-01-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile and the removal of `mas` command to install apps from App Store.
 
@@ -21,7 +21,12 @@ __DOCS__
 
 __NEW__
 
+* 📦 add `Mullvad-Browser` Homebrew formula
 * 📦 add `rsync` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `DuckDuckGo` Homebrew formula
 
 ## __1.13.11__ ([2023-12-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
