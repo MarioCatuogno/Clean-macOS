@@ -29,6 +29,7 @@ __REMOVED__
 
 * 🗑️ remove `Bartender` Homebrew formula
 * 🗑️ remove `DuckDuckGo` Homebrew formula
+* 🗑️ remove `KeyClu` Homebrew formula
 
 ## __1.13.11__ ([2023-12-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
