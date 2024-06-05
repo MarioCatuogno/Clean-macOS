@@ -21,11 +21,13 @@ __DOCS__
 
 __NEW__
 
+* 📦 add `jordanbaird-ice` Homebrew formula
 * 📦 add `Mullvad-Browser` Homebrew formula
 * 📦 add `rsync` Homebrew formula
 
 __REMOVED__
 
+* 🗑️ remove `Bartender` Homebrew formula
 * 🗑️ remove `DuckDuckGo` Homebrew formula
 
 ## __1.13.11__ ([2023-12-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
