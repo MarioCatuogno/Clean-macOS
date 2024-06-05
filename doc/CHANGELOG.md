@@ -40,7 +40,7 @@ __DOCS__
 
 __CHANGED__
 
-* 🔥 switched from `VisualStudioCode` to `VsCodium` brew formula
+* 🔥 switch from `VisualStudioCode` to `VsCodium` brew formula
 
 __FIXED__
 
