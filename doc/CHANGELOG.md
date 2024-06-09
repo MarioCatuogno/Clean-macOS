@@ -19,6 +19,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__FIXED__
+
+* 🐛 remove the deprecated `homebrew/cask-fonts` tap
+
 __NEW__
 
 * 📦 add `Alfred` Homebrew formula
