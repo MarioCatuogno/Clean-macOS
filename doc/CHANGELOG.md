@@ -19,6 +19,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__CHANGED__
+
+* 🔥 update VSCode Json settings file
+
 __FIXED__
 
 * 🐛 remove the deprecated `homebrew/cask-fonts` tap
