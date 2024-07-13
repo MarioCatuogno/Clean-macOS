@@ -31,6 +31,7 @@ __NEW__
 
 * 📦 add `Alfred` Homebrew formula
 * 📦 add `jordanbaird-ice` Homebrew formula
+* 📦 add `Keka` Homebrew formula
 * 📦 add `Little Snitch` Homebrew formula
 * 📦 add `Mullvad-Browser` Homebrew formula
 * 📦 add `rsync` Homebrew formula
