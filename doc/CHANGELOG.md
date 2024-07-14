@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.13.12__ ([2024-01-31](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+## __1.13.12__ ([2024-07-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile and the removal of `mas` command to install apps from App Store.
 
