@@ -11,6 +11,38 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.12__ ([2024-07-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release update the Brewfile and the removal of `mas` command to install apps from App Store.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__CHANGED__
+
+* 🔥 update VSCode Json settings file
+
+__FIXED__
+
+* 🐛 remove the deprecated `homebrew/cask-fonts` tap
+
+__NEW__
+
+* 📦 add `Alfred` Homebrew formula
+* 📦 add `jordanbaird-ice` Homebrew formula
+* 📦 add `Keka` Homebrew formula
+* 📦 add `Little Snitch` Homebrew formula
+* 📦 add `Mullvad-Browser` Homebrew formula
+* 📦 add `rsync` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `Bartender` Homebrew formula
+* 🗑️ remove `DuckDuckGo` Homebrew formula
+* 🗑️ remove `KeyClu` Homebrew formula
+* 🗑️ remove `Raycast` Homebrew formula
+
 ## __1.13.11__ ([2023-12-05](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile and the removal of `mas` command to install apps from App Store.
@@ -21,7 +53,7 @@ __DOCS__
 
 __CHANGED__
 
-* 🔥 switched from `VisualStudioCode` to `VsCodium` brew formula
+* 🔥 switch from `VisualStudioCode` to `VsCodium` brew formula
 
 __FIXED__
 

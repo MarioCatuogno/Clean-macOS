@@ -1,83 +1,90 @@
 {
-  // The number of spaces in a tab.
-  "editor.tabSize": 2,
-  // Specifies workbench icon theme.
-  "workbench.iconTheme": "file-icons-colourless",
-  // Format a file on save.
-  "editor.formatOnSave": false,
-  // Format on paste.
-  "editor.formatOnPaste": false,
-  // Controls whether Spaces will be detected when a file is opened, based on the file contents.
-  "editor.detectIndentation": true,
-  // Use ZSH as integrated terminal shell
-  "terminal.integrated.shell.osx": "zsh",
-  // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'.
-  "editor.renderWhitespace": "all",
-  "editor.trimAutoWhitespace": true,
-  // Insert a new line at the end of the page
-  "files.insertFinalNewline": false,
-  // Controls CSV parameters
-  "csv-preview.separator": ";",
-  "csv-preview.resizeColumns": "all",
-  "[csv]": {},
-  // Set default zoom level
-  "window.zoomLevel": 0,
-  // Set minimap side
-  "editor.minimap.side": "right",
-  // Set rulers and word wrap
-  "editor.rulers": [120],
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 120,
-  "[markdown]": {
+    // The number of spaces in a tab.
+    "editor.tabSize": 2,
+    // Specifies workbench icon theme.
+    "workbench.iconTheme": "catppuccin-mocha",
+    "material-icon-theme.saturation": 0.5,
+    // Format a file on save.
+    "editor.formatOnSave": false,
+    // Format on paste.
+    "editor.formatOnPaste": false,
+    // Controls whether Spaces will be detected when a file is opened, based on the file contents.
+    "editor.detectIndentation": true,
+    // Use ZSH as integrated terminal shell
+    "terminal.integrated.shell.osx": "zsh",
+    // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'.
+    "editor.renderWhitespace": "all",
+    "editor.trimAutoWhitespace": true,
+    // Insert a new line at the end of the page
+    "files.insertFinalNewline": false,
+    // Controls CSV parameters
+    "csv-preview.separator": ";",
+    "csv-preview.resizeColumns": "all",
+    "[csv]": {},
+    // Set default zoom level
+    "window.zoomLevel": 0,
+    // Set minimap side
+    "editor.minimap.side": "right",
+    // Set rulers and word wrap
+    "editor.rulers": [120],
     "editor.wordWrap": "wordWrapColumn",
-    "editor.quickSuggestions": false
-  },
-  // Hide release notes
-  "update.showReleaseNotes": false,
-  // Forget previously opened session
-  "window.restoreWindows": "none",
-  // Check for updates
-  "extensions.autoCheckUpdates": true,
-  // Do not send data
-  "telemetry.enableTelemetry": false,
-  "telemetry.telemetryLevel": "off",
-  // Hide confirm box when delete
-  "explorer.confirmDelete": false,
-  // Removes files from editor window
-  "files.exclude": {
-    ".dropbox": true,
-    ".dropbox.cache": true,
-    ".DS_Store": true,
-    "**/.git": true,
-    "**/.svn": true
-  },
-  // Theme
-  "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 12,
-  "terminal.integrated.fontSize": 12,
-  "workbench.colorTheme": "Nord",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#313641",
-    "statusBar.foreground": "#fff",
-    "statusBar.noFolderBackground": "#313641",
-    "statusBar.noFolderForeground": "#fff"
-  },
-  // Extension: markdown-all-in-one
-  "markdown.extension.preview.autoShowPreviewToSide": false,
-  "markdown.extension.italic.indicator": "_",
-  "markdown.extension.syntax.decorations": false,
-  "markdown.extension.orderedList.autoRenumber": false,
-  "markdown.extension.tableFormatter.enabled": false,
-  // Extension
-  "extensions.ignoreRecommendations": true,
-  // Configure GIT
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  // Terminal
-  "terminal.integrated.inheritEnv": false,
-  //"python.defaultInterpreterPath": "/usr/local/bin/python3",
-  "python.linting.pylintEnabled": true,
-  "python.linting.enabled": true
-}
+    "editor.wordWrapColumn": 120,
+    "[markdown]": {
+      "editor.wordWrap": "wordWrapColumn",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      }
+    },
+    // Hide release notes
+    "update.showReleaseNotes": false,
+    // Forget previously opened session
+    "window.restoreWindows": "none",
+    // Check for updates
+    "extensions.autoCheckUpdates": true,
+    // Do not send data
+    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
+    // Hide confirm box when delete
+    "explorer.confirmDelete": false,
+    // Removes files from editor window
+    "files.exclude": {
+      ".dropbox": true,
+      ".dropbox.cache": true,
+      ".DS_Store": true,
+      "**/.git": true,
+      "**/.svn": true
+    },
+    // Theme
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "workbench.colorTheme": "Nord",
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#313641",
+      "statusBar.foreground": "#fff",
+      "statusBar.noFolderBackground": "#313641",
+      "statusBar.noFolderForeground": "#fff"
+    },
+    // Extension: markdown-all-in-one
+    "markdown.extension.preview.autoShowPreviewToSide": false,
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.syntax.decorations": false,
+    "markdown.extension.orderedList.autoRenumber": false,
+    "markdown.extension.tableFormatter.enabled": false,
+    // Extension
+    "extensions.ignoreRecommendations": true,
+    // Configure GIT
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    // Terminal
+    "terminal.integrated.inheritEnv": false,
+    //"python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "git.ignoreRebaseWarning": true
+  }
