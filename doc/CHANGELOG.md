@@ -21,11 +21,11 @@ __DOCS__
 
 __NEW__
 
-* 📦 add `a-better-finder-rename` Homebrew formula
+* 📦 add `A-better-finder-rename` Homebrew formula
 
 __REMOVED__
 
-* 🗑️ remove `AdGuard` Homebrew formula
+* 🗑️ remove `Lyn` Homebrew formula
 
 ## __1.13.12__ ([2024-07-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
