@@ -22,6 +22,7 @@ __DOCS__
 __NEW__
 
 * 📦 add `A-better-finder-rename` Homebrew formula
+* 📦 add `Calibre` Homebrew formula
 
 __REMOVED__
 
