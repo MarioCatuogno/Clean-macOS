@@ -21,7 +21,7 @@ __DOCS__
 
 __NEW__
 
-* 📦 add `Alfred` Homebrew formula
+* 📦 add `a-better-finder-rename` Homebrew formula
 
 __REMOVED__
 
