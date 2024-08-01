@@ -29,6 +29,7 @@ __REMOVED__
 
 * 🗑️ remove `fliqlo` Homebrew formula
 * 🗑️ remove `iStat Menu` Homebrew formula
+* 🗑️ remove `Latest` Homebrew formula
 * 🗑️ remove `Lyn` Homebrew formula
 
 ## __1.13.12__ ([2024-07-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
