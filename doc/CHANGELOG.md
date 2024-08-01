@@ -27,6 +27,7 @@ __NEW__
 
 __REMOVED__
 
+* 🗑️ remove `fliqlo` Homebrew formula
 * 🗑️ remove `iStat Menu` Homebrew formula
 * 🗑️ remove `Lyn` Homebrew formula
 
