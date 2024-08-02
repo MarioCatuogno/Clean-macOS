@@ -11,6 +11,27 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.13.13__ ([2024-08-02](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
+
+This minor release update the Brewfile.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `A-better-finder-rename` Homebrew formula
+* 📦 add `Calibre` Homebrew formula
+* 📦 add `Stats` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `fliqlo` Homebrew formula
+* 🗑️ remove `iStat Menu` Homebrew formula
+* 🗑️ remove `Latest` Homebrew formula
+* 🗑️ remove `Lyn` Homebrew formula
+
 ## __1.13.12__ ([2024-07-14](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
 This minor release update the Brewfile and the removal of `mas` command to install apps from App Store.
