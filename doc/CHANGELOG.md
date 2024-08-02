@@ -19,6 +19,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__NEW__
+
+* 📦 add `mas` Homebrew formula
+
 
 ## __1.13.13__ ([2024-08-02](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
 
