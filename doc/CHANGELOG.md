@@ -19,6 +19,10 @@ __DOCS__
 
 * 📝 update CHANGELOG file
 
+__CHANGED__
+
+* 🔥 update `.zshrc` file to include `mas upgrade` command [[#141](https://github.com/MarioCatuogno/Clean-macOS/issues/141)]
+
 __NEW__
 
 * 📦 add `mas` Homebrew formula
