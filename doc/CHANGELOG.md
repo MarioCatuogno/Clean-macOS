@@ -26,6 +26,7 @@ __CHANGED__
 __NEW__
 
 * 📦 add `mas` Homebrew formula
+* 📦 add `popclip` Homebrew formula
 
 
 ## __1.13.13__ ([2024-08-02](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
