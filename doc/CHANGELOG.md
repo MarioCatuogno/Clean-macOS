@@ -25,6 +25,7 @@ __CHANGED__
 
 __NEW__
 
+* 📦 add `mailsy` Homebrew formula
 * 📦 add `mas` Homebrew formula
 * 📦 add `popclip` Homebrew formula
 
