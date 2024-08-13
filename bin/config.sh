@@ -134,6 +134,10 @@ sudo scutil --set HostName "MecBuk"
 sudo scutil --set LocalHostName "MecBuk"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MecBuk"
 
+# Disable Siri data collection
+printf "⚙️ Disable Siri data collection...\n"
+defaults write com.apple.assistant.support 'Siri Data Sharing Opt-In Status' -int 2
+
 # Cleanup and final touches
 echo "⚙️ Cleanup and final touches..."
 brew -v update && brew -v upgrade && brew -v cleanup --prune=2 && brew doctor && brew -v upgrade --casks --greedy
