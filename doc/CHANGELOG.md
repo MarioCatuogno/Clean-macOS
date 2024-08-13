@@ -23,6 +23,7 @@ __CHANGED__
 
 * 🔥 update `.zshrc` file to include `mas upgrade` command [[#141](https://github.com/MarioCatuogno/Clean-macOS/issues/141)]
 * 🔥 update `config.sh` script to disable Siri data collection
+* 🔥 update `config.sh` script to include Privacy settings for Tracking and Ads
 
 __FIXED__
 * 🐛 fix command to disable automatic spell correction
