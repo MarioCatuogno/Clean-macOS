@@ -120,6 +120,8 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 printf "⚙️ Various configuration...\n"
 defaults write com.apple.gamed Disabled -bool true
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
+sudo defaults write /Library/Preferences/com.apple.alf globalstate -bool true
+defaults write com.apple.security.firewall EnableFirewall -bool true
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Configure Energy
