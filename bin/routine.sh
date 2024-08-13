@@ -56,14 +56,6 @@ sudo rm -fv /private/var/log/daily.out
 sudo rm -fv /private/var/log/weekly.out
 sudo rm -fv /private/var/log/monthly.out
 
-# Clear Homebrew cache
-echo "🍺 Clear Homebrew cache"
-if type "brew" &>/dev/null; then
-    brew cleanup -s &>/dev/null
-    rm -rfv $(brew --cache) &>/dev/null
-    brew tap --repair &>/dev/null
-fi
-
 # Clear System cache
 echo "🗑️ Clear System cache...\n"
 sudo rm -rfv /Library/Caches/* &>/dev/null
@@ -74,6 +66,14 @@ sudo rm -rfv ~/Library/Caches/* &>/dev/null
 echo "🛜 Clear DNS cache...\n"
 sudo dscacheutil -flushcache
 sudo killall -HUP mDNSResponder
+
+# Clear Homebrew cache
+echo "🍺 Clear Homebrew cache"
+if type "brew" &>/dev/null; then
+    brew cleanup -s &>/dev/null
+    rm -rfv $(brew --cache) &>/dev/null
+    brew tap --repair &>/dev/null
+fi
 
 # Clear inactive memory
 echo "📉 Clear inactive memory...\n"
