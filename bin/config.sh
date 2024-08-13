@@ -98,7 +98,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 printf "⚙️ Configure Safari...\n"
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
+defaults write NSGlobalDomain WebAutomaticSpellingCorrectionEnabled -bool false
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 defaults write com.apple.Safari ShowFavoritesBar -bool true
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
