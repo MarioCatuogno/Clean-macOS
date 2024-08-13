@@ -63,6 +63,7 @@ This will bring up a prompt with the following options:
 1. `Install`: Install Homebrew packages, binaries, casks, dependencies, and Mac Apple Store applications listed in the `Brewfile` file.
 2. `Configure`: Configure macOS with useful commands, update `zsh`, and preferences.
 3. `Update`: Update brews, casks, and MAC applications and formulas.
+4. `Routine`: Clean logs, cache and unnecessary files.
 
 A step-by-step guide for setting up Clean-macOS can be found [__here__](https://github.com/MarioCatuogno/Clean-macOS/blob/master/doc/SETUP.md).
 
