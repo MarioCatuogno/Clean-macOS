@@ -24,6 +24,9 @@ __CHANGED__
 * 🔥 update `.zshrc` file to include `mas upgrade` command [[#141](https://github.com/MarioCatuogno/Clean-macOS/issues/141)]
 * 🔥 update `config.sh` script to disable Siri data collection
 
+__FIXED__
+* 🐛 fix command to disable automatic spell correction
+
 __NEW__
 
 * 📦 add `mailsy` Homebrew formula
