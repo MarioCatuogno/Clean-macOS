@@ -18,6 +18,7 @@ This is a major release.
 __DOCS__
 
 * 📝 update CHANGELOG file
+* 📝 update README file
 
 __CHANGED__
 
