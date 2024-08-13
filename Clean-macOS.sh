@@ -29,6 +29,11 @@ update() {
   "${BIN}/update.sh"
 }
 
+routine() {
+  echo "Ready to cleanup macOS..."
+  "${BIN}/routine.sh"
+}
+
 while true; do
   clear
   cat <<EOF
@@ -42,6 +47,7 @@ while true; do
   #  (1) Install                                                         #
   #  (2) Configure                                                       #
   #  (3) Update                                                          #
+  #  (4) Routine                                                         #
   #  (0) Exit                                                            #
   #                                                                      #
   ########################################################################
@@ -51,6 +57,7 @@ EOF
     1) install ;;
     2) configure ;;
     3) update ;;
+    4) routine ;;
     0) exit ;;
     *) echo "Invalid option!" ;;
   esac
