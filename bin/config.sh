@@ -122,10 +122,17 @@ defaults write com.apple.gamed Disabled -bool true
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
+# Configure Energy
 printf "⚙️ Configure energy saving...\n"
 sudo pmset -a displaysleep 15
 sudo pmset -c sleep 0
 sudo pmset -a hibernatemode 0
+
+# Configure Privacy
+printf "🔐 Configure macOS privacy...\n"
+defaults write com.apple.AdLib allowIdentifierForAdvertising -bool false
+defaults write com.apple.AdLib allowApplePersonalizedAdvertising -bool false
+defaults write com.apple.AdLib forceLimitAdTracking -bool true
 
 # Change name if you do not own a MacBook
 printf "⚙️ Configure computer name...\n"
