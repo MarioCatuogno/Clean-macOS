@@ -25,6 +25,7 @@ __CHANGED__
 * 🔥 update `config.sh` script to disable Siri data collection
 * 🔥 update `config.sh` script to enable macOS Firewall
 * 🔥 update `config.sh` script to include Privacy settings for Tracking and Ads
+* 🔥 update VSCode Json settings file
 
 __FIXED__
 
