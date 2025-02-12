@@ -35,7 +35,6 @@ __NEW__
 
 * 📦 add `handbrake` Homebrew formula
 * 📦 add `mailsy` Homebrew formula
-* 📦 add `mas` Homebrew formula
 * 📦 add `popclip` Homebrew formula
 * 📦 add `routine.sh` script to do periodic maintenance of macOS to clean up logs, cache, and memory [[#140](https://github.com/MarioCatuogno/Clean-macOS/issues/140)]
 * 📦 add `steermouse` Homebrew formula
