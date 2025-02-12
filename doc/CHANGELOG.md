@@ -33,6 +33,7 @@ __FIXED__
 
 __NEW__
 
+* 📦 add `handbrake` Homebrew formula
 * 📦 add `mailsy` Homebrew formula
 * 📦 add `mas` Homebrew formula
 * 📦 add `popclip` Homebrew formula
