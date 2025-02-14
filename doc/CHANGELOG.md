@@ -22,6 +22,7 @@ __DOCS__
 
 __CHANGED__
 
+* 🔥 update `.zshrc` file
 * 🔥 update `config.sh` script to disable Siri data collection
 * 🔥 update `config.sh` script to enable macOS Firewall
 * 🔥 update `config.sh` script to include Privacy settings for Tracking and Ads

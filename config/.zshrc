@@ -46,5 +46,8 @@ alias reload="exec ${SHELL} -l"
 alias ping="prettyping --nolegend"
 alias myip="ipconfig getifaddr en0"
 
+# Open editor
+alias code=codium
+
 # Brew
 alias bup="brew -v update && brew -v upgrade && brew -v cleanup --prune=2 && brew doctor && brew -v upgrade --casks --greedy"
