@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.14.0__ ([2024-08-XX](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
+## __1.14.0__ ([2025-02-XX](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
 
 This is a major release.
 
