@@ -3,15 +3,13 @@
   "editor.tabSize": 2,
   // Specifies workbench icon theme.
   "workbench.iconTheme": "catppuccin-mocha",
-  "material-icon-theme.saturation": 0.5,
+  "material-icon-theme.saturation": 1,
   // Format a file on save.
   "editor.formatOnSave": false,
   // Format on paste.
   "editor.formatOnPaste": false,
   // Controls whether Spaces will be detected when a file is opened, based on the file contents.
   "editor.detectIndentation": true,
-  // Use ZSH as integrated terminal shell
-  "terminal.integrated.shell.osx": "zsh",
   // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'.
   "editor.renderWhitespace": "all",
   "editor.trimAutoWhitespace": true,
@@ -84,10 +82,17 @@
   //"python.defaultInterpreterPath": "/usr/local/bin/python3",
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
-  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "python.defaultInterpreterPath": "/Users/mario/.pyenv/versions/3.13.2/bin/python",
   "git.ignoreRebaseWarning": true,
   "security.workspace.trust.untrustedFiles": "open",
   "git.openRepositoryInParentFolders": "always",
   "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": "on"
+  "editor.cursorSmoothCaretAnimation": "on",
+  "material-icon-theme.files.color": "#90a4ae",
+  "material-icon-theme.folders.color": "#90a4ae",
+  // Configure ZSH as integrated terminal shell
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+  "python.createEnvironment.trigger": "off"
 }
