@@ -17,6 +17,7 @@ This is a major release.
 
 __DOCS__
 
+* 📝 update APPLIST file
 * 📝 update CHANGELOG file
 * 📝 update README file
 

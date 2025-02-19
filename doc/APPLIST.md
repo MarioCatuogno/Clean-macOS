@@ -36,6 +36,23 @@ Note: You will need to have Homebrew installed in order to use the commands abov
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_transmit.png" width="30" align="middle" /> | [Transmit](https://iina.io) | Transmit is a file transfer client that supports a variety of protocols including FTP, SFTP, and Amazon S3. | brew install --cask "transmit" |
 | <img src="https://raw.githubusercontent.com/MarioCatuogno/Clean-macOS/master/img/icon_vscode.png" width="30" align="middle" /> | [Visual Studio Code](https://iina.io) | Visual Studio Code is lightweight code editor developed by Microsoft. | brew install --cask "visual-studio-code" |
 
-## Other useful Apps
+## VSCode Extensions
 
-T.B.D.
+```
+arcticicestudio.nord-visual-studio-code
+catppuccin.catppuccin-vsc-icons
+mechatroner.rainbow-csv
+ms-python.python
+ms-toolsai.datawrangler
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-powertoys
+ms-toolsai.vscode-jupyter-slideshow
+pkief.material-icon-theme
+robbowen.synthwave-vscode
+svelte.svelte-vscode
+teabyii.ayu
+yzhang.markdown-all-in-one
+```
