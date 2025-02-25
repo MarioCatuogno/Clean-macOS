@@ -23,6 +23,7 @@ __DOCS__
 
 __CHANGED__
 
+* 🔥 update `.gitignore` file
 * 🔥 update `.zshrc` file
 * 🔥 update `config.sh` script to disable Siri data collection
 * 🔥 update `config.sh` script to enable macOS Firewall
