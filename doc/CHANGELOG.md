@@ -41,6 +41,7 @@ __NEW__
 * 📦 add `imageoptim` Homebrew formula
 * 📦 add `mailsy` Homebrew formula
 * 📦 add `popclip` Homebrew formula
+* 📦 add `proton-pass` Homebrew formula
 * 📦 add `routine.sh` script to do periodic maintenance of macOS to clean up logs, cache, and memory [[#140](https://github.com/MarioCatuogno/Clean-macOS/issues/140)]
 * 📦 add `steermouse` Homebrew formula
 * 📦 add `tableplus` Homebrew formula
