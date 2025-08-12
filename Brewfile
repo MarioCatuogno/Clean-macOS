@@ -1,4 +1,3 @@
-brew "bitwarden-cli"
 brew "coreutils"
 brew "findutils"
 brew "git"
