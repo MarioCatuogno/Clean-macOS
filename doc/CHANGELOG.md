@@ -49,6 +49,7 @@ __NEW__
 __REMOVED__
 
 * 🗑️ remove `bitwarden-cli` Homebrew formula
+* 🗑️ remove `imageoptim` Homebrew formula
 * 🗑️ remove `little-snitch` Homebrew formula
 * 🗑️ remove `powerphotos` Homebrew formula
 * 🗑️ remove `tldr` Homebrew formula
