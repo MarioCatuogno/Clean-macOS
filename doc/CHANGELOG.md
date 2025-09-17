@@ -51,6 +51,7 @@ __REMOVED__
 * 🗑️ remove `imageoptim` Homebrew formula
 * 🗑️ remove `jordanbaird-ice` Homebrew formula
 * 🗑️ remove `little-snitch` Homebrew formula
+* 🗑️ remove `mas` Homebrew formula
 * 🗑️ remove `powerphotos` Homebrew formula
 * 🗑️ remove `tldr` Homebrew formula
 
