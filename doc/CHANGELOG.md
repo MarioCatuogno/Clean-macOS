@@ -38,7 +38,6 @@ __NEW__
 
 * 📦 add `discord` Homebrew formula
 * 📦 add `handbrake` Homebrew formula
-* 📦 add `imageoptim` Homebrew formula
 * 📦 add `mailsy` Homebrew formula
 * 📦 add `popclip` Homebrew formula
 * 📦 add `proton-pass` Homebrew formula
