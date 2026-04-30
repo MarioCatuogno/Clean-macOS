@@ -44,6 +44,7 @@ __NEW__
 * 📦 add `proton-pass` Homebrew formula
 * 📦 add `routine.sh` script to do periodic maintenance of macOS to clean up logs, cache, and memory [[#140](https://github.com/MarioCatuogno/Clean-macOS/issues/140)]
 * 📦 add `steermouse` Homebrew formula
+* 📦 add `ungoogled-chromium` Homebrew formula
 
 __REMOVED__
 
