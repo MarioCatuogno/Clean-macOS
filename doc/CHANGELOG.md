@@ -33,6 +33,7 @@ __CHANGED__
 __FIXED__
 
 * 🐛 fix command to disable automatic spell correction
+* 🐛 fix homebrew formula
 
 __NEW__
 
