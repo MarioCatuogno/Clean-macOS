@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.14.0__ ([2026-01-XX](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
+## __1.14.0__ ([2026-05-XX](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
 
 This is a major release designed for the new macOS 26.
 
@@ -44,7 +44,6 @@ __NEW__
 * 📦 add `proton-pass` Homebrew formula
 * 📦 add `routine.sh` script to do periodic maintenance of macOS to clean up logs, cache, and memory [[#140](https://github.com/MarioCatuogno/Clean-macOS/issues/140)]
 * 📦 add `steermouse` Homebrew formula
-* 📦 add `tableplus` Homebrew formula
 
 __REMOVED__
 
