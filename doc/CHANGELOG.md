@@ -55,6 +55,7 @@ __REMOVED__
 * 🗑️ remove `mas` Homebrew formula
 * 🗑️ remove `micro-snitch` Homebrew formula
 * 🗑️ remove `powerphotos` Homebrew formula
+* 🗑️ remove `stats` Homebrew formula
 * 🗑️ remove `tldr` Homebrew formula
 
 ## __1.13.13__ ([2024-08-02](https://github.com/MarioCatuogno/Clean-macOS/milestone/9))
