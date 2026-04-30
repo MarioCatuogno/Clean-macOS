@@ -42,7 +42,7 @@ To get started with Clean-macOS, clone this repository using the command:
 Clean-macOS requires the following:
 
 1. An active internet connection
-2. macOS 10.15.0 or newer
+2. macOS 26.x or newer
 3. Signed in to Apple Store with your iCloud account
 
 ## Usage
