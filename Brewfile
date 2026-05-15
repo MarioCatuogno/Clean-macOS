@@ -1,4 +1,5 @@
 brew "coreutils"
+brew "exiftool"
 brew "findutils"
 brew "git"
 brew "htop"

@@ -39,6 +39,7 @@ __NEW__
 
 * 📦 add `bloom` Homebrew formula
 * 📦 add `discord` Homebrew formula
+* 📦 add `exiftool` Homebrew formula
 * 📦 add `handbrake` Homebrew formula
 * 📦 add `mailsy` Homebrew formula
 * 📦 add `mole` Homebrew formula
