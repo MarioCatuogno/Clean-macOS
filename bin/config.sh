@@ -123,6 +123,9 @@ sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 sudo defaults write /Library/Preferences/com.apple.alf globalstate -bool true
 defaults write com.apple.security.firewall EnableFirewall -bool true
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.dock autohide-time-modifier -int 0
+killall Dock
 
 # Configure Energy
 printf "⚙️ Configure energy saving...\n"
