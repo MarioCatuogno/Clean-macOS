@@ -39,12 +39,15 @@ __FIXED__
 __NEW__
 
 * 📦 add `bloom` Homebrew formula
+* 📦 add `chronosync` Homebrew formula
+* 📦 add `curseforge` Homebrew formula
+* 📦 add `dataflare` Homebrew formula
 * 📦 add `discord` Homebrew formula
 * 📦 add `exiftool` Homebrew formula
-* 📦 add `handbrake` Homebrew formula
+* 📦 add `handbrake-app` Homebrew formula
 * 📦 add `mailsy` Homebrew formula
 * 📦 add `mole` Homebrew formula
-* 📦 add `popclip` Homebrew formula
+* 📦 add `orion` Homebrew formula
 * 📦 add `proton-pass` Homebrew formula
 * 📦 add `routine.sh` script to do periodic maintenance of macOS to clean up logs, cache, and memory [[#140](https://github.com/MarioCatuogno/Clean-macOS/issues/140)]
 * 📦 add `steermouse` Homebrew formula
@@ -54,11 +57,19 @@ __REMOVED__
 
 * 🗑️ remove `alfred` Homebrew formula
 * 🗑️ remove `bitwarden-cli` Homebrew formula
+* 🗑️ remove `font-atkinson-hyperlegible` Homebrew formula
+* 🗑️ remove `font-fantasque-sans-mono` Homebrew formula
+* 🗑️ remove `font-hack` Homebrew formula
+* 🗑️ remove `font-heavy-data-nerd-font` Homebrew formula
+* 🗑️ remove `font-lato` Homebrew formula
+* 🗑️ remove `font-roboto` Homebrew formula
+* 🗑️ remove `font-ubuntu-mono-nerd-font` Homebrew formula
 * 🗑️ remove `imageoptim` Homebrew formula
 * 🗑️ remove `jordanbaird-ice` Homebrew formula
 * 🗑️ remove `little-snitch` Homebrew formula
 * 🗑️ remove `mas` Homebrew formula
 * 🗑️ remove `micro-snitch` Homebrew formula
+* 🗑️ remove `popclip` Homebrew formula
 * 🗑️ remove `powerphotos` Homebrew formula
 * 🗑️ remove `stats` Homebrew formula
 * 🗑️ remove `tldr` Homebrew formula
