@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
-## __1.14.0__ ([2026-05-XX](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
+## __1.14.0__ ([2026-06-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
 
 This is a major release designed for the new macOS 26.
 
