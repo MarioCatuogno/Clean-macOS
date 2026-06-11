@@ -2,16 +2,14 @@
     // The number of spaces in a tab.
     "editor.tabSize": 2,
     // Specifies workbench icon theme.
-    "workbench.iconTheme": "catppuccin-mocha",
-    "material-icon-theme.saturation": 0.5,
+    "workbench.iconTheme": "ayu",
+    "material-icon-theme.saturation": 1,
     // Format a file on save.
     "editor.formatOnSave": false,
     // Format on paste.
     "editor.formatOnPaste": false,
     // Controls whether Spaces will be detected when a file is opened, based on the file contents.
     "editor.detectIndentation": true,
-    // Use ZSH as integrated terminal shell
-    "terminal.integrated.shell.osx": "zsh",
     // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'.
     "editor.renderWhitespace": "all",
     "editor.trimAutoWhitespace": true,
@@ -61,7 +59,7 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "terminal.integrated.fontSize": 12,
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Ayu Mirage",
     "workbench.colorCustomizations": {
       "statusBar.background": "#313641",
       "statusBar.foreground": "#fff",
@@ -71,7 +69,6 @@
     // Extension: markdown-all-in-one
     "markdown.extension.preview.autoShowPreviewToSide": false,
     "markdown.extension.italic.indicator": "_",
-    "markdown.extension.syntax.decorations": false,
     "markdown.extension.orderedList.autoRenumber": false,
     "markdown.extension.tableFormatter.enabled": false,
     // Extension
@@ -85,6 +82,19 @@
     //"python.defaultInterpreterPath": "/usr/local/bin/python3",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
-    "git.ignoreRebaseWarning": true
+    "python.defaultInterpreterPath": "/Users/mario/.pyenv/versions/3.13.2/bin/python",
+    "git.ignoreRebaseWarning": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "always",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "material-icon-theme.files.color": "#90a4ae",
+    "material-icon-theme.folders.color": "#90a4ae",
+    // Configure ZSH as integrated terminal shell
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.explorerKind": "external",
+    "terminal.external.osxExec": "iTerm.app",
+    "python.createEnvironment.trigger": "off",
+    "dataWrangler.defaultViewingFilterOptions": "advanced",
+    "dataWrangler.outputRenderer.enabled": true
   }

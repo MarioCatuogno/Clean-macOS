@@ -98,7 +98,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 printf "⚙️ Configure Safari...\n"
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool false
+defaults write NSGlobalDomain WebAutomaticSpellingCorrectionEnabled -bool false
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 defaults write com.apple.Safari ShowFavoritesBar -bool true
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
@@ -120,12 +120,24 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 printf "⚙️ Various configuration...\n"
 defaults write com.apple.gamed Disabled -bool true
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
+sudo defaults write /Library/Preferences/com.apple.alf globalstate -bool true
+defaults write com.apple.security.firewall EnableFirewall -bool true
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.dock autohide-time-modifier -int 0
+killall Dock
 
+# Configure Energy
 printf "⚙️ Configure energy saving...\n"
 sudo pmset -a displaysleep 15
 sudo pmset -c sleep 0
 sudo pmset -a hibernatemode 0
+
+# Configure Privacy
+printf "🔐 Configure macOS privacy...\n"
+defaults write com.apple.AdLib allowIdentifierForAdvertising -bool false
+defaults write com.apple.AdLib allowApplePersonalizedAdvertising -bool false
+defaults write com.apple.AdLib forceLimitAdTracking -bool true
 
 # Change name if you do not own a MacBook
 printf "⚙️ Configure computer name...\n"
@@ -133,6 +145,10 @@ sudo scutil --set ComputerName "MecBuk"
 sudo scutil --set HostName "MecBuk"
 sudo scutil --set LocalHostName "MecBuk"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MecBuk"
+
+# Disable Siri data collection
+printf "⚙️ Disable Siri data collection...\n"
+defaults write com.apple.assistant.support 'Siri Data Sharing Opt-In Status' -int 2
 
 # Cleanup and final touches
 echo "⚙️ Cleanup and final touches..."

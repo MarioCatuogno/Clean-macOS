@@ -33,6 +33,15 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR="code -w"
 
 ###############################################################################
+# Python                                                                      #
+###############################################################################
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+###############################################################################
 # Aliases                                                                     #
 ###############################################################################
 
@@ -45,6 +54,9 @@ alias reload="exec ${SHELL} -l"
 # Shortcuts
 alias ping="prettyping --nolegend"
 alias myip="ipconfig getifaddr en0"
+
+# Open editor
+alias code=codium
 
 # Brew
 alias bup="brew -v update && brew -v upgrade && brew -v cleanup --prune=2 && brew doctor && brew -v upgrade --casks --greedy"

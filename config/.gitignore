@@ -27,6 +27,10 @@ Temporary Items
 .AppleDouble
 .LSOverride
 
+# Python files
+__pycache__
+.pyc
+
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
