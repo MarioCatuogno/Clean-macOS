@@ -11,6 +11,18 @@ All notable changes to this project will be documented in this file. The types o
 
 ---
 
+## __1.14.1__ ([2026-XX-XX](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
+
+This is a minor release with some fixes, new commands and new formulae.
+
+__DOCS__
+
+* 📝 update CHANGELOG file
+
+__NEW__
+
+* 📦 add `karabiner-elements` Homebrew formula
+
 ## __1.14.0__ ([2026-06-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
 
 This is a major release designed for the new macOS 26.
