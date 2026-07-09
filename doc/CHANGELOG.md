@@ -22,6 +22,12 @@ __DOCS__
 __NEW__
 
 * 📦 add `karabiner-elements` Homebrew formula
+* 📦 add `protonvpn` Homebrew formula
+
+__REMOVED__
+
+* 🗑️ remove `mullvad-browser` Homebrew formula
+* 🗑️ remove `mullvad-vpn` Homebrew formula
 
 ## __1.14.0__ ([2026-06-11](https://github.com/MarioCatuogno/Clean-macOS/milestone/10))
 
